@@ -1,0 +1,348 @@
+/*--------------------------------------------------------------
+# Dynami 1 
+--------------------------------------------------------------*/
+.about-us-1 {
+    padding-top: 10%;
+    background-color: #000000;
+  }
+  
+  .about-us-1 .content h2 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  .about-us-1 .content h3 {
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .about-us-1 .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-us-1 .content ul li {
+    padding: 10px 0 0 28px;
+    position: relative;
+    color: white;
+  }
+  
+  .about-us-1 .content ul i {
+    left: 0;
+    top: 7px;
+    position: absolute;
+    font-size: 20px;
+    color: #ffc451;
+  }
+  
+  .about-us-1 .content p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* ------------------------------
+  Services Section - Home Page
+  ------------------------------*/
+  .services-1 .service-item {
+    position: relative;
+    padding-top: 40px;
+  }
+  
+  .services-1 .service-item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: rgba(var(--color-default-rgb), 0.1);
+  }
+  
+  .services-1 .service-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background: var(--color-primary);
+    border-right: 5px solid var(--color-background);
+  }
+  
+  .services-1 .service-item .icon {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    margin-right: 50px;
+    line-height: 0;
+  }
+  
+  .services-1 .service-item .icon i {
+    color: rgba(var(--color-default-rgb), 0.7);
+    font-size: 56px;
+    transition: ease-in-out 0.3s;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .services-1 .service-item .icon:before {
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    background: rgba(var(--color-primary-rgb), 0.3);
+    border-radius: 50px;
+    z-index: 1;
+    bottom: -15px;
+    right: -15px;
+    transition: 0.3s;
+  }
+  
+  .services-1 .service-item .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .services-1 .service-item .title a {
+    color: rgb(36, 36, 36);
+  }
+  
+  .services-1 .service-item .title a:hover {
+    color: #ffc451;
+  }
+  
+  .services-1 .service-item .description {
+    line-height: 24px;
+    font-size: 14px;
+  }
+  
+  
+  /*--------------------------------------------------------------
+  # Features
+  --------------------------------------------------------------*/
+  .features {
+  background: #000000;
+  }
+  
+  .features .tab-content p {
+    color: rgb(255, 255, 255);
+    padding-top: 10%;
+  }
+  
+  .features .col h3 {
+    color: rgb(255, 255, 255);
+    padding-bottom: 4%;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  .features .col ul li {
+    padding: 10px;
+  }
+  
+  .features .col ul li a:hover {
+    background: #ffbb38;
+    color: #343a40;
+  }
+  
+  .features .col ul a {
+    color: rgb(255, 255, 255);
+  }
+  
+  .features .feature-icons {
+    margin-top: 120px;
+  }
+  
+  .features .feature-icons h3 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 7%;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .features .feature-icons h3 {
+      font-size: 28px;
+    }
+  }
+  
+  .features .feature-icons .content .icon-box {
+    display: flex;
+  }
+  
+  .features .feature-icons .content .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    color: #ffbb38;
+  }
+  
+  .features .feature-icons .content .icon-box i {
+    font-size: 44px;
+    line-height: 44px;
+    color: #ffbb38;
+    margin-right: 15px;
+  }
+  
+  .features .feature-icons .content .icon-box p {
+    font-size: 15px;
+    color: #dadada;
+  }
+  
+  /*--------------------------------------------------------------
+  # Pricing
+  --------------------------------------------------------------*/
+  .pricing-1 .box {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .pricing-1 h3 {
+    font-weight: 400;
+    margin: -20px -20px 20px -20px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #847872;
+    background: #f8f8f8;
+  }
+  
+  .pricing-1 h4 {
+    font-size: 36px;
+    color: #ffbb38;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-1 h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  
+  .pricing-1 h4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .pricing-1 ul {
+    padding: 0;
+    list-style: none;
+    color: #4d4643;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  
+  .pricing-1 ul li {
+    padding-bottom: 16px;
+  }
+  
+  .pricing-1 ul i {
+    color: #ffbb38;
+    font-size: 18px;
+    padding-right: 4px;
+  }
+  
+  .pricing-1 ul .na {
+    color: #ccc;
+    text-decoration: line-through;
+  }
+  
+  .pricing-1 .btn-wrap {
+    margin: 20px -20px -20px -20px;
+    padding: 20px 15px;
+    background: #f8f8f8;
+    text-align: center;
+  }
+  
+  .pricing-1 .btn-buy {
+    background: #ffbb38;
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    border-radius: 4px;
+    color: #fff;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .pricing-1 .btn-buy:hover {
+    background: #ffbb38;
+  }
+  
+  .pricing-1 .featured h3 {
+    color: #fff;
+    background: #ffbb38;
+  }
+  
+  .pricing-1 .advanced {
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: #ffbb38;
+    color: #fff;
+  }
+
+  /*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about-2 {
+    background-color: #000000;
+    padding-top: 10%;
+  }
+  
+  .about-2 .content h3 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    color: #ffc451;
+  }
+
+  .about-2 .content h4 {
+    font-weight: 300;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    color: #ffc451;
+  }
+  
+  .about-2 .content p {
+    color: white;
+    text-align: center;
+  }
+  
+  .about-2 .content button {
+    background: #ffc451;
+    border: 0;
+    padding: 10px 24px;
+    color: #151515;
+    transition: 0.4s;
+    border-radius: 4px;
+  }
+  
+  .about-2 .content button:hover {
+    background: #ffcd6b;
+  }
+  
