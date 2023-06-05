@@ -794,7 +794,6 @@ body{background-color:#eee;}
     
     .features-1 .col h3 {
       color: #ffcd6b;
-      
       font-weight: 700;
       font-size: 32px;
     }
@@ -860,5 +859,41 @@ body{background-color:#eee;}
 
     .p h1 {
       text-align: center;
+      padding-bottom: 5%;
     }
-  
+
+    .p p {
+      margin-top: -0.5%;
+      color: white;
+    }
+
+    .p i {
+      color: #ffcd6b;
+      
+    }
+
+    .p .content {
+      padding-top: 2%;
+    }
+
+    .p .heading-h h3 {
+      color: #ffcd6b;
+      font-weight: 700;
+      font-size: 32px;
+    }
+  .p {
+    background: #000000;
+  }
+
+  .p .j p {
+      color: #020202;
+      font-weight: 400;
+      font-size: 23px;
+      margin: 0 0 10px 0;
+  }
+  .p .j .l {
+    background: #ffcd6b;
+    border-radius: 5px;
+    margin-left: 3px;
+    
+  }

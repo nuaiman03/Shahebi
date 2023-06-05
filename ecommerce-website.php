@@ -208,104 +208,37 @@
       </div>
     </section><!-- End Features Section -->
 
-    <!-- ======= Features Section ======= -->
+    <!-- ======= Price Section ======= -->
     <section id="p" class="p">
+      <!-- start price content 1 -->
       <div class="row justify-content-center">
-                            <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
-                                <img src="assets/img/asss.jpg" class="img-fluid p-4" alt="">
-                            </div>
-                            <div class="col-xl-6 d-flex content">
-                              <div class="row justify-content-center bg-dark">
-                                <h1>asdascas</h1>
-                                <div class="col-xl-4 text-center">
-                                  <p>If any wedo busit this test thaweb form.</p>
-                                </div>
-                                <div class="col-xl-6 d-flex content">
-                                  <p>If any wedo busit this test thaweb form.</p>
-                                </div>
-                              </div>
-                            </div>
-                        </div>
+        <div class="heading-h text-center">
+            <h3>For Small Shop & Sell Personal Products</h3>
+        </div>
+          <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+              <img src="assets/img/asxx.jpg" class="img-fluid p-4" alt="">
+              <a href="#" class="get-started-btn">Beginner</a>
+              <a href="#" class="get-started-btn">22,500 $</a>
+          </div>
+          <div class="col-xl-6 content">
+              <p><i class="bi bi-check-circle"></i> &nbsp; FREE Domain Registration & 1GB SSD Hosting with SSL</p>
+              <p><i class="bi bi-check-circle"></i> &nbsp; International Standard CMS: Woocommerce/Opencart</p>
+              <p><i class="bi bi-check-circle"></i> &nbsp; Admin Dashboard with Powerful User & Orders Manage</p>
+              <p><i class="bi bi-check-circle"></i> &nbsp; 20 Products Categorize & 50 Products Up lodes</p>
+              <p><i class="bi bi-check-circle"></i> &nbsp; Sell any Physical, Digital & Variable Products Anywhere.</p>
+              <p><i class="bi bi-check-circle"></i> &nbsp; Integration capability for your Accounting, Inventory & COD or Payment Getaway</p>
+              <p><i class="bi bi-check-circle"></i> &nbsp; Auto Generated Bill with Shopping Cart, Shipment option</p>
+              <p><i class="bi bi-check-circle"></i> &nbsp; Clients Registration, Add to Wishlist and Compare Functions</p>
+              <p><i class="bi bi-check-circle"></i> &nbsp; Complete & Full Featured E-commerce Web Platform</p>
+              <p><i class="bi bi-check-circle"></i> &nbsp; Full Responsive & SEO Friendly 100% Virus injections Block</p>
+              <p><i class="bi bi-check-circle"></i> &nbsp; Develop Time 12 Days & 30 Days Post Sales Support</p>
+              <a href="#about" class="get-started-btn scrollto">Demo</a>
+              <a href="#about" class="get-started-btn scrollto">Buy Now</a>
+          </div>
+          
+      </div>
+      <!-- end price content 1 -->
     </section><!-- End Features Section -->
 
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing-1">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="box">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-            <div class="box featured">
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-            <div class="box">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-            <div class="box">
-              <span class="advanced">Advanced</span>
-              <h3>Ultimate</h3>
-              <h4><sup>$</sup>49<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Pricing Section -->
 
 <?php require_once('main/footer.php'); ?>
