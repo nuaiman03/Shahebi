@@ -770,4 +770,95 @@ body{background-color:#eee;}
   text-decoration:none;
 }
 
+/*--------------------------------------------------------------
+  # Features for Ecommerce
+  --------------------------------------------------------------*/
+  .features-1 {
+    background: #1f1f1f;
+    }
+    
+    .features-1 .tab-content p {
+      color: rgb(255, 255, 255);
+      
+    }
+
+    .features-1 .tab-content i {
+      color: #ffcd6b;
+      
+    }
+
+    .features-1 .heading-h p{
+      color: #ffffff;
+      
+    }
+    
+    .features-1 .col h3 {
+      color: #ffcd6b;
+      
+      font-weight: 700;
+      font-size: 32px;
+    }
+
+    .features-1 .col ul {
+      background: #000000;
+      border-radius: 10px;
+    }
+    
+    .features-1 .col ul li {
+      padding: 15px;
+    }
+    
+    .features-1 .col ul li a:hover {
+      background: #ffbb38;
+      color: #343a40;
+    }
+    
+    .features-1 .col ul a {
+      color: rgb(255, 255, 255);
+    }
+    
+    .features-1 .feature-icons {
+      margin-top: 120px;
+    }
+    
+    .features-1 .feature-icons h3 {
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 32px;
+      margin-bottom: 7%;
+      text-align: center;
+    }
+    
+    @media (max-width: 768px) {
+      .features-1 .feature-icons h3 {
+        font-size: 28px;
+      }
+    }
+    
+    .features-1 .feature-icons .content .icon-box {
+      display: flex;
+    }
+    
+    .features-1 .feature-icons .content .icon-box h4 {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0 0 10px 0;
+      color: #ffbb38;
+    }
+    
+    .features-1 .feature-icons .content .icon-box i {
+      font-size: 44px;
+      line-height: 44px;
+      color: #ffbb38;
+      margin-right: 15px;
+    }
+    
+    .features-1 .feature-icons .content .icon-box p {
+      font-size: 15px;
+      color: #dadada;
+    }
+
+    .p h1 {
+      text-align: center;
+    }
   

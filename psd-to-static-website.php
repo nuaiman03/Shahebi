@@ -25,6 +25,38 @@
       </div>
     </section><!-- End About Us Section -->
 
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us">
+      <div class="container" data-aos="fade-up">      
+
+        <div class="row counters" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Clients</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Projects</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="1364" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hours Of Support</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hard Workers</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section --> 
+
+
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing-1">
       <div class="container" data-aos="fade-up">
@@ -104,5 +136,6 @@
 
       </div>
     </section><!-- End Pricing Section -->
+
 
 <?php require_once('main/footer.php'); ?>

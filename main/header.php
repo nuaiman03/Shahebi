@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Shahebi</title>
+  <title>ShahebiSoft</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -57,71 +57,59 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li class="dropdown"><a href="#"><span>Service</span> <i class="bi bi-chevron-down"></i></a>
+          
+          <li class="dropdown"><a href="#"><span>Website</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li class="dropdown"><a href="#"><span>WEBSITE DEVELOPMENT</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                    <li><a href="dynamic-website.php">Dynamic Website</a></li>
-                    <li><a href="psd-to-static-website.php">PSD to Static Website</a></li>
-                    <li><a href="ecommerce-website.php">Ecommerce Website</a></li>
-                    <li><a href="website-support.php">Website Support</a></li>
-                    <li><a href="ssl-&-cyber-security.php">SSL & Cyber Security</a></li>
-                    <li><a href="domain-&-web-hosting.php">Domain & Web Hosting</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>MOBILE APP</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                    <li><a href="#">Apps Development</a></li>
-                    <li><a href="#">App Promotion</a></li>
-                    <li><a href="#">Apps Support</a></li>
-                    <li><a href="#">Convert Website</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>SOFTWARE DEVELOPMENT</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                    <li><a href="#">Inventory System</a></li>
-                    <li><a href="#">School Management</a></li>
-                    <li><a href="#">Custom Build Software</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>DIGITAL MARKETING</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                    <li><a href="#">SEO Services</a></li>
-                    <li><a href="#">Facebook Marketing</a></li>
-                    <li><a href="#">Google AdWords Marketing</a></li>
-                    <li><a href="#">YouTube Marketing</a></li>
-                    <li><a href="#">SMS Marketing & Data</a></li>
-                    <li><a href="#">Example</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>GRAPHICS DESIGN</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                    <li><a href="#">Clipping Path Service</a></li>
-                    <li><a href="#">Logo Design</a></li>
-                    <li><a href="#">Banner Design</a></li>
-                    <li><a href="#">Business Card</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>VIDEO PRODUCTION</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                    <li><a href="#">Example</a></li>
-                    <li><a href="#">Example</a></li>
-                    <li><a href="#">Example</a></li>
-                </ul>
-              </li>
-              
+              <li><a href="dynamic-website.php">Dynamic Website</a></li>
+              <li><a href="psd-to-static-website.php">PSD to Static Website</a></li>
+              <li><a href="ecommerce-website.php">Ecommerce Website</a></li>
+              <li><a href="website-support.php">Website Support</a></li>
+              <li><a href="ssl-&-cyber-security.php">SSL & Cyber Security</a></li>
+              <li><a href="domain-&-web-hosting.php">Domain & Web Hosting</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Mobile Apps</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Apps Development</a></li>
+              <li><a href="#">App Promotion</a></li>
+              <li><a href="#">Apps Support</a></li>
+              <li><a href="#">Convert Website</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Software</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Inventory System</a></li>
+              <li><a href="#">School Management</a></li>
+              <li><a href="#">Custom Build Software</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Digital Marketing</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">SEO Services</a></li>
+              <li><a href="#">Facebook Marketing</a></li>
+              <li><a href="#">Google AdWords Marketing</a></li>
+              <li><a href="#">YouTube Marketing</a></li>
+              <li><a href="#">SMS Marketing & Data</a></li>
+              <li><a href="#">Example</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Graphics Design</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Clipping Path Service</a></li>
+              <li><a href="#">Logo Design</a></li>
+              <li><a href="#">Banner Design</a></li>
+              <li><a href="#">Business Card</a></li>
+              <li><a href="#">Video Production</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#about" class="get-started-btn scrollto">Get Started</a>
+  
 
     </div>
   </header><!-- End Header -->

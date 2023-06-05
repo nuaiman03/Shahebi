@@ -106,79 +106,88 @@
       </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us">
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+
       <div class="container" data-aos="fade-up">
+
         <div class="section-title">
-          <h2>Why Chose Us</h2>
-          <p>Check our Details</p>
+          <h2>Pricing</h2>
+          <p>Check our Pricing</p>
         </div>
 
-        <div class="row row-eq-height justify-content-center">
+        <div class="row gy-4" data-aos="fade-left">
 
-          <div class="col-lg-4 mb-4">
-            <div class="card" data-aos="zoom-in" data-aos-delay="100">
-              <i class="bi bi-calendar4-week"></i>
-              <div class="card-body">
-                <h5 class="card-title">Experience</h5>
-                <p class="card-text">We have the knowledge and expertise necessary to create a professional-looking website that is both visually appealing and functional. They can also help you avoid common pitfalls and ensure your website is optimized for search engines and user experience.</p>
-                <a href="#" class="readmore">Read more </a>
-              </div>
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+              <h3 style="color: #07d5c0;">Free Plan</h3>
+              <div class="price"><sup>$</sup>0<span> / mo</span></div>
+              <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <a href="#" class="btn-buy">Buy Now</a>
             </div>
           </div>
 
-          <div class="col-lg-4 mb-4">
-            <div class="card" data-aos="zoom-in" data-aos-delay="200">
-              <i class="bi bi-camera-reels"></i>
-              <div class="card-body">
-                <h5 class="card-title">Quality</h5>
-                <p class="card-text">A high-quality website is designed with the user in mind, making it easy to navigate and find the information they need quickly. This improves the user. Your website is an extension of your brand, and a high-quality website can help to reinforce your brand identity and values.</p>
-                <a href="#" class="readmore">Read more </a>
-              </div>
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <span class="featured">Featured</span>
+              <h3 style="color: #65c600;">Starter Plan</h3>
+              <div class="price"><sup>$</sup>19<span> / mo</span></div>
+              <img src="assets/img/pricing-starter.png" class="img-fluid" alt="">
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <a href="#" class="btn-buy">Buy Now</a>
             </div>
           </div>
 
-          <div class="col-lg-4 mb-4">
-            <div class="card" data-aos="zoom-in" data-aos-delay="300">
-              <i class="bi bi-chat-square-text"></i>
-              <div class="card-body">
-                <h5 class="card-title">Reputation</h5>
-                <p class="card-text">A reputed website company is likely to have a team of experienced professionals with the knowledge and expertise necessary to create a high-quality website. They will have a proven track record of delivering successful projects and can provide valuable insights and recommendations based on their past experience.</p>
-                <a href="#" class="readmore">Read more </a>
-              </div>
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="box">
+              <h3 style="color: #ff901c;">Business Plan</h3>
+              <div class="price"><sup>$</sup>29<span> / mo</span></div>
+              <img src="assets/img/pricing-business.png" class="img-fluid" alt="">
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <a href="#" class="btn-buy">Buy Now</a>
             </div>
           </div>
 
-        </div>
-
-        <div class="row counters" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Clients</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Projects</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="1364" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hours Of Support</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hard Workers</p>
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="box">
+              <h3 style="color: #ff0071;">Ultimate Plan</h3>
+              <div class="price"><sup>$</sup>49<span> / mo</span></div>
+              <img src="assets/img/pricing-ultimate.png" class="img-fluid" alt="">
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <a href="#" class="btn-buy">Buy Now</a>
+            </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Why Us Section -->
 
-    
+    </section><!-- End Pricing Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
@@ -333,88 +342,77 @@
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
-
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
-          <h2>Pricing</h2>
-          <p>Check our Pricing</p>
+          <h2>Why Chose Us</h2>
+          <p>Check our Details</p>
         </div>
 
-        <div class="row gy-4" data-aos="fade-left">
+        <div class="row row-eq-height justify-content-center">
 
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-            <div class="box">
-              <h3 style="color: #07d5c0;">Free Plan</h3>
-              <div class="price"><sup>$</sup>0<span> / mo</span></div>
-              <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <a href="#" class="btn-buy">Buy Now</a>
+          <div class="col-lg-4 mb-4">
+            <div class="card" data-aos="zoom-in" data-aos-delay="100">
+              <i class="bi bi-calendar4-week"></i>
+              <div class="card-body">
+                <h5 class="card-title">Experience</h5>
+                <p class="card-text">We have the knowledge and expertise necessary to create a professional-looking website that is both visually appealing and functional. They can also help you avoid common pitfalls and ensure your website is optimized for search engines and user experience.</p>
+                <a href="#" class="readmore">Read more </a>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-            <div class="box">
-              <span class="featured">Featured</span>
-              <h3 style="color: #65c600;">Starter Plan</h3>
-              <div class="price"><sup>$</sup>19<span> / mo</span></div>
-              <img src="assets/img/pricing-starter.png" class="img-fluid" alt="">
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <a href="#" class="btn-buy">Buy Now</a>
+          <div class="col-lg-4 mb-4">
+            <div class="card" data-aos="zoom-in" data-aos-delay="200">
+              <i class="bi bi-camera-reels"></i>
+              <div class="card-body">
+                <h5 class="card-title">Quality</h5>
+                <p class="card-text">A high-quality website is designed with the user in mind, making it easy to navigate and find the information they need quickly. This improves the user. Your website is an extension of your brand, and a high-quality website can help to reinforce your brand identity and values.</p>
+                <a href="#" class="readmore">Read more </a>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-            <div class="box">
-              <h3 style="color: #ff901c;">Business Plan</h3>
-              <div class="price"><sup>$</sup>29<span> / mo</span></div>
-              <img src="assets/img/pricing-business.png" class="img-fluid" alt="">
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <a href="#" class="btn-buy">Buy Now</a>
+          <div class="col-lg-4 mb-4">
+            <div class="card" data-aos="zoom-in" data-aos-delay="300">
+              <i class="bi bi-chat-square-text"></i>
+              <div class="card-body">
+                <h5 class="card-title">Reputation</h5>
+                <p class="card-text">A reputed website company is likely to have a team of experienced professionals with the knowledge and expertise necessary to create a high-quality website. They will have a proven track record of delivering successful projects and can provide valuable insights and recommendations based on their past experience.</p>
+                <a href="#" class="readmore">Read more </a>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
-            <div class="box">
-              <h3 style="color: #ff0071;">Ultimate Plan</h3>
-              <div class="price"><sup>$</sup>49<span> / mo</span></div>
-              <img src="assets/img/pricing-ultimate.png" class="img-fluid" alt="">
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <a href="#" class="btn-buy">Buy Now</a>
-            </div>
+        </div>
+
+        <div class="row counters" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Clients</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Projects</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="1364" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hours Of Support</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hard Workers</p>
           </div>
 
         </div>
 
       </div>
-
-    </section><!-- End Pricing Section -->
+    </section><!-- End Why Us Section --> 
 
     
 
