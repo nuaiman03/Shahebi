@@ -208,37 +208,132 @@
       </div>
     </section><!-- End Features Section -->
 
-    <!-- ======= Price Section ======= -->
+    <!-- ======= Price Section1 ======= -->
     <section id="p" class="p">
       <!-- start price content 1 -->
-      <div class="row justify-content-center">
-        <div class="heading-h text-center">
+        <div class="row justify-content-center">
+          <div class="heading-h text-center">
             <h3>For Small Shop & Sell Personal Products</h3>
-        </div>
-          <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
-              <img src="assets/img/asxx.jpg" class="img-fluid p-4" alt="">
-              <a href="#" class="get-started-btn">Beginner</a>
-              <a href="#" class="get-started-btn">22,500 $</a>
           </div>
           <div class="col-xl-6 content">
-              <p><i class="bi bi-check-circle"></i> &nbsp; FREE Domain Registration & 1GB SSD Hosting with SSL</p>
-              <p><i class="bi bi-check-circle"></i> &nbsp; International Standard CMS: Woocommerce/Opencart</p>
-              <p><i class="bi bi-check-circle"></i> &nbsp; Admin Dashboard with Powerful User & Orders Manage</p>
-              <p><i class="bi bi-check-circle"></i> &nbsp; 20 Products Categorize & 50 Products Up lodes</p>
-              <p><i class="bi bi-check-circle"></i> &nbsp; Sell any Physical, Digital & Variable Products Anywhere.</p>
-              <p><i class="bi bi-check-circle"></i> &nbsp; Integration capability for your Accounting, Inventory & COD or Payment Getaway</p>
-              <p><i class="bi bi-check-circle"></i> &nbsp; Auto Generated Bill with Shopping Cart, Shipment option</p>
-              <p><i class="bi bi-check-circle"></i> &nbsp; Clients Registration, Add to Wishlist and Compare Functions</p>
-              <p><i class="bi bi-check-circle"></i> &nbsp; Complete & Full Featured E-commerce Web Platform</p>
-              <p><i class="bi bi-check-circle"></i> &nbsp; Full Responsive & SEO Friendly 100% Virus injections Block</p>
-              <p><i class="bi bi-check-circle"></i> &nbsp; Develop Time 12 Days & 30 Days Post Sales Support</p>
-              <a href="#about" class="get-started-btn scrollto">Demo</a>
-              <a href="#about" class="get-started-btn scrollto">Buy Now</a>
+            <p><i class="bi bi-check-circle"></i> &nbsp; FREE Domain Registration & 1GB SSD Hosting with SSL</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; International Standard CMS: Woocommerce/Opencart</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Admin Dashboard with Powerful User & Orders Manage</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; 20 Products Categorize & 50 Products Up lodes</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Sell any Physical, Digital & Variable Products Anywhere.</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Integration capability for your Accounting, Inventory & COD or Payment Getaway</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Auto Generated Bill with Shopping Cart, Shipment option</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Clients Registration, Add to Wishlist and Compare Functions</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Complete & Full Featured E-commerce Web Platform</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Full Responsive & SEO Friendly 100% Virus injections Block</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Develop Time 12 Days & 30 Days Post Sales Support</p>
+            <a href="#" class="get-started-btn">Demo</a>
+            <a href="#" class="get-started-btn">Buy Now</a>
           </div>
-          
-      </div>
+          <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+            <button type="submit" class="btn-h">Beginner</button>&nbsp;
+            <button type="submit" class="btn-h">22,500 $</button>
+            <img src="assets/img/asxx.jpg" class="img-fluid p-4" alt="">
+          </div>
+        </div>   
       <!-- end price content 1 -->
-    </section><!-- End Features Section -->
+    </section>
 
+    <!-- ======= Price Section2 ======= -->
+    <section id="j" class="j">
+      <!-- start price content 2 -->
+        <div class="row justify-content-center">
+          <div class="heading-h text-center">
+            <h3>For Small Shop & Sell Personal Products</h3>
+          </div>
+          <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+            <button type="submit" class="btn-h">Beginner</button>&nbsp;
+            <button type="submit" class="btn-h">22,500 $</button>
+            <img src="assets/img/asxx.jpg" class="img-fluid p-4" alt="">
+          </div>
+          <div class="col-xl-6 content">
+            <p><i class="bi bi-check-circle"></i> &nbsp; FREE Domain Registration & 1GB SSD Hosting with SSL</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; International Standard CMS: Woocommerce/Opencart</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Admin Dashboard with Powerful User & Orders Manage</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; 20 Products Categorize & 50 Products Up lodes</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Sell any Physical, Digital & Variable Products Anywhere.</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Integration capability for your Accounting, Inventory & COD or Payment Getaway</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Auto Generated Bill with Shopping Cart, Shipment option</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Clients Registration, Add to Wishlist and Compare Functions</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Complete & Full Featured E-commerce Web Platform</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Full Responsive & SEO Friendly 100% Virus injections Block</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Develop Time 12 Days & 30 Days Post Sales Support</p>
+            <a href="#" class="get-started-btn">Demo</a>
+            <a href="#" class="get-started-btn">Buy Now</a>
+          </div>
+        </div>
+      <!-- end price content 2 -->
+    </section>
+
+    <!-- ======= Price Section3 ======= -->
+    <section id="p" class="p">
+      <!-- start price content 3 -->
+        <div class="row justify-content-center">
+          <div class="heading-h text-center">
+            <h3>For Small Shop & Sell Personal Products</h3>
+          </div>
+          <div class="col-xl-6 content">
+            <p><i class="bi bi-check-circle"></i> &nbsp; FREE Domain Registration & 1GB SSD Hosting with SSL</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; International Standard CMS: Woocommerce/Opencart</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Admin Dashboard with Powerful User & Orders Manage</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; 20 Products Categorize & 50 Products Up lodes</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Sell any Physical, Digital & Variable Products Anywhere.</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Integration capability for your Accounting, Inventory & COD or Payment Getaway</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Auto Generated Bill with Shopping Cart, Shipment option</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Clients Registration, Add to Wishlist and Compare Functions</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Complete & Full Featured E-commerce Web Platform</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Full Responsive & SEO Friendly 100% Virus injections Block</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Develop Time 12 Days & 30 Days Post Sales Support</p>
+            <a href="#" class="get-started-btn">Demo</a>
+            <a href="#" class="get-started-btn">Buy Now</a>
+          </div>
+          <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+            <button type="submit" class="btn-h">Beginner</button>&nbsp;
+            <button type="submit" class="btn-h">22,500 $</button>
+            <img src="assets/img/asxx.jpg" class="img-fluid p-4" alt="">
+          </div>
+        </div>   
+      <!-- end price content 3 -->
+    </section>
+
+    <!-- ======= Price Section4 ======= -->
+    <section id="j" class="j">
+      <!-- start price content 4 -->
+        <div class="row justify-content-center">
+          <div class="heading-h text-center">
+            <h3>For Small Shop & Sell Personal Products</h3>
+          </div>
+          <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+            <button type="submit" class="btn-h">Beginner</button>&nbsp;
+            <button type="submit" class="btn-h">22,500 $</button>
+            <img src="assets/img/asxx.jpg" class="img-fluid p-4" alt="">
+          </div>
+          <div class="col-xl-6 content">
+            <p><i class="bi bi-check-circle"></i> &nbsp; FREE Domain Registration & 1GB SSD Hosting with SSL</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; International Standard CMS: Woocommerce/Opencart</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Admin Dashboard with Powerful User & Orders Manage</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; 20 Products Categorize & 50 Products Up lodes</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Sell any Physical, Digital & Variable Products Anywhere.</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Integration capability for your Accounting, Inventory & COD or Payment Getaway</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Auto Generated Bill with Shopping Cart, Shipment option</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Clients Registration, Add to Wishlist and Compare Functions</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Complete & Full Featured E-commerce Web Platform</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Full Responsive & SEO Friendly 100% Virus injections Block</p>
+            <p><i class="bi bi-check-circle"></i> &nbsp; Develop Time 12 Days & 30 Days Post Sales Support</p>
+            <a href="#" class="get-started-btn">Demo</a>
+            <a href="#" class="get-started-btn">Buy Now</a>
+          </div>
+        </div>
+      <!-- end price content 4 -->
+    </section>
+      
+
+
+    
 
 <?php require_once('main/footer.php'); ?>

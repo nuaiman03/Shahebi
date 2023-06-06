@@ -857,6 +857,10 @@ body{background-color:#eee;}
       color: #dadada;
     }
 
+
+/* ----------------------------
+   Ecomaerce Price Section 
+---------------------------- */
     .p h1 {
       text-align: center;
       padding-bottom: 5%;
@@ -880,20 +884,77 @@ body{background-color:#eee;}
       color: #ffcd6b;
       font-weight: 700;
       font-size: 32px;
+      padding-bottom: 3%;
     }
+  
   .p {
     background: #000000;
   }
 
-  .p .j p {
-      color: #020202;
-      font-weight: 400;
-      font-size: 23px;
-      margin: 0 0 10px 0;
+  .p  .btn-h {
+    background: #ffc451;
+    border: 0;
+    padding: 10px 24px;
+    color: #151515;
+    transition: 0.4s;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   }
-  .p .j .l {
+  
+  .p .btn-h:hover {
     background: #ffcd6b;
-    border-radius: 5px;
-    margin-left: 3px;
+  }
+
+
+/* /////////////////////// */
+  .j h1 {
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+  .j p {
+    margin-top: -0.5%;
+    color: white;
+  }
+
+  .j i {
+    color: #ffcd6b;
     
   }
+
+  .j .content {
+    padding-top: 2%;
+  }
+
+  .j .heading-h h3 {
+    color: #ffcd6b;
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 3%;
+  }
+
+.j {
+  background: #1f1f1f;
+}
+
+.j  .btn-h {
+  background: #ffc451;
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 17px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.j .btn-h:hover {
+  background: #ffcd6b;
+}
+
+
+/* /////////////////////////////////////// */
+@media (max-width: 767.98px) { .border-sm-start-none { border-left: none !important; } }
