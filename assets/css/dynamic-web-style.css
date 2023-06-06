@@ -5,6 +5,10 @@
     padding-top: 10%;
     background-color: #000000;
   }
+
+  .about-us-1 .content h2 span{
+    color: #ffc451;
+  }
   
   .about-us-1 .content h2 {
     font-weight: 700;
@@ -948,7 +952,7 @@ body{background-color:#eee;}
   border-radius: 4px;
   font-weight: 700;
   font-size: 17px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .j .btn-h:hover {
@@ -958,3 +962,11 @@ body{background-color:#eee;}
 
 /* /////////////////////////////////////// */
 @media (max-width: 767.98px) { .border-sm-start-none { border-left: none !important; } }
+
+/* //////////////////////////////////////
+SSL Section
+////////////////////////////////////// */
+
+.card-1 {
+  padding: 2% 8%;
+}

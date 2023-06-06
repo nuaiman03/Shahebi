@@ -1,7 +1,7 @@
 <?php require_once('./main/header.php'); ?>
 
-<!-- ======= Dynami 1 Section ======= -->
-<section id="about-us" class="about-us-1">
+    <!-- ======= Heading Section ======= -->
+    <section id="about-us" class="about-us-1">
       <div class="container" data-aos="fade-up">
 
         <div class="row content">
@@ -59,7 +59,6 @@
       </div>
 
     </section><!-- End Services Section -->
-
 
    <!-- ======= Features Section ======= -->
     <section id="features" class="features">
