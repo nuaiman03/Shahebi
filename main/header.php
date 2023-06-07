@@ -70,36 +70,35 @@
           </li>
           <li class="dropdown"><a href="#"><span>Mobile Apps</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Apps Development</a></li>
-              <li><a href="#">App Promotion</a></li>
-              <li><a href="#">Apps Support</a></li>
-              <li><a href="#">Convert Website</a></li>
+              <li><a href="apps-development.php">Apps Development</a></li>
+              <li><a href="apps-promotion.php">App Promotion</a></li>
+              <li><a href="apps-support.php">Apps Support</a></li>
+              <li><a href="convert-website.php">Convert Website</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Software</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Inventory System</a></li>
-              <li><a href="#">School Management</a></li>
-              <li><a href="#">Custom Build Software</a></li>
+              <li><a href="inventory-system.php">Inventory System</a></li>
+              <li><a href="school-management.php">School Management</a></li>
+              <li><a href="custom-build-software.php">Custom Build Software</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Digital Marketing</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">SEO Services</a></li>
-              <li><a href="#">Facebook Marketing</a></li>
-              <li><a href="#">Google AdWords Marketing</a></li>
-              <li><a href="#">YouTube Marketing</a></li>
-              <li><a href="#">SMS Marketing & Data</a></li>
-              <li><a href="#">Example</a></li>
+              <li><a href="seo-service.php">SEO Services</a></li>
+              <li><a href="facebook-marketing.php">Facebook Marketing</a></li>
+              <li><a href="google-adwords-marketing.php">Google AdWords Marketing</a></li>
+              <li><a href="youtube-marketing.php">YouTube Marketing</a></li>
+              <li><a href="sms-marketing-data.php">SMS Marketing & Data</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Graphics Design</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Clipping Path Service</a></li>
-              <li><a href="#">Logo Design</a></li>
-              <li><a href="#">Banner Design</a></li>
-              <li><a href="#">Business Card</a></li>
-              <li><a href="#">Video Production</a></li>
+              <li><a href="clipping-path-service.php">Clipping Path Service</a></li>
+              <li><a href="logo-design.php">Logo Design</a></li>
+              <li><a href="banner-design.php">Banner Design</a></li>
+              <li><a href="business-card.php">Business Card</a></li>
+              <li><a href="video-production.php">Video Production</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
