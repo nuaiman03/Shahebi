@@ -60,7 +60,7 @@
 
     </section><!-- End Services Section -->
 
-   <!-- ======= Features Section ======= -->
+    <!-- ======= Features Section ======= -->
     <section id="features" class="features">
 
         <div class="container" data-aos="fade-up">

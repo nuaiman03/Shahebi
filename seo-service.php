@@ -6,13 +6,13 @@
 
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-right">
-            <img src="assets/img/asp.png" class="img-fluid" alt="">
+            <img src="assets/img/seo.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-            <h5 style="color: #ffcd6b;">Full Apps Support in Cheap Rate</h5>
-            <h2>Mobile App <span>Support</span> Services</h2>
-            <p style="color: white;">Shahebi Soft is a Professional Mobile Application Developing company in Bangladesh. We always makes sure that the apps are made in the highest of standard and high quality. We have dedicated developers that are well versed in developing mobile apps for iOS, Android, Blackberry, Windows Phone and more. For the most part, we provide mobile applications that are world class, user friendly, with high quality and apps that our clients will surely like. </p><br>
-            <a href="#about" class="get-started-btn scrollto">Open Your Ticket</a>
+            <h5 style="color: #ffcd6b;">Search Engine Optimization (SEO) in Cheap Rate</h5>
+            <h2>We are <span>most</span> affordable <span>SEO</span> Service <span>Provider</span></h2>
+            <p style="color: white;">Do you need SEO services? Now you are in right place! 100% Organic & White hat Services! Large iT Provide Worldwide SEO services for small and big business. Thousand of SEO Expert in Bangladesh but we are one of the top rated SEO Expert in Bangladesh. During our SEO we always apply the ethical and white hat SEO to rank on Search Engine Result Page (SERP)</p><br>
+            <a href="#about" class="get-started-btn scrollto">Request a Free Quote</a>
           </div>
         </div>
         

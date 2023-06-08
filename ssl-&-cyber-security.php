@@ -48,7 +48,7 @@
     <section Keep Your Website Up-to-Date>
       
       <div class="container py-1">
-        <div class="section-title" style="">
+        <div class="section-title">
           <p style="border: 3px solid #ffcd6b; border-radius: 10px; padding: 10px 0; text-align: center;">All SSL Certificated Price by Brand</p>
         </div>
        

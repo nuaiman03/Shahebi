@@ -6,13 +6,13 @@
 
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-right">
-            <img src="assets/img/asp.png" class="img-fluid" alt="">
+            <img src="assets/img/sms.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-            <h5 style="color: #ffcd6b;">Full Apps Support in Cheap Rate</h5>
-            <h2>Mobile App <span>Support</span> Services</h2>
-            <p style="color: white;">Shahebi Soft is a Professional Mobile Application Developing company in Bangladesh. We always makes sure that the apps are made in the highest of standard and high quality. We have dedicated developers that are well versed in developing mobile apps for iOS, Android, Blackberry, Windows Phone and more. For the most part, we provide mobile applications that are world class, user friendly, with high quality and apps that our clients will surely like. </p><br>
-            <a href="#about" class="get-started-btn scrollto">Open Your Ticket</a>
+            <h2>End-to<span>-End</span> School <span>Management</span> System</h2>
+            <h5 style="color: #ffcd6b;">ALL-IN-ONE CLOUD SOLUTION FOR DIGITALIZING EDUCATIONAL INSTITUTIONS</h5>
+            <p style="color: white;">Simplify the school’s administrative process through digitization and automation - use the best School Management Software in the market and experience the simplicity and efficiency. School Management made easy. Remove friction from managing all academic processes, end-to-end.</p><br>
+            <a href="#about" class="get-started-btn scrollto">Get Started</a>
           </div>
         </div>
         

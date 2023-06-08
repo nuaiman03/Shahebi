@@ -6,12 +6,19 @@
 
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-right">
-            <img src="assets/img/asp.png" class="img-fluid" alt="">
+            <img src="assets/img/erp.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-            <h5 style="color: #ffcd6b;">Full Apps Support in Cheap Rate</h5>
-            <h2>Mobile App <span>Support</span> Services</h2>
-            <p style="color: white;">Shahebi Soft is a Professional Mobile Application Developing company in Bangladesh. We always makes sure that the apps are made in the highest of standard and high quality. We have dedicated developers that are well versed in developing mobile apps for iOS, Android, Blackberry, Windows Phone and more. For the most part, we provide mobile applications that are world class, user friendly, with high quality and apps that our clients will surely like. </p><br>
+            <h2>Inventory <span>Software Made</span> Easy</h2>
+            <h5 style="color: #ffcd6b; font-weight:800;">Sortly inventory tracking software makes it easy to manage your entire inventory—on any device, anywhere.</h5>
+            <ul>
+              <li><i class="ri-check-double-line"></i>Centralize and automate your inventory system.</li>
+              <li><i class="ri-check-double-line"></i>Track inventory, supplies, materials, and more.</li>
+              <li><i class="ri-check-double-line"></i>Perfect for small business inventory management.</li>
+              <li><i class="ri-check-double-line"></i>Simplify your auditing, budgeting, and forecasting with a digital inventory system.</li>
+              <li><i class="ri-check-double-line"></i>Get powerful insights with real-time inventory reporting.</li>
+              <li><i class="ri-check-double-line"></i>Give the right level of access to the right team members.</li>
+            </ul>
             <a href="#about" class="get-started-btn scrollto">Open Your Ticket</a>
           </div>
         </div>
