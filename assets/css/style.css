@@ -953,9 +953,7 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
-.pricing {
-  background-color: #000000;
-}
+
 
 .pricing .section-title {
   padding-bottom: 40px;
@@ -1041,7 +1039,7 @@ section {
   padding: 0;
   list-style: none;
   color: #444444;
-  text-align: center;
+  text-align: left;
   line-height: 26px;
   font-size: 16px;
   margin-bottom: 25px;
@@ -1060,18 +1058,18 @@ section {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
-  color: #4154f1;
+  color: #ffc451;
   transition: none;
   font-size: 16px;
   font-weight: 400;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 1px solid #4154f1;
+  border: 1px solid #ffc451;
 }
 
 .pricing .btn-buy:hover {
-  background: #4154f1;
+  background: #ffc451;
   color: #fff;
 }
 
@@ -1084,7 +1082,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #4154f1;
+  background: #ffc451;
   color: #fff;
 }
 

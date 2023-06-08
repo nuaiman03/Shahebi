@@ -2,7 +2,7 @@
 
 
 <!-- ======= About Section ======= -->
-<section id="about" class="about-2">
+<section id="about" class="about-2" style="padding-top: 10%;">
       <div class="container " data-aos="fade-up">
           <div class="col content" data-aos="fade-right" data-aos-delay="100">
             <div class="heading-h text-center">

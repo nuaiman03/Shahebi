@@ -1,7 +1,7 @@
 <?php require_once('./main/header.php'); ?>
 
     <!-- ======= Heading Section ======= -->
-    <section id="about-us" class="about-us-1">
+    <section id="about-us" class="about-us-1" style="padding-top: 10%;">
       <div class="container" data-aos="fade-up">
 
         <div class="row content">
