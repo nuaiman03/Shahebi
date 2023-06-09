@@ -1047,3 +1047,29 @@ SSL Section
   font-size: 18px;
   margin: 0 2px;
 }
+
+/* ///////////////////
+app develop
+////////////////// */
+
+#app-build .btn-buy {
+  text-align: center;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #ffc451;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #ffc451;
+}
+
+#app-build .btn-buy:hover {
+  background: #ffc451;
+  color: #fff;
+}
+
+
+

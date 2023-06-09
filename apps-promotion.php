@@ -20,72 +20,23 @@
     </section><!-- End Heading Section -->
 
 
-    <!-- Updating Website Software Section -->
-    <section id="team-3">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
       <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h3>Team</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
 
         <div class="row justify-content-center">
-
-          <div class="col-lg-2 col-md-6" data-aos="zoom-out" data-aos-delay="100">
-            <div class="member">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-4 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/fbcamp.png" class="img-fluid" alt="">
           </div>
-
-          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="200">
-            <div class="member">
-              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="col-lg-8  order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <h3>Create Google App Campaigns Service​</h3><br>
+            <p style="font-weight:800;">
+            It is an most easy way to promote your app to users across Search, Play, Display, and YouTube.
+            </p>
+            <a href="#about" class="get-started-btn scrollto">30$ | Order Now</a>          
           </div>
-
-          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="300">
-            <div class="member">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section><!-- End About Section -->
 <?php require_once('main/footer.php'); ?>
