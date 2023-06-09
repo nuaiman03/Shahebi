@@ -20,72 +20,69 @@
     </section><!-- End Heading Section -->
 
 
-    <!-- Updating Website Software Section -->
-    <section id="team-3">
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+
       <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h3>Team</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
 
-        <div class="row justify-content-center">
+        <div class="row gy-4 justify-content-center" data-aos="fade-left">
 
-          <div class="col-lg-2 col-md-6" data-aos="zoom-out" data-aos-delay="100">
-            <div class="member">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box" style="background: black;">
+              <h3 style="color: #ffc451; font-weight: 800;">BEGINNER</h3>
+              <div class="price" style="color: white;"><sup>$</sup>29</div><br>
+              <ul>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;1 Stores App Submission</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;1 Ad Network Integration</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;Push Notification Integration</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;1 Splash Screen</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;1 Logo, 1 Banner, 100% Professional</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;1 Description ASO Friendly</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;Content Rating Add</li>
+              </ul>
+              <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="200">
-            <div class="member">
-              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box" style="background: black;">
+              <span class="featured">Featured</span>
+              <h3 style="color: #ffc451; font-weight: 800;">BUSINESS</h3>
+              <div class="price" style="color: white;"><sup>$</sup>49</div><br>
+              <ul>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;3 Stores App Submission</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;2 Ad Network Integration</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;Push Notification Integration</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;2 Splash Screen</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;1 Logo, 2 Banner, 100% Professional</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;2 Description ASO Friendly</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;Content Rating Add</li>
+              </ul>
+              <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="300">
-            <div class="member">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box" style="background: black;">
+              <h3 style="color: #ffc451; font-weight: 800;">ADVANCE</h3>
+              <div class="price" style="color: white;"><sup>$</sup>99</div><br>
+              <ul>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;3 Stores App Submission</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;3 Ad Network Integration</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;Push Notification Integration</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;3 Splash Screen</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;1 Logo, 3 Banner, 100% Professional</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;3 Description ASO Friendly</li>
+                <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;Content Rating Add</li>
+              </ul>
+              <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
             </div>
           </div>
+          
 
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+
+    </section><!-- End Pricing Section -->
 <?php require_once('main/footer.php'); ?>
