@@ -52,10 +52,10 @@
     <!-- start information section -->
     <section id="info-2" class="info-2" style="background: black;">
 
-      <div class="container" data-aos="fade-up">
+      <div class="container text-center" data-aos="fade-up">
 
-        <h3 style="font-weight:800; font-style: italic; font-size: 35px; text-transform: uppercase;">Buy Our Best Apps Integration Services​</h3>
-        <h5 style="font-weight:800; font-style: italic; color: #292929; text-transform: uppercase;">Our customer service and engagement platform is powerful and flexible, and scales to meet the needs of any apps development support.</h5>
+        <h3 style="font-weight:800; color: #ffc451; font-style: italic; font-size: 35px; text-transform: uppercase;">Buy Our Best Apps Integration Services​</h3>
+        <h5 style="font-weight:800; font-style: italic; color: white; text-transform: uppercase;">Our customer service and engagement platform is powerful and flexible, and scales to meet the needs of any apps development support.</h5>
 
       </div>
 

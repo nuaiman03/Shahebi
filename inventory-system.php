@@ -122,7 +122,7 @@
     </section><!-- End iteam 4 Section -->
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    <section id="pricing-3" class="pricing-3">
 
       <div class="container" data-aos="fade-up">
 

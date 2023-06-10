@@ -1183,4 +1183,133 @@ app develop
   font-size: 32px;
 }
 
+/*--------------------------------------------------------------
+# Pricing
+--------------------------------------------------------------*/
 
+
+.pricing-3 .section-title {
+  padding-bottom: 40px;
+}
+
+.pricing-3 .section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.pricing-3 .section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #ffde9e;
+  margin: 4px 10px;
+}
+
+.pricing-3 .section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+.pricing-3 .box {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.pricing-3 h3 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.pricing-3 .price {
+  font-size: 36px;
+  color: #444444;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.pricing-3 .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.pricing-3 .price span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pricing-3 img {
+  padding: 30px 40px;
+}
+
+.pricing-3 ul {
+  padding: 0;
+  list-style: none;
+  color: #444444;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.pricing-3 ul li {
+  padding-bottom: 10px;
+}
+
+.pricing-3 ul .na {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.pricing-3 .btn-buy {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #ffc451;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #ffc451;
+}
+
+.pricing-3 .btn-buy:hover {
+  background: #ffc451;
+  color: #fff;
+}
+
+.pricing-3 .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: #ffc451;
+  color: #fff;
+}
