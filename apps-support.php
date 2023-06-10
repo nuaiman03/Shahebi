@@ -19,6 +19,47 @@
       </div>
     </section><!-- End Heading Section -->
 
+ 
+
+    <!-- ======= Start Debugging Apps Section ======= -->
+    <section id="about-us" class="about-us-1" style="background: white;">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row content">
+          
+          <div class="col-lg-7 " data-aos="fade-left">
+            <h2 style="color: black; font-weight: 900; text-transform: upercase; font-size: 30px;">Debugging Apps & Error Fixing Service</h2>
+            <p style="color: black;">There are lots of problems to develop an apps. Whatever your problem is, don’t worry, Just tell us what’s your problems and we’ll solve quickly! Not only that but we’ll help you learn and not have those kind of bugs again!</p>
+            <ul>
+              <li style="color: black;"><i class="ri-check-double-line"></i> Bug Investigation & 2 Revisions</li>
+              <li style="color: black;"><i class="ri-check-double-line"></i> JSON data, Retrofit API call issues</li>  
+              <li style="color: black;"><i class="ri-check-double-line"></i> Pro guard & UI issues</li>  
+              <li style="color: black;"><i class="ri-check-double-line"></i> Ad & Social API Integration Problems</li>  
+              <li style="color: black;"><i class="ri-check-double-line"></i> Remove Suspends & any others issues</li>  
+              <li style="color: black;"><i class="ri-check-double-line"></i> Highly Trusted & Most Secure Confirmation</li>  
+              <li style="color: black;"><i class="ri-check-double-line"></i> Free Consultation & 24/7 Support</li>                
+            </ul>
+            <a href="#about" class="get-started-btn scrollto" style="color: black;">49$ | ORDER NOW</a>
+          </div>
+          <div class="col-lg-5" data-aos="fade-right">
+            <img src="assets/img/error1.png" class="img-fluid" alt="">
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- ======= End Debugging Apps Section ======= -->
+    <!-- start information section -->
+    <section id="info-2" class="info-2" style="background: black;">
+
+      <div class="container" data-aos="fade-up">
+
+        <h3 style="font-weight:800; font-style: italic; font-size: 35px; text-transform: uppercase;">Buy Our Best Apps Integration Services​</h3>
+        <h5 style="font-weight:800; font-style: italic; color: #292929; text-transform: uppercase;">Our customer service and engagement platform is powerful and flexible, and scales to meet the needs of any apps development support.</h5>
+
+      </div>
+
+    </section><!-- End Information section -->
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
@@ -85,4 +126,12 @@
       </div>
 
     </section><!-- End Pricing Section -->
+
+    
+    
+
+
+      
+    
+    <!-- End Debugging Apps Section  -->
 <?php require_once('main/footer.php'); ?>
