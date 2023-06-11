@@ -79,7 +79,7 @@
 
 
 <!-- ======= Pricing Section ======= -->
-<section id="pricing" class="pricing">
+<section id="pricing-seo" class="pricing-seo">
 
     <div class="container" data-aos="fade-up">
 
@@ -88,23 +88,29 @@
             <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                 <div class="box" style="background: black;">
                     <h3 style="color: #ffc451; font-weight: 800;">BEGINNER</h3>
-                    <div class="price" style="color: white;"><sup>$</sup>29/month</div>
-                    <p
-                        style="text-align:center; color:black; background:#ffc451; border-radius: 10px; font-weight:1000;">
-                        1,000 Likes</p>
-                    <ul>
-                        <li style="color: white;"><i class="bi bi-check2-circle"
-                                style="color: #ffc451;"></i>&nbsp;Estimated Reach: Up to 2.5K-4K</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;100%
-                            Real People Like</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle"
-                                style="color: #ffc451;"></i>&nbsp;99.99% Target Audience</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle"
-                                style="color: #ffc451;"></i>&nbsp;Begins Within 1-3 Hours</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;One
-                            Time Payment</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;24/7
-                            Support</li>
+                    <div class="price" style="color: white;"><sup>$</sup>29<sub>/mon</sub></div>
+
+                    <p style="text-align:center; color:black; background:#ffc451; border-radius: 10px; font-weight:1000;">KEYWORD PLAN:</p>
+                    <ul style="font-size: 14px;">
+                        <li style="color: white;">Keyword Plan: 05</li>
+                        <li style="color: white;" class="na">Keyword URL Mapping: No</li>
+                    </ul>
+
+                    <p style="text-align:center; color:black; background:#ffc451; border-radius: 10px; font-weight:1000;">ON-PAGE SEO:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Header: H1 Tags Optimization</li>
+                        <li> Title & Meta Tags Optimize: 10</li>
+                        <li> Page Speed Optimization: Yes</li>
+                        <li> Internal Link Structuring: Yes</li>
+                        <li> Xml Sitemap/Analysis: Yes</li>
+                        <li> Image & Hyperlink Optimization</li>
+                        <li> Schema Markup Implementation</li>
+                        <li> Google Webmaster Tools Setup</li>
+                        <li> Google Analytics Setup: Yes</li>
+                        <li class="na"> Pagination Tags on Site: No</li>
+                        <li class="na"> Html Code Cleanup: NO</li>
+                        <li class="na"> Custom 404 Page: NO</li>
+                        <li class="na"> Mobile Site Optimization: NO</li>
                     </ul>
                     <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
                 </div>
