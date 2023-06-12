@@ -26,7 +26,8 @@
     <div class="container" data-aos="fade-up">
         <div class="tab-content">
             <div class="tab-pane active show" id="tab-1">
-                <p style="color: black; font-size: 20px; font-style: italic;">When your website design age complated and functionalities are
+                <p style="color: black; font-size: 20px; font-style: italic;">When your website design age complated and
+                    functionalities are
                     discussed, you must need to promote website will start as soon as the site is hosted and submitted
                     to the search engines. We are driven by developing the unique and customized SEO strategies to
                     provide sustainable results.</p>
@@ -72,8 +73,10 @@
 <!-- start information section -->
 <section id="info-2" class="info-2" style="background: black;">
     <div class="container text-center" data-aos="fade-up">
-        <h3 style="font-weight:800; color: #ffc451; font-style: italic; font-size: 35px; text-transform: uppercase;">Buy Our Best SEO Services Pricing​</h3>
-        <h5 style="font-weight:800; font-style: italic; color: white; text-transform: uppercase;">We are 100% Ethical SEO Service offering transparent SEO Cost for Local, National & International Ranking on Google.</h5>
+        <h3 style="font-weight:800; color: #ffc451; font-style: italic; font-size: 35px; text-transform: uppercase;">Buy
+            Our Best SEO Services Pricing​</h3>
+        <h5 style="font-weight:800; font-style: italic; color: white; text-transform: uppercase;">We are 100% Ethical
+            SEO Service offering transparent SEO Cost for Local, National & International Ranking on Google.</h5>
     </div>
 </section><!-- End Information section -->
 
@@ -88,15 +91,18 @@
             <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                 <div class="box" style="background: black;">
                     <h3 style="color: #ffc451; font-weight: 800;">BEGINNER</h3>
-                    <div class="price" style="color: white;"><sup>$</sup>29<sub>/mon</sub></div>
-
-                    <p style="text-align:center; color:black; background:#ffc451; border-radius: 10px; font-weight:1000;">KEYWORD PLAN:</p>
+                    <div class="price" style="color: white;"><sup>$</sup>85<sub>/mon</sub></div>
+                    <br>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        KEYWORD PLAN:</p>
                     <ul style="font-size: 14px;">
-                        <li style="color: white;">Keyword Plan: 05</li>
-                        <li style="color: white;" class="na">Keyword URL Mapping: No</li>
+                        <li>Keyword Plan: 05</li>
+                        <li class="na">Keyword URL Mapping: No</li>
                     </ul>
-
-                    <p style="text-align:center; color:black; background:#ffc451; border-radius: 10px; font-weight:1000;">ON-PAGE SEO:</p>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        ON-PAGE SEO:</p>
                     <ul style="font-size: 14px;">
                         <li> Header: H1 Tags Optimization</li>
                         <li> Title & Meta Tags Optimize: 10</li>
@@ -112,6 +118,57 @@
                         <li class="na"> Custom 404 Page: NO</li>
                         <li class="na"> Mobile Site Optimization: NO</li>
                     </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        LOCAL/OFF-PAGE SEO:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Google My Business Setup</li>
+                        <li> Local Business Directory/NAP</li>
+                        <li> Article Submission: 60/mo</li>
+                        <li> Company Profile Listing: 5</li>
+                        <li> Blog Submission: 150/2 sites</li>
+                        <li> Social Bookmarking: 10 max</li>
+                        <li class="na"> Customer Reviews/Ratings: No</li>
+                        <li class="na"> Adwords Management: No</li>
+                        <li class="na"> Guest Post/Forum Posting: No</li>
+                        <li class="na"> Image Submissions: No</li>
+                        <li class="na"> PPT/PPC Promotion Crate: No</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        CONTENT MARKETING:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Blog Content Writing: 01</li>
+                        <li> Related Article Writing: 01</li>
+                        <li> Press Release Book Marking: 05</li>
+                        <li> Blog Social Bookmarking: 10</li>
+                        <li class="na"> PDF Creation: No</li>
+                        <li class="na"> Premium PR Distribution: No</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        SOCIAL MEDIA MARKETING:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Google Plus Business Page Setup</li>
+                        <li> Facebook & Twitter Page Setup</li>
+                        <li> Pinterest Account Creation</li>
+                        <li> Others Social Page Crate: 10</li>
+                        <li class="na"> Facebook Ads Management: No</li>
+                        <li class="na"> Youtube Channel Creation: No</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        WEEKLY/MONTHLY REPORT:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Search Engine Rank Report</li>
+                        <li> Seo Reports: Monthly</li>
+                        <li> Activity Report: Monthly</li>
+                        <li class="na"> Google Analytics Report: Weakly</li>
+                        <li class="na"> Full Action Report: Weekly</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        INCLUDE SETUP CAMPAIGN</p>
                     <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
                 </div>
             </div>
@@ -119,50 +176,169 @@
             <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                 <div class="box" style="background: black;">
                     <h3 style="color: #ffc451; font-weight: 800;">PRO</h3>
-                    <div class="price" style="color: white;"><sup>$</sup>400</div>
+                    <div class="price" style="color: white;"><sup>$</sup>109<sub>/mon</sub></div>
+                    <br>
                     <p
-                        style="text-align:center; color:black; background:#ffc451; border-radius: 10px; font-weight:1000;">
-                        10,000 Likes</p>
-                    <ul>
-                        <li style="color: white;"><i class="bi bi-check2-circle"
-                                style="color: #ffc451;"></i>&nbsp;Estimated Reach: Up to 12K-20K</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;100%
-                            Real People Like</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle"
-                                style="color: #ffc451;"></i>&nbsp;99.99% Target Audience</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle"
-                                style="color: #ffc451;"></i>&nbsp;Begins Within 1-6 Hours</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;One
-                            Time Payment</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;24/7
-                            Support</li>
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        KEYWORD PLAN:</p>
+                    <ul style="font-size: 14px;">
+                        <li>Keyword Plan: 05</li>
+                        <li class="na">Keyword URL Mapping: No</li>
                     </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        ON-PAGE SEO:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Header: H1 Tags Optimization</li>
+                        <li> Title & Meta Tags Optimize: 10</li>
+                        <li> Page Speed Optimization: Yes</li>
+                        <li> Internal Link Structuring: Yes</li>
+                        <li> Xml Sitemap/Analysis: Yes</li>
+                        <li> Image & Hyperlink Optimization</li>
+                        <li> Schema Markup Implementation</li>
+                        <li> Google Webmaster Tools Setup</li>
+                        <li> Google Analytics Setup: Yes</li>
+                        <li> Pagination Tags on Site: No</li>
+                        <li> Html Code Cleanup: NO</li>
+                        <li class="na"> Custom 404 Page: NO</li>
+                        <li class="na"> Mobile Site Optimization: NO</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        LOCAL/OFF-PAGE SEO:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Google My Business Setup</li>
+                        <li> Local Business Directory/NAP</li>
+                        <li> Article Submission: 60/mo</li>
+                        <li> Company Profile Listing: 5</li>
+                        <li> Blog Submission: 150/2 sites</li>
+                        <li> Social Bookmarking: 10 max</li>
+                        <li> Customer Reviews/Ratings: No</li>
+                        <li> Adwords Management: No</li>
+                        <li class="na"> Guest Post/Forum Posting: No</li>
+                        <li class="na"> Image Submissions: No</li>
+                        <li class="na"> PPT/PPC Promotion Crate: No</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        CONTENT MARKETING:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Blog Content Writing: 01</li>
+                        <li> Related Article Writing: 01</li>
+                        <li> Press Release Book Marking: 05</li>
+                        <li> Blog Social Bookmarking: 10</li>
+                        <li class="na"> PDF Creation: No</li>
+                        <li class="na"> Premium PR Distribution: No</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        SOCIAL MEDIA MARKETING:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Google Plus Business Page Setup</li>
+                        <li> Facebook & Twitter Page Setup</li>
+                        <li> Pinterest Account Creation</li>
+                        <li> Others Social Page Crate: 10</li>
+                        <li> Facebook Ads Management: No</li>
+                        <li class="na"> Youtube Channel Creation: No</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        WEEKLY/MONTHLY REPORT:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Search Engine Rank Report</li>
+                        <li> Seo Reports: Monthly</li>
+                        <li> Activity Report: Monthly</li>
+                        <li> Google Analytics Report: Weakly</li>
+                        <li> Full Action Report: Weekly</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        INCLUDE SETUP CAMPAIGN</p>
                     <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                 <div class="box" style="background: black;">
-                    <span class="featured">Featured</span>
                     <h3 style="color: #ffc451; font-weight: 800;">BUSINESS</h3>
-                    <div class="price" style="color: white;"><sup>$</sup>229</div>
+                    <div class="price" style="color: white;"><sup>$</sup>199<sub>/mon</sub></div>
+                    <br>
                     <p
-                        style="text-align:center; color:black; background:#ffc451; border-radius: 10px; font-weight:1000;">
-                        5,000 Likes</p>
-                    <ul>
-                        <li style="color: white;"><i class="bi bi-check2-circle"
-                                style="color: #ffc451;"></i>&nbsp;Estimated Reach: Up to 5K-8K</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;100%
-                            Real People Like</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle"
-                                style="color: #ffc451;"></i>&nbsp;99.99% Target Audience</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle"
-                                style="color: #ffc451;"></i>&nbsp;Begins Within 1-4 Hours</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;One
-                            Time Payment</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;24/7
-                            Support</li>
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        KEYWORD PLAN:</p>
+                    <ul style="font-size: 14px;">
+                        <li>Keyword Plan: 05</li>
+                        <li>Keyword URL Mapping: No</li>
                     </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        ON-PAGE SEO:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Header: H1 Tags Optimization</li>
+                        <li> Title & Meta Tags Optimize: 10</li>
+                        <li> Page Speed Optimization: Yes</li>
+                        <li> Internal Link Structuring: Yes</li>
+                        <li> Xml Sitemap/Analysis: Yes</li>
+                        <li> Image & Hyperlink Optimization</li>
+                        <li> Schema Markup Implementation</li>
+                        <li> Google Webmaster Tools Setup</li>
+                        <li> Google Analytics Setup: Yes</li>
+                        <li> Pagination Tags on Site: No</li>
+                        <li> Html Code Cleanup: NO</li>
+                        <li> Custom 404 Page: NO</li>
+                        <li class="na"> Mobile Site Optimization: NO</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        LOCAL/OFF-PAGE SEO:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Google My Business Setup</li>
+                        <li> Local Business Directory/NAP</li>
+                        <li> Article Submission: 60/mo</li>
+                        <li> Company Profile Listing: 5</li>
+                        <li> Blog Submission: 150/2 sites</li>
+                        <li> Social Bookmarking: 10 max</li>
+                        <li> Customer Reviews/Ratings: No</li>
+                        <li> Adwords Management: No</li>
+                        <li> Guest Post/Forum Posting: No</li>
+                        <li> Image Submissions: No</li>
+                        <li> PPT/PPC Promotion Crate: No</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        CONTENT MARKETING:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Blog Content Writing: 01</li>
+                        <li> Related Article Writing: 01</li>
+                        <li> Press Release Book Marking: 05</li>
+                        <li> Blog Social Bookmarking: 10</li>
+                        <li> PDF Creation: No</li>
+                        <li class="na"> Premium PR Distribution: No</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        SOCIAL MEDIA MARKETING:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Google Plus Business Page Setup</li>
+                        <li> Facebook & Twitter Page Setup</li>
+                        <li> Pinterest Account Creation</li>
+                        <li> Others Social Page Crate: 10</li>
+                        <li> Facebook Ads Management: No</li>
+                        <li> Youtube Channel Creation: No</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        WEEKLY/MONTHLY REPORT:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Search Engine Rank Report</li>
+                        <li> Seo Reports: Monthly</li>
+                        <li> Activity Report: Monthly</li>
+                        <li> Full Action Report: Weekly</li>
+                        <li> Google Analytics Report: Weakly</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        INCLUDE SETUP CAMPAIGN</p>
                     <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
                 </div>
             </div>
@@ -170,24 +346,84 @@
             <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                 <div class="box" style="background: black;">
                     <h3 style="color: #ffc451; font-weight: 800;">ADVANCE</h3>
-                    <div class="price" style="color: white;"><sup>$</sup>400</div>
+                    <div class="price" style="color: white;"><sup>$</sup>299<sub>/mon</sub></div>
+                    <br>
                     <p
-                        style="text-align:center; color:black; background:#ffc451; border-radius: 10px; font-weight:1000;">
-                        10,000 Likes</p>
-                    <ul>
-                        <li style="color: white;"><i class="bi bi-check2-circle"
-                                style="color: #ffc451;"></i>&nbsp;Estimated Reach: Up to 12K-20K</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;100%
-                            Real People Like</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle"
-                                style="color: #ffc451;"></i>&nbsp;99.99% Target Audience</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle"
-                                style="color: #ffc451;"></i>&nbsp;Begins Within 1-6 Hours</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;One
-                            Time Payment</li>
-                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;24/7
-                            Support</li>
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        KEYWORD PLAN:</p>
+                    <ul style="font-size: 14px;">
+                        <li>Keyword Plan: 05</li>
+                        <li>Keyword URL Mapping: No</li>
                     </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        ON-PAGE SEO:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Header: H1 Tags Optimization</li>
+                        <li> Title & Meta Tags Optimize: 10</li>
+                        <li> Page Speed Optimization: Yes</li>
+                        <li> Internal Link Structuring: Yes</li>
+                        <li> Xml Sitemap/Analysis: Yes</li>
+                        <li> Image & Hyperlink Optimization</li>
+                        <li> Schema Markup Implementation</li>
+                        <li> Google Webmaster Tools Setup</li>
+                        <li> Google Analytics Setup: Yes</li>
+                        <li> Pagination Tags on Site: No</li>
+                        <li> Html Code Cleanup: NO</li>
+                        <li> Custom 404 Page: NO</li>
+                        <li> Mobile Site Optimization: NO</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        LOCAL/OFF-PAGE SEO:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Google My Business Setup</li>
+                        <li> Local Business Directory/NAP</li>
+                        <li> Article Submission: 60/mo</li>
+                        <li> Company Profile Listing: 5</li>
+                        <li> Blog Submission: 150/2 sites</li>
+                        <li> Social Bookmarking: 10 max</li>
+                        <li> Customer Reviews/Ratings: No</li>
+                        <li> Adwords Management: No</li>
+                        <li> Guest Post/Forum Posting: No</li>
+                        <li> Image Submissions: No</li>
+                        <li> PPT/PPC Promotion Crate: No</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        CONTENT MARKETING:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Blog Content Writing: 01</li>
+                        <li> Related Article Writing: 01</li>
+                        <li> Press Release Book Marking: 05</li>
+                        <li> Blog Social Bookmarking: 10</li>
+                        <li> PDF Creation: No</li>
+                        <li> Premium PR Distribution: No</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        SOCIAL MEDIA MARKETING:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Google Plus Business Page Setup</li>
+                        <li> Facebook & Twitter Page Setup</li>
+                        <li> Pinterest Account Creation</li>
+                        <li> Others Social Page Crate: 10</li>
+                        <li> Facebook Ads Management: No</li>
+                        <li> Youtube Channel Creation: No</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        WEEKLY/MONTHLY REPORT:</p>
+                    <ul style="font-size: 14px;">
+                        <li> Search Engine Rank Report</li>
+                        <li> Seo Reports: Monthly</li>
+                        <li> Activity Report: Monthly</li>
+                        <li> Full Action Report: Weekly</li>
+                        <li> Google Analytics Report: Weakly</li>
+                    </ul>
+                    <p
+                        style="text-align:center; color:white; border: 2px solid orange; border-radius: 5px; font-weight:1000; font-size: 14px; padding: 13px;">
+                        INCLUDE SETUP CAMPAIGN</p>
                     <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
                 </div>
             </div>
@@ -198,8 +434,6 @@
     </div>
 
 </section><!-- End Pricing Section -->
-
-
 
 
 
