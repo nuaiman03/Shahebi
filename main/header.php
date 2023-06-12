@@ -29,6 +29,11 @@
   <link href="assets/css/styles.css" rel="stylesheet">
   <link href="assets/css/dynamic-web-style.css" rel="stylesheet">
 
+
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+
   <!-- =======================================================
   * Template Name: Gp
   * Updated: May 30 2023 with Bootstrap v5.3.0

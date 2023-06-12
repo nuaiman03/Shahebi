@@ -20,19 +20,20 @@
 
 
     <!-- Services Section - Home Page -->
-<section id="services" class="services-1" style="background: white">
-    <div class="container">
-        <div class="section-title">
-            <p style="font-size: 30px; color: orange; text-align: center;">99.99 % Real User Views & Likes and 100%
-                Money Back Guarantee!</p>
-        </div>
+    <div style="background: white; padding: 10px;">
+      <p style="font-size: 30px; color: black; text-align: center; font-weight: bold; font-style: italic;">99.99 % Real Mobile User and 100% Money Back Guarantee!</p>
+    </div>
+
+
+<section id="services" class="services-1" style="background: black;">
+<div class="container">
         <div class="row gy-4">
             <div data-aos-delay="100" data-aos="fade-up" class="col-lg-6">
                 <div class="service-item d-flex">
                     <div class="icon flex-shrink-0"><i class="bi bi-clock-fill" style="color: orange;"></i></div>
                     <div>
                         <h4 class="title" style="color: orange;">GUARANTEED WORKING</h4>
-                        <p class="description" style="color: White;">Our quality of work speaks for itself, and our
+                        <p class="description" style="color: white;">Our quality of work speaks for itself, and our
                             repeat customers are what keeps us in business. The likes we help our clients acquire are
                             guaranteed.</p>
                     </div>
@@ -43,13 +44,11 @@
                     <div class="icon flex-shrink-0"><i class="bi bi-amd" style="color: orange;"></i></div>
                     <div>
                         <h4 class="title" style="color: orange;">PERFECT A CAMPAIGN</h4>
-                        <p class="description" style="color: white;">No matter your goals and budget, we have a campaign
-                            that is totally customizable to your needs. Simply visit our pricing page and start a
-                            campaign.</p>
+                        <p class="description" style="color: white;">No matter your goals and budget, we have a campaign that is totally customizable to your needs. Simply visit our pricing page and start a campaign.</p>
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
     </div>
 </section><!-- End Services Section -->
 
@@ -59,14 +58,10 @@
     <div data-aos="fade-up">
         <div class="content text-center" data-aos="fade-right" style="padding: 0px 120px;" data-aos-delay="100">
             <h3 style="font-weight:800; color:orange; font-style: italic; font-size: 35px; text-transform: uppercase;">
-                YouTube ad Campaign to Grow Views, Likes & Subscribes​</h3><br>
-            <p style="font-weight:800; font-style: italic; color: black; text-transform: uppercase;">We have experienced
-                and dedicated team who are highly capable to reach you on your desired Target.<br> I know you will bit
-                worried about the Charge?</p>
+            SMS ad Campaign to Grow promotions & Sells​</h3><br>
+            <p style="font-weight:800; font-style: italic; color: black; text-transform: uppercase;">We have experienced and dedicated team who are highly capable to reach you on your desired Target.<br>I know you ill bit worried about the Charge?</p>
             <p></p>
-            <p>Don’t Worry! Our Charge is lower then other service providers. We always assure you a grunted Success.
-                Let Our Service Experts To Boost Up Your sales 300% Within Couple of Months Along With Hundreds of
-                Thousands Targeted Visitors On Your Site!</p>
+            <p>Don’t Worry! Our Charge is lower then other service providers. We always assure you a grunted Success. Let Our Service Experts To Boost Up Your sales 300% Within Couple of Months Along With Hundreds of Thousands Targeted Visitors On Your Site!</p>
         </div>
     </div>
 </section><!-- End About Section -->
@@ -78,14 +73,11 @@
 
         <div class="row content">
             <div class="col-lg-7" data-aos="fade-right">
-                <h3 style="color: #ffc451;">Request Your Custom Order</h3>
-                <p style="color: #c7c7c7;">The cost of your ads on YouTube is up to you and your budget. You can choose
-                    between a daily or a lifetime budget, as well as a cost per thousand impressions, bids (CPM) or cost
-                    per click bid (CPC). You will only pay for the clicks or impressions you receive, up to the amount
-                    you set for your budget.</p>
+                <h3 style="color: #ffc451;">Request Your Order</h3>
+                <p style="color: #c7c7c7;">The cost of your ads on SMS Marketing is up to you and your budget. You can choose between a daily or a lifetime budget, as well as a cost per thousand sent, cost per click bid (CPC).</p>
                 <p
                     style="text-align:center; color:black; background:#ffc451; border-radius: 10px; font-weight:1000; padding: 5px 0px;">
-                    For Your Video Views, Likes Subscribes and Comments</p>
+                    For Your SMS Marketing</p>
                 <br>
                 <a href="#about" class="get-started-btn scrollto">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
             </div>
@@ -93,14 +85,10 @@
                 <ul>
                     <li><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp; 99.99% Target Audience</li>
                     <li><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp; 100% Real People Like</li>
-                    <li><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp; Custom Ad budget increase &
-                        decrease</li>
-                    <li><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp; Remove Suspends & any others
-                        issues</li>
-                    <li><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp; Highly Trusted & Most Secure
-                        Confirmation</li>
-                    <li><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp; Free Consultation & 24/7
-                        Support</li>
+                    <li><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp; Min: 25000 Data; Price: 20,000/-</li>
+                    <li><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp; Min: 50000 Data; Price: 30,000/-</li>
+                    <li><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp; Min: 100000 Data; Price: 40,000/-</li>
+                    <li><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp; Max: 2lac+ Data; 0.35 tk/Data</li>
                 </ul>
             </div>
         </div>
