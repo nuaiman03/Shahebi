@@ -216,10 +216,6 @@
     </div>
 </section><!-- End Custom Boosting Section -->
 
-<section>
-    <div class="">
 
-    </div>
-</section>
 
 <?php require_once('main/footer.php'); ?>
