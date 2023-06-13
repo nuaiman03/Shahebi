@@ -115,6 +115,49 @@
 </section><!-- End Services Section -->
 
 
+<!-- ======= Heading Section ======= -->
+<section id="about-us" class="about-us-1" style="background: white;">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row content">
+          
+          <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
+          <h4 class="title" style="color: #f1b738; font-weight: bold; font-size: 23px; text-transform: upercase;">Multiple Clipping Path</h4>
+                <p style="color: black;">Clipping path allows you to manipulate the background of the subject of your image. You can create white backgrounds for selling products online, or display your subjects in any setting.</p>
+                <p style="color: black;">At Path, we outline each image by hand. Automatons and AI can lead to Photoshop fails and unhappy customers. Trained (human) graphic designers have the common sense and keen eye to make sure edited photos look just right.</p>
+                <a href="#about" class="get-started-btn scrollto">39$ per image</a>
+          </div>
+          <div class="col-lg-3" data-aos="fade-right">
+            <img src="assets/img/clip-4.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-1" data-aos="fade-right">
+            
+          </div>
+        </div>
+        
+      </div>
+    </section><!-- End Heading Section -->
+
+    <!-- ======= Heading Section ======= -->
+    <section id="about-us" class="about-us-1" style="padding-top: 10%;">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row content">
+            <div class="col-lg-4" data-aos="fade-right">
+                <img src="assets/img/clip-4.png" class="img-fluid" alt="">
+            </div>
+          <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
+                <h4 class="title" style="padding-top: 7%; color: #f1b738; font-weight: bold; font-size: 23px; text-transform: upercase;">Multiple Clipping Path</h4>
+                <p style="color: white;">Clipping path allows you to manipulate the background of the subject of your image. You can create white backgrounds for selling products online, or display your subjects in any setting.</p>
+                <p style="color: white;">At Path, we outline each image by hand. Automatons and AI can lead to Photoshop fails and unhappy customers. Trained (human) graphic designers have the common sense and keen eye to make sure edited photos look just right.</p>
+                <a href="#about" class="get-started-btn scrollto">39$ per image</a>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section><!-- End Heading Section -->
+
 <!-- Services Section - Home Page -->
 <section id="services" class="services-1" style="background: black">
     <div class="container">
@@ -155,6 +198,9 @@
         </div>
     </div>
 </section><!-- End Services Section -->
+
+
+    
 
 
 
