@@ -129,6 +129,7 @@
             <div class="col-lg-8 pt-8 pt-lg-0" data-aos="fade-left">
                 <h3 style="color: orange; font-weight: bold;">
                     OUR VISSION</h3>
+                    <hr style="height:2px; border-width:0; color:orange; background-color:orange">
                 <p style="color: white;">Our vision is to fulfill all the demands of our clients by our experts on time. We have a dream which never give us a space to escape from it and the dream is- Makes Bangladesh a world-class IT developed country. After near future We can see a better systemic IT related many scopes in next to our door. That’s why we are here for you which we have been confirmed you earlier. We know that dedication is one of the key of success in every single work. Surely we have proper dedication and in future we will be able to full fill our dreams with your help. Thus we fulfill the needs of our local clients as well as the foreign clients. We are bound to create a foreign investment sector in IT industries in our country which will help to growth of our GDP.</p>
                 
             </div>
@@ -138,74 +139,122 @@
     </div>
 </section><!-- End Price Section 4 -->
 
-<!-- ======= Price Section 5 ======= -->
-<section id="about-us" class="about-us-1" style="background: white;">
-    <div class="container" data-aos="fade-up">
+<!-- ======= F.A.Q Section ======= -->
+<section id="faq" class="faq" style="background: white;">
 
-        <div class="row content">
+<div class="container" data-aos="fade-up">
+  <div class="row">
+    <div class="col-lg-6">
+      <!-- F.A.Q List 1-->
+      <h3 style="color: black; font-weight: bold; text-transform: uppercase;">Why You Choose us ?</h3>
+      <hr style="height:2px; border-width:0; color:orange; background-color:orange">
+      <p style="color: black;">Shahebi Soft is one of the Quality holder IT firm in Bangladesh. First of all we are here to make things easy for you which are based on technology. To contribute in overall development of our country by providing available IT services for the people we have gathered many qualified field in our site. Our company develops distinctive web solutions which makes your work more effective and effectiveness for your business and thus to your end users.Last but not the least We are here for you and we will be beside on you with our hard full team work.</p>
+    </div>
 
-            <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
-                <h4 class="title" style="color: #f1b738; font-weight: bold; font-size: 23px; text-transform: upercase;">
-                    More complex clipping paths</h4>
-                <p style="color: black;">This category includes complex clipping paths with additional paths carefully
-                    crafted within the product itself.</p>
-                <p style="color: black;">
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Bicycles &nbsp;
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Intricate jewelry &nbsp;
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Wire furniture &nbsp;
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Groupings of products that need color
-                    changes in specific areas &nbsp;
-                </p>
-                <br>
-                <a href="#about" style="color: black; font-weight: bold;" class="get-started-btn scrollto">6.00$ per
-                    image | ORDER NOW</a>
-            </div>
-            <div class="col-lg-3" data-aos="fade-right">
-                <img src="assets/img/clip-4.png" class="img-fluid" alt="">
-            </div>
-            <div class="col-lg-1" data-aos="fade-right">
+    <div class="col-lg-6">
 
+      <!-- F.A.Q List 2-->
+      <div class="accordion accordion-flush" id="faqlist2">
+      <h3 style="color: black; font-weight: bold; text-transform: uppercase;">Our Top Best Services is</h3>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" style="background: orange;" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
+              Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+            </button>
+          </h2>
+          <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+            <div class="accordion-body">
+              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
             </div>
+          </div>
         </div>
 
-    </div>
-</section><!-- End Price Section 5 -->
-
-<!-- ======= Price Section 6 ======= -->
-<section id="about-us" class="about-us-1">
-    <div class="container" data-aos="fade-up">
-
-        <div class="row content">
-            <div class="col-lg-3" data-aos="fade-right">
-                <img src="assets/img/clip-4.png" class="img-fluid" alt="">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" style="background: orange;" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
+              Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+            </button>
+          </h2>
+          <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+            <div class="accordion-body">
+              Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
             </div>
-            <div class="col-lg-8 pt-8 pt-lg-0" data-aos="fade-left">
-                <h4 class="title" style="color: #f1b738; font-weight: bold; font-size: 23px; text-transform: upercase;">
-                    Super complex clipping paths</h4>
-                <p style="color: white;">Sometimes, an object requires so many individual clipping paths that a complex
-                    or multiple clipping path just isn’t enough. Super complex clipping paths involve three to four
-                    different techniques.</p>
-                <p style="color: white;">This level of detail is necessary for tough product images where nothing else
-                    will look natural. In some cases, we need to use super complex, complex, and multiple clipping paths
-                    in conjunction with image masking to get to the perfect finished product.</p>
-                <p style="color: white;">
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Furniture with multiple cut-outs
-                    &nbsp;
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Objects with netting or mesh &nbsp;
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Jewelry with complex interlinking
-                    pieces or chains &nbsp;
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Crates &nbsp;
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Complex machinery &nbsp;
-                </p>
-                <br>
-                <a href="#about" style="font-weight: bold;" class="get-started-btn scrollto">10.50$ per image | ORDER
-                    NOW</a>
-            </div>
-            <div class="col-lg-1" data-aos="fade-right">
-            </div>
+          </div>
         </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" style="background: orange;" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
+              Varius vel pharetra vel turpis nunc eget lorem dolor?
+            </button>
+          </h2>
+          <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+            <div class="accordion-body">
+              Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
-</section><!-- End Price Section 6 -->
+
+  </div>
+
+</div>
+
+</section><!-- End F.A.Q Section -->
+
+
+<!-- ======= Team Section ======= -->
+<section id="team" class="team">
+        <div class="container" data-aos="fade-up">
+            <div class="row justify-content-center">
+            <h3 style="color: orange; font-weight: bold; text-align: center;">OUR TEAM</h3>
+            <hr style="height:2px; border-width:0; color:orange; background-color:orange">
+             <br><br>
+             
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member-img">
+                            <img src="assets/img/team/team-1.jpg." class="img-fluid" alt="">
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Mehedi Hasan Al Rabbi</h4>
+                            <span>Product Manager</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="300">
+                        <div class="member-img">
+                            <img src="assets/img/team/team-2.jpg." class="img-fluid" alt="">
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Nuaiman Fahim</h4>
+                            <span>CTO</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section><!-- End Team Section -->
+
 
 
 
