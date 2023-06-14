@@ -165,6 +165,8 @@
     });
   }
 
+  
+
   /**
    * Clients Slider
    */
@@ -285,9 +287,12 @@
     });
   });
 
+  
+
   /**
    * Initiate Pure Counter 
    */
   new PureCounter();
 
 })()
+
