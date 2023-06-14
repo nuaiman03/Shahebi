@@ -5,21 +5,21 @@
 
         <div class="row content">
             <div class="col-lg-6" data-aos="fade-right">
-                <h2>Build your Static Website in Cheap Rate</h2>
-                <h3>Front-end Development PSD/Sketch to HTML conversion services.</h3>
-                <br>
-                <a href="#about" class="get-started-btn scrollto">See Package & Price</a>
+                <img src="assets/img/statics-web.png" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-                <p>Simply send us your design in any format, and relax as we convert it into responsive and flawless
+                <h5 style="color: #ffcd6b;">Build your Static Website in Cheap Rate</h5>
+                <h2><span>PSD</span>/Sketch <span>to HTML</span>conversion <span>services</span></h2>
+                <p style="color: white; font-weight: 700;">Simply send us your design in any format, and relax as we convert it into responsive and flawless
                     website within 24 hours.</p>
                 <ul>
                     <li><i class="ri-check-double-line"></i> We develop responsive layouts</li>
                     <li><i class="ri-check-double-line"></i> Bootstrap-based projects</li>
                     <li><i class="ri-check-double-line"></i> A bunch of JavaScript features</li>
                     <li><i class="ri-check-double-line"></i> Always Profrssional SEO Friendly Code</li>
-
                 </ul>
+                <br>
+                <a href="#about" class="get-started-btn scrollto">See Package & Price</a>
             </div>
         </div>
 

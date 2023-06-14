@@ -6,7 +6,7 @@
 
         <div class="row content">
             <div class="col-lg-6" data-aos="fade-right">
-                <img src="assets/img/cd.png" class="img-fluid" alt="">
+                <img src="assets/img/clip-d.png" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
                 <h5 style="color: #ffcd6b;">Clipping Path Services in Cheap Rate</h5>
@@ -106,19 +106,16 @@
                 <h4 class="title" style="color: #f1b738; text-align: center; font-weight: bold; font-size: 21px;"">COLOR CORRECTION</h4>
             </div>
             <div data-aos-delay=" 100" data-aos="fade-up" class="col-lg-2">
-                    <h4 class="title" style="color: #f1b738; text-align: center; font-weight: bold; font-size: 21px;"">SHADOW REFLECTION</h4>
+                <h4 class="title" style="color: #f1b738; text-align: center; font-weight: bold; font-size: 21px;"">SHADOW REFLECTION</h4>
             </div>
             <div data-aos-delay=" 100" data-aos="fade-up" class="col-lg-2">
-                        <h4 class="title"
-                            style="color: #f1b738; text-align: center; font-weight: bold; font-size: 21px;"">RETOUCH</h4>
+                <h4 class="title" style="color: #f1b738; text-align: center; font-weight: bold; font-size: 21px;"">RETOUCH</h4>
             </div>
             <div data-aos-delay=" 100" data-aos="fade-up" class="col-lg-2">
-                            <h4 class="title"
-                                style="color: #f1b738; text-align: center; font-weight: bold; font-size: 21px;"">IMAGE MASKING</h4>
+                <h4 class="title" style="color: #f1b738; text-align: center; font-weight: bold; font-size: 21px;"">IMAGE MASKING</h4>
             </div>
             <div data-aos-delay=" 100" data-aos="fade-up" class="col-lg-2">
-                                <h4 class="title"
-                                    style="color: #f1b738; text-align: center; font-weight: bold; font-size: 21px;"">CLIPPING PATHS</h4>
+                <h4 class="title" style="color: #f1b738; text-align: center; font-weight: bold; font-size: 21px;"">CLIPPING PATHS</h4>
             </div>            
         </div>
     </div>
@@ -127,34 +124,34 @@
 
 <!-- ======= Price Section 1 ======= -->
 <section id=" about-us" class="about-us-1" style="background: white;">
-                                    <div class="container" data-aos="fade-up">
+    <div class="container" data-aos="fade-up">
 
-                                        <div class="row content">
+        <div class="row content">
 
-                                            <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
-                                                <h4 class="title"
-                                                    style="color: #f1b738; font-weight: bold; font-size: 23px; text-transform: upercase;">
-                                                    Basic Clipping Paths</h4>
-                                                <p style="color: black;">Clipping path allows you to manipulate the
-                                                    background of the subject of your image. You can create white
-                                                    backgrounds for selling products online, or display your subjects in
-                                                    any setting.</p>
-                                                <p style="color: black;">At Path, we outline each image by hand.
-                                                    Automatons and AI can lead to Photoshop fails and unhappy customers.
-                                                    Trained (human) graphic designers have the common sense and keen eye
-                                                    to make sure edited photos look just right.</p>
-                                                <a href="#about" style="color: black; font-weight: bold;"
-                                                    class="get-started-btn scrollto">0.25$ per image | ORDER NOW</a>
-                                            </div>
-                                            <div class="col-lg-3" data-aos="fade-right">
-                                                <img src="assets/img/clip-4.png" class="img-fluid" alt="">
-                                            </div>
-                                            <div class="col-lg-1" data-aos="fade-right">
+            <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
+                <h4 class="title"
+                    style="color: #f1b738; font-weight: bold; font-size: 23px; text-transform: upercase;">
+                    Basic Clipping Paths</h4>
+                <p style="color: black;">Clipping path allows you to manipulate the
+                    background of the subject of your image. You can create white
+                    backgrounds for selling products online, or display your subjects in
+                    any setting.</p>
+                <p style="color: black;">At Path, we outline each image by hand.
+                    Automatons and AI can lead to Photoshop fails and unhappy customers.
+                    Trained (human) graphic designers have the common sense and keen eye
+                    to make sure edited photos look just right.</p>
+                <a href="#about" style="color: black; font-weight: bold;"
+                    class="get-started-btn scrollto">0.25$ per image | ORDER NOW</a>
+            </div>
+            <div class="col-lg-3" data-aos="fade-right">
+                <img src="assets/img/clip-4.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-1" data-aos="fade-right">
 
-                                            </div>
-                                        </div>
+            </div>
+        </div>
 
-                                    </div>
+    </div>
 </section><!-- End Price Section 1 -->
 
 <!-- ======= Price Section 2 ======= -->
