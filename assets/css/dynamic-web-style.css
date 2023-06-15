@@ -1575,7 +1575,7 @@ app develop
 --------------------------------------------------------------*/
 .gallery {
   overflow: hidden;
-  background: #1abc9c;
+  background: #000000;
 }
 
 .gallery .swiper-pagination {
@@ -1591,7 +1591,7 @@ app develop
 }
 
 .gallery .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
+  background-color: orange;
 }
 
 .gallery .swiper-slide-active {
