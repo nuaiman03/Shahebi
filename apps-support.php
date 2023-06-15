@@ -1,4 +1,4 @@
-<?php require_once('./main/header.php'); ?>
+<?php require_once './main/header.php'; ?>
 
 <!-- ======= Heading Section ======= -->
 <section id="about-us" class="about-us-1" style="padding-top: 10%;">
@@ -162,4 +162,4 @@
 
 
 <!-- End Debugging Apps Section  -->
-<?php require_once('main/footer.php'); ?>
+<?php require_once 'main/footer.php'; ?>
