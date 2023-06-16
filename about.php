@@ -259,7 +259,7 @@
 
 <!-- ======= Gallery Section ======= -->
 <section id="gallery" class="gallery section-bg">
-      <div class="container" data-aos="fade-up">
+    <div class="container" data-aos="fade-up">
         <div class="section-header">
             <h3 style="color: orange; font-weight: bold; text-align: center;">PORTFOLIO</h3>
             <p style="color: white; text-align: center;">Check our latest work</p>
@@ -268,37 +268,45 @@
         </div>
 
         <div class="gallery-slider swiper">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide">
-              <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-1.jpg"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="" /></a>
+            <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                    <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-1.jpg"><img
+                            src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="" /></a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-2.jpg"><img
+                            src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="" /></a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-3.jpg"><img
+                            src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="" /></a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-4.jpg"><img
+                            src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="" /></a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-5.jpg"><img
+                            src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="" /></a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-6.jpg"><img
+                            src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="" /></a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-7.jpg"><img
+                            src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="" /></a>
+                </div>
+                <div class="swiper-slide">
+                    <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-8.jpg"><img
+                            src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="" /></a>
+                </div>
             </div>
-            <div class="swiper-slide">
-              <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-2.jpg"><img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-3.jpg"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-4.jpg"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-5.jpg"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-6.jpg"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-7.jpg"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="" /></a>
-            </div>
-            <div class="swiper-slide">
-              <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-8.jpg"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="" /></a>
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
+            <div class="swiper-pagination"></div>
         </div>
-      </div>
-    </section>
-    <!-- End Gallery Section -->
+    </div>
+</section>
+<!-- End Gallery Section -->
 
 
 
@@ -322,7 +330,7 @@
                             <a href=""><i class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
-                    <div class="member-info" style="background: orange;">
+                    <div class="member-info">
                         <h4>Mehedi Hasan Al Rabbi</h4>
                         <span>Product Manager</span>
                     </div>
@@ -340,7 +348,7 @@
                             <a href=""><i class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
-                    <div class="member-info" style="background: orange;">
+                    <div class="member-info">
                         <h4>Nuaiman Fahim</h4>
                         <span>CTO</span>
                     </div>
