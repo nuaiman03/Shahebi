@@ -1598,6 +1598,13 @@ app develop
   text-align: center;
 }
 
+.gallery .swiper-slide img{
+  height: 150px;
+  float: left;
+  background-size: cover;
+  width: 300px;
+}
+
 @media (min-width: 992px) {
   .gallery .swiper-wrapper {
     padding: 40px 0;
@@ -1606,7 +1613,7 @@ app develop
   .gallery .swiper-slide-active {
     border: 6px solid var(--color-primary);
     padding: 4px;
-    background: #fff;
+    background: orange;
     z-index: 1;
     transform: scale(1.2);
   }

@@ -35,7 +35,7 @@
         <div class="row content">
 
             <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
-                <h4 class="title" style="color: orange; font-weight: bold; font-size: 23px; text-transform: uppercase;;">
+                <h4 class="title" style="color: black; font-weight: bold; font-size: 23px; text-transform: uppercase;;">
                     Who are we and why?</h4>
                 <hr style="height:2px; border-width:0; color:orange; background-color:orange">
                 <p style="color: black; font-style: italic;">We are trying to be the best Web & Software Technology
@@ -71,6 +71,7 @@
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
                 <h3 style="color: orange; font-weight: bold;">Our Best Skills</h3>
+                <hr style="height:2px; border-width:0; color:orange; background-color:orange">
                 <p class="fst-italic" style="color: white;">
                     To determine the most sought-after IT skills of the year, we analyzed the most popular Global
                     Knowledge training courses.
@@ -122,7 +123,8 @@
         <div class="row content">
 
             <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
-                <h3 style="color: orange; font-weight: bold;">OUR MISSION</h3>
+                <h3 style="color: black; font-weight: bold;">OUR MISSION</h3>
+                <hr style="height:2px; border-width:0; color:orange; background-color:orange">
                 <p style="color: black;">Shahebi Soft is one of the Quality holder IT firm in Bangladesh. First of allwe are here to make things easy for you
                     which are based on technology.
                     Tocontribute in overalldevelopment of our country by providing available IT services for the people we have gathered many qualified field in
@@ -259,8 +261,10 @@
 <section id="gallery" class="gallery section-bg">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2>gallery</h2>
-          <p>Check <span>Our Gallery</span></p>
+            <h3 style="color: orange; font-weight: bold; text-align: center;">PORTFOLIO</h3>
+            <p style="color: white; text-align: center;">Check our latest work</p>
+            <hr style="height:2px; border-width:0; color:orange; background-color:orange">
+            <br><br>
         </div>
 
         <div class="gallery-slider swiper">
@@ -272,22 +276,22 @@
               <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-2.jpg"><img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="" /></a>
             </div>
             <div class="swiper-slide">
-              <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.jpg"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="" /></a>
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-3.jpg"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="" /></a>
             </div>
             <div class="swiper-slide">
-              <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.jpg"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="" /></a>
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-4.jpg"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="" /></a>
             </div>
             <div class="swiper-slide">
-              <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.jpg"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="" /></a>
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-5.jpg"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="" /></a>
             </div>
             <div class="swiper-slide">
-              <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.jpg"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="" /></a>
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-6.jpg"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="" /></a>
             </div>
             <div class="swiper-slide">
-              <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.jpg"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="" /></a>
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-7.jpg"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="" /></a>
             </div>
             <div class="swiper-slide">
-              <a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.jpg"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="" /></a>
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/portfolio/portfolio-8.jpg"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="" /></a>
             </div>
           </div>
           <div class="swiper-pagination"></div>
@@ -300,10 +304,10 @@
 
 
 <!-- ======= Team Section ======= -->
-<section id="team" class="team">
+<section id="team" class="team" style="background: white;">
     <div class="container" data-aos="fade-up">
         <div class="row justify-content-center">
-            <h3 style="color: orange; font-weight: bold; text-align: center;">OUR TEAM</h3>
+            <h3 style="color: black; font-weight: bold; text-align: center;">OUR TEAM</h3>
             <hr style="height:2px; border-width:0; color:orange; background-color:orange">
             <br><br>
 
@@ -318,7 +322,7 @@
                             <a href=""><i class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
-                    <div class="member-info">
+                    <div class="member-info" style="background: orange;">
                         <h4>Mehedi Hasan Al Rabbi</h4>
                         <span>Product Manager</span>
                     </div>
@@ -336,7 +340,7 @@
                             <a href=""><i class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
-                    <div class="member-info">
+                    <div class="member-info" style="background: orange;">
                         <h4>Nuaiman Fahim</h4>
                         <span>CTO</span>
                     </div>

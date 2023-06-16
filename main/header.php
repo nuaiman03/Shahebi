@@ -106,7 +106,7 @@
               <li><a href="video-production.php">Video Production</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto " href="portfolio.php">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="about.php">About</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
