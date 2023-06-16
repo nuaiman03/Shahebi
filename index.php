@@ -1,7 +1,7 @@
 <?php require_once('main/header.php'); ?>
 
 
-<!-- ======= Hero Section ======= -->
+<!-- ======= Hero Index Section ======= -->
 <section id="hero" class="d-flex align-items-center justify-content-center">
     <div class="container" data-aos="fade-up">
 
@@ -15,20 +15,22 @@
 
 
     </div>
-</section><!-- End Hero -->
+</section><!-- End Hero Index -->
 
 <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <!-- ======= About Index Section ======= -->
+    <section id="about-index" class="about-index">
         <div class="container" data-aos="fade-up">
             <div class="row">
                 <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
                     <img src="assets/img/about.jpg" class="img-fluid" alt="">
                 </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right"
-                    data-aos-delay="100">
-                    <h3>OUR COMPANY</h3>
+                <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                    <div class="section-title">
+                        <h2>ABOUT US</h2>
+                        <p>OUR COMPANY</p>
+                    </div>
                     <p class="fst-italic">
                         We are a team of experienced professionals who are passionate about developing complex web
                         systems that meet the needs of our clients. We specialize in building customized web solutions
@@ -39,15 +41,15 @@
                         finish, and we pride ourselves on our ability to deliver high-quality web systems that exceed
                         our clients' expectations.
                     </p>
-                    <button type="submit">View More</button>
+                    <br>
+                    <a href="about.php">View More</a>
                 </div>
             </div>
         </div>
-    </section><!-- End About Section -->
+    </section><!-- End About Index Section -->
 
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <!-- ======= Services Index Section ======= -->
+    <section id="services-index" class="services-index">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
@@ -58,25 +60,23 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box">
-                        <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                        <div class="icon"><i class="bi bi-wordpress"></i></div>
                         <h4><a href="">Website Development</a></h4>
                         <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
-                    data-aos-delay="200">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
                     <div class="icon-box">
-                        <div class="icon"><i class="bx bx-file"></i></div>
+                        <div class="icon"><i class="bi bi-phone-fill"></i></div>
                         <h4><a href="">Mobile App Development</a></h4>
                         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
-                    data-aos-delay="300">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
                     <div class="icon-box">
-                        <div class="icon"><i class="bx bx-tachometer"></i></div>
+                        <div class="icon"><i class="bi bi-code-slash"></i></div>
                         <h4><a href="">Software Development</a></h4>
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
                     </div>
@@ -84,7 +84,7 @@
 
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box">
-                        <div class="icon"><i class="bx bx-world"></i></div>
+                        <div class="icon"><i class="bi bi-megaphone-fill"></i></div>
                         <h4><a href="">Digital Marketing</a></h4>
                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
                     </div>
@@ -92,7 +92,7 @@
 
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
                     <div class="icon-box">
-                        <div class="icon"><i class="bx bx-slideshow"></i></div>
+                        <div class="icon"><i class="bi bi-vector-pen"></i></div>
                         <h4><a href="">Graphics Design</a></h4>
                         <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
                     </div>
@@ -100,7 +100,7 @@
 
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
                     <div class="icon-box">
-                        <div class="icon"><i class="bx bx-arch"></i></div>
+                        <div class="icon"><i class="bi bi-camera-reels-fill"></i></div>
                         <h4><a href="">Video Production</a></h4>
                         <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
                     </div>
@@ -109,127 +109,132 @@
             </div>
 
         </div>
-    </section><!-- End Services Section -->
+    </section><!-- End Services Index Section -->
 
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing" style="background:black;">
-
+    <!-- ======= Pricing Index Section ======= -->
+    <section id="pricing-index" class="pricing-index sections-bg">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
                 <h2>Pricing</h2>
-                <p>Check our Pricing</p>
+                <p>CHECK OUR PRICING</p>
             </div>
 
-            <div class="row gy-4 justify-content-center" data-aos="fade-left">
+            <div class="row g-4 py-lg-5" data-aos="zoom-out" data-aos-delay="100">
 
-                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="box">
-                        <h3 style="color: #07d5c0;">Free Plan</h3>
-                        <div class="price"><sup>$</sup>0<span> / mo</span></div>
-                        <img src="assets/img/pricing-free.png" class="img-fluid" alt="">
+                <div class="col-lg-4">
+                    <div class="pricing-item">
+                        <h3>Free Plan</h3>
+                        <div class="icon">
+                            <i class="bi bi-box"></i>
+                        </div>
+                        <h4><sup>$</sup>0<span> / month</span></h4>
                         <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li class="na">Pharetra massa</li>
-                            <li class="na">Massa ultricies mi</li>
+                            <li><i class="bi bi-check"></i> Quam adipiscing vitae proin</li>
+                            <li><i class="bi bi-check"></i> Nec feugiat nisl pretium</li>
+                            <li><i class="bi bi-check"></i> Nulla at volutpat diam uteera</li>
+                            <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
+                            <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
                         </ul>
-                        <a href="#" class="btn-buy">Buy Now</a>
+                        <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
                     </div>
-                </div>
+                </div><!-- End Pricing Item -->
 
-                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="box">
-                        <span class="featured">Featured</span>
-                        <h3 style="color: #65c600;">Starter Plan</h3>
-                        <div class="price"><sup>$</sup>19<span> / mo</span></div>
-                        <img src="assets/img/pricing-starter.png" class="img-fluid" alt="">
-                        <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li class="na">Massa ultricies mi</li>
-                        </ul>
-                        <a href="#" class="btn-buy">Buy Now</a>
-                    </div>
-                </div>
+                <div class="col-lg-4">
+                    <div class="pricing-item featured">
+                        <h3>Business Plan</h3>
+                        <div class="icon">
+                            <i class="bi bi-airplane"></i>
+                        </div>
 
-                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="box">
-                        <h3 style="color: #ff901c;">Business Plan</h3>
-                        <div class="price"><sup>$</sup>29<span> / mo</span></div>
-                        <img src="assets/img/pricing-business.png" class="img-fluid" alt="">
+                        <h4><sup>$</sup>29<span> / month</span></h4>
                         <ul>
-                            <li>Aida dere</li>
-                            <li>Nec feugiat nisl</li>
-                            <li>Nulla at volutpat dola</li>
-                            <li>Pharetra massa</li>
-                            <li>Massa ultricies mi</li>
+                            <li><i class="bi bi-check"></i> Quam adipiscing vitae proin</li>
+                            <li><i class="bi bi-check"></i> Nec feugiat nisl pretium</li>
+                            <li><i class="bi bi-check"></i> Nulla at volutpat diam uteera</li>
+                            <li><i class="bi bi-check"></i> Pharetra massa massa ultricies</li>
+                            <li><i class="bi bi-check"></i> Massa ultricies mi quis hendrerit</li>
                         </ul>
-                        <a href="#" class="btn-buy">Buy Now</a>
+                        <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
                     </div>
-                </div>
+                </div><!-- End Pricing Item -->
+
+                <div class="col-lg-4">
+                    <div class="pricing-item">
+                        <h3>Developer Plan</h3>
+                        <div class="icon">
+                            <i class="bi bi-send"></i>
+                        </div>
+                        <h4><sup>$</sup>49<span> / month</span></h4>
+                        <ul>
+                            <li><i class="bi bi-check"></i> Quam adipiscing vitae proin</li>
+                            <li><i class="bi bi-check"></i> Nec feugiat nisl pretium</li>
+                            <li><i class="bi bi-check"></i> Nulla at volutpat diam uteera</li>
+                            <li><i class="bi bi-check"></i> Pharetra massa massa ultricies</li>
+                            <li><i class="bi bi-check"></i> Massa ultricies mi quis hendrerit</li>
+                        </ul>
+                        <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
+                    </div>
+                </div><!-- End Pricing Item -->
 
             </div>
 
         </div>
+    </section><!-- End Pricing Index Section -->
 
-    </section><!-- End Pricing Section -->
+    <!-- ======= Portfolio Index Section ======= -->
+    <section id="portfolio-index" class="portfolio-index">
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
         <div class="container" data-aos="fade-up">
-
             <div class="section-title">
                 <h2>Portfolio</h2>
-                <p>Check our Portfolio</p>
+                <p>Check our latest work</p>
             </div>
+
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <ul id="portfolio-flters">
-                <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-card">Card</li>
+                        <li data-filter="*" class="filter-active">All</li>
                         <li data-filter=".filter-web">Web</li>
+                        <li data-filter=".filter-app">App</li>
+                        <li data-filter=".filter-soft">Software</li>
+                        <li data-filter=".filter-gra">Graphics</li>
                     </ul>
                 </div>
             </div>
-    
-            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
+            <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+                <!-- 1 iteam -->
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
                         <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>App 1</h4>
- <p>App</p>
+                            <p>App</p>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i
+                                        class="bi bi-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <!-- 2 iteam -->
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-gra">
                     <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                        <img src="assets/img/3.jpg" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
+                            <h4>Talukder Eye care</h4>
+                            <p>WEBSITE + LOGO</p>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="assets/img/3.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i class="bi bi-plus"></i></a>
+                                <a href="https://talukdereyecare.com/" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <!-- 3 iteam -->
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
                         <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
@@ -237,14 +242,14 @@
                             <h4>App 2</h4>
                             <p>App</p>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i
+                                        class="bi bi-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <!-- 4 iteam -->
                 <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                     <div class="portfolio-wrap">
                         <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
@@ -252,14 +257,14 @@
                             <h4>Card 2</h4>
                             <p>Card</p>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox""><i class=" bi
+                                    bi-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <!-- 5 iteam -->
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div class="portfolio-wrap">
                         <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
@@ -267,14 +272,14 @@
                             <h4>Web 2</h4>
                             <p>Web</p>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i
+                                        class="bi bi-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <!-- 6 iteam -->
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                     <div class="portfolio-wrap">
                         <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
@@ -282,14 +287,14 @@
                             <h4>App 3</h4>
                             <p>App</p>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i
+                                        class="bi bi-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <!-- 7 iteam -->
                 <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                     <div class="portfolio-wrap">
                         <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
@@ -297,14 +302,14 @@
                             <h4>Card 1</h4>
                             <p>Card</p>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i
+                                        class="bi bi-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <!-- 8 iteam -->
                 <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                     <div class="portfolio-wrap">
                         <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
@@ -312,14 +317,14 @@
                             <h4>Card 3</h4>
                             <p>Card</p>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i
+                                        class="bi bi-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <!-- 9 iteam -->
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div class="portfolio-wrap">
                         <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
@@ -327,9 +332,9 @@
                             <h4>Web 3</h4>
                             <p>Web</p>
                             <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox"><i
+                                        class="bi bi-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -338,14 +343,15 @@
             </div>
 
         </div>
-    </section><!-- End Portfolio Section -->
 
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us">
+    </section><!-- End Portfolio Index Section -->
+
+    <!-- ======= Why Us Index Section ======= -->
+    <section id="why-us-index" class="why-us-index">
         <div class="container" data-aos="fade-up">
             <div class="section-title">
                 <h2>Why Chose Us</h2>
-                <p>Check our Details</p>
+                <p style="color:white;">Check our Details</p>
             </div>
 
             <div class="row row-eq-height justify-content-center">
@@ -391,44 +397,40 @@
                         </div>
                     </div>
                 </div>
-
             </div>
+        </div>
+    </section><!-- End Why Us Index Section -->
 
+    <!-- ======= Counter Index Section ======= -->
+    <section id="counter-index" class="counter-index">
+        <div class="container" data-aos="fade-up">
             <div class="row counters" data-aos="fade-up" data-aos-delay="100">
 
                 <div class="col-lg-3 col-6 text-center">
-                    <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                        class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
                     <p>Clients</p>
                 </div>
 
                 <div class="col-lg-3 col-6 text-center">
-                    <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1"
-                        class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1" class="purecounter"></span>
                     <p>Projects</p>
                 </div>
 
                 <div class="col-lg-3 col-6 text-center">
-                    <span data-purecounter-start="0" data-purecounter-end="1364" data-purecounter-duration="1"
-                        class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="1364" data-purecounter-duration="1" class="purecounter"></span>
                     <p>Hours Of Support</p>
                 </div>
 
                 <div class="col-lg-3 col-6 text-center">
-                    <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1"
-                        class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
                     <p>Hard Workers</p>
                 </div>
-
             </div>
-
         </div>
-    </section><!-- End Why Us Section -->
+    </section><!-- End Counter Index Section -->
 
-
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="section-bg">
+    <!-- ======= Testimonials Index Section ======= -->
+    <section id="testimonials-index" class="testimonials-index section-bg">
         <div class="container" data-aso="zoom-in">
             <div class="section-title">
                 <h2>Testimonials</h2>
@@ -443,8 +445,7 @@
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
-                                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img"
-                                        alt="">
+                                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                                     <h3>Saul Goodman</h3>
                                     <h4>Ceo &amp; Founder</h4>
                                     <p>
@@ -457,8 +458,7 @@
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
-                                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img"
-                                        alt="">
+                                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                                     <h3>Sara Wilsson</h3>
                                     <h4>Designer</h4>
                                     <p>
@@ -471,8 +471,7 @@
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
-                                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img"
-                                        alt="">
+                                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                                     <h3>Jena Karlis</h3>
                                     <h4>Store Owner</h4>
                                     <p>
@@ -485,8 +484,7 @@
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
-                                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img"
-                                        alt="">
+                                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                                     <h3>Matt Brandon</h3>
                                     <h4>Freelancer</h4>
                                     <p>
@@ -499,8 +497,7 @@
 
                             <div class="swiper-slide">
                                 <div class="testimonial-item">
-                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img"
-                                        alt="">
+                                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                                     <h3>John Larson</h3>
                                     <h4>Entrepreneur</h4>
                                     <p>
@@ -519,16 +516,14 @@
             </div>
 
         </div>
-    </section><!-- End Testimonials Section -->
+    </section><!-- End Testimonials Index Section -->
 
-
-
-    <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq">
+    <!-- ======= F.A.Q Index Section ======= -->
+    <section id="faq-index" class="faq-index">
 
         <div class="container" data-aos="fade-up">
             <div class="section-title">
-                <h2 style="color: white">F.A.Q</h2>
+                <h2>F.A.Q</h2>
                 <p style="color: white">Frequently Asked Questions</p>
             </div>
 
@@ -538,8 +533,7 @@
                     <div class="accordion accordion-flush" id="faqlist1">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-content-1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
                                     Non consectetur a erat nam at lectus urna duis?
                                 </button>
                             </h2>
@@ -554,8 +548,7 @@
 
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-content-2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
                                     Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
                                 </button>
                             </h2>
@@ -571,8 +564,7 @@
 
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq-content-3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
                                     Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
                                 </button>
                             </h2>
@@ -596,8 +588,7 @@
 
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq2-content-1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
                                     Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
                                 </button>
                             </h2>
@@ -613,8 +604,7 @@
 
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq2-content-2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
                                     Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
                                 </button>
                             </h2>
@@ -629,8 +619,7 @@
 
                         <div class="accordion-item">
                             <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faq2-content-3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
                                     Varius vel pharetra vel turpis nunc eget lorem dolor?
                                 </button>
                             </h2>
@@ -652,10 +641,10 @@
 
         </div>
 
-    </section><!-- End F.A.Q Section -->
+    </section><!-- End F.A.Q Index Section -->
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
+    <!-- ======= Clients Index Section ======= -->
+    <section id="clients-index" class="clients-index">
         <div class="container" data-aos="zoom-in">
 
             <div class="clients-slider swiper">
@@ -673,15 +662,15 @@
             </div>
 
         </div>
-    </section><!-- End Clients Section -->
+    </section><!-- End Clients Index Section -->
 
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
+    <!-- ======= Team Index Section ======= -->
+    <section id="team-index" class="team-index">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
                 <h2>Team</h2>
-                <p>Check our Team</p>
+                <p style="color: white">Check our Team</p>
             </div>
 
             <div class="row justify-content-center">
@@ -728,7 +717,7 @@
             </div>
 
         </div>
-    </section><!-- End Team Section -->
+    </section><!-- End Team Index Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -772,21 +761,17 @@
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                                    required>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                             </div>
                             <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="email" class="form-control" name="email" id="email"
-                                    placeholder="Your Email" required>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                             </div>
                         </div>
                         <div class="form-group mt-3">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                                required>
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
                         </div>
                         <div class="form-group mt-3">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Message"
-                                required></textarea>
+                            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                         </div>
                         <div class="my-3">
                             <div class="loading">Loading</div>
