@@ -10,12 +10,11 @@ body {
 }
 
 a {
-
   text-decoration: none;
 }
 
-a:hover {
 
+a:hover {
   text-decoration: none;
 }
 
@@ -1414,7 +1413,7 @@ section {
 }
 
 .dy-web-hero .content span {
-  color: #ffc451;
+  color: orange;
 }
 
 .dy-web-hero .content h2 {
@@ -1449,7 +1448,7 @@ section {
   top: 7px;
   position: absolute;
   font-size: 20px;
-  color: #ffc451;
+  color: orange;
 }
 
 .dy-web-hero .content p:last-child {
@@ -1471,8 +1470,232 @@ section {
   color: black;
 }
 
+/*--------------------------------------------------------------
+# Dy Website Provide Page
+--------------------------------------------------------------*/
+  .dy-web-provide .service-item {
+    position: relative;
+    padding-top: 40px;
+  }
+  
+  .dy-web-provide .service-item .icon {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    margin-right: 50px;
+    line-height: 0;
+  }
+  
+  .dy-web-provide .service-item .icon i {
+    color: black;
+    font-size: 56px;
+    transition: ease-in-out 0.3s;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .dy-web-provide .service-item .icon i:hover {
+    color: orange;
+  }
+  
+  .dy-web-provide .service-item .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .dy-web-provide .service-item .description {
+    line-height: 24px;
+    font-size: 14px;
+  }
+  
+/*--------------------------------------------------------------
+# Dy Website Problem Page
+--------------------------------------------------------------*/
+.dy-web-problem {
+  background: #000000;
+}
 
+.dy-web-problem .section-title p{
+  color: #ffffff;
+}
 
+.dy-web-problem .tab-content p {
+  color: rgb(255, 255, 255);
+  padding-top: 10%;
+}
+
+.dy-web-problem .col ul li {
+  padding: 10px;
+}
+
+.dy-web-problem .col ul li a:hover {
+  background: orange;
+  color: #343a40;
+}
+
+.dy-web-problem .col ul a {
+  color: rgb(255, 255, 255);
+}
+
+/*--------------------------------------------------------------
+# Dy Website Services Page
+--------------------------------------------------------------*/
+.dy-web-services {
+  background: rgb(17, 17, 17);
+  border-top: 1px solid orange;
+}
+
+.dy-web-services .section-title p {
+  color: #ffffff;
+}
+
+.dy-web-services .feature-icons h3 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 7%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .dy-web-services .feature-icons h3 {
+    font-size: 28px;
+  }
+}
+
+.dy-web-services .feature-icons .content .icon-box {
+  display: flex;
+}
+
+.dy-web-services .feature-icons .content .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: orange;
+}
+
+.dy-web-services .feature-icons .content .icon-box i {
+  font-size: 44px;
+  line-height: 44px;
+  color: orange;
+  margin-right: 15px;
+}
+
+.dy-web-services .feature-icons .content .icon-box p {
+  font-size: 15px;
+  color: #dadada;
+}
+
+/*--------------------------------------------------------------
+  # Pricing
+  --------------------------------------------------------------*/
+  .pricing-1 .box {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .pricing-1 h3 {
+    font-weight: 400;
+    margin: -20px -20px 20px -20px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #847872;
+    background: #f8f8f8;
+  }
+  
+  .pricing-1 h4 {
+    font-size: 36px;
+    color: #ffbb38;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-1 h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  
+  .pricing-1 h4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .pricing-1 ul {
+    padding: 0;
+    list-style: none;
+    color: #4d4643;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  
+  .pricing-1 ul li {
+    padding-bottom: 16px;
+  }
+  
+  .pricing-1 ul i {
+    color: #ffbb38;
+    font-size: 18px;
+    padding-right: 4px;
+  }
+  
+  .pricing-1 ul .na {
+    color: #ccc;
+    text-decoration: line-through;
+  }
+  
+  .pricing-1 .btn-wrap {
+    margin: 20px -20px -20px -20px;
+    padding: 20px 15px;
+    background: #f8f8f8;
+    text-align: center;
+  }
+  
+  .pricing-1 .btn-buy {
+    background: #ffbb38;
+    display: inline-block;
+    padding: 8px 35px 10px 35px;
+    border-radius: 4px;
+    color: #fff;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .pricing-1 .btn-buy:hover {
+    background: #ffbb38;
+  }
+  
+  .pricing-1 .featured h3 {
+    color: #fff;
+    background: #ffbb38;
+  }
+  
+  .pricing-1 .advanced {
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: #ffbb38;
+    color: #fff;
+  }
 
 
 
