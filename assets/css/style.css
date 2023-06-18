@@ -2222,10 +2222,10 @@ h2 {
 }
 
 /*--------------------------------------------------------------
-# Hero Website Support Page
+# Updating Website Software Price Website Support Page
 --------------------------------------------------------------*/
 .web-sup-update {
-  
+  background: rgb(255, 255, 255);
 }
 
 .web-sup-update .section-title p:last-child{
@@ -2249,9 +2249,235 @@ h2 {
   font-weight: 700;
 }
 
+.web-sup-update .info-1 p{
+  color: white;
+}
+
+.web-sup-update .info-1 p i{
+  color: orange;
+}
+
+.web-sup-update .info-2{
+  padding-top:50px;
+}
+
+.web-sup-update .info-2 h4{
+  color: orange; 
+  font-weight: 500;
+}
+
+.web-sup-update .info-2 h6{
+  color: orange; 
+}
+
+.web-sup-update .info-2 a{
+  font-weight: 800; 
+  font-size: 13px; 
+  border: 1px solid orange; 
+  background: #000000;
+  padding: 6px 20px; 
+  color: #ffffff; 
+  border-radius: 4px; 
+}
+
+.web-sup-update .info-2 a:hover {
+  background: orange;
+  color: #000000; 
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Website Support Part
+---------------------------------------------------------------------------------*/
 
 
 
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start SSL & Cyber Security Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero SSL & Cyber Security Page
+--------------------------------------------------------------*/
+.ssl-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.ssl-hero .content span {
+  color: orange;
+}
+
+.ssl-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.ssl-hero .content h5 {
+  color: orange;
+}
+
+.ssl-hero .content p {
+  color: rgb(255, 255, 255);
+}
+
+.ssl-hero .content p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Compay Info Card SSL & Cyber Security Page
+--------------------------------------------------------------*/
+.ssl-card {
+  background: #dfdfdfef;
+}
+
+.ssl-card .box{
+  background: #000000ef; 
+  border-radius: 5px;
+}
+
+.ssl-card .box h5{
+  color: orange; 
+  font-size: 17px; 
+  font-weight: 700; 
+  text-align: center;
+}
+
+.ssl-card .box p{
+  color: white; 
+  font-size: 14px;
+}
+
+.ssl-card .box a{
+  font-weight: 800; 
+  font-size: 13px; 
+  border: 1px solid orange; 
+  background: #000000;
+  padding: 6px 20px; 
+  color: #ffffff; 
+  border-radius: 4px; 
+}
+
+.ssl-card .box a:hover {
+  background: orange;
+  color: #000000; 
+}
+/*--------------------------------------------------------------
+# Updating Website Software Price SSL & Cyber Security Page
+--------------------------------------------------------------*/
+.ssl-update {
+  background: rgb(255, 255, 255);
+}
+
+.ssl-update .section-title p:last-child{
+  color: #313131; 
+  font-size: 14px; 
+  font-weight: 500;
+}
+
+.ssl-update .card{
+  background: black;
+}
+
+.ssl-update .icon i{
+  color: orange; 
+  font-size: 100px;
+}
+
+.ssl-update .icon p{
+  color: orange; 
+  font-size: 17px; 
+  font-weight: 700;
+}
+
+.ssl-update .info-1 p{
+  color: white;
+}
+
+.ssl-update .info-1 p i{
+  color: orange;
+}
+
+.ssl-update .info-2{
+  padding-top:50px;
+}
+
+.ssl-update .info-2 h4{
+  color: orange; 
+  font-weight: 500;
+}
+
+.ssl-update .info-2 h6{
+  color: orange; 
+}
+
+.ssl-update .info-2 a{
+  font-weight: 800; 
+  font-size: 13px; 
+  border: 1px solid orange; 
+  background: #000000;
+  padding: 6px 20px; 
+  color: #ffffff; 
+  border-radius: 4px; 
+}
+
+.ssl-update .info-2 a:hover {
+  background: orange;
+  color: #000000; 
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End SSL & Cyber Security Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Domain & Hosting Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Domain & Hosting Page
+--------------------------------------------------------------*/
+.ssl-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.ssl-hero .content span {
+  color: orange;
+}
+
+.ssl-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.ssl-hero .content h5 {
+  color: orange;
+}
+
+.ssl-hero .content p {
+  color: rgb(255, 255, 255);
+}
+
+.ssl-hero .content p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Compay Info Card SSL & Cyber Security Page
+--------------------------------------------------------------*/
 
 
 
