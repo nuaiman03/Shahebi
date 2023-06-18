@@ -13,7 +13,6 @@ a {
   text-decoration: none;
 }
 
-
 a:hover {
   text-decoration: none;
 }
@@ -111,8 +110,6 @@ h6 {
   }
 }
 
-
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -120,7 +117,6 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-
 }
 
 #header.header-scrolled,
@@ -173,7 +169,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: orange;
 }
 
@@ -210,11 +206,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   background-color: orange;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -226,7 +222,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -238,7 +234,7 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -85%;
   }
 }
@@ -305,7 +301,7 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #151515;
   background-color: orange;
 }
@@ -342,11 +338,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   background-color: orange;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -400,10 +396,11 @@ section {
 
 
 
+
+
 /*-------------------------------------------------------------------------------///////////////////
 # Start INDEX Part
 ---------------------------------------------------------------------------------*/
-
 /*--------------------------------------------------------------
 # Hero-Index-Section
 --------------------------------------------------------------*/
@@ -542,7 +539,6 @@ section {
   border: 3px solid orange;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  
 }
 
 .services-index .icon-box .icon {
@@ -563,8 +559,6 @@ section {
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
-
-
 
 .services-index .icon-box h4 {
   font-weight: 700;
@@ -592,8 +586,8 @@ section {
 /*--------------------------------------------------------------
 # Pricing-Index-Section
 --------------------------------------------------------------*/
-.pricing-index{
-  background:#000000;
+.pricing-index {
+  background: #000000;
 }
 
 .pricing-index .pricing-item {
@@ -674,9 +668,9 @@ section {
   font-weight: 400;
 }
 
-.pricing-index .section-title p, h2{
+.pricing-index .section-title p,
+h2 {
   color: rgb(255, 255, 255);
-
 }
 
 .pricing-index ul {
@@ -737,7 +731,7 @@ section {
 @media (min-width: 992px) {
   .pricing-index .featured {
     transform: scale(1.15);
-    border:5px solid orange;
+    border: 5px solid orange;
   }
 }
 
@@ -806,7 +800,6 @@ section {
   height: 250px;
   width: 380px;
   background-size: cover;
-
 }
 
 .portfolio-index .portfolio-wrap .portfolio-info {
@@ -911,7 +904,6 @@ section {
 
 .portfolio-index .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
-
 }
 
 .portfolio-index .portfolio-wrap:hover .portfolio-info::before {
@@ -931,7 +923,6 @@ section {
   padding: 60px 0;
   background: #000000;
 }
-
 
 .why-us-index .card {
   background: #000000;
@@ -977,7 +968,7 @@ section {
   font-weight: 600;
   display: inline-block;
   transition: 0.3s ease-in-out;
-  border-bottom:orange solid 2px;
+  border-bottom: orange solid 2px;
 }
 
 .why-us-index .card .readmore:hover {
@@ -1074,7 +1065,6 @@ section {
 }
 
 @media (max-width: 767px) {
-
   .testimonials-index .testimonial-item h3,
   .testimonials-index .testimonial-item h4,
   .testimonials-index .testimonial-item p {
@@ -1139,8 +1129,8 @@ section {
 # Clients Index Page
 --------------------------------------------------------------*/
 .clients-index {
- background: #000000ef;
- border-top: 1px solid orange;
+  background: #000000ef;
+  border-top: 1px solid orange;
 }
 
 .clients-index .swiper-slide img {
@@ -1246,7 +1236,6 @@ section {
   text-align: center;
 }
 
-
 .team-index .member:hover .social {
   opacity: 1;
   bottom: 15px;
@@ -1314,7 +1303,7 @@ section {
   font-weight: 600;
 }
 
-.contact-index .php-email-form .error-message br+br {
+.contact-index .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -1367,7 +1356,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact-index .php-email-form button[type=submit] {
+.contact-index .php-email-form button[type="submit"] {
   background: rgb(255, 255, 255);
   border: 1px solid orange;
   padding: 10px 24px;
@@ -1376,7 +1365,7 @@ section {
   border-radius: 4px;
 }
 
-.contact-index .php-email-form button[type=submit]:hover {
+.contact-index .php-email-form button[type="submit"]:hover {
   background: orange;
 }
 
@@ -1393,9 +1382,6 @@ section {
 /*-------------------------------------------------------------------------------///////////////////
 # End INDEX Part
 ---------------------------------------------------------------------------------*/
-
-
-
 
 
 
@@ -1473,42 +1459,42 @@ section {
 /*--------------------------------------------------------------
 # Dy Website Provide Page
 --------------------------------------------------------------*/
-  .dy-web-provide .service-item {
-    position: relative;
-    padding-top: 40px;
-  }
-  
-  .dy-web-provide .service-item .icon {
-    width: 48px;
-    height: 48px;
-    position: relative;
-    margin-right: 50px;
-    line-height: 0;
-  }
-  
-  .dy-web-provide .service-item .icon i {
-    color: black;
-    font-size: 56px;
-    transition: ease-in-out 0.3s;
-    z-index: 2;
-    position: relative;
-  }
-  
-  .dy-web-provide .service-item .icon i:hover {
-    color: orange;
-  }
-  
-  .dy-web-provide .service-item .title {
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 18px;
-  }
-  
-  .dy-web-provide .service-item .description {
-    line-height: 24px;
-    font-size: 14px;
-  }
-  
+.dy-web-provide .service-item {
+  position: relative;
+  padding-top: 40px;
+}
+
+.dy-web-provide .service-item .icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  margin-right: 50px;
+  line-height: 0;
+}
+
+.dy-web-provide .service-item .icon i {
+  color: black;
+  font-size: 56px;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+  position: relative;
+}
+
+.dy-web-provide .service-item .icon i:hover {
+  color: orange;
+}
+
+.dy-web-provide .service-item .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.dy-web-provide .service-item .description {
+  line-height: 24px;
+  font-size: 14px;
+}
+
 /*--------------------------------------------------------------
 # Dy Website Problem Page
 --------------------------------------------------------------*/
@@ -1516,7 +1502,7 @@ section {
   background: #000000;
 }
 
-.dy-web-problem .section-title p{
+.dy-web-problem .section-title p {
   color: #ffffff;
 }
 
@@ -1640,7 +1626,7 @@ section {
   color: #ffffff;
 }
 
-.dy-web-pricing ul li i{
+.dy-web-pricing ul li i {
   color: orange;
 }
 
@@ -1684,15 +1670,944 @@ section {
 
 
 
-
-
-
 /*-------------------------------------------------------------------------------///////////////////
 # Start PSD to Static Website Part
 ---------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Hero PSD to Static Website Page
 --------------------------------------------------------------*/
+.psd-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.psd-hero .content span {
+  color: orange;
+}
+
+.psd-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.psd-hero .content h5 {
+  color: orange;
+}
+
+.psd-hero .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.psd-hero .content ul li {
+  padding: 10px 0 0 28px;
+  position: relative;
+  color: white;
+}
+
+.psd-hero .content ul i {
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  color: orange;
+}
+
+.psd-hero .content p:last-child {
+  margin-bottom: 0;
+}
+
+.psd-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.psd-hero .content a:hover {
+  background: orange;
+  color: black;
+}
+
+/*--------------------------------------------------------------
+# Counter PSD to Static Website Page
+--------------------------------------------------------------*/
+.counter-psd {
+  background: #000000ef;
+  border-top: 1px solid orange;
+}
+
+.counter-psd .counters {
+  padding-top: 40px;
+}
+
+.counter-psd .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: orange;
+}
+
+.counter-psd .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+# Pricing PSD to Static Website Page
+--------------------------------------------------------------*/
+.psd-pricing .box {
+  padding: 40px 20px;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.psd-pricing .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.psd-pricing h3 {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: orange;
+}
+
+.psd-pricing .price {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.psd-pricing .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.psd-pricing ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.psd-pricing ul li {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.psd-pricing ul li i {
+  color: orange;
+}
+
+.psd-pricing .btn-buy {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.psd-pricing .btn-buy:hover {
+  background: orange;
+  color: #fff;
+}
+
+.psd-pricing .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: orange;
+  color: #ffffff;
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End PSD to Static Website Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Ecommerce Website Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Ecommerce Website Page
+--------------------------------------------------------------*/
+.eco-web-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.eco-web-hero .content span {
+  color: orange;
+}
+
+.eco-web-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.eco-web-hero .content h5 {
+  color: orange;
+}
+
+.eco-web-hero .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.eco-web-hero .content ul li {
+  padding: 10px 0 0 28px;
+  position: relative;
+  color: white;
+}
+
+.eco-web-hero .content ul i {
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  color: orange;
+}
+
+.eco-web-hero .content p:last-child {
+  margin-bottom: 0;
+}
+
+.eco-web-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.eco-web-hero .content a:hover {
+  background: orange;
+  color: black;
+}
+
+/*--------------------------------------------------------------
+  # Features Ecommerce Website Page
+  --------------------------------------------------------------*/
+.eco-web-features {
+  background: #000000ef;
+  border-top: 1px solid orange;
+}
+
+.eco-web-features .tab-content p {
+  color: rgb(255, 255, 255);
+}
+
+.eco-web-features .tab-content i {
+  color: orange;
+}
+
+.eco-web-features .heading-h p {
+  color: #ffffff;
+}
+
+.eco-web-features .col h3 {
+  color: orange;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.eco-web-features .col ul {
+  background: #000000;
+  border-radius: 10px;
+}
+
+.eco-web-features .col ul li {
+  padding: 15px;
+}
+
+.eco-web-features .col ul li a:hover {
+  background: orange;
+  color: #343a40;
+}
+
+.eco-web-features .col ul a {
+  color: rgb(255, 255, 255);
+}
+
+.eco-web-features .feature-icons {
+  margin-top: 120px;
+}
+
+.eco-web-features .feature-icons h3 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 7%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .eco-web-features .feature-icons h3 {
+    font-size: 28px;
+  }
+}
+
+.eco-web-features .feature-icons .content .icon-box {
+  display: flex;
+}
+
+.eco-web-features .feature-icons .content .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: orange;
+}
+
+.eco-web-features .feature-icons .content .icon-box i {
+  font-size: 44px;
+  line-height: 44px;
+  color: orange;
+  margin-right: 15px;
+}
+
+.eco-web-features .feature-icons .content .icon-box p {
+  font-size: 15px;
+  color: #dadada;
+}
+
+/*--------------------------------------------------------------
+  # Price Dark Ecomaerce Price Page
+  --------------------------------------------------------------*/
+.eco-web-price-dark {
+  background: #000000;
+}
+
+.eco-web-price-dark h1 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.eco-web-price-dark p {
+  margin-top: -0.5%;
+  color: white;
+}
+
+.eco-web-price-dark i {
+  color: orange;
+}
+
+.eco-web-price-dark .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.eco-web-price-dark .content a:hover {
+  background: orange;
+  color: black;
+}
+
+.eco-web-price-dark .content {
+  padding-top: 2%;
+}
+
+.eco-web-price-dark .heading-h h3 {
+  color: orange;
+  font-weight: 700;
+  font-size: 32px;
+  padding-bottom: 3%;
+}
+
+.eco-web-price-dark .btn-h {
+  background: orange;
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.eco-web-price-dark .btn-h:hover {
+  background: orange;
+}
+
+/*--------------------------------------------------------------
+  # Price Light Ecomaerce Price Page
+  --------------------------------------------------------------*/
+.eco-web-price-light {
+  background: #000000ef;
+}
+
+.eco-web-price-light h1 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.eco-web-price-light p {
+  margin-top: -0.5%;
+  color: white;
+}
+
+.eco-web-price-light i {
+  color: orange;
+}
+
+.eco-web-price-light .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.eco-web-price-light .content a:hover {
+  background: orange;
+  color: black;
+}
+
+.eco-web-price-light .content {
+  padding-top: 2%;
+}
+
+.eco-web-price-light .heading-h h3 {
+  color: orange;
+  font-weight: 700;
+  font-size: 32px;
+  padding-bottom: 3%;
+}
+
+.eco-web-price-light .btn-h {
+  background: orange;
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.eco-web-price-light .btn-h:hover {
+  background: orange;
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Ecommerce Website Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Website Support Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Website Support Page
+--------------------------------------------------------------*/
+.web-sup-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.web-sup-hero .content span {
+  color: orange;
+}
+
+.web-sup-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.web-sup-hero .content h5 {
+  color: orange;
+}
+
+.web-sup-hero .content p {
+  color: rgb(255, 255, 255);
+}
+
+.web-sup-hero .content h4 {
+  color: orange;
+}
+
+.web-sup-hero .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.web-sup-hero .content ul li {
+  padding: 10px 0 0 28px;
+  position: relative;
+  color: white;
+}
+
+.web-sup-hero .content ul i {
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  color: orange;
+}
+
+.web-sup-hero .content p:last-child {
+  margin-bottom: 0;
+}
+
+.web-sup-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.web-sup-hero .content a:hover {
+  background: orange;
+  color: black;
+}
+
+/*--------------------------------------------------------------
+# Updating Website Software Price Website Support Page
+--------------------------------------------------------------*/
+.web-sup-update {
+  background: rgb(255, 255, 255);
+}
+
+.web-sup-update .section-title p:last-child{
+  color: #313131; 
+  font-size: 14px; 
+  font-weight: 500;
+}
+
+.web-sup-update .card{
+  background: black;
+}
+
+.web-sup-update .icon i{
+  color: orange; 
+  font-size: 100px;
+}
+
+.web-sup-update .icon p{
+  color: orange; 
+  font-size: 17px; 
+  font-weight: 700;
+}
+
+.web-sup-update .info-1 p{
+  color: white;
+}
+
+.web-sup-update .info-1 p i{
+  color: orange;
+}
+
+.web-sup-update .info-2{
+  padding-top:50px;
+}
+
+.web-sup-update .info-2 h4{
+  color: orange; 
+  font-weight: 500;
+}
+
+.web-sup-update .info-2 h6{
+  color: orange; 
+}
+
+.web-sup-update .info-2 a{
+  font-weight: 800; 
+  font-size: 13px; 
+  border: 1px solid orange; 
+  background: #000000;
+  padding: 6px 20px; 
+  color: #ffffff; 
+  border-radius: 4px; 
+}
+
+.web-sup-update .info-2 a:hover {
+  background: orange;
+  color: #000000; 
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Website Support Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start SSL & Cyber Security Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero SSL & Cyber Security Page
+--------------------------------------------------------------*/
+.ssl-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.ssl-hero .content span {
+  color: orange;
+}
+
+.ssl-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.ssl-hero .content h5 {
+  color: orange;
+}
+
+.ssl-hero .content p {
+  color: rgb(255, 255, 255);
+}
+
+.ssl-hero .content p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Compay Info Card SSL & Cyber Security Page
+--------------------------------------------------------------*/
+.ssl-card {
+  background: #dfdfdfef;
+}
+
+.ssl-card .box{
+  background: #000000ef; 
+  border-radius: 5px;
+}
+
+.ssl-card .box h5{
+  color: orange; 
+  font-size: 17px; 
+  font-weight: 700; 
+  text-align: center;
+}
+
+.ssl-card .box p{
+  color: white; 
+  font-size: 14px;
+}
+
+.ssl-card .box a{
+  font-weight: 800; 
+  font-size: 13px; 
+  border: 1px solid orange; 
+  background: #000000;
+  padding: 6px 20px; 
+  color: #ffffff; 
+  border-radius: 4px; 
+}
+
+.ssl-card .box a:hover {
+  background: orange;
+  color: #000000; 
+}
+/*--------------------------------------------------------------
+# Updating Website Software Price SSL & Cyber Security Page
+--------------------------------------------------------------*/
+.ssl-update {
+  background: rgb(255, 255, 255);
+}
+
+.ssl-update .section-title p:last-child{
+  color: #313131; 
+  font-size: 14px; 
+  font-weight: 500;
+}
+
+.ssl-update .card{
+  background: black;
+}
+
+.ssl-update .icon i{
+  color: orange; 
+  font-size: 100px;
+}
+
+.ssl-update .icon p{
+  color: orange; 
+  font-size: 17px; 
+  font-weight: 700;
+}
+
+.ssl-update .info-1 p{
+  color: white;
+}
+
+.ssl-update .info-1 p i{
+  color: orange;
+}
+
+.ssl-update .info-2{
+  padding-top:50px;
+}
+
+.ssl-update .info-2 h4{
+  color: orange; 
+  font-weight: 500;
+}
+
+.ssl-update .info-2 h6{
+  color: orange; 
+}
+
+.ssl-update .info-2 a{
+  font-weight: 800; 
+  font-size: 13px; 
+  border: 1px solid orange; 
+  background: #000000;
+  padding: 6px 20px; 
+  color: #ffffff; 
+  border-radius: 4px; 
+}
+
+.ssl-update .info-2 a:hover {
+  background: orange;
+  color: #000000; 
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End SSL & Cyber Security Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Domain & Hosting Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Domain & Hosting Page
+--------------------------------------------------------------*/
+.dom-host-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.dom-host-hero .content span {
+  color: orange;
+}
+
+.dom-host-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.dom-host-hero .content h5 {
+  color: orange;
+}
+
+.dom-host-hero .content p {
+  color: rgb(255, 255, 255);
+}
+
+.dom-host-hero .content a {
+  font-weight: 800; 
+  font-size: 13px; 
+  border: 1px solid orange; 
+  background: #000000;
+  padding: 6px 20px; 
+  color: #ffffff; 
+  border-radius: 4px; 
+}
+
+.dom-host-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Pricing Domain & Hosting Page
+--------------------------------------------------------------*/
+.dom-host-price .box {
+  padding: 40px 20px;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.dom-host-price .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.dom-host-price h3 {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: orange;
+}
+
+.dom-host-price .price {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.dom-host-price .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.dom-host-price ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.dom-host-price ul li {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.dom-host-price ul li i {
+  color: orange;
+}
+
+.dom-host-price .btn-buy {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.dom-host-price .btn-buy:hover {
+  background: orange;
+  color: #fff;
+}
+
+.dom-host-price .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: orange;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1746,7 +2661,6 @@ section {
   color: #ffc451;
 }
 
-
 .about .content p:last-child {
   margin-bottom: 0;
 }
@@ -1775,7 +2689,6 @@ section {
   border: 3px solid orange;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  
 }
 
 .services .icon-box .icon {
@@ -1799,7 +2712,6 @@ section {
 
 .services .icon-box .icon i:hover {
   color: #000000;
-
 }
 
 .services .icon-box h4 {
@@ -1829,15 +2741,9 @@ section {
   transform: translateY(-10px);
 }
 
-
-
-
-
-
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
-
 
 .pricing .section-title {
   padding-bottom: 40px;
@@ -1969,11 +2875,6 @@ section {
   background: #ffc451;
   color: #fff;
 }
-
-
-
-
-
 
 /*--------------------------------------------------------------
 # Team
@@ -2157,7 +3058,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -2210,7 +3111,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #ffc451;
   border: 0;
   padding: 10px 24px;
@@ -2219,7 +3120,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #ffcd6b;
 }
 
@@ -2256,11 +3157,11 @@ section {
   margin: 0;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: #2f2f2f;
@@ -2401,13 +3302,13 @@ section {
   border-radius: 4px;
 }
 
-#footer .footer-top .footer-newsletter form input[type=email] {
+#footer .footer-top .footer-newsletter form input[type="email"] {
   border: 0;
   padding: 4px;
   width: calc(100% - 110px);
 }
 
-#footer .footer-top .footer-newsletter form input[type=submit] {
+#footer .footer-top .footer-newsletter form input[type="submit"] {
   position: absolute;
   top: 0;
   right: -2px;
@@ -2422,7 +3323,7 @@ section {
   border-radius: 0 4px 4px 0;
 }
 
-#footer .footer-top .footer-newsletter form input[type=submit]:hover {
+#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
   background: orange;
 }
 
@@ -2437,5 +3338,3 @@ section {
   font-size: 13px;
   color: #fff;
 }
-
-

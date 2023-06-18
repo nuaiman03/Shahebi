@@ -20,11 +20,12 @@
                     <li><i class="ri-check-double-line"></i> Always Profrssional SEO Friendly Code</li>
                 </ul>
                 <br>
-                <a href="#about" class="get-started-btn scrollto">See Package & Price</a>
+                <a href="#about">See Package & Price</a>
             </div>
         </div>
     </div>
 </section><!-- End Hero Section -->
+
 <!-- ======= Counter Section ======= -->
 <section id="counter-psd" class="counter-psd">
     <div class="container" data-aos="fade-up">
