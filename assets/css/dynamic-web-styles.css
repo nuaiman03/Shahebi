@@ -1,12 +1,9 @@
-/*--------------------------------------------------------------
-# Dynami 1 
---------------------------------------------------------------*/
 .about-us-1 {
   background-color: #000000;
 }
 
 .about-us-1 .content span {
-  color: #ffc451;
+  color: orange;
 }
 
 .about-us-1 .content h2 {
@@ -41,89 +38,28 @@
   top: 7px;
   position: absolute;
   font-size: 20px;
-  color: #ffc451;
+  color: orange;
 }
 
 .about-us-1 .content p:last-child {
   margin-bottom: 0;
 }
 
-/* ------------------------------
-  Services Section - Home Page
-  ------------------------------*/
-.services-1 .service-item {
-  position: relative;
-  padding-top: 40px;
+.about-us-1 .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
 }
 
-.services-1 .service-item:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: rgba(var(--color-default-rgb), 0.1);
+.about-us-1 .content a:hover {
+  background: orange;
+  color: black;
 }
 
-.services-1 .service-item::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 30px;
-  height: 2px;
-  background: var(--color-primary);
-  border-right: 5px solid var(--color-background);
-}
-
-.services-1 .service-item .icon {
-  width: 48px;
-  height: 48px;
-  position: relative;
-  margin-right: 50px;
-  line-height: 0;
-}
-
-.services-1 .service-item .icon i {
-  color: rgba(var(--color-default-rgb), 0.7);
-  font-size: 56px;
-  transition: ease-in-out 0.3s;
-  z-index: 2;
-  position: relative;
-}
-
-.services-1 .service-item .icon:before {
-  position: absolute;
-  content: "";
-  height: 30px;
-  width: 30px;
-  background: rgba(var(--color-primary-rgb), 0.3);
-  border-radius: 50px;
-  z-index: 1;
-  bottom: -15px;
-  right: -15px;
-  transition: 0.3s;
-}
-
-.services-1 .service-item .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
-.services-1 .service-item .title a {
-  color: rgb(36, 36, 36);
-}
-
-.services-1 .service-item .title a:hover {
-  color: #ffc451;
-}
-
-.services-1 .service-item .description {
-  line-height: 24px;
-  font-size: 14px;
-}
 
 /*--------------------------------------------------------------
   # Features
@@ -868,183 +804,9 @@ body {
   text-decoration: none;
 }
 
-/*--------------------------------------------------------------
-  # Features for Ecommerce
-  --------------------------------------------------------------*/
-.features-1 {
-  background: #1f1f1f;
-}
 
-.features-1 .tab-content p {
-  color: rgb(255, 255, 255);
-}
 
-.features-1 .tab-content i {
-  color: #ffcd6b;
-}
 
-.features-1 .heading-h p {
-  color: #ffffff;
-}
-
-.features-1 .col h3 {
-  color: #ffcd6b;
-  font-weight: 700;
-  font-size: 32px;
-}
-
-.features-1 .col ul {
-  background: #000000;
-  border-radius: 10px;
-}
-
-.features-1 .col ul li {
-  padding: 15px;
-}
-
-.features-1 .col ul li a:hover {
-  background: #ffbb38;
-  color: #343a40;
-}
-
-.features-1 .col ul a {
-  color: rgb(255, 255, 255);
-}
-
-.features-1 .feature-icons {
-  margin-top: 120px;
-}
-
-.features-1 .feature-icons h3 {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 7%;
-  text-align: center;
-}
-
-@media (max-width: 768px) {
-  .features-1 .feature-icons h3 {
-    font-size: 28px;
-  }
-}
-
-.features-1 .feature-icons .content .icon-box {
-  display: flex;
-}
-
-.features-1 .feature-icons .content .icon-box h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 0 0 10px 0;
-  color: #ffbb38;
-}
-
-.features-1 .feature-icons .content .icon-box i {
-  font-size: 44px;
-  line-height: 44px;
-  color: #ffbb38;
-  margin-right: 15px;
-}
-
-.features-1 .feature-icons .content .icon-box p {
-  font-size: 15px;
-  color: #dadada;
-}
-
-/* ----------------------------
-   Ecomaerce Price Section 
----------------------------- */
-.p h1 {
-  text-align: center;
-  padding-bottom: 5%;
-}
-
-.p p {
-  margin-top: -0.5%;
-  color: white;
-}
-
-.p i {
-  color: #ffcd6b;
-}
-
-.p .content {
-  padding-top: 2%;
-}
-
-.p .heading-h h3 {
-  color: #ffcd6b;
-  font-weight: 700;
-  font-size: 32px;
-  padding-bottom: 3%;
-}
-
-.p {
-  background: #000000;
-}
-
-.p .btn-h {
-  background: #ffc451;
-  border: 0;
-  padding: 10px 24px;
-  color: #151515;
-  transition: 0.4s;
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-.p .btn-h:hover {
-  background: #ffcd6b;
-}
-
-/* /////////////////////// */
-.j h1 {
-  text-align: center;
-  padding-bottom: 5%;
-}
-
-.j p {
-  margin-top: -0.5%;
-  color: white;
-}
-
-.j i {
-  color: #ffcd6b;
-}
-
-.j .content {
-  padding-top: 2%;
-}
-
-.j .heading-h h3 {
-  color: #ffcd6b;
-  font-weight: 700;
-  font-size: 32px;
-  padding-bottom: 3%;
-}
-
-.j {
-  background: #1f1f1f;
-}
-
-.j .btn-h {
-  background: #ffc451;
-  border: 0;
-  padding: 10px 24px;
-  color: #151515;
-  transition: 0.4s;
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-.j .btn-h:hover {
-  background: #ffcd6b;
-}
 
 /* /////////////////////////////////////// */
 @media (max-width: 767.98px) {
@@ -1625,10 +1387,10 @@ app develop
 --------------------------------------------------------------*/
 .portfolio #portfolio-flters {
   padding: 0;
-  margin: 0 auto 25px auto;
+  margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
-  background: white;
+
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -1640,17 +1402,18 @@ app develop
   font-size: 15px;
   font-weight: 600;
   line-height: 1;
-  color: #444444;
-  margin: 0 4px 8px 4px;
+  color: orange;
+  margin: 8px 4px 8px 4px;
   transition: 0.3s;
   border-radius: 50px;
-  border: 1px solid #fff;
+  border: 1px solid orange;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #4154f1;
-  border-color: #4154f1;
+  color: #ffffff;
+
+  background: #f1b341;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1662,12 +1425,14 @@ app develop
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(255, 255, 255, 0.75);
+  width: 380px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.75);
 }
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(0, 0, 0, 0.75);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -1710,8 +1475,8 @@ app develop
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid rgba(1, 41, 112, 0.2);
-  border-left: 3px solid rgba(1, 41, 112, 0.2);
+  border-top: 3px solid orange;
+  border-left: 3px solid orange;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -1724,20 +1489,20 @@ app develop
   position: absolute;
   bottom: 35px;
   right: 35px;
-  border-bottom: 3px solid rgba(1, 41, 112, 0.2);
-  border-right: 3px solid rgba(1, 41, 112, 0.2);
+  border-bottom: 3px solid orange;
+  border-right: 3px solid orange;
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #012970;
+  color: orange;
   font-weight: 700;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #012970;
+  color: orange;
   font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
@@ -1752,7 +1517,7 @@ app develop
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  background: #4154f1;
+  background: orange;
   margin: 10px 2px;
   width: 36px;
   height: 36px;
@@ -1769,7 +1534,9 @@ app develop
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #5969f3;
+  color: orange;
+  border: 1px solid orange;
+  background: white;
 }
 
 .portfolio .portfolio-wrap:hover img {
@@ -1786,6 +1553,7 @@ app develop
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
+
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info::before {
@@ -1862,3 +1630,7 @@ app develop
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+
+
+

@@ -1,7 +1,7 @@
 <?php require_once('main/header.php'); ?>
 
 
-<!-- ======= Hero Index Section ======= -->
+<!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center justify-content-center">
     <div class="container" data-aos="fade-up">
         <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
@@ -11,9 +11,9 @@
             </div>
         </div>
     </div>
-</section><!-- End Hero Index -->
+</section><!-- End Hero Section -->
 
-<!-- ======= About Index Section ======= -->
+<!-- ======= About  Section ======= -->
 <section id="about-index" class="about-index">
     <div class="container" data-aos="fade-up">
         <div class="row">
@@ -40,17 +40,15 @@
             </div>
         </div>
     </div>
-</section><!-- End About Index Section -->
+</section><!-- End About Section -->
 
-<!-- ======= Services Index Section ======= -->
+<!-- ======= Services Section ======= -->
 <section id="services-index" class="services-index">
     <div class="container" data-aos="fade-up">
-
         <div class="section-title">
             <h2>Services</h2>
             <p>Check our Services</p>
         </div>
-
         <div class="row">
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                 <div class="icon-box">
@@ -59,7 +57,6 @@
                     <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                 </div>
             </div>
-
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-phone-fill"></i></div>
@@ -67,7 +64,6 @@
                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
                 </div>
             </div>
-
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-code-slash"></i></div>
@@ -75,7 +71,6 @@
                     <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
                 </div>
             </div>
-
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-megaphone-fill"></i></div>
@@ -83,7 +78,6 @@
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
                 </div>
             </div>
-
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-vector-pen"></i></div>
@@ -91,7 +85,6 @@
                     <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
                 </div>
             </div>
-
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
                 <div class="icon-box">
                     <div class="icon"><i class="bi bi-camera-reels-fill"></i></div>
@@ -99,23 +92,18 @@
                     <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
                 </div>
             </div>
-
         </div>
-
     </div>
-</section><!-- End Services Index Section -->
+</section><!-- End Services Section -->
 
-<!-- ======= Pricing Index Section ======= -->
+<!-- ======= Pricing Section ======= -->
 <section id="pricing-index" class="pricing-index sections-bg">
     <div class="container" data-aos="fade-up">
-
         <div class="section-title">
             <h2>Pricing</h2>
             <p>CHECK OUR PRICING</p>
         </div>
-
         <div class="row g-4 py-lg-5" data-aos="zoom-out" data-aos-delay="100">
-
             <div class="col-lg-4">
                 <div class="pricing-item">
                     <h3>Free Plan</h3>
@@ -133,14 +121,12 @@
                     <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
                 </div>
             </div><!-- End Pricing Item -->
-
             <div class="col-lg-4">
                 <div class="pricing-item featured">
                     <h3>Business Plan</h3>
                     <div class="icon">
                         <i class="bi bi-airplane"></i>
                     </div>
-
                     <h4><sup>$</sup>29<span> / month</span></h4>
                     <ul>
                         <li><i class="bi bi-check"></i> Quam adipiscing vitae proin</li>
@@ -152,7 +138,6 @@
                     <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
                 </div>
             </div><!-- End Pricing Item -->
-
             <div class="col-lg-4">
                 <div class="pricing-item">
                     <h3>Developer Plan</h3>
@@ -170,22 +155,17 @@
                     <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
                 </div>
             </div><!-- End Pricing Item -->
-
         </div>
-
     </div>
-</section><!-- End Pricing Index Section -->
+</section><!-- End Pricing Section -->
 
-<!-- ======= Portfolio Index Section ======= -->
+<!-- ======= Portfolio Section ======= -->
 <section id="portfolio-index" class="portfolio-index">
-
     <div class="container" data-aos="fade-up">
         <div class="section-title">
             <h2>Portfolio</h2>
             <p>Check our latest work</p>
         </div>
-
-
         <div class="row" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
@@ -197,7 +177,6 @@
                 </ul>
             </div>
         </div>
-
         <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
             <!-- 1 iteam -->
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
@@ -333,23 +312,18 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </div>
+</section><!-- End Portfolio Section -->
 
-</section><!-- End Portfolio Index Section -->
-
-<!-- ======= Why Us Index Section ======= -->
+<!-- ======= Why Us Section ======= -->
 <section id="why-us-index" class="why-us-index">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
             <h2>Why Chose Us</h2>
             <p style="color:white;">Check our Details</p>
         </div>
-
         <div class="row row-eq-height justify-content-center">
-
             <div class="col-lg-4 mb-4">
                 <div class="card" data-aos="zoom-in" data-aos-delay="100">
                     <i class="bi bi-calendar4-week"></i>
@@ -363,7 +337,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-4 mb-4">
                 <div class="card" data-aos="zoom-in" data-aos-delay="200">
                     <i class="bi bi-camera-reels"></i>
@@ -377,7 +350,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-4 mb-4">
                 <div class="card" data-aos="zoom-in" data-aos-delay="300">
                     <i class="bi bi-chat-square-text"></i>
@@ -393,50 +365,43 @@
             </div>
         </div>
     </div>
-</section><!-- End Why Us Index Section -->
+</section><!-- End Why Us Section -->
 
-<!-- ======= Counter Index Section ======= -->
+<!-- ======= Counter Section ======= -->
 <section id="counter-index" class="counter-index">
     <div class="container" data-aos="fade-up">
         <div class="row counters" data-aos="fade-up" data-aos-delay="100">
-
             <div class="col-lg-3 col-6 text-center">
                 <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Clients</p>
             </div>
-
             <div class="col-lg-3 col-6 text-center">
                 <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Projects</p>
             </div>
-
             <div class="col-lg-3 col-6 text-center">
                 <span data-purecounter-start="0" data-purecounter-end="1364" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Hours Of Support</p>
             </div>
-
             <div class="col-lg-3 col-6 text-center">
                 <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Hard Workers</p>
             </div>
         </div>
     </div>
-</section><!-- End Counter Index Section -->
+</section><!-- End Counter Section -->
 
-<!-- ======= Testimonials Index Section ======= -->
+<!-- ======= Testimonials Section ======= -->
 <section id="testimonials-index" class="testimonials-index section-bg">
     <div class="container" data-aso="zoom-in">
         <div class="section-title">
             <h2>Testimonials</h2>
             <p>What they are saying about us</p>
         </div>
-
         <div class="row justify-content-center">
             <div class="col-lg-8">
-
                 <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                     <div class="swiper-wrapper">
-
                         <div class="swiper-slide">
                             <div class="testimonial-item">
                                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
@@ -449,7 +414,6 @@
                                 </p>
                             </div>
                         </div><!-- End testimonial item -->
-
                         <div class="swiper-slide">
                             <div class="testimonial-item">
                                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
@@ -462,7 +426,6 @@
                                 </p>
                             </div>
                         </div><!-- End testimonial item -->
-
                         <div class="swiper-slide">
                             <div class="testimonial-item">
                                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
@@ -475,7 +438,6 @@
                                 </p>
                             </div>
                         </div><!-- End testimonial item -->
-
                         <div class="swiper-slide">
                             <div class="testimonial-item">
                                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
@@ -488,7 +450,6 @@
                                 </p>
                             </div>
                         </div><!-- End testimonial item -->
-
                         <div class="swiper-slide">
                             <div class="testimonial-item">
                                 <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
@@ -501,26 +462,21 @@
                                 </p>
                             </div>
                         </div><!-- End testimonial item -->
-
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
-
             </div>
         </div>
-
     </div>
-</section><!-- End Testimonials Index Section -->
+</section><!-- End Testimonials Section -->
 
-<!-- ======= F.A.Q Index Section ======= -->
+<!-- ======= F.A.Q Section ======= -->
 <section id="faq-index" class="faq-index">
-
     <div class="container" data-aos="fade-up">
         <div class="section-title">
             <h2>F.A.Q</h2>
             <p style="color: white">Frequently Asked Questions</p>
         </div>
-
         <div class="row">
             <div class="col-lg-6">
                 <!-- F.A.Q List 1-->
@@ -539,7 +495,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
@@ -555,7 +510,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
@@ -571,15 +525,12 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-
             <div class="col-lg-6">
 
                 <!-- F.A.Q List 2-->
                 <div class="accordion accordion-flush" id="faqlist2">
-
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
@@ -595,7 +546,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
@@ -610,7 +560,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
@@ -627,20 +576,15 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </div>
-
     </div>
+</section><!-- End F.A.Q Section -->
 
-</section><!-- End F.A.Q Index Section -->
-
-<!-- ======= Clients Index Section ======= -->
+<!-- ======= Clients Section ======= -->
 <section id="clients-index" class="clients-index">
     <div class="container" data-aos="zoom-in">
-
         <div class="clients-slider swiper">
             <div class="swiper-wrapper align-items-center">
                 <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
@@ -654,23 +598,17 @@
             </div>
             <div class="swiper-pagination"></div>
         </div>
-
     </div>
-</section><!-- End Clients Index Section -->
+</section><!-- End Clients Section -->
 
-<!-- ======= Team Index Section ======= -->
+<!-- ======= Team Section ======= -->
 <section id="team-index" class="team-index">
     <div class="container" data-aos="fade-up">
-
         <div class="section-title">
             <h2>Team</h2>
             <p style="color: white">Check our Team</p>
         </div>
-
         <div class="row justify-content-center">
-
-
-
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div class="member" data-aos="fade-up" data-aos-delay="200">
                     <div class="member-img">
@@ -688,7 +626,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div class="member" data-aos="fade-up" data-aos-delay="300">
                     <div class="member-img">
@@ -706,26 +643,18 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
-
     </div>
-</section><!-- End Team Index Section -->
+</section><!-- End Team Section -->
 
-<!-- ======= Contact Index Section ======= -->
+<!-- ======= Contact Section ======= -->
 <section id="contact-index" class="contact-index">
     <div class="container" data-aos="fade-up">
-
         <div class="section-title">
             <h2>Contact</h2>
             <p>Contact Us</p>
         </div>
-
-
-
         <div class="row mt-5">
-
             <div class="col-lg-4">
                 <div class="info">
                     <div class="address">
@@ -733,25 +662,19 @@
                         <h4>Location:</h4>
                         <p>A108 Adam Street, New York, NY 535022</p>
                     </div>
-
                     <div class="email">
                         <i class="bi bi-envelope"></i>
                         <h4>Email:</h4>
                         <p>info@example.com</p>
                     </div>
-
                     <div class="phone">
                         <i class="bi bi-phone"></i>
                         <h4>Call:</h4>
                         <p>+1 5589 55488 55s</p>
                     </div>
-
                 </div>
-
             </div>
-
             <div class="col-lg-8 mt-5 mt-lg-0">
-
                 <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                     <div class="row">
                         <div class="col-md-6 form-group">
@@ -774,13 +697,10 @@
                     </div>
                     <div class="text-center"><button type="submit">Send Message</button></div>
                 </form>
-
             </div>
-
         </div>
-
     </div>
-</section><!-- End Contact Index Section -->
+</section><!-- End Contact Section -->
 
 
 <?php require_once('main/footer.php'); ?>

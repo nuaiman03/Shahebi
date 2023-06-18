@@ -10,12 +10,10 @@ body {
 }
 
 a {
-
   text-decoration: none;
 }
 
 a:hover {
-
   text-decoration: none;
 }
 
@@ -112,8 +110,6 @@ h6 {
   }
 }
 
-
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -121,7 +117,6 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-
 }
 
 #header.header-scrolled,
@@ -174,7 +169,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: orange;
 }
 
@@ -211,11 +206,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   background-color: orange;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -227,7 +222,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -239,7 +234,7 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -85%;
   }
 }
@@ -306,7 +301,7 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #151515;
   background-color: orange;
 }
@@ -343,11 +338,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   background-color: orange;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -398,24 +393,28 @@ section {
 # End All Body Part
 ---------------------------------------------------------------------------------*/
 
+
+
+
+
+
 /*-------------------------------------------------------------------------------///////////////////
 # Start INDEX Part
 ---------------------------------------------------------------------------------*/
-
 /*--------------------------------------------------------------
 # Hero-Index-Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-1-bg.jpg") top center;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.712);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -439,7 +438,7 @@ section {
 }
 
 #hero h1 span {
-  color: #ffc451;
+  color: orange;
 }
 
 #hero h2 {
@@ -532,8 +531,6 @@ section {
   color: black;
 }
 
-
-
 /*--------------------------------------------------------------
 # Services-Index-Page
 --------------------------------------------------------------*/
@@ -542,7 +539,6 @@ section {
   border: 3px solid orange;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  
 }
 
 .services-index .icon-box .icon {
@@ -563,8 +559,6 @@ section {
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
-
-
 
 .services-index .icon-box h4 {
   font-weight: 700;
@@ -592,8 +586,8 @@ section {
 /*--------------------------------------------------------------
 # Pricing-Index-Section
 --------------------------------------------------------------*/
-.pricing-index{
-  background:#000000;
+.pricing-index {
+  background: #000000;
 }
 
 .pricing-index .pricing-item {
@@ -674,9 +668,9 @@ section {
   font-weight: 400;
 }
 
-.pricing-index .section-title p, h2{
+.pricing-index .section-title p,
+h2 {
   color: rgb(255, 255, 255);
-
 }
 
 .pricing-index ul {
@@ -737,7 +731,7 @@ section {
 @media (min-width: 992px) {
   .pricing-index .featured {
     transform: scale(1.15);
-    border:5px solid orange;
+    border: 5px solid orange;
   }
 }
 
@@ -806,7 +800,6 @@ section {
   height: 250px;
   width: 380px;
   background-size: cover;
-
 }
 
 .portfolio-index .portfolio-wrap .portfolio-info {
@@ -911,7 +904,6 @@ section {
 
 .portfolio-index .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
-
 }
 
 .portfolio-index .portfolio-wrap:hover .portfolio-info::before {
@@ -927,13 +919,10 @@ section {
 /*--------------------------------------------------------------
 # Why-Chose-Us-Index-Page
 --------------------------------------------------------------*/
-
-
 .why-us-index {
   padding: 60px 0;
   background: #000000;
 }
-
 
 .why-us-index .card {
   background: #000000;
@@ -979,7 +968,7 @@ section {
   font-weight: 600;
   display: inline-block;
   transition: 0.3s ease-in-out;
-  border-bottom:orange solid 2px;
+  border-bottom: orange solid 2px;
 }
 
 .why-us-index .card .readmore:hover {
@@ -1076,7 +1065,6 @@ section {
 }
 
 @media (max-width: 767px) {
-
   .testimonials-index .testimonial-item h3,
   .testimonials-index .testimonial-item h4,
   .testimonials-index .testimonial-item p {
@@ -1141,8 +1129,8 @@ section {
 # Clients Index Page
 --------------------------------------------------------------*/
 .clients-index {
- background: #000000ef;
- border-top: 1px solid orange;
+  background: #000000ef;
+  border-top: 1px solid orange;
 }
 
 .clients-index .swiper-slide img {
@@ -1248,11 +1236,1094 @@ section {
   text-align: center;
 }
 
-
 .team-index .member:hover .social {
   opacity: 1;
   bottom: 15px;
 }
+
+/*--------------------------------------------------------------
+# Contact Index Page
+--------------------------------------------------------------*/
+.contact-index {
+  background: #ffffff;
+}
+
+.contact-index .info {
+  width: 100%;
+}
+
+.contact-index .info i {
+  font-size: 20px;
+  background: orange;
+  color: #ffffff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-index .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: orange;
+}
+
+.contact-index .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #000000;
+}
+
+.contact-index .info .email,
+.contact-index .info .phone {
+  margin-top: 40px;
+}
+
+.contact-index .php-email-form {
+  width: 100%;
+}
+
+.contact-index .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact-index .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ff0000;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact-index .php-email-form .error-message br + br {
+  margin-top: 25px;
+}
+
+.contact-index .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact-index .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact-index .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact-index .php-email-form input,
+.contact-index .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.contact-index .php-email-form input:focus,
+.contact-index .php-email-form textarea:focus {
+  border-color: #ffc451;
+}
+
+.contact-index .php-email-form input {
+  height: 44px;
+}
+
+.contact-index .php-email-form textarea {
+  padding: 10px 12px;
+}
+
+.contact-index .php-email-form button[type="submit"] {
+  background: rgb(255, 255, 255);
+  border: 1px solid orange;
+  padding: 10px 24px;
+  color: #000000;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact-index .php-email-form button[type="submit"]:hover {
+  background: orange;
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*-------------------------------------------------------------------------------///////////////////
+# End INDEX Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Dynamic Website Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Dynamic Website Page
+--------------------------------------------------------------*/
+.dy-web-hero {
+  background-color: #000000;
+}
+
+.dy-web-hero .content span {
+  color: orange;
+}
+
+.dy-web-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.dy-web-hero .content h3 {
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 24px;
+  color: white;
+}
+
+.dy-web-hero .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dy-web-hero .content ul li {
+  padding: 10px 0 0 28px;
+  position: relative;
+  color: white;
+}
+
+.dy-web-hero .content ul i {
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  color: orange;
+}
+
+.dy-web-hero .content p:last-child {
+  margin-bottom: 0;
+}
+
+.dy-web-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.dy-web-hero .content a:hover {
+  background: orange;
+  color: black;
+}
+
+/*--------------------------------------------------------------
+# Dy Website Provide Page
+--------------------------------------------------------------*/
+.dy-web-provide .service-item {
+  position: relative;
+  padding-top: 40px;
+}
+
+.dy-web-provide .service-item .icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  margin-right: 50px;
+  line-height: 0;
+}
+
+.dy-web-provide .service-item .icon i {
+  color: black;
+  font-size: 56px;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+  position: relative;
+}
+
+.dy-web-provide .service-item .icon i:hover {
+  color: orange;
+}
+
+.dy-web-provide .service-item .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.dy-web-provide .service-item .description {
+  line-height: 24px;
+  font-size: 14px;
+}
+
+/*--------------------------------------------------------------
+# Dy Website Problem Page
+--------------------------------------------------------------*/
+.dy-web-problem {
+  background: #000000;
+}
+
+.dy-web-problem .section-title p {
+  color: #ffffff;
+}
+
+.dy-web-problem .tab-content p {
+  color: rgb(255, 255, 255);
+  padding-top: 10%;
+}
+
+.dy-web-problem .col ul li {
+  padding: 10px;
+}
+
+.dy-web-problem .col ul li a:hover {
+  background: orange;
+  color: #ffffff;
+}
+
+.dy-web-problem .col ul a {
+  color: orange;
+}
+
+/*--------------------------------------------------------------
+# Dy Website Services Page
+--------------------------------------------------------------*/
+.dy-web-services {
+  background: rgb(17, 17, 17);
+  border-top: 1px solid orange;
+}
+
+.dy-web-services .section-title p {
+  color: #ffffff;
+}
+
+.dy-web-services .feature-icons h3 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 7%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .dy-web-services .feature-icons h3 {
+    font-size: 28px;
+  }
+}
+
+.dy-web-services .feature-icons .content .icon-box {
+  display: flex;
+}
+
+.dy-web-services .feature-icons .content .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: orange;
+}
+
+.dy-web-services .feature-icons .content .icon-box i {
+  font-size: 44px;
+  line-height: 44px;
+  color: orange;
+  margin-right: 15px;
+}
+
+.dy-web-services .feature-icons .content .icon-box p {
+  font-size: 15px;
+  color: #dadada;
+}
+
+/*--------------------------------------------------------------
+# Dy Website Pricing Page
+--------------------------------------------------------------*/
+.dy-web-pricing .box {
+  padding: 40px 20px;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.dy-web-pricing .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.dy-web-pricing h3 {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: orange;
+}
+
+.dy-web-pricing .price {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.dy-web-pricing .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.dy-web-pricing ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.dy-web-pricing ul li {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.dy-web-pricing ul li i {
+  color: orange;
+}
+
+.dy-web-pricing .btn-buy {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.dy-web-pricing .btn-buy:hover {
+  background: orange;
+  color: #fff;
+}
+
+.dy-web-pricing .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: orange;
+  color: #ffffff;
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Dynamic Website Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start PSD to Static Website Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero PSD to Static Website Page
+--------------------------------------------------------------*/
+.psd-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.psd-hero .content span {
+  color: orange;
+}
+
+.psd-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.psd-hero .content h5 {
+  color: orange;
+}
+
+.psd-hero .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.psd-hero .content ul li {
+  padding: 10px 0 0 28px;
+  position: relative;
+  color: white;
+}
+
+.psd-hero .content ul i {
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  color: orange;
+}
+
+.psd-hero .content p:last-child {
+  margin-bottom: 0;
+}
+
+.psd-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.psd-hero .content a:hover {
+  background: orange;
+  color: black;
+}
+
+/*--------------------------------------------------------------
+# Counter PSD to Static Website Page
+--------------------------------------------------------------*/
+.counter-psd {
+  background: #000000ef;
+  border-top: 1px solid orange;
+}
+
+.counter-psd .counters {
+  padding-top: 40px;
+}
+
+.counter-psd .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: orange;
+}
+
+.counter-psd .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+# Pricing PSD to Static Website Page
+--------------------------------------------------------------*/
+.psd-pricing .box {
+  padding: 40px 20px;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.psd-pricing .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.psd-pricing h3 {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: orange;
+}
+
+.psd-pricing .price {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.psd-pricing .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.psd-pricing ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.psd-pricing ul li {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.psd-pricing ul li i {
+  color: orange;
+}
+
+.psd-pricing .btn-buy {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.psd-pricing .btn-buy:hover {
+  background: orange;
+  color: #fff;
+}
+
+.psd-pricing .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: orange;
+  color: #ffffff;
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End PSD to Static Website Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Ecommerce Website Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Ecommerce Website Page
+--------------------------------------------------------------*/
+.eco-web-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.eco-web-hero .content span {
+  color: orange;
+}
+
+.eco-web-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.eco-web-hero .content h5 {
+  color: orange;
+}
+
+.eco-web-hero .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.eco-web-hero .content ul li {
+  padding: 10px 0 0 28px;
+  position: relative;
+  color: white;
+}
+
+.eco-web-hero .content ul i {
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  color: orange;
+}
+
+.eco-web-hero .content p:last-child {
+  margin-bottom: 0;
+}
+
+.eco-web-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.eco-web-hero .content a:hover {
+  background: orange;
+  color: black;
+}
+
+/*--------------------------------------------------------------
+  # Features Ecommerce Website Page
+  --------------------------------------------------------------*/
+.eco-web-features {
+  background: #000000ef;
+  border-top: 1px solid orange;
+}
+
+.eco-web-features .tab-content p {
+  color: rgb(255, 255, 255);
+}
+
+.eco-web-features .tab-content i {
+  color: orange;
+}
+
+.eco-web-features .heading-h p {
+  color: #ffffff;
+}
+
+.eco-web-features .col h3 {
+  color: orange;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.eco-web-features .col ul {
+  background: #000000;
+  border-radius: 10px;
+}
+
+.eco-web-features .col ul li {
+  padding: 15px;
+}
+
+.eco-web-features .col ul li a:hover {
+  background: orange;
+  color: #343a40;
+}
+
+.eco-web-features .col ul a {
+  color: rgb(255, 255, 255);
+}
+
+.eco-web-features .feature-icons {
+  margin-top: 120px;
+}
+
+.eco-web-features .feature-icons h3 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 7%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .eco-web-features .feature-icons h3 {
+    font-size: 28px;
+  }
+}
+
+.eco-web-features .feature-icons .content .icon-box {
+  display: flex;
+}
+
+.eco-web-features .feature-icons .content .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: orange;
+}
+
+.eco-web-features .feature-icons .content .icon-box i {
+  font-size: 44px;
+  line-height: 44px;
+  color: orange;
+  margin-right: 15px;
+}
+
+.eco-web-features .feature-icons .content .icon-box p {
+  font-size: 15px;
+  color: #dadada;
+}
+
+/*--------------------------------------------------------------
+  # Price Dark Ecomaerce Price Page
+  --------------------------------------------------------------*/
+.eco-web-price-dark {
+  background: #000000;
+}
+
+.eco-web-price-dark h1 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.eco-web-price-dark p {
+  margin-top: -0.5%;
+  color: white;
+}
+
+.eco-web-price-dark i {
+  color: orange;
+}
+
+.eco-web-price-dark .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.eco-web-price-dark .content a:hover {
+  background: orange;
+  color: black;
+}
+
+.eco-web-price-dark .content {
+  padding-top: 2%;
+}
+
+.eco-web-price-dark .heading-h h3 {
+  color: orange;
+  font-weight: 700;
+  font-size: 32px;
+  padding-bottom: 3%;
+}
+
+.eco-web-price-dark .btn-h {
+  background: orange;
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.eco-web-price-dark .btn-h:hover {
+  background: orange;
+}
+
+/*--------------------------------------------------------------
+  # Price Light Ecomaerce Price Page
+  --------------------------------------------------------------*/
+.eco-web-price-light {
+  background: #000000ef;
+}
+
+.eco-web-price-light h1 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.eco-web-price-light p {
+  margin-top: -0.5%;
+  color: white;
+}
+
+.eco-web-price-light i {
+  color: orange;
+}
+
+.eco-web-price-light .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.eco-web-price-light .content a:hover {
+  background: orange;
+  color: black;
+}
+
+.eco-web-price-light .content {
+  padding-top: 2%;
+}
+
+.eco-web-price-light .heading-h h3 {
+  color: orange;
+  font-weight: 700;
+  font-size: 32px;
+  padding-bottom: 3%;
+}
+
+.eco-web-price-light .btn-h {
+  background: orange;
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.eco-web-price-light .btn-h:hover {
+  background: orange;
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Ecommerce Website Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Website Support Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Website Support Page
+--------------------------------------------------------------*/
+.web-sup-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.web-sup-hero .content span {
+  color: orange;
+}
+
+.web-sup-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.web-sup-hero .content h5 {
+  color: orange;
+}
+
+.web-sup-hero .content p {
+  color: rgb(255, 255, 255);
+}
+
+.web-sup-hero .content h4 {
+  color: orange;
+}
+
+.web-sup-hero .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.web-sup-hero .content ul li {
+  padding: 10px 0 0 28px;
+  position: relative;
+  color: white;
+}
+
+.web-sup-hero .content ul i {
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  color: orange;
+}
+
+.web-sup-hero .content p:last-child {
+  margin-bottom: 0;
+}
+
+.web-sup-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.web-sup-hero .content a:hover {
+  background: orange;
+  color: black;
+}
+
+/*--------------------------------------------------------------
+# Hero Website Support Page
+--------------------------------------------------------------*/
+.web-sup-update {
+  
+}
+
+.web-sup-update .section-title p:last-child{
+  color: #313131; 
+  font-size: 14px; 
+  font-weight: 500;
+}
+
+.web-sup-update .card{
+  background: black;
+}
+
+.web-sup-update .icon i{
+  color: orange; 
+  font-size: 100px;
+}
+
+.web-sup-update .icon p{
+  color: orange; 
+  font-size: 17px; 
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # About Page
@@ -1267,7 +2338,6 @@ section {
   font-family: "Poppins", sans-serif;
   color: #ffc451;
 }
-
 
 .about .content p:last-child {
   margin-bottom: 0;
@@ -1297,7 +2367,6 @@ section {
   border: 3px solid orange;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  
 }
 
 .services .icon-box .icon {
@@ -1321,7 +2390,6 @@ section {
 
 .services .icon-box .icon i:hover {
   color: #000000;
-
 }
 
 .services .icon-box h4 {
@@ -1351,15 +2419,9 @@ section {
   transform: translateY(-10px);
 }
 
-
-
-
-
-
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
-
 
 .pricing .section-title {
   padding-bottom: 40px;
@@ -1491,11 +2553,6 @@ section {
   background: #ffc451;
   color: #fff;
 }
-
-
-
-
-
 
 /*--------------------------------------------------------------
 # Team
@@ -1679,7 +2736,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -1732,7 +2789,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #ffc451;
   border: 0;
   padding: 10px 24px;
@@ -1741,7 +2798,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #ffcd6b;
 }
 
@@ -1778,11 +2835,11 @@ section {
   margin: 0;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: #2f2f2f;
@@ -1807,7 +2864,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
+/*--------------------------------------------------------------///////////////////////////
 # Footer
 --------------------------------------------------------------*/
 #footer {
@@ -1837,7 +2894,7 @@ section {
 }
 
 #footer .footer-top .footer-info h3 span {
-  color: #ffc451;
+  color: orange;
 }
 
 #footer .footer-top .footer-info p {
@@ -1864,7 +2921,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #ffc451;
+  background: orange;
   color: #151515;
   text-decoration: none;
 }
@@ -1889,7 +2946,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ffc451;
+  color: orange;
   font-size: 18px;
   line-height: 1;
 }
@@ -1912,7 +2969,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #ffc451;
+  color: orange;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1923,13 +2980,13 @@ section {
   border-radius: 4px;
 }
 
-#footer .footer-top .footer-newsletter form input[type=email] {
+#footer .footer-top .footer-newsletter form input[type="email"] {
   border: 0;
   padding: 4px;
   width: calc(100% - 110px);
 }
 
-#footer .footer-top .footer-newsletter form input[type=submit] {
+#footer .footer-top .footer-newsletter form input[type="submit"] {
   position: absolute;
   top: 0;
   right: -2px;
@@ -1938,14 +2995,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ffc451;
+  background: orange;
   color: #151515;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
 
-#footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #ffcd6b;
+#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
+  background: orange;
 }
 
 #footer .copyright {
@@ -1959,5 +3016,3 @@ section {
   font-size: 13px;
   color: #fff;
 }
-
-

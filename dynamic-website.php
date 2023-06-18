@@ -167,7 +167,6 @@
             </div>
             <div class="col-xl-8 content">
                 <div class="row align-self-center gy-4">
-
                     <div class="col-md-6 icon-box" data-aos="fade-up">
                         <i class="bi bi-wordpress"></i>
                         <div>
@@ -228,81 +227,62 @@
 <!-- ======= Dy Website Pricing Section ======= -->
 <section id="dy-web-pricing" class="dy-web-pricing">
     <div class="container" data-aos="fade-up">
-
-        <div class="row">
-
-            <div class="col-lg-3 col-md-6">
+        <div class="row gy-4 justify-content-center" data-aos="fade-left">
+            <div class="section-title">
+                <h2>Pricing</h2>
+                <p>Our best price</p>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                 <div class="box">
-                    <h3>Free</h3>
-                    <h4><sup>$</sup>0<span> / month</span></h4>
+                    <h3>BEGINNER</h3>
+                    <div class="price"><sup>$</sup>29</div><br>
                     <ul>
-                        <li>Aida dere</li>
-                        <li>Nec feugiat nisl</li>
-                        <li>Nulla at volutpat dola</li>
-                        <li class="na">Pharetra massa</li>
-                        <li class="na">Massa ultricies mi</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Stores App Submission</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Ad Network Integration</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; Push Notification Integration</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Splash Screen</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Logo, 1 Banner, 100% Professional</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Description ASO Friendly</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; Content Rating Add</li>
                     </ul>
-                    <div class="btn-wrap">
-                        <a href="#" class="btn-buy">Buy Now</a>
-                    </div>
+                    <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
                 </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-                <div class="box featured">
-                    <h3>Business</h3>
-                    <h4><sup>$</sup>19<span> / month</span></h4>
-                    <ul>
-                        <li>Aida dere</li>
-                        <li>Nec feugiat nisl</li>
-                        <li>Nulla at volutpat dola</li>
-                        <li>Pharetra massa</li>
-                        <li class="na">Massa ultricies mi</li>
-                    </ul>
-                    <div class="btn-wrap">
-                        <a href="#" class="btn-buy">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                 <div class="box">
-                    <h3>Developer</h3>
-                    <h4><sup>$</sup>29<span> / month</span></h4>
+                    <span class="featured">Featured</span>
+                    <h3>BUSINESS</h3>
+                    <div class="price"><sup>$</sup>49</div><br>
                     <ul>
-                        <li>Aida dere</li>
-                        <li>Nec feugiat nisl</li>
-                        <li>Nulla at volutpat dola</li>
-                        <li>Pharetra massa</li>
-                        <li>Massa ultricies mi</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 3 Stores App Submission</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 2 Ad Network Integration</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; Push Notification Integration</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 2 Splash Screen</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Logo, 2 Banner, 100% Professional</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 2 Description ASO Friendly</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; Content Rating Add</li>
                     </ul>
-                    <div class="btn-wrap">
-                        <a href="#" class="btn-buy">Buy Now</a>
-                    </div>
+                    <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
                 </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                 <div class="box">
-                    <span class="advanced">Advanced</span>
-                    <h3>Ultimate</h3>
-                    <h4><sup>$</sup>49<span> / month</span></h4>
+                    <h3>ADVANCE</h3>
+                    <div class="price"><sup>$</sup>99</div><br>
                     <ul>
-                        <li>Aida dere</li>
-                        <li>Nec feugiat nisl</li>
-                        <li>Nulla at volutpat dola</li>
-                        <li>Pharetra massa</li>
-                        <li>Massa ultricies mi</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 3 Stores App Submission</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 3 Ad Network Integration</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; Push Notification Integration</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 3 Splash Screen</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Logo, 3 Banner, 100% Professional</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 3 Description ASO Friendly</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; Content Rating Add</li>
                     </ul>
-                    <div class="btn-wrap">
-                        <a href="#" class="btn-buy">Buy Now</a>
-                    </div>
+                    <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
                 </div>
             </div>
-
         </div>
-
     </div>
-</section><!-- End Pricing Section -->
+</section><!-- End Dy Website Pricing Section -->
 
 <?php require_once('main/footer.php'); ?>

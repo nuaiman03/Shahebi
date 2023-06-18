@@ -1,14 +1,15 @@
 <?php require_once('./main/header.php'); ?>
-<!-- ======= PSD Section ======= -->
-<section id="about-us" class="about-us-1" style="padding-top: 10%;">
-    <div class="container" data-aos="fade-up">
 
+
+<!-- ======= PSD Hero Section ======= -->
+<section id="psd-hero" class="psd-hero">
+    <div class="container" data-aos="fade-up">
         <div class="row content">
             <div class="col-lg-6" data-aos="fade-right">
                 <img src="assets/img/statics-web.png" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-                <h5 style="color: #ffcd6b;">Build your Static Website in Cheap Rate</h5>
+                <h5>Build your Static Website in Cheap Rate</h5>
                 <h2><span>PSD</span>/Sketch <span>to HTML</span>conversion <span>services</span></h2>
                 <p style="color: white; font-weight: 700;">Simply send us your design in any format, and relax as we convert it into responsive and flawless
                     website within 24 hours.</p>
@@ -22,125 +23,92 @@
                 <a href="#about" class="get-started-btn scrollto">See Package & Price</a>
             </div>
         </div>
-
     </div>
-</section><!-- End About Us Section -->
-
-<!-- ======= Why Us Section ======= -->
-<section id="why-us">
+</section><!-- End Hero Section -->
+<!-- ======= Counter Section ======= -->
+<section id="counter-psd" class="counter-psd">
     <div class="container" data-aos="fade-up">
-
         <div class="row counters" data-aos="fade-up" data-aos-delay="100">
-
             <div class="col-lg-3 col-6 text-center">
-                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                    class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Clients</p>
             </div>
-
             <div class="col-lg-3 col-6 text-center">
-                <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1"
-                    class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Projects</p>
             </div>
-
             <div class="col-lg-3 col-6 text-center">
-                <span data-purecounter-start="0" data-purecounter-end="1364" data-purecounter-duration="1"
-                    class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="1364" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Hours Of Support</p>
             </div>
-
             <div class="col-lg-3 col-6 text-center">
-                <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1"
-                    class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Hard Workers</p>
             </div>
-
         </div>
-
     </div>
-</section><!-- End Why Us Section -->
-
+</section><!-- End Counter Section -->
 
 <!-- ======= Pricing Section ======= -->
-<section id="pricing" class="pricing-1">
+<section id="psd-pricing" class="psd-pricing">
     <div class="container" data-aos="fade-up">
-
-        <div class="row">
-
-            <div class="col-lg-3 col-md-6">
+        <div class="row gy-4 justify-content-center" data-aos="fade-left">
+            <div class="section-title">
+                <h2>Pricing</h2>
+                <p>Our best price</p>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                 <div class="box">
-                    <h3>Free</h3>
-                    <h4><sup>$</sup>0<span> / month</span></h4>
+                    <h3>BEGINNER</h3>
+                    <div class="price"><sup>$</sup>29</div><br>
                     <ul>
-                        <li>Aida dere</li>
-                        <li>Nec feugiat nisl</li>
-                        <li>Nulla at volutpat dola</li>
-                        <li class="na">Pharetra massa</li>
-                        <li class="na">Massa ultricies mi</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Stores App Submission</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Ad Network Integration</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; Push Notification Integration</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Splash Screen</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Logo, 1 Banner, 100% Professional</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Description ASO Friendly</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; Content Rating Add</li>
                     </ul>
-                    <div class="btn-wrap">
-                        <a href="#" class="btn-buy">Buy Now</a>
-                    </div>
+                    <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
                 </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-                <div class="box featured">
-                    <h3>Business</h3>
-                    <h4><sup>$</sup>19<span> / month</span></h4>
-                    <ul>
-                        <li>Aida dere</li>
-                        <li>Nec feugiat nisl</li>
-                        <li>Nulla at volutpat dola</li>
-                        <li>Pharetra massa</li>
-                        <li class="na">Massa ultricies mi</li>
-                    </ul>
-                    <div class="btn-wrap">
-                        <a href="#" class="btn-buy">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                 <div class="box">
-                    <h3>Developer</h3>
-                    <h4><sup>$</sup>29<span> / month</span></h4>
+                    <span class="featured">Featured</span>
+                    <h3>BUSINESS</h3>
+                    <div class="price"><sup>$</sup>49</div><br>
                     <ul>
-                        <li>Aida dere</li>
-                        <li>Nec feugiat nisl</li>
-                        <li>Nulla at volutpat dola</li>
-                        <li>Pharetra massa</li>
-                        <li>Massa ultricies mi</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 3 Stores App Submission</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 2 Ad Network Integration</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; Push Notification Integration</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 2 Splash Screen</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Logo, 2 Banner, 100% Professional</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 2 Description ASO Friendly</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; Content Rating Add</li>
                     </ul>
-                    <div class="btn-wrap">
-                        <a href="#" class="btn-buy">Buy Now</a>
-                    </div>
+                    <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
                 </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
                 <div class="box">
-                    <span class="advanced">Advanced</span>
-                    <h3>Ultimate</h3>
-                    <h4><sup>$</sup>49<span> / month</span></h4>
+                    <h3>ADVANCE</h3>
+                    <div class="price"><sup>$</sup>99</div><br>
                     <ul>
-                        <li>Aida dere</li>
-                        <li>Nec feugiat nisl</li>
-                        <li>Nulla at volutpat dola</li>
-                        <li>Pharetra massa</li>
-                        <li>Massa ultricies mi</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 3 Stores App Submission</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 3 Ad Network Integration</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; Push Notification Integration</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 3 Splash Screen</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Logo, 3 Banner, 100% Professional</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; 3 Description ASO Friendly</li>
+                        <li><i class="bi bi-check2-circle"></i>&nbsp; Content Rating Add</li>
                     </ul>
-                    <div class="btn-wrap">
-                        <a href="#" class="btn-buy">Buy Now</a>
-                    </div>
+                    <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
                 </div>
             </div>
-
         </div>
-
     </div>
-</section><!-- End Pricing Section -->
+</section><!-- End Dy Website Pricing Section -->
 
 
 <?php require_once('main/footer.php'); ?>
