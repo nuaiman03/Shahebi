@@ -1,7 +1,7 @@
 <?php require_once('./main/header.php'); ?>
 
-<!-- ======= Heading Section ======= -->
-<section id="about-us" class="about-us-1" style="padding-top: 10%;">
+<!-- ======= Hero Section ======= -->
+<section id="sch-man-hero" class="sch-man-hero">
     <div class="container" data-aos="fade-up">
         <div class="row content">
             <div class="col-lg-6" data-aos="fade-right">
@@ -9,19 +9,17 @@
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
                 <h2>End-to<span>-End</span> School <span>Management</span> System</h2>
-                <h5 style="color: #ffcd6b;">ALL-IN-ONE CLOUD SOLUTION FOR DIGITALIZING EDUCATIONAL INSTITUTIONS</h5>
-                <p style="color: white;">Simplify the school’s administrative process through digitization and
-                    automation - use the best School Management Software in the market and experience the simplicity and
-                    efficiency. School Management made easy. Remove friction from managing all academic processes,
-                    end-to-end.</p><br>
-                <a href="#about" class="get-started-btn scrollto">Get Started</a>
+                <h5>ALL-IN-ONE CLOUD SOLUTION FOR DIGITALIZING EDUCATIONAL INSTITUTIONS</h5>
+                <p>Simplify the school’s administrative process through digitization and automation - use the best School Management Software in the market and experience the simplicity and efficiency. School Management made easy. Remove friction from managing all academic processes, end-to-end.</p>
+                <br>
+                <a href="#t">Get Started</a>
             </div>
         </div>
     </div>
-</section><!-- End Heading Section -->
+</section><!-- End Hero Section -->
 
 <!-- ======= Count Down Section ======= -->
-<section id="why-us" style="background: white;">
+<section id="sch-man-">
     <div class="container" data-aos="fade-up">
 
         <div class="row counters" data-aos="fade-up" data-aos-delay="100">
