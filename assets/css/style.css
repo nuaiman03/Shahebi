@@ -2345,7 +2345,6 @@ h2 {
   color: orange; 
   font-size: 17px; 
   font-weight: 700; 
-  text-align: center;
 }
 
 .ssl-card .box p{
@@ -2445,16 +2444,16 @@ h2 {
 /*--------------------------------------------------------------
 # Hero Domain & Hosting Page
 --------------------------------------------------------------*/
-.ssl-hero {
+.dom-host-hero {
   background-color: #000000;
   padding-top: 10%;
 }
 
-.ssl-hero .content span {
+.dom-host-hero .content span {
   color: orange;
 }
 
-.ssl-hero .content h2 {
+.dom-host-hero .content h2 {
   font-weight: 700;
   font-size: 42px;
   line-height: 60px;
@@ -2463,28 +2462,650 @@ h2 {
   color: white;
 }
 
-.ssl-hero .content h5 {
+.dom-host-hero .content h5 {
   color: orange;
 }
 
-.ssl-hero .content p {
+.dom-host-hero .content p {
   color: rgb(255, 255, 255);
 }
 
-.ssl-hero .content p:last-child {
-  margin-bottom: 0;
+.dom-host-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.dom-host-hero .content a:hover {
+  background: orange;
+  color: #000000; 
 }
 
 /*--------------------------------------------------------------
-# Compay Info Card SSL & Cyber Security Page
+# Pricing Domain & Hosting Page
 --------------------------------------------------------------*/
+.dom-host-price .box {
+  padding: 40px 20px;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.dom-host-price .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.dom-host-price h3 {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: orange;
+}
+
+.dom-host-price .price {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.dom-host-price .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.dom-host-price ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.dom-host-price ul li {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.dom-host-price ul li i {
+  color: orange;
+}
+
+.dom-host-price .btn-buy {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.dom-host-price .btn-buy:hover {
+  background: orange;
+  color: #fff;
+}
+
+.dom-host-price .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: orange;
+  color: #ffffff;
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Domain & Hosting Part
+---------------------------------------------------------------------------------*/
 
 
 
 
 
 
+/*-------------------------------------------------------------------------------///////////////////
+# Start Apps Development Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Apps Development Page
+--------------------------------------------------------------*/
+.app-dev-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
 
+.app-dev-hero .content span {
+  color: orange;
+}
+
+.app-dev-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.app-dev-hero .content h5 {
+  color: orange;
+}
+
+.app-dev-hero .content p {
+  color: rgb(255, 255, 255);
+}
+
+.app-dev-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.app-dev-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Custom Apps Development Page
+--------------------------------------------------------------*/
+.app-dev-custom {
+  background: #ffffff;
+}
+
+.app-dev-custom .section-title p:last-child {
+  color: #313131; 
+  font-size: 14px; 
+  font-weight: 500;
+}
+
+.app-dev-custom .content img{
+  width: 150px;
+}
+
+/*--------------------------------------------------------------
+# Apps Build Apps Development Page
+--------------------------------------------------------------*/
+.app-dev-build {
+  background: #000000;
+}
+
+.app-dev-build .section-title p {
+  color: white;
+}
+
+.app-dev-build .section-title p:last-child {
+  color: #ffffff; 
+  font-size: 14px; 
+  font-weight: 500;
+}
+
+.app-dev-build .content img{
+  width: 130px;
+}
+
+.app-dev-build .content p{
+  text-align: center; 
+  font-weight:800; 
+  font-style: italic; 
+  color: rgb(255, 255, 255); 
+  text-transform: uppercase;
+}
+
+.app-dev-build a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.app-dev-build a:hover {
+  background: orange;
+  color: #000000; 
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Apps Development Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Apps Promotion Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Apps Promotion Page
+--------------------------------------------------------------*/
+.app-pro-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.app-pro-hero .content span {
+  color: orange;
+}
+
+.app-pro-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.app-pro-hero .content h5 {
+  color: orange;
+}
+
+.app-pro-hero .content p {
+  color: rgb(255, 255, 255);
+}
+
+.app-pro-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.app-pro-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Campaign Apps Promotion Page
+--------------------------------------------------------------*/
+.app-pro-campaign {
+  background-color: #ffffff;
+}
+
+.app-pro-campaign .content h3 {
+  font-weight:800; 
+  font-style: italic; 
+  font-size: 35px; 
+  text-transform: uppercase;
+  color: orange;
+  padding-top: 6%
+}
+
+.app-pro-campaign .content h5 {
+  font-weight:800; 
+  font-style: italic; 
+  color: #292929; 
+  text-transform: uppercase;
+}
+
+.app-pro-campaign .content a {
+  border: 2px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.app-pro-campaign .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Features Apps Promotion Page
+--------------------------------------------------------------*/
+.app-pro-feature {
+  background: #000000;
+}
+
+.app-pro-feature .section-title p{
+  color: #ffffff;
+}
+
+.app-pro-feature .section-title p:last-child {
+  color: #ffffff; 
+  font-size: 17px; 
+  font-weight: 500;
+}
+
+.app-pro-feature .section-title p:nth-last-child(3) {
+  color: #ffffff; 
+  font-size: 17px; 
+  font-weight: 500;
+}
+
+.app-pro-feature .nav-tabs {
+  border: 0;
+}
+
+.app-pro-feature .nav-link {
+  padding: 15px 0;
+  transition: 0.3s;
+  color: orange;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 100%;
+  border: 0;
+  border-bottom: 4px solid orange;
+}
+
+.app-pro-feature .nav-link i {
+  padding-right: 15px;
+  font-size: 48px;
+}
+
+.app-pro-feature .nav-link h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media (max-width: 575px) {
+  .app-pro-feature .nav-link h4 {
+    font-size: 16px;
+  }
+}
+
+.app-pro-feature .nav-link:hover {
+  color: white;
+}
+
+.app-pro-feature .nav-link.active {
+  color: white;
+  background-color: transparent;
+  border-color: var(--color-primary);
+}
+
+.app-pro-feature .tab-content {
+  margin-top: 30px;
+}
+
+.app-pro-feature .tab-pane h3 {
+  font-weight: 700;
+  font-size: 32px;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.app-pro-feature .tab-pane p {
+  color: rgb(218, 218, 218);
+}
+
+.app-pro-feature .tab-pane h3:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: orange;
+  left: 0;
+  bottom: 0;
+}
+
+.app-pro-feature .tab-pane a {
+  border: 2px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.app-pro-feature .tab-pane a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+.app-pro-feature .tab-pane ul {
+  list-style: none;
+  padding: 0;
+}
+
+.app-pro-feature .tab-pane ul li {
+  padding-top: 10px;
+  color: white;
+}
+
+.app-pro-feature .tab-pane ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: orange;
+}
+
+.app-pro-feature .tab-pane p:last-child {
+  margin-bottom: 0;
+}
+
+.app-pro-feature .heading-h p {
+  color: #ffffff;
+}
+
+.app-pro-feature .heading-h h3 {
+  color: orange;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+/*--------------------------------------------------------------
+# Pricing Domain & Hosting Page
+--------------------------------------------------------------*/
+.app-pro-pricing .box {
+  padding: 40px 20px;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.app-pro-pricing .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.app-pro-pricing h3 {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: orange;
+}
+
+.app-pro-pricing .price {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.app-pro-pricing .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.app-pro-pricing ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.app-pro-pricing ul li {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.app-pro-pricing ul li i {
+  color: orange;
+}
+
+.app-pro-pricing a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.app-pro-pricing a:hover {
+  background: orange;
+  color: #fff;
+}
+
+.app-pro-pricing .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: orange;
+  color: #ffffff;
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Apps Promotion Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Apps Support Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Apps Support Page
+--------------------------------------------------------------*/
+.app-pro-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.app-pro-hero .content span {
+  color: orange;
+}
+
+.app-pro-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.app-pro-hero .content h5 {
+  color: orange;
+}
+
+.app-pro-hero .content p {
+  color: rgb(255, 255, 255);
+}
+
+.app-pro-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.app-pro-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Campaign Apps Promotion Page
+--------------------------------------------------------------*/
+.app-pro-campaign {
+  background-color: #ffffff;
+}
+
+.app-pro-campaign .content h3 {
+  font-weight:800; 
+  font-style: italic; 
+  font-size: 35px; 
+  text-transform: uppercase;
+  color: orange;
+  padding-top: 6%
+}
+
+.app-pro-campaign .content h5 {
+  font-weight:800; 
+  font-style: italic; 
+  color: #292929; 
+  text-transform: uppercase;
+}
+
+.app-pro-campaign .content a {
+  border: 2px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.app-pro-campaign .content a:hover {
+  background: orange;
+  color: #000000; 
+}
 
 
 

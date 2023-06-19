@@ -256,7 +256,7 @@
                         <p>Symantec is the trusted provider of Internet infrastructure services for the networked world. Billions of times each day, VeriSigns
                             SSL certificates, identity and authentication, allow companies and consumers all over the world to engage in trusted communications
                             and commerce</p>
-                        <a>Read More</a>
+                        <a href="#">Read More</a>
                     </div>
                 </div>
             </div>
@@ -268,7 +268,7 @@
                         <p>For businesses or individuals that do not need the full protection of an SSL Certificate, it is now possible to build trust,
                             credibility and loyalty online with VeriSign™ Trust Seal. For businesses or individuals that do not need the full protection of an
                             SSL Certificate, it is now possible to build trust, credibility and loyalty online with VeriSign™ Trust Seal.</p>
-                        <a>Read More</a>
+                        <a href="#">Read More</a>
                     </div>
                 </div>
             </div>
