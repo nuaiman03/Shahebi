@@ -3028,16 +3028,16 @@ h2 {
 /*--------------------------------------------------------------
 # Hero Apps Support Page
 --------------------------------------------------------------*/
-.app-pro-hero {
+.app-sup-hero {
   background-color: #000000;
   padding-top: 10%;
 }
 
-.app-pro-hero .content span {
+.app-sup-hero .content span {
   color: orange;
 }
 
-.app-pro-hero .content h2 {
+.app-sup-hero .content h2 {
   font-weight: 700;
   font-size: 42px;
   line-height: 60px;
@@ -3046,15 +3046,15 @@ h2 {
   color: white;
 }
 
-.app-pro-hero .content h5 {
+.app-sup-hero .content h5 {
   color: orange;
 }
 
-.app-pro-hero .content p {
+.app-sup-hero .content p {
   color: rgb(255, 255, 255);
 }
 
-.app-pro-hero .content a {
+.app-sup-hero .content a {
   border: 1px solid orange;
   background: #000000;
   padding: 10px 24px;
@@ -3064,36 +3064,217 @@ h2 {
   border-radius: 4px;
 }
 
-.app-pro-hero .content a:hover {
+.app-sup-hero .content a:hover {
   background: orange;
   color: #000000; 
 }
 
 /*--------------------------------------------------------------
-# Campaign Apps Promotion Page
+# Debugging Apps Support Page
 --------------------------------------------------------------*/
-.app-pro-campaign {
+.app-sup-debugging {
   background-color: #ffffff;
 }
 
-.app-pro-campaign .content h3 {
+.app-sup-debugging .content h2 {
+  color: orange; 
+  font-weight: 900; 
+  text-transform: upercase; 
+  font-size: 30px;
+}
+
+.app-sup-debugging .content p {
+  color: black;
+}
+
+.app-sup-debugging .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.app-sup-debugging .content ul li{
+  color: rgb(0, 0, 0);
+  padding: 10px 0 0 28px;
+  position: relative;
+}
+
+.app-sup-debugging .content ul li i{
+  color: orange;
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.app-sup-debugging .content a {
+  border: 2px solid orange;
+  background: #ffffff;
+  padding: 10px 24px;
+  color: #000000;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+  text-align: center; 
+}
+
+.app-sup-debugging .content a:hover {
+  background: orange;
+  color: #ffffff; 
+}
+
+/*--------------------------------------------------------------
+# information Apps Support Page
+--------------------------------------------------------------*/
+.app-sup-info {
+  background: black;
+}
+
+.app-sup-info h3{
   font-weight:800; 
+  color: orange; 
   font-style: italic; 
   font-size: 35px; 
   text-transform: uppercase;
-  color: orange;
-  padding-top: 6%
 }
 
-.app-pro-campaign .content h5 {
+.app-sup-info h5{
   font-weight:800; 
   font-style: italic; 
-  color: #292929; 
+  color: white; 
   text-transform: uppercase;
 }
 
-.app-pro-campaign .content a {
-  border: 2px solid orange;
+/*--------------------------------------------------------------
+# Pricing Apps Support Page
+--------------------------------------------------------------*/
+.app-sup-pricing .box {
+  padding: 40px 20px;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.app-sup-pricing .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.app-sup-pricing h3 {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: orange;
+}
+
+.app-sup-pricing .price {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.app-sup-pricing .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.app-sup-pricing ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.app-sup-pricing ul li {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.app-sup-pricing ul li i {
+  color: orange;
+}
+
+.app-sup-pricing a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.app-sup-pricing a:hover {
+  background: orange;
+  color: #fff;
+}
+
+.app-sup-pricing .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: orange;
+  color: #ffffff;
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Apps Support Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Convert Website Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Convert Website Page
+--------------------------------------------------------------*/
+.con-web-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.con-web-hero .content span {
+  color: orange;
+}
+
+.con-web-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.con-web-hero .content h5 {
+  color: orange;
+}
+
+.con-web-hero .content p {
+  color: rgb(255, 255, 255);
+}
+
+.con-web-hero .content a {
+  border: 1px solid orange;
   background: #000000;
   padding: 10px 24px;
   color: #ffffff;
@@ -3102,21 +3283,207 @@ h2 {
   border-radius: 4px;
 }
 
-.app-pro-campaign .content a:hover {
+.con-web-hero .content a:hover {
   background: orange;
   color: #000000; 
 }
 
+/*--------------------------------------------------------------
+# Importance Convert Website Page
+--------------------------------------------------------------*/
+.con-web-imp {
+  background: white;
+}
+
+.con-web-imp .content h2 {
+  color: black; 
+  text-align: center; 
+  padding-top: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.con-web-imp .content ul {
+  padding: 0;
+  list-style: none;
+
+}
+
+.con-web-imp .content ul li {
+  color: black; 
+  padding: 10px 0 0 28px;
+  position: relative;
+  font-weight: 800;
+}
+
+.con-web-imp .content ul li i {
+  color: orange;
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+}
+
+/*--------------------------------------------------------------
+# Pricing 1 Convert Website Page
+--------------------------------------------------------------*/
+.con-web-pricing-1 {
+  background: #000000;
+}
+
+.con-web-pricing-1 .content h2 {
+  color: orange;
+  padding-top: 10%;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.con-web-pricing-1 .content p {
+  color: #ffffff;
+}
+
+.con-web-pricing-1  .content ul {
+  padding: 0;
+  list-style: none;
+}
+
+.con-web-pricing-1  .content ul li {
+  color: rgb(255, 255, 255); 
+  padding: 10px 0 0 28px;
+  position: relative;
+  font-weight: 800;
+}
+
+.con-web-pricing-1  .content ul li i{
+  color: orange;
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.con-web-pricing-1  .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.con-web-pricing-1  .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Pricing 2 Convert Website Page
+--------------------------------------------------------------*/
+.con-web-pricing-2 {
+  background: #ffffff;
+}
+
+.con-web-pricing-2 .content h2 {
+  color: orange;
+  padding-top: 7%;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.con-web-pricing-2 .content p {
+  color: #000000;
+}
+
+.con-web-pricing-2  .content ul {
+  padding: 0;
+  list-style: none;
+}
+
+.con-web-pricing-2  .content ul li {
+  color: rgb(0, 0, 0); 
+  padding: 10px 0 0 28px;
+  position: relative;
+  font-weight: 800;
+}
+
+.con-web-pricing-2  .content ul li i{
+  color: orange;
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.con-web-pricing-2  .content a {
+  border: 1px solid orange;
+  background: #ffffff;
+  padding: 10px 24px;
+  color: #000000;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.con-web-pricing-2  .content a:hover {
+  background: orange;
+  color: #ffffff; 
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Convert Website Part
+---------------------------------------------------------------------------------*/
 
 
 
 
 
 
+/*-------------------------------------------------------------------------------///////////////////
+# Start Convert Website Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Convert Website Page
+--------------------------------------------------------------*/
+.con-web-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
 
+.con-web-hero .content span {
+  color: orange;
+}
 
+.con-web-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
 
+.con-web-hero .content h5 {
+  color: orange;
+}
 
+.con-web-hero .content p {
+  color: rgb(255, 255, 255);
+}
+
+.con-web-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.con-web-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
 
 
 
