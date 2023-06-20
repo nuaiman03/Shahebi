@@ -10,7 +10,8 @@
             <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
                 <h2>End-to<span>-End</span> School <span>Management</span> System</h2>
                 <h5>ALL-IN-ONE CLOUD SOLUTION FOR DIGITALIZING EDUCATIONAL INSTITUTIONS</h5>
-                <p>Simplify the school’s administrative process through digitization and automation - use the best School Management Software in the market and experience the simplicity and efficiency. School Management made easy. Remove friction from managing all academic processes, end-to-end.</p>
+                <p>Simplify the school’s administrative process through digitization and automation - use the best School Management Software in the market and
+                    experience the simplicity and efficiency. School Management made easy. Remove friction from managing all academic processes, end-to-end.</p>
                 <br>
                 <a href="#t">Get Started</a>
             </div>
@@ -19,58 +20,43 @@
 </section><!-- End Hero Section -->
 
 <!-- ======= Count Down Section ======= -->
-<section id="sch-man-">
+<section id="sch-man-counter" class="sch-man-counter">
     <div class="container" data-aos="fade-up">
-
-        <div class="row counters" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="col-lg-3 col-6 text-center" style="display: flex;">
-                <i class="bi bi-people-fill"
-                    style="font-size: 44px; line-height: 44px; color: #ffbb38; margin-right: 15px; padding-top: 12px;"></i>
+        <div class="row content" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-3 col-6 counters">
+                <i class="bi bi-people-fill"></i>
                 <div>
-                    <span style="color: Black;" data-purecounter-start="0" data-purecounter-end="786"
-                        data-purecounter-duration="1" class="purecounter"></span>
-                    <p style="color: Black; font-weight: bold;">Students</p>
+                    <span data-purecounter-start="0" data-purecounter-end="786" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Students</p>
                 </div>
             </div>
-
-            <div class="col-lg-3 col-6 text-center" style="display: flex;">
-                <i class="bi bi-houses-fill"
-                    style="font-size: 44px; line-height: 44px; color: #ffbb38; margin-right: 15px; padding-top: 12px;"></i>
+            <div class="col-lg-3 col-6 counters">
+                <i class="bi bi-houses-fill"></i>
                 <div>
-                    <span style="color: Black;" data-purecounter-start="0" data-purecounter-end="232"
-                        data-purecounter-duration="1" class="purecounter"></span>
-                    <p style="color: Black; font-weight: bold;">Schools</p>
+                    <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Schools</p>
                 </div>
             </div>
-
-            <div class="col-lg-3 col-6 text-center" style="display: flex;">
-                <i class="bi bi-emoji-heart-eyes-fill"
-                    style="font-size: 44px; line-height: 44px; color: #ffbb38; margin-right: 15px; padding-top: 12px;"></i>
+            <div class="col-lg-3 col-6 counters">
+                <i class="bi bi-emoji-heart-eyes-fill"></i>
                 <div>
-                    <span style="color: Black;" data-purecounter-start="0" data-purecounter-end="687"
-                        data-purecounter-duration="1" class="purecounter"></span>
-                    <p style="color: Black; font-weight: bold;">Satisfaction</p>
+                    <span data-purecounter-start="0" data-purecounter-end="687" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Satisfaction</p>
                 </div>
             </div>
-
-            <div class="col-lg-3 col-6 text-center" style="display: flex;">
-                <i class="bi bi-file-earmark-zip-fill"
-                    style="font-size: 44px; line-height: 44px; color: #ffbb38; margin-right: 15px; padding-top: 12px;"></i>
+            <div class="col-lg-3 col-6 counters">
+                <i class="bi bi-file-earmark-zip-fill"></i>
                 <div>
-                    <span style="color: Black;" data-purecounter-start="0" data-purecounter-end="549"
-                        data-purecounter-duration="1" class="purecounter"></span>
-                    <p style="color: Black; font-weight: bold;">Result Cards Printed</p>
+                    <span data-purecounter-start="0" data-purecounter-end="549" data-purecounter-duration="1" class="purecounter"></span>
+                    <p>Result Cards Printed</p>
                 </div>
             </div>
-
         </div>
-
     </div>
 </section><!-- End Count Down Section -->
 
-<!-- ======= SCHOOL MANAGEMENT SOFTWARE Description Section ======= -->
-<section id="features" class="features">
+<!-- ======= Software Work Process Section ======= -->
+<section id="sch-man-pro" class="sch-man-pro">
     <div class="container" data-aos="fade-up">
         <div class="row justify-content-center feature-icons" data-aos="fade-up">
             <h3>COMPLETE SCHOOL MANAGEMENT SOFTWARE</h3>
@@ -149,7 +135,10 @@
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
                 <h2 style="color: black; font-size: 35px; padding-top: 60px;">MOBILE VERSION FOR DIRECTORS AND PRINCIPALS</h2>
-                <p>Archivist launched its new specialized mobile version named as Archivist Executive for Schools’ Principals and Directors. Executives now can get connected with the daily reports of their schools /educational institutes in a while by having the information in their hand. It is just one touch away. Archivist Executive enables institutes stakeholders to get the analytical reports against their multiple campuses on their smart phones remotely and from everywhere.</p><br>
+                <p>Archivist launched its new specialized mobile version named as Archivist Executive for Schools’ Principals and Directors. Executives now can
+                    get connected with the daily reports of their schools /educational institutes in a while by having the information in their hand. It is just
+                    one touch away. Archivist Executive enables institutes stakeholders to get the analytical reports against their multiple campuses on their
+                    smart phones remotely and from everywhere.</p><br>
                 <a href="#about" class="get-started-btn scrollto" style="color: black;">More Info..</a>
             </div>
         </div>

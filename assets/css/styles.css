@@ -2345,7 +2345,6 @@ h2 {
   color: orange; 
   font-size: 17px; 
   font-weight: 700; 
-  text-align: center;
 }
 
 .ssl-card .box p{
@@ -2472,13 +2471,13 @@ h2 {
 }
 
 .dom-host-hero .content a {
-  font-weight: 800; 
-  font-size: 13px; 
-  border: 1px solid orange; 
+  border: 1px solid orange;
   background: #000000;
-  padding: 6px 20px; 
-  color: #ffffff; 
-  border-radius: 4px; 
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
 }
 
 .dom-host-hero .content a:hover {
@@ -2574,30 +2573,1198 @@ h2 {
   background: orange;
   color: #ffffff;
 }
+/*-------------------------------------------------------------------------------///////////////////
+# End Domain & Hosting Part
+---------------------------------------------------------------------------------*/
 
 
 
 
 
 
+/*-------------------------------------------------------------------------------///////////////////
+# Start Apps Development Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Apps Development Page
+--------------------------------------------------------------*/
+.app-dev-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.app-dev-hero .content span {
+  color: orange;
+}
+
+.app-dev-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.app-dev-hero .content h5 {
+  color: orange;
+}
+
+.app-dev-hero .content p {
+  color: rgb(255, 255, 255);
+}
+
+.app-dev-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.app-dev-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Custom Apps Development Page
+--------------------------------------------------------------*/
+.app-dev-custom {
+  background: #ffffff;
+}
+
+.app-dev-custom .section-title p:last-child {
+  color: #313131; 
+  font-size: 14px; 
+  font-weight: 500;
+}
+
+.app-dev-custom .content img{
+  width: 150px;
+}
+
+/*--------------------------------------------------------------
+# Apps Build Apps Development Page
+--------------------------------------------------------------*/
+.app-dev-build {
+  background: #000000;
+}
+
+.app-dev-build .section-title p {
+  color: white;
+}
+
+.app-dev-build .section-title p:last-child {
+  color: #ffffff; 
+  font-size: 14px; 
+  font-weight: 500;
+}
+
+.app-dev-build .content img{
+  width: 130px;
+}
+
+.app-dev-build .content p{
+  text-align: center; 
+  font-weight:800; 
+  font-style: italic; 
+  color: rgb(255, 255, 255); 
+  text-transform: uppercase;
+}
+
+.app-dev-build a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.app-dev-build a:hover {
+  background: orange;
+  color: #000000; 
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Apps Development Part
+---------------------------------------------------------------------------------*/
 
 
 
 
 
 
+/*-------------------------------------------------------------------------------///////////////////
+# Start Apps Promotion Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Apps Promotion Page
+--------------------------------------------------------------*/
+.app-pro-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.app-pro-hero .content span {
+  color: orange;
+}
+
+.app-pro-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.app-pro-hero .content h5 {
+  color: orange;
+}
+
+.app-pro-hero .content p {
+  color: rgb(255, 255, 255);
+}
+
+.app-pro-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.app-pro-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Campaign Apps Promotion Page
+--------------------------------------------------------------*/
+.app-pro-campaign {
+  background-color: #ffffff;
+}
+
+.app-pro-campaign .content h3 {
+  font-weight:800; 
+  font-style: italic; 
+  font-size: 35px; 
+  text-transform: uppercase;
+  color: orange;
+  padding-top: 6%
+}
+
+.app-pro-campaign .content h5 {
+  font-weight:800; 
+  font-style: italic; 
+  color: #292929; 
+  text-transform: uppercase;
+}
+
+.app-pro-campaign .content a {
+  border: 2px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.app-pro-campaign .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Features Apps Promotion Page
+--------------------------------------------------------------*/
+.app-pro-feature {
+  background: #000000;
+}
+
+.app-pro-feature .section-title p{
+  color: #ffffff;
+}
+
+.app-pro-feature .section-title p:last-child {
+  color: #ffffff; 
+  font-size: 17px; 
+  font-weight: 500;
+}
+
+.app-pro-feature .section-title p:nth-last-child(3) {
+  color: #ffffff; 
+  font-size: 17px; 
+  font-weight: 500;
+}
+
+.app-pro-feature .nav-tabs {
+  border: 0;
+}
+
+.app-pro-feature .nav-link {
+  padding: 15px 0;
+  transition: 0.3s;
+  color: orange;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 100%;
+  border: 0;
+  border-bottom: 4px solid orange;
+}
+
+.app-pro-feature .nav-link i {
+  padding-right: 15px;
+  font-size: 48px;
+}
+
+.app-pro-feature .nav-link h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media (max-width: 575px) {
+  .app-pro-feature .nav-link h4 {
+    font-size: 16px;
+  }
+}
+
+.app-pro-feature .nav-link:hover {
+  color: white;
+}
+
+.app-pro-feature .nav-link.active {
+  color: white;
+  background-color: transparent;
+  border-color: var(--color-primary);
+}
+
+.app-pro-feature .tab-content {
+  margin-top: 30px;
+}
+
+.app-pro-feature .tab-pane h3 {
+  font-weight: 700;
+  font-size: 32px;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.app-pro-feature .tab-pane p {
+  color: rgb(218, 218, 218);
+}
+
+.app-pro-feature .tab-pane h3:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: orange;
+  left: 0;
+  bottom: 0;
+}
+
+.app-pro-feature .tab-pane a {
+  border: 2px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.app-pro-feature .tab-pane a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+.app-pro-feature .tab-pane ul {
+  list-style: none;
+  padding: 0;
+}
+
+.app-pro-feature .tab-pane ul li {
+  padding-top: 10px;
+  color: white;
+}
+
+.app-pro-feature .tab-pane ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: orange;
+}
+
+.app-pro-feature .tab-pane p:last-child {
+  margin-bottom: 0;
+}
+
+.app-pro-feature .heading-h p {
+  color: #ffffff;
+}
+
+.app-pro-feature .heading-h h3 {
+  color: orange;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+/*--------------------------------------------------------------
+# Pricing Domain & Hosting Page
+--------------------------------------------------------------*/
+.app-pro-pricing .box {
+  padding: 40px 20px;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.app-pro-pricing .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.app-pro-pricing h3 {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: orange;
+}
+
+.app-pro-pricing .price {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.app-pro-pricing .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.app-pro-pricing ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.app-pro-pricing ul li {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.app-pro-pricing ul li i {
+  color: orange;
+}
+
+.app-pro-pricing a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.app-pro-pricing a:hover {
+  background: orange;
+  color: #fff;
+}
+
+.app-pro-pricing .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: orange;
+  color: #ffffff;
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Apps Promotion Part
+---------------------------------------------------------------------------------*/
 
 
 
 
 
 
+/*-------------------------------------------------------------------------------///////////////////
+# Start Apps Support Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Apps Support Page
+--------------------------------------------------------------*/
+.app-sup-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.app-sup-hero .content span {
+  color: orange;
+}
+
+.app-sup-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.app-sup-hero .content h5 {
+  color: orange;
+}
+
+.app-sup-hero .content p {
+  color: rgb(255, 255, 255);
+}
+
+.app-sup-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.app-sup-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Debugging Apps Support Page
+--------------------------------------------------------------*/
+.app-sup-debugging {
+  background-color: #ffffff;
+}
+
+.app-sup-debugging .content h2 {
+  color: orange; 
+  font-weight: 900; 
+  text-transform: upercase; 
+  font-size: 30px;
+}
+
+.app-sup-debugging .content p {
+  color: black;
+}
+
+.app-sup-debugging .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.app-sup-debugging .content ul li{
+  color: rgb(0, 0, 0);
+  padding: 10px 0 0 28px;
+  position: relative;
+}
+
+.app-sup-debugging .content ul li i{
+  color: orange;
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.app-sup-debugging .content a {
+  border: 2px solid orange;
+  background: #ffffff;
+  padding: 10px 24px;
+  color: #000000;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+  text-align: center; 
+}
+
+.app-sup-debugging .content a:hover {
+  background: orange;
+  color: #ffffff; 
+}
+
+/*--------------------------------------------------------------
+# information Apps Support Page
+--------------------------------------------------------------*/
+.app-sup-info {
+  background: black;
+}
+
+.app-sup-info h3{
+  font-weight:800; 
+  color: orange; 
+  font-style: italic; 
+  font-size: 35px; 
+  text-transform: uppercase;
+}
+
+.app-sup-info h5{
+  font-weight:800; 
+  font-style: italic; 
+  color: white; 
+  text-transform: uppercase;
+}
+
+/*--------------------------------------------------------------
+# Pricing Apps Support Page
+--------------------------------------------------------------*/
+.app-sup-pricing .box {
+  padding: 40px 20px;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.app-sup-pricing .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.app-sup-pricing h3 {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: orange;
+}
+
+.app-sup-pricing .price {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.app-sup-pricing .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.app-sup-pricing ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.app-sup-pricing ul li {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.app-sup-pricing ul li i {
+  color: orange;
+}
+
+.app-sup-pricing a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.app-sup-pricing a:hover {
+  background: orange;
+  color: #fff;
+}
+
+.app-sup-pricing .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: orange;
+  color: #ffffff;
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Apps Support Part
+---------------------------------------------------------------------------------*/
 
 
 
 
 
 
+/*-------------------------------------------------------------------------------///////////////////
+# Start Convert Website Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Convert Website Page
+--------------------------------------------------------------*/
+.con-web-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.con-web-hero .content span {
+  color: orange;
+}
+
+.con-web-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.con-web-hero .content h5 {
+  color: orange;
+}
+
+.con-web-hero .content p {
+  color: rgb(255, 255, 255);
+}
+
+.con-web-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.con-web-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Importance Convert Website Page
+--------------------------------------------------------------*/
+.con-web-imp {
+  background: white;
+}
+
+.con-web-imp .content h2 {
+  color: black; 
+  text-align: center; 
+  padding-top: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.con-web-imp .content ul {
+  padding: 0;
+  list-style: none;
+
+}
+
+.con-web-imp .content ul li {
+  color: black; 
+  padding: 10px 0 0 28px;
+  position: relative;
+  font-weight: 800;
+}
+
+.con-web-imp .content ul li i {
+  color: orange;
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+}
+
+/*--------------------------------------------------------------
+# Pricing 1 Convert Website Page
+--------------------------------------------------------------*/
+.con-web-pricing-1 {
+  background: #000000;
+}
+
+.con-web-pricing-1 .content h2 {
+  color: orange;
+  padding-top: 10%;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.con-web-pricing-1 .content p {
+  color: #ffffff;
+}
+
+.con-web-pricing-1  .content ul {
+  padding: 0;
+  list-style: none;
+}
+
+.con-web-pricing-1  .content ul li {
+  color: rgb(255, 255, 255); 
+  padding: 10px 0 0 28px;
+  position: relative;
+  font-weight: 800;
+}
+
+.con-web-pricing-1  .content ul li i{
+  color: orange;
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.con-web-pricing-1  .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.con-web-pricing-1  .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Pricing 2 Convert Website Page
+--------------------------------------------------------------*/
+.con-web-pricing-2 {
+  background: #ffffff;
+}
+
+.con-web-pricing-2 .content h2 {
+  color: orange;
+  padding-top: 7%;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.con-web-pricing-2 .content p {
+  color: #000000;
+}
+
+.con-web-pricing-2  .content ul {
+  padding: 0;
+  list-style: none;
+}
+
+.con-web-pricing-2  .content ul li {
+  color: rgb(0, 0, 0); 
+  padding: 10px 0 0 28px;
+  position: relative;
+  font-weight: 800;
+}
+
+.con-web-pricing-2  .content ul li i{
+  color: orange;
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.con-web-pricing-2  .content a {
+  border: 1px solid orange;
+  background: #ffffff;
+  padding: 10px 24px;
+  color: #000000;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.con-web-pricing-2  .content a:hover {
+  background: orange;
+  color: #ffffff; 
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Convert Website Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Inventory System Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Inventory System Page
+--------------------------------------------------------------*/
+.inv-sys-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.inv-sys-hero .content span {
+  color: orange;
+}
+
+.inv-sys-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.inv-sys-hero .content h5 {
+  color: orange;
+}
+
+.inv-sys-hero  .content ul {
+  padding: 0;
+  list-style: none;
+}
+
+.inv-sys-hero  .content ul li {
+  color: rgb(255, 255, 255); 
+  padding: 10px 0 0 28px;
+  position: relative;
+}
+
+.inv-sys-hero  .content ul li i{
+  color: orange;
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.inv-sys-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.inv-sys-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Info 1 Inventory System Page
+--------------------------------------------------------------*/
+.inv-sys-info-1 {
+  background: white;
+}
+
+.inv-sys-info-1 .content h2 {
+  color: orange;
+  font-weight:800;
+  text-transform: uppercase;
+}
+
+.inv-sys-info-1 .content h5 {
+  color: #1a1a1a; 
+  font-weight:800;
+}
+
+/*--------------------------------------------------------------
+# Info 2 Inventory System Page
+--------------------------------------------------------------*/
+.inv-sys-info-2 {
+  background: #000000;
+}
+
+.inv-sys-info-2 .content h2 {
+  color: orange;
+  font-weight:800;
+  text-transform: uppercase;
+  padding-top:6%
+}
+
+.inv-sys-info-2 .content h5 {
+  color: white; 
+  font-weight:800;
+}
+
+.inv-sys-info-2 .content p {
+  color: white; 
+}
+
+/*--------------------------------------------------------------
+# Pricing Inventory System Page
+--------------------------------------------------------------*/
+.inv-sys-pricing {
+  background: white;
+}
+
+.inv-sys-pricing .box {
+  padding: 40px 20px;
+  background: black;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.inv-sys-pricing h2 {
+  font-weight: 700;
+  color: orange;
+}
+
+.inv-sys-pricing h5 {
+  font-weight: 700;
+  color: white;
+}
+
+.inv-sys-pricing p {
+  color: white;
+}
+
+.inv-sys-pricing .price {
+  font-size: 36px;
+  color: white;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.inv-sys-pricing .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+  color: orange;
+}
+
+.inv-sys-pricing a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.inv-sys-pricing a:hover {
+  background: orange;
+  color: #fff;
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Inventory System Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start School Management Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero School Management Page
+--------------------------------------------------------------*/
+.sch-man-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.sch-man-hero .content span {
+  color: orange;
+}
+
+.sch-man-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.sch-man-hero .content h5 {
+  color: orange;
+}
+
+.sch-man-hero .content p {
+  color: white;
+}
+
+.sch-man-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.sch-man-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+/*--------------------------------------------------------------
+# Count Down School Management Page
+--------------------------------------------------------------*/
+.sch-man-counter {
+  background: white;
+}
+
+.sch-man-counter .content .counters {
+  text-align: center;
+  display: flex;
+}
+
+.sch-man-counter .content .counters i {
+  font-size: 44px; 
+  line-height: 44px; 
+  color: orange; 
+  margin-right: 15px; 
+  padding-top: 12px;
+}
+
+.sch-man-counter .content .counters span {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  display: block;
+}
+
+.sch-man-counter .content .counters p {
+  color: black; 
+  font-weight: 800;
+  text-transform: uppercase;
+}
+/*--------------------------------------------------------------
+# Software Work Process School Management Page
+--------------------------------------------------------------*/
+.sch-man-pro {
+  background: #000000;
+}
+
+.sch-man-pro {
+  background: #000000;
+}
+
+.sch-man-pro .tab-content p {
+  color: rgb(255, 255, 255);
+  padding-top: 10%;
+}
+
+.sch-man-pro .col h3 {
+  color: rgb(255, 255, 255);
+  padding-bottom: 4%;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.sch-man-pro .col ul li {
+  padding: 10px;
+}
+
+.sch-man-pro .col ul li a:hover {
+  background: #ffbb38;
+  color: #343a40;
+}
+
+.sch-man-pro .col ul a {
+  color: rgb(255, 255, 255);
+}
+
+.sch-man-pro .feature-icons h3 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 7%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .sch-man-pro .feature-icons h3 {
+    font-size: 28px;
+  }
+}
+
+.sch-man-pro .feature-icons .content .icon-box {
+  display: flex;
+}
+
+.sch-man-pro .feature-icons .content .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: #ffbb38;
+}
+
+.sch-man-pro .feature-icons .content .icon-box i {
+  font-size: 44px;
+  line-height: 44px;
+  color: #ffbb38;
+  margin-right: 15px;
+}
+
+.sch-man-pro .feature-icons .content .icon-box p {
+  font-size: 15px;
+  color: #dadada;
+}
 
 
 
