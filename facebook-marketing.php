@@ -1,5 +1,6 @@
 <?php require_once('./main/header.php'); ?>
 
+
 <!-- ======= Hero Section ======= -->
 <section id="fb-mar-hero" class="fb-mar-hero">
     <div class="container" data-aos="fade-up">
@@ -10,14 +11,15 @@
             <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
                 <h5>Facebook Marketing Services in Cheap Rate</h5>
                 <h2>Promote Your <span>Business</span> Services</h2>
-                <p>There are no real example needs about the power of Facebook when we see opens their business announcing it on their Facebook page. Nowadays, there is no such business that can think their advertising and marketing campaign without Facebook.</p><br>
+                <p>There are no real example needs about the power of Facebook when we see opens their business announcing it on their Facebook page. Nowadays,
+                    there is no such business that can think their advertising and marketing campaign without Facebook.</p><br>
                 <a href="#">Check Details</a>
             </div>
         </div>
     </div>
 </section><!-- End Hero Section -->
 
-<!-- Provide Section - Home Page -->
+<!-- Provide Section -->
 <section id="fb-mar-provide" class="fb-mar-provide">
     <div class="container">
         <h1>100 % Real Facebook Likes and 100% Money Back Guarantee!</h1>
@@ -29,7 +31,8 @@
                     </div>
                     <div>
                         <h4>GUARANTEED LIKES</h4>
-                        <p>Our quality of work speaks for itself, and our repeat customers are what keeps us in business. The likes we help our clients acquire are guaranteed.</p>
+                        <p>Our quality of work speaks for itself, and our repeat customers are what keeps us in business. The likes we help our clients acquire
+                            are guaranteed.</p>
                     </div>
                 </div>
             </div>
@@ -40,7 +43,8 @@
                     </div>
                     <div>
                         <h4>BUILD A CAMPAIGN</h4>
-                        <p>No matter your goals and budget, we have a campaign that is totally customizable to your needs. Simply visit our pricing page and start a campaign.</p>
+                        <p>No matter your goals and budget, we have a campaign that is totally customizable to your needs. Simply visit our pricing page and
+                            start a campaign.</p>
                     </div>
                 </div>
             </div>
@@ -58,17 +62,18 @@
                     <p>to Grow Page Likes and Engagement</p>
                 </div>
                 <div class="info">
-                    <h4>We have experienced and dedicated team who are highly capable to reach you on your desired Target. I know you lil bit worried about the Charge?</h4>
-                    <p>Don’t Worry! Our Charge is lower then other service providers. We always assure you a grunted Success. Let Our Service Experts To Boost Up Your sales 300% Within Couple of Months Along With Hundreds of Thousands Targeted Visitors On Your Site!</p>
+                    <h4>We have experienced and dedicated team who are highly capable to reach you on your desired Target. I know you lil bit worried about the
+                        Charge?</h4>
+                    <p>Don’t Worry! Our Charge is lower then other service providers. We always assure you a grunted Success. Let Our Service Experts To Boost
+                        Up Your sales 300% Within Couple of Months Along With Hundreds of Thousands Targeted Visitors On Your Site!</p>
                 </div>
             </div>
             <div class="col-lg-4 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
                 <img src="assets/img/fbcamp.png" class="img-fluid" alt="">
             </div>
         </div>
-
     </div>
-</section><!-- End About Section -->
+</section><!-- End Campaign Section -->
 
 <!-- ======= Pricing Section ======= -->
 <section id="fb-mar-pricing" class="fb-mar-pricing">
@@ -130,14 +135,15 @@
 <!-- ======= Custom Boosting Section ======= -->
 <section id="fb-mar-custom" class="fb-mar-custom">
     <div class="container" data-aos="fade-up">
-
         <div class="row content">
             <div class="col-lg-7" data-aos="fade-right">
                 <div class="section-title">
                     <h2>Custom</h2>
                     <p>Boosting Packages</p>
                 </div>
-                <p>The cost of your ads on Facebook is up to you and your budget. You can choose between a daily or a lifetime budget, as well as a cost per thousand impressions, bids (CPM) or cost per click bid (CPC). You will only pay for the clicks or impressions you receive, up to the amount you set for your budget.</p>
+                <p>The cost of your ads on Facebook is up to you and your budget. You can choose between a daily or a lifetime budget, as well as a cost per
+                    thousand impressions, bids (CPM) or cost per click bid (CPC). You will only pay for the clicks or impressions you receive, up to the amount
+                    you set for your budget.</p>
                 <h4>FOR YOUR WEBSITE CLICKS, PAGE LIKES, POST BOOSTING</h4>
                 <br>
                 <a href="#">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
@@ -156,7 +162,6 @@
         </div>
     </div>
 </section><!-- End Custom Boosting Section -->
-
 
 
 <?php require_once('main/footer.php'); ?>
