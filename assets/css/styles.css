@@ -458,7 +458,7 @@ section {
 #hero .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color: #ffc451;
+  color: orange;
 }
 
 #hero .icon-box h3 {
@@ -476,11 +476,11 @@ section {
 }
 
 #hero .icon-box h3 a:hover {
-  color: #ffc451;
+  color: orange;
 }
 
 #hero .icon-box:hover {
-  border-color: #ffc451;
+  border-color: orange;
 }
 
 @media (min-width: 1024px) {
@@ -3700,47 +3700,8 @@ h2 {
   background: #000000;
 }
 
-.sch-man-pro {
-  background: #000000;
-}
-
-.sch-man-pro .tab-content p {
-  color: rgb(255, 255, 255);
-  padding-top: 10%;
-}
-
-.sch-man-pro .col h3 {
-  color: rgb(255, 255, 255);
-  padding-bottom: 4%;
-  font-weight: 700;
-  font-size: 32px;
-}
-
-.sch-man-pro .col ul li {
-  padding: 10px;
-}
-
-.sch-man-pro .col ul li a:hover {
-  background: #ffbb38;
-  color: #343a40;
-}
-
-.sch-man-pro .col ul a {
-  color: rgb(255, 255, 255);
-}
-
-.sch-man-pro .feature-icons h3 {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 7%;
-  text-align: center;
-}
-
-@media (max-width: 768px) {
-  .sch-man-pro .feature-icons h3 {
-    font-size: 28px;
-  }
+.sch-man-pro .section-title p{
+  color: white;
 }
 
 .sch-man-pro .feature-icons .content .icon-box {
@@ -3751,13 +3712,13 @@ h2 {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
-  color: #ffbb38;
+  color: orange;
 }
 
 .sch-man-pro .feature-icons .content .icon-box i {
   font-size: 44px;
   line-height: 44px;
-  color: #ffbb38;
+  color: orange;
   margin-right: 15px;
 }
 
@@ -3766,15 +3727,693 @@ h2 {
   color: #dadada;
 }
 
+.sch-man-pro .feature-icons .content .image {
+  padding-top: 6%;
+}
+
+/*--------------------------------------------------------------
+# Mobile Version Info School Management Page
+--------------------------------------------------------------*/
+.sch-man-mob-info {
+  background: white;
+}
+
+.sch-man-mob-info .content h2 {
+  color: black; 
+  font-size: 35px; 
+  font-weight: 800;
+  padding-top: 60px;
+}
+
+.sch-man-mob-info .content a {
+  border: 1px solid orange;
+  background: white;
+  padding: 10px 24px;
+  color: black;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.sch-man-mob-info .content a:hover {
+  background: orange;
+  color: white; 
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End School Management Part
+---------------------------------------------------------------------------------*/
 
 
 
 
 
 
+/*-------------------------------------------------------------------------------///////////////////
+# Start Custom Build Software Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Custom Build Software Page
+--------------------------------------------------------------*/
+
+/* 
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+Here will have 
+Custom Build Software 
+css
+Need to Update 
+Later 
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+*/
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# End Custom Build Software Part
+---------------------------------------------------------------------------------*/
 
 
 
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start SEO Service Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero SEO Service Page
+--------------------------------------------------------------*/
+.seo-ser-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.seo-ser-hero .content span {
+  color: orange;
+}
+
+.seo-ser-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.seo-ser-hero .content h5 {
+  color: orange;
+}
+
+.seo-ser-hero .content p {
+  color: white;
+}
+
+.seo-ser-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.seo-ser-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# CAMPAIGN SEO Service Page
+--------------------------------------------------------------*/
+.seo-ser-camp {
+  background: white;
+}
+
+.seo-ser-camp .content p1{
+  color: black; 
+  font-size: 20px; 
+  font-style: italic;
+}
+
+.seo-ser-camp .content p2 {
+  color: orange; 
+  font-weight: bold;
+  font-size: 20px; 
+}
+
+.seo-ser-camp .content h4 {
+  background: orange; 
+  text-align: center; 
+  padding: 10px; 
+  border-radius: 10px; 
+  font-weight: bold; 
+  color: white;
+}
+
+.seo-ser-camp .content ul {
+  padding: 0;
+  list-style: none;
+}
+
+.seo-ser-camp .content ul li {
+  color: black; 
+  padding: 10px 0 0 28px;
+  position: relative;
+}
+
+.seo-ser-camp .content ul li i {
+  color: orange;
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.seo-ser-camp .content a {
+  border: 1px solid orange;
+  background: white;
+  padding: 10px 24px;
+  color: black;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.seo-ser-camp .content a:hover {
+  background: orange;
+  color: white; 
+}
+
+
+/*--------------------------------------------------------------
+# Ad SEO Service Page
+--------------------------------------------------------------*/
+.seo-ser-ad {
+  background: black;
+}
+
+.seo-ser-ad h3 {
+  font-weight:800; 
+  color: orange; 
+  font-style: italic; 
+  font-size: 35px; 
+  text-transform: uppercase;
+}
+
+.seo-ser-ad h5 {
+  font-weight:800; 
+  font-style: italic; 
+  color: white; 
+  text-transform: uppercase;
+}
+
+/*--------------------------------------------------------------
+# Pricing SEO Service Page
+--------------------------------------------------------------*/
+.seo-ser-pricing .content .box {
+  padding: 40px 20px;
+  background: black;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.seo-ser-pricing .content h3 {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: orange;
+}
+
+.seo-ser-pricing .content .price {
+  font-size: 36px;
+  color: white;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.seo-ser-pricing .content .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.seo-ser-pricing .content .price span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.seo-ser-pricing .content p {
+  text-align:center; 
+  color:white; 
+  border: 2px solid orange; 
+  border-radius: 5px; 
+  font-weight:1000; 
+  font-size: 14px; 
+  padding: 13px;
+}
+
+.seo-ser-pricing .content ul {
+  padding: 0;
+  list-style: none;
+  color: #fdfdfd;
+  text-align: left;
+  line-height: 26px;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.seo-ser-pricing .content ul li {
+  padding-bottom: 10px;
+}
+
+.seo-ser-pricing .content ul .na {
+  color: orange;
+  text-decoration: line-through;
+}
+
+.seo-ser-pricing .content a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.seo-ser-pricing .content a:hover {
+  background: orange;
+  color: #fff;
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End SEO Service Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Facebook Marketing Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Facebook Marketing Page
+--------------------------------------------------------------*/
+.fb-mar-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.fb-mar-hero .content span {
+  color: orange;
+}
+
+.fb-mar-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.fb-mar-hero .content h5 {
+  color: orange;
+}
+
+.fb-mar-hero .content p {
+  color: white;
+}
+
+.fb-mar-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.fb-mar-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Provide Facebook Marketing Page
+--------------------------------------------------------------*/
+.fb-mar-provide {
+ background: #000000ef;
+ border-top: 1px solid orange;
+ border-bottom: 1px solid orange;
+}
+
+.fb-mar-provide h1 {
+  font-size: 30px; 
+  text-align: center;
+  font-weight: 900;
+  color: white;
+}
+
+.fb-mar-provide .service-item {
+  position: relative;
+  padding-top: 40px;
+}
+
+.fb-mar-provide .service-item .icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  margin-right: 50px;
+  line-height: 0;
+}
+
+.fb-mar-provide .service-item .icon i {
+  color: orange;
+  font-size: 56px;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+  position: relative;
+}
+
+.fb-mar-provide .service-item .icon i:hover {
+  color: white;
+}
+
+.fb-mar-provide .service-item h4 {
+  font-weight: 900;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: orange;
+
+}
+
+.fb-mar-provide .service-item p {
+  line-height: 24px;
+  font-size: 14px;
+  color: white;
+}
+
+/*--------------------------------------------------------------
+# Campaign Facebook Marketing Page
+--------------------------------------------------------------*/
+.fb-mar-camp {
+  background: #000000;
+}
+
+.fb-mar-camp .section-title p {
+  color: white;
+}
+
+.fb-mar-camp .content .info h4 {
+  color: orange;
+  font-weight:800;
+  font-size: 19px;
+}
+
+.fb-mar-camp .content .info p {
+  color: white;
+  font-size: 15px;
+}
+/*--------------------------------------------------------------
+# Pricing Facebook Marketing Page
+--------------------------------------------------------------*/
+.fb-mar-pricing .box {
+  padding: 40px 20px;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.fb-mar-pricing .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.fb-mar-pricing h3 {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: orange;
+}
+
+.fb-mar-pricing p {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: white;
+  background: orange;
+  border-radius: 2px;
+}
+
+.fb-mar-pricing .price {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.fb-mar-pricing .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.fb-mar-pricing ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.fb-mar-pricing ul li {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.fb-mar-pricing ul li i {
+  color: orange;
+}
+
+.fb-mar-pricing a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.fb-mar-pricing a:hover {
+  background: orange;
+  color: #fff;
+}
+
+.fb-mar-pricing .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: orange;
+  color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+# Custom Boosting Facebook Marketing Page
+--------------------------------------------------------------*/
+.fb-mar-custom {
+  background: #000000;
+}
+
+.fb-mar-custom .content .section-title {
+  margin: 0;
+  margin-bottom: 0%;
+}
+
+.fb-mar-custom .content .section-title p {
+  color: white;
+}
+
+.fb-mar-custom .content p {
+  color: #c7c7c7;
+}
+
+.fb-mar-custom .content h4 {
+  text-align: center; 
+  color: black; 
+  background: orange; 
+  border-radius: 10px; 
+  font-weight: 900; 
+  padding: 5px 0px;
+  font-size: 16px;
+}
+
+.fb-mar-custom .content a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.fb-mar-custom .content a:hover {
+  background: orange;
+  color: #fff;
+}
+
+.fb-mar-custom .content ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.fb-mar-custom .content ul li {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.fb-mar-custom .content ul li i {
+  color: orange;
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Facebook Marketing Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Google AdWords Marketing Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Google AdWords Marketing Page
+--------------------------------------------------------------*/
+/* 
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+css
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+*/
+/*-------------------------------------------------------------------------------///////////////////
+# End Google AdWords Marketing Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Youtube Marketing Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Youtube Marketing Page
+--------------------------------------------------------------*/
+/* 
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+css
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+*/
+/*-------------------------------------------------------------------------------///////////////////
+# End Youtube Marketing Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start SMS Marketing & Data Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero SMS Marketing & Data Page
+--------------------------------------------------------------*/
+/* 
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+css
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+*/
+/*-------------------------------------------------------------------------------///////////////////
+# End SMS Marketing & Data Part
+---------------------------------------------------------------------------------*/
 
 
 

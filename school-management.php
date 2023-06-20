@@ -1,5 +1,6 @@
 <?php require_once('./main/header.php'); ?>
 
+
 <!-- ======= Hero Section ======= -->
 <section id="sch-man-hero" class="sch-man-hero">
     <div class="container" data-aos="fade-up">
@@ -58,92 +59,93 @@
 <!-- ======= Software Work Process Section ======= -->
 <section id="sch-man-pro" class="sch-man-pro">
     <div class="container" data-aos="fade-up">
+        <div class="section-title">
+            <h2>COMPLETE</h2>
+            <p>SCHOOL MANAGEMENT SOFTWARE</p>
+        </div>
         <div class="row justify-content-center feature-icons" data-aos="fade-up">
-            <h3>COMPLETE SCHOOL MANAGEMENT SOFTWARE</h3>
             <div class="row content">
+                <!-- First Part Content -->
                 <div class="col-lg-4" data-aos="fade-right">
                     <div class="icon-box" data-aos="fade-up">
                         <i class="bi bi-check-square-fill"></i>
                         <div>
                             <h4>Complete Back-end ERP</h4>
-                            <p>We provide very simple & easy usable back-end format such as student admission,
-                                promotion, exam management, attendance, tabulation sheet & all in one.</p>
+                            <p>We provide very simple & easy usable back-end format such as student admission, promotion, exam management, attendance,
+                                tabulation sheet & all in one.</p>
                         </div>
                     </div>
                     <div class="icon-box" data-aos="fade-up">
                         <i class="bi bi-file-code-fill"></i>
                         <div>
                             <h4>Fronted School Website</h4>
-                            <p>You can also make a full feature front-end school website. Can manage noticeboard, event
-                                list, school gallery, admission form, teacher profiles, contact page & more.</p>
+                            <p>You can also make a full feature front-end school website. Can manage noticeboard, event list, school gallery, admission form,
+                                teacher profiles, contact page & more.</p>
                         </div>
                     </div>
                     <div class="icon-box" data-aos="fade-up">
                         <i class="bi bi-android2"></i>
                         <div>
                             <h4>Native Android App</h4>
-                            <p>This core application gives you insight regarding student and teachers performance
-                                throughout examination processes with different angles.</p>
+                            <p>This core application gives you insight regarding student and teachers performance throughout examination processes with
+                                different angles.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 jus" style="padding-top: 6%;" data-aos="fade-right">
+                <!-- Middle Part Image -->
+                <div class="col-lg-4 image" data-aos="fade-right">
                     <img src="assets/img/smscm.png" class="img-fluid" alt="">
                 </div>
+                <!-- Last Part Content -->
                 <div class="col-lg-4 pt-4 pt-lg-0" data-aos="fade-left">
                     <div class="icon-box" data-aos="fade-up">
                         <i class="bi bi-fast-forward-circle-fill"></i>
                         <div>
                             <h4>Fast & Reliable</h4>
-                            <p>We are designed on a very lightweight development framework providing you with a very
-                                fast user experience while working.</p>
+                            <p>We are designed on a very lightweight development framework providing you with a very fast user experience while working.</p>
                         </div>
                     </div>
                     <div class="icon-box" data-aos="fade-up">
                         <i class="bi bi-person-lines-fill"></i>
                         <div>
                             <h4>Student Profiles & Enrollment</h4>
-                            <p>The school management software offers industry leading school & college student
-                                enrollment system that delivers simplicity and convenience to better manage a growing
-                                number of enrollments.</p>
+                            <p>The school management software offers industry leading school & college student enrollment system that delivers simplicity and
+                                convenience to better manage a growing number of enrollments.</p>
                         </div>
                     </div>
                     <div class="icon-box" data-aos="fade-up">
                         <i class="bi bi-clipboard-data-fill"></i>
                         <div>
                             <h4>Very Flexible Options</h4>
-                            <p>Daily attendance in features commenting and tracking for up to 15 customization
-                                attributes, including AM/PM absences, medical excuses, holidays & lunch count.</p>
+                            <p>Daily attendance in features commenting and tracking for up to 15 customization attributes, including AM/PM absences, medical
+                                excuses, holidays & lunch count.</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-        </div><!-- End SCHOOL MANAGEMENT SOFTWARE Description Icons -->
-
+        </div>
     </div>
+</section><!-- End Software Work Process Section -->
 
-</section><!-- End Features Section -->
-
-<!-- ======= Heading Section ======= -->
-<section id="about-us" class="about-us-1" style="background: white;">
+<!-- ======= Mobile Version Info Section ======= -->
+<section id="sch-man-mob-info" class="sch-man-mob-info">
     <div class="container" data-aos="fade-up">
-
         <div class="row content">
             <div class="col-lg-6" data-aos="fade-right">
                 <img src="assets/img/edu-pri.png" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-                <h2 style="color: black; font-size: 35px; padding-top: 60px;">MOBILE VERSION FOR DIRECTORS AND PRINCIPALS</h2>
+                <h2>MOBILE VERSION FOR DIRECTORS AND PRINCIPALS</h2>
                 <p>Archivist launched its new specialized mobile version named as Archivist Executive for Schools’ Principals and Directors. Executives now can
                     get connected with the daily reports of their schools /educational institutes in a while by having the information in their hand. It is just
                     one touch away. Archivist Executive enables institutes stakeholders to get the analytical reports against their multiple campuses on their
-                    smart phones remotely and from everywhere.</p><br>
-                <a href="#about" class="get-started-btn scrollto" style="color: black;">More Info..</a>
+                    smart phones remotely and from everywhere.</p>
+                <br>
+                <a href="#about">More Info..</a>
             </div>
         </div>
-
     </div>
-</section><!-- End Heading Section -->
+</section><!-- End Mobile Version Info Section -->
+
 
 <?php require_once('main/footer.php'); ?>
