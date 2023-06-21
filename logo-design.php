@@ -1,6 +1,7 @@
 <?php require_once('./main/header.php'); ?>
 
-<!-- ======= Heading Section ======= -->
+
+<!-- ======= Hero Section ======= -->
 <section id="about-us" class="about-us-1" style="padding-top: 10%;">
     <div class="container" data-aos="fade-up">
         <div class="row content">
@@ -17,10 +18,9 @@
             </div>
         </div>
     </div>
-</section><!-- End Heading Section -->
+</section><!-- End Hero Section -->
 
-
-<!-- Updating Website Software Section -->
+<!-- ======= Design Service Section ======= -->
 <section id="app-build" style="background: white">
     <div class="container" data-aos="fade-up">
         <div class="section-header">
@@ -67,10 +67,9 @@
             <!-- End Content 4 -->
         </div>
     </div>
-</section><!-- End Team Section -->
+</section><!-- End Design Service Section -->
 
-
-<!-- Services Section - Home Page -->
+<!-- ======= Provide Section ======= -->
 <section id="services" class="services-1">
     <div class="container">
         <div class="row gy-4">
@@ -102,10 +101,9 @@
             </div>
         </div>
     </div>
-</section><!-- End Services Section -->
+</section><!-- End Provide Section -->
 
-
-<!-- start information section -->
+<!-- ======= Ad Section ======= -->
 <section id="info-2" class="info-2" style="background: black;">
     <div class="container text-center" data-aos="fade-up">
         <h3 style="font-weight:800; color: #ffc451; font-style: italic; font-size: 35px; text-transform: uppercase;">The
@@ -117,8 +115,7 @@
             providers. We always assure you a grunted Success. Let Our Service Experts To design Your company logo we
             will assuredly do the honor of working for you at the shortest time possible.</p>
     </div>
-</section><!-- End Information section -->
-
+</section><!-- End Ad section -->
 
 <!-- ======= Pricing Section ======= -->
 <section id="pricing" class="pricing">
@@ -248,8 +245,6 @@
         </div>
     </div>
 </section><!-- End Custom Boosting Section -->
-
-
 
 
 <?php require_once('main/footer.php'); ?>

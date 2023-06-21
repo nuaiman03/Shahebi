@@ -1,7 +1,8 @@
 <?php require_once('./main/header.php'); ?>
 
-<!-- ======= Heading Section ======= -->
-<section id="about-us" class="about-us-1" style="padding-top: 10%;">
+
+<!-- ======= Hero Section ======= -->
+<section id="clip-ser-hero" class="clip-ser-hero" style="padding-top: 10%;">
     <div class="container" data-aos="fade-up">
 
         <div class="row content">
@@ -20,11 +21,10 @@
         </div>
 
     </div>
-</section><!-- End Heading Section -->
+</section><!-- End Hero Section -->
 
-
-<!-- ======= SCHOOL MANAGEMENT SOFTWARE Description Section ======= -->
-<section id="features" class="features" style="background: #FBFBFB;">
+<!-- ======= Clipping Path Work Process Section ======= -->
+<section id="clip-ser-pro" class="clip-ser-pro" style="background: #FBFBFB;">
     <div class="container" data-aos="fade-up">
         <div class="row justify-content-center feature-icons" data-aos="fade-up">
             <h3 style="text-transform: uppercase; color: orange;">How The CLIPPING PATHS Service Works</h3>
@@ -87,15 +87,14 @@
                 </div>
             </div>
 
-        </div><!-- End SCHOOL MANAGEMENT SOFTWARE Description Icons -->
+        </div>
 
     </div>
 
-</section><!-- End Features Section -->
+</section><!-- End Clipping Path Work Process Section -->
 
-
-<!-- Services Section - Home Page -->
-<section id="services" class="services-1" style="background: black">
+<!-- ======= Info Section ======= -->
+<section id="clip-ser-info" class="clip-ser-info" style="background: black">
     <div class="container">
         <div class="row gy-4">
             <div data-aos-delay="100" data-aos="fade-up" class="col-lg-2">
@@ -121,9 +120,8 @@
     </div>
 </section><!-- End Services Section -->
 
-
-<!-- ======= Price Section 1 ======= -->
-<section id=" about-us" class="about-us-1" style="background: white;">
+<!-- ======= Price 1 Section ======= -->
+<section id="clip-ser-price-1" class="clip-ser-price-1" style="background: white;">
     <div class="container" data-aos="fade-up">
 
         <div class="row content">
@@ -152,10 +150,10 @@
         </div>
 
     </div>
-</section><!-- End Price Section 1 -->
+</section><!-- End Price 1 Section -->
 
-<!-- ======= Price Section 2 ======= -->
-<section id="about-us" class="about-us-1">
+<!-- ======= Price 2 Section ======= -->
+<section id="clip-ser-price-2" class="clip-ser-price-2">
     <div class="container" data-aos="fade-up">
 
         <div class="row content">
@@ -186,10 +184,10 @@
         </div>
 
     </div>
-</section><!-- End Price Section 2 -->
+</section><!-- End Price 2 Section -->
 
-<!-- ======= Price Section 3 ======= -->
-<section id="about-us" class="about-us-1" style="background: white;">
+<!-- ======= Price 3 Section ======= -->
+<section id="clip-ser-price-1" class="clip-ser-price-1" style="background: white;">
     <div class="container" data-aos="fade-up">
 
         <div class="row content">
@@ -219,10 +217,10 @@
         </div>
 
     </div>
-</section><!-- End Price Section 3 -->
+</section><!-- End Price 3 Section -->
 
-<!-- ======= Price Section 4 ======= -->
-<section id="about-us" class="about-us-1">
+<!-- ======= Price 4 Section ======= -->
+<section id="clip-ser-price-2" class="clip-ser-price-2">
     <div class="container" data-aos="fade-up">
 
         <div class="row content">
@@ -249,10 +247,10 @@
             </div>
         </div>
     </div>
-</section><!-- End Price Section 4 -->
+</section><!-- End Price 4 Section -->
 
-<!-- ======= Price Section 5 ======= -->
-<section id="about-us" class="about-us-1" style="background: white;">
+<!-- ======= Price 5 Section ======= -->
+<section id="clip-ser-price-1" class="clip-ser-price-1" style="background: white;">
     <div class="container" data-aos="fade-up">
 
         <div class="row content">
@@ -282,10 +280,10 @@
         </div>
 
     </div>
-</section><!-- End Price Section 5 -->
+</section><!-- End Price 5 Section -->
 
-<!-- ======= Price Section 6 ======= -->
-<section id="about-us" class="about-us-1">
+<!-- ======= Price 6 Section ======= -->
+<section id="clip-ser-price-2" class="clip-ser-price-2">
     <div class="container" data-aos="fade-up">
 
         <div class="row content">
@@ -318,18 +316,17 @@
             </div>
         </div>
     </div>
-</section><!-- End Price Section 6 -->
+</section><!-- End Price 6 Section -->
 
-
-<!-- Services Section - Home Page -->
-<section id="services" class="services-1" style="background: white">
+<!-- ======= Portfolio Section ======= -->
+<section id="clip-ser-portfolio" class="clip-ser-portfolio" style="background: white">
     <div>
         portfoio
     </div>
-</section>
+</section><!-- End Portfolio Section -->
 
-<!-- Services Section - Home Page -->
-<section id="services" class="services-1" style="background: black">
+<!-- ======= Dynamic Price Section ======= -->
+<section id="clip-ser-price-dy" class="clip-ser-price-dy" style="background: black">
     <div class="container">
         <div class="row gy-4">
             <div data-aos-delay="100" data-aos="fade-up" class="col-lg-4">
@@ -380,11 +377,7 @@
             </div>
         </div>
     </div>
-</section><!-- End Services Section -->
-
-
-
-
+</section><!-- End Dynamic Price Section -->
 
 
 <?php require_once('main/footer.php'); ?>
