@@ -1,25 +1,22 @@
 <?php require_once('./main/header.php'); ?>
 
-    <!-- ======= Heading Section ======= -->
+    <!-- ======= Hero Section ======= -->
     <section id="about-us" class="about-us-1">
       <div class="container" data-aos="fade-up">
-
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-right">
             <img src="assets/img/gk.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-            <h5 style="color: #ffcd6b; padding-top: 25%;">SMS Marketing Services in Cheap Rate</h5>
+            <h5>SMS Marketing Services in Cheap Rate</h5>
             <h2>Grow Your <span>Business</span> with  <span>Selected</span> People</h2>
-            <p style="color: white;">We help you promoting your Business across the whole Bangladesh with our expensive Mobile Number Database. Start Your SMS campaign now! Get more promotion rarely go viral on their own!</p>
+            <p>We help you promoting your Business across the whole Bangladesh with our expensive Mobile Number Database. Start Your SMS campaign now! Get more promotion rarely go viral on their own!</p>
           </div>
         </div>
-        
       </div>
-    </section><!-- End Heading Section -->
+    </section><!-- End Hero Section -->
 
-
-    <!-- Services Section - Home Page -->
+    <!-- ======= Provide Section ======= -->
     <div style="background: white; padding: 10px;">
       <p style="font-size: 30px; color: black; text-align: center; font-weight: bold; font-style: italic;">99.99 % Real Mobile User and 100% Money Back Guarantee!</p>
     </div>
@@ -50,10 +47,10 @@
             </div>
             </div>
     </div>
-</section><!-- End Services Section -->
+</section><!-- End Provide Section -->
 
 
-<!-- ======= About Section ======= -->
+<!-- ======= Campaign Section ======= -->
 <section style="background-color: white;">
     <div data-aos="fade-up">
         <div class="content text-center" data-aos="fade-right" style="padding: 0px 120px;" data-aos-delay="100">
@@ -64,7 +61,7 @@
             <p>Don’t Worry! Our Charge is lower then other service providers. We always assure you a grunted Success. Let Our Service Experts To Boost Up Your sales 300% Within Couple of Months Along With Hundreds of Thousands Targeted Visitors On Your Site!</p>
         </div>
     </div>
-</section><!-- End About Section -->
+</section><!-- End Campaign Section -->
 
 
    <!-- ======= Custom Boosting Section ======= -->

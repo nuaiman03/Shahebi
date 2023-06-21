@@ -2364,7 +2364,7 @@ h2 {
 
 .ssl-card .box a:hover {
   background: orange;
-  color: #000000; 
+  color: #ffffff; 
 }
 /*--------------------------------------------------------------
 # Updating Website Software Price SSL & Cyber Security Page
@@ -4263,8 +4263,7 @@ Later
 }
 
 .fb-mar-custom .content .section-title {
-  margin: 0;
-  margin-bottom: 0%;
+  margin-bottom: -5%;
 }
 
 .fb-mar-custom .content .section-title p {
@@ -4366,21 +4365,326 @@ css
 /*--------------------------------------------------------------
 # Hero Youtube Marketing Page
 --------------------------------------------------------------*/
-/* 
-//////////////////////////////////////
-//////////////////////////////////////
-//////////////////////////////////////
-//////////////////////////////////////
-//////////////////////////////////////
-//////////////////////////////////////
-css
-/////////////////////////////////////
-/////////////////////////////////////
-/////////////////////////////////////
-/////////////////////////////////////
-/////////////////////////////////////
-/////////////////////////////////////
-*/
+.ytb-mar-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.ytb-mar-hero .content span {
+  color: orange;
+}
+
+.ytb-mar-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.ytb-mar-hero .content h5 {
+  color: orange;
+  padding-top: 20%;
+}
+
+.ytb-mar-hero .content p {
+  color: white;
+}
+
+/*--------------------------------------------------------------
+# Count Down Youtube Marketing Page
+--------------------------------------------------------------*/
+.ytb-mar-counter {
+  background: white;
+}
+
+.ytb-mar-counter .content .counters {
+  text-align: center;
+  display: flex;
+}
+
+.ytb-mar-counter .content .counters i {
+  font-size: 44px; 
+  line-height: 44px; 
+  color: orange; 
+  margin-right: 15px; 
+  padding-top: 12px;
+}
+
+.ytb-mar-counter .content .counters span {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  display: block;
+}
+
+.ytb-mar-counter .content .counters p {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ytb-mar-counter .content .counters a {
+  border: 1px solid orange;
+  background: white;
+  padding: 6px 10px;
+  color: black;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.ytb-mar-counter .content .counters a:hover {
+  background: orange;
+  color: white; 
+}
+/*--------------------------------------------------------------
+# Provide Youtube Marketing Page
+--------------------------------------------------------------*/
+.ytb-mar-provide {
+  background: #000000ef;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid orange;
+ }
+ 
+ .ytb-mar-provide h1 {
+   font-size: 30px; 
+   text-align: center;
+   font-weight: 900;
+   color: white;
+ }
+ 
+ .ytb-mar-provide .service-item {
+   position: relative;
+   padding-top: 40px;
+ }
+ 
+ .ytb-mar-provide .service-item .icon {
+   width: 48px;
+   height: 48px;
+   position: relative;
+   margin-right: 50px;
+   line-height: 0;
+ }
+ 
+ .ytb-mar-provide .service-item .icon i {
+   color: orange;
+   font-size: 56px;
+   transition: ease-in-out 0.3s;
+   z-index: 2;
+   position: relative;
+ }
+ 
+ .ytb-mar-provide .service-item .icon i:hover {
+   color: white;
+ }
+ 
+ .ytb-mar-provide .service-item h4 {
+   font-weight: 900;
+   margin-bottom: 15px;
+   font-size: 20px;
+   color: orange;
+ 
+ }
+ 
+ .ytb-mar-provide .service-item p {
+   line-height: 24px;
+   font-size: 14px;
+   color: white;
+ }
+ 
+/*--------------------------------------------------------------
+# Campaign Youtube Marketing Page
+--------------------------------------------------------------*/
+.ytb-mar-camp {
+  background: #000000;
+}
+
+.ytb-mar-camp h3 {
+  font-weight:800; 
+  color:orange; 
+  font-style: italic; 
+  font-size: 35px; 
+  text-transform: uppercase;
+}
+
+.ytb-mar-camp h5 {
+  font-weight:800; 
+  font-style: italic; 
+  color: white; 
+  text-transform: uppercase;
+}
+
+.ytb-mar-camp p {
+  color: #e0e0e0;
+}
+/*--------------------------------------------------------------
+# Pricing Youtube Marketing Page
+--------------------------------------------------------------*/
+.ytb-mar-pricing .box {
+  padding: 40px 20px;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.ytb-mar-pricing .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.ytb-mar-pricing h3 {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: orange;
+}
+
+.ytb-mar-pricing p {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: white;
+  background: orange;
+  border-radius: 2px;
+}
+
+.ytb-mar-pricing .price {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.ytb-mar-pricing .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.ytb-mar-pricing ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.ytb-mar-pricing ul li {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.ytb-mar-pricing ul li i {
+  color: orange;
+}
+
+.ytb-mar-pricing a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.ytb-mar-pricing a:hover {
+  background: orange;
+  color: #fff;
+}
+
+.ytb-mar-pricing .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: orange;
+  color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+# Custom Boosting Youtube Marketing Page
+--------------------------------------------------------------*/
+.ytb-mar-custom {
+  background: #000000;
+}
+
+.ytb-mar-custom .content .section-title {
+  margin-bottom: -5%;
+}
+
+.ytb-mar-custom .content .section-title p {
+  color: white;
+}
+
+.ytb-mar-custom .content p {
+  color: #c7c7c7;
+}
+
+.ytb-mar-custom .content h4 {
+  text-align: center; 
+  color: black; 
+  background: orange; 
+  border-radius: 10px; 
+  font-weight: 900; 
+  padding: 5px 0px;
+  font-size: 16px;
+}
+
+.ytb-mar-custom .content a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.ytb-mar-custom .content a:hover {
+  background: orange;
+  color: #fff;
+}
+
+.ytb-mar-custom .content ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.ytb-mar-custom .content ul li {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.ytb-mar-custom .content ul li i {
+  color: orange;
+}
 /*-------------------------------------------------------------------------------///////////////////
 # End Youtube Marketing Part
 ---------------------------------------------------------------------------------*/
@@ -4396,21 +4700,10 @@ css
 /*--------------------------------------------------------------
 # Hero SMS Marketing & Data Page
 --------------------------------------------------------------*/
-/* 
-//////////////////////////////////////
-//////////////////////////////////////
-//////////////////////////////////////
-//////////////////////////////////////
-//////////////////////////////////////
-//////////////////////////////////////
-css
-/////////////////////////////////////
-/////////////////////////////////////
-/////////////////////////////////////
-/////////////////////////////////////
-/////////////////////////////////////
-/////////////////////////////////////
-*/
+
+/*--------------------------------------------------------------
+# Hero SMS Marketing & Data Page
+--------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------///////////////////
 # End SMS Marketing & Data Part
 ---------------------------------------------------------------------------------*/
