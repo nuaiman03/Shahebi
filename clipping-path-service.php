@@ -94,19 +94,19 @@
                 <h4>INVISIBLE MANNEQUIN</h4>
             </div>
             <div data-aos-delay="100" data-aos="fade-up" class="col-lg-2">
-                <h4">COLOR CORRECTION</h4>
+                <h4>COLOR CORRECTION</h4>
             </div>
             <div data-aos-delay=" 100" data-aos="fade-up" class="col-lg-2">
-                <h4">SHADOW REFLECTION</h4>
+                <h4>SHADOW REFLECTION</h4>
             </div>
             <div data-aos-delay=" 100" data-aos="fade-up" class="col-lg-2">
-                <h4">RETOUCH</h4>
+                <h4>RETOUCH</h4>
             </div>
             <div data-aos-delay=" 100" data-aos="fade-up" class="col-lg-2">
-                <h4">IMAGE MASKING</h4>
+                <h4>IMAGE MASKING</h4>
             </div>
             <div data-aos-delay=" 100" data-aos="fade-up" class="col-lg-2">
-                <h4">CLIPPING PATHS</h4>
+                <h4>CLIPPING PATHS</h4>
             </div>            
         </div>
     </div>
@@ -119,116 +119,92 @@
                 <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
                     <h4>Basic Clipping Paths</h4>
                     <p>Clipping path allows you to manipulate the background of the subject of your image. You can create white backgrounds for selling products online, or display your subjects in any setting.</p>
-                    <p style="color: black;">At Path, we outline each image by hand.
-                        Automatons and AI can lead to Photoshop fails and unhappy customers.
-                        Trained (human) graphic designers have the common sense and keen eye
-                        to make sure edited photos look just right.</p>
-                    <a href="#about" style="color: black; font-weight: bold;" class="get-started-btn scrollto">0.25$ per image |
-                        ORDER NOW</a>
+                    <p>At Path, we outline each image by hand. Automatons and AI can lead to Photoshop fails and unhappy customers. Trained (human) graphic designers have the common sense and keen eye to make sure edited photos look just right.</p>
+                    <br>
+                    <a href="#">0.25$ per image | ORDER NOW</a>
                 </div>
                 <div class="col-lg-3" data-aos="fade-right">
                     <img src="assets/img/clip-4.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-1" data-aos="fade-right">
-
+                    <!-- Empty Space Here For Design -->
                 </div>
             </div>
-
         </div>
 </section><!-- End Price 1 Section -->
 
 <!-- ======= Price 2 Section ======= -->
 <section id="clip-ser-price-2" class="clip-ser-price-2">
     <div class="container" data-aos="fade-up">
-
         <div class="row content">
             <div class="col-lg-3" data-aos="fade-right">
                 <img src="assets/img/clip-4.png" class="img-fluid" alt="">
             </div>
             <div class="col-lg-8 pt-8 pt-lg-0" data-aos="fade-left">
-                <h4 class="title" style="color: #f1b738; font-weight: bold; font-size: 23px; text-transform: upercase;">
-                    Simple Clipping Paths</h4>
-                <p style="color: white;">A simple clipping path is slightly more complex, so it takes a bit more time.
-                    Simple clipping paths remove objects that have more edges and curves, like a wine bottle or a car.
-                    They also work for objects that have a “hole” in them (like the interior of a mug handle or the
-                    inside of a ring or necklace).</p>
-                <p style="color: white;">
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Simple jewelry &nbsp;
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Vehicles &nbsp;
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Single furniture items &nbsp;
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> A simple item of clothing &nbsp;<br>
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Other standalone products &nbsp;
+                <h4>Simple Clipping Paths</h4>
+                <p>A simple clipping path is slightly more complex, so it takes a bit more time. Simple clipping paths remove objects that have more edges and curves, like a wine bottle or a car. They also work for objects that have a “hole” in them (like the interior of a mug handle or the inside of a ring or necklace).</p>
+                <p>
+                    <i class="bi bi-caret-right-fill"></i> Simple jewelry &nbsp;
+                    <i class="bi bi-caret-right-fill"></i> Vehicles &nbsp;
+                    <i class="bi bi-caret-right-fill"></i> Single furniture items &nbsp;
+                    <i class="bi bi-caret-right-fill"></i> A simple item of clothing &nbsp;<br>
+                    <i class="bi bi-caret-right-fill"></i> Other standalone products &nbsp;
                 </p>
                 <br>
-                <a href="#about" style="font-weight: bold;" class="get-started-btn scrollto">0.50$ per image | ORDER
-                    NOW</a>
+                <a href="#">0.50$ per image | ORDER NOW</a>
             </div>
             <div class="col-lg-1" data-aos="fade-right">
+                <!-- Empty Space Here For Design -->
             </div>
-
         </div>
-
     </div>
 </section><!-- End Price 2 Section -->
 
 <!-- ======= Price 3 Section ======= -->
-<section id="clip-ser-price-1" class="clip-ser-price-1" style="background: white;">
+<section id="clip-ser-price-1" class="clip-ser-price-1">
     <div class="container" data-aos="fade-up">
-
         <div class="row content">
-
             <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
-                <h4 class="title" style="color: #f1b738; font-weight: bold; font-size: 23px; text-transform: upercase;">
-                    Medium Clipping Paths</h4>
-                <p style="color: black;">A medium clipping path is used for objects with complicated edges. These are
-                    typically complex enough that several paths are created and then merged together to get the final
-                    result.</p>
-                <p style="color: black;">
+                <h4>Medium Clipping Paths</h4>
+                <p>A medium clipping path is used for objects with complicated edges. These are typically complex enough that several paths are created and then merged together to get the final result.</p>
+                <p>
                     <i class="bi bi-caret-right-fill" style="color: orange;"></i> A grouping of simple items &nbsp;
                     <i class="bi bi-caret-right-fill" style="color: orange;"></i> Shoes &nbsp;
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Items of clothing with more complex
-                    shapes and curves &nbsp;
+                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Items of clothing with more complex shapes and curves &nbsp;
                 </p>
                 <br>
-                <a href="#about" style="color: black; font-weight: bold;" class="get-started-btn scrollto">1$ per image
-                    | ORDER NOW</a>
+                <a href="#">1$ per image ORDER NOW</a>
             </div>
             <div class="col-lg-3" data-aos="fade-right">
                 <img src="assets/img/clip-4.png" class="img-fluid" alt="">
             </div>
             <div class="col-lg-1" data-aos="fade-right">
-
+                <!-- Empty Space Here For Design -->
             </div>
         </div>
-
     </div>
 </section><!-- End Price 3 Section -->
 
 <!-- ======= Price 4 Section ======= -->
 <section id="clip-ser-price-2" class="clip-ser-price-2">
     <div class="container" data-aos="fade-up">
-
         <div class="row content">
             <div class="col-lg-3" data-aos="fade-right">
                 <img src="assets/img/clip-4.png" class="img-fluid" alt="">
             </div>
             <div class="col-lg-8 pt-8 pt-lg-0" data-aos="fade-left">
-                <h4 class="title" style="color: #f1b738; font-weight: bold; font-size: 23px; text-transform: upercase;">
-                    Complex Clipping Paths</h4>
-                <p style="color: white;">A complex clipping path is applied to objects with very complicated edges,
-                    multiple holes, and possibly multiple objects or varied levels of transparency. These types of
-                    clipping paths are incredibly time-consuming and call for more advanced skills.</p>
-                <p style="color: white;">
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Groupings of multiple items of
-                    clothing &nbsp;
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Furniture sets &nbsp;
-                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Strollers &nbsp;
+                <h4>Complex Clipping Paths</h4>
+                <p>A complex clipping path is applied to objects with very complicated edges, multiple holes, and possibly multiple objects or varied levels of transparency. These types of clipping paths are incredibly time-consuming and call for more advanced skills.</p>
+                <p>
+                    <i class="bi bi-caret-right-fill"></i> Groupings of multiple items of clothing &nbsp;
+                    <i class="bi bi-caret-right-fill"></i> Furniture sets &nbsp;
+                    <i class="bi bi-caret-right-fill"></i> Strollers &nbsp;
                 </p>
                 <br>
-                <a href="#about" style="font-weight: bold;" class="get-started-btn scrollto">3.99$ per image | ORDER
-                    NOW</a>
+                <a href="#">3.99$ per image | ORDER NOW</a>
             </div>
             <div class="col-lg-1" data-aos="fade-right">
+                <!-- Empty Space Here For Design -->
             </div>
         </div>
     </div>

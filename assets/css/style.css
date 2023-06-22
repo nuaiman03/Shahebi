@@ -4984,7 +4984,7 @@ css
 }
 
 .clip-ser-price-1 .content h4 {
-  color: #f1b738; 
+  color: orange; 
   font-weight: bold; 
   font-size: 23px; 
   text-transform: upercase;
@@ -4994,20 +4994,61 @@ css
   color: black;
 }
 
+.clip-ser-price-1 .content i {
+  color: orange;
+}
+
 .clip-ser-price-1 .content a {
-  
+  border: 1px solid orange;
+  background: white;
+  padding: 10px 24px;
+  color: black;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
 }
 
 .clip-ser-price-1 .content a:hover {
-  
+  background: orange;
+  color: white; 
 }
+
 
 /*--------------------------------------------------------------
 # Price 2 Cliping Path Service Page
 --------------------------------------------------------------*/
-.sms-mar-hero {
-  background-color: #000000;
-  padding-top: 10%;
+.clip-ser-price-2 {
+  background-color: black;
+}
+
+.clip-ser-price-2 .content h4 {
+  color: orange; 
+  font-weight: bold; 
+  font-size: 23px; 
+  text-transform: upercase;
+}
+
+.clip-ser-price-2 .content p {
+  color: white;
+}
+
+.clip-ser-price-2 .content i {
+  color: orange;
+}
+
+.clip-ser-price-2 .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.clip-ser-price-2 .content a:hover {
+  background: orange;
+  color: #000000; 
 }
 
 /*--------------------------------------------------------------
