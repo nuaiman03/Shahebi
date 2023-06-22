@@ -5054,17 +5054,94 @@ css
 /*--------------------------------------------------------------
 # Portfolio Cliping Path Service Page
 --------------------------------------------------------------*/
-.sms-mar-hero {
-  background-color: #000000;
-  padding-top: 10%;
+.clip-ser-portfolio {
+  overflow: hidden;
+  background: white;
+}
+
+.clip-ser-portfolio .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.clip-ser-portfolio .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #d1d1d7;
+  opacity: 1;
+}
+
+.clip-ser-portfolio .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: orange;
+}
+
+.clip-ser-portfolio .swiper-slide-active {
+  text-align: center;
+}
+
+.clip-ser-portfolio .swiper-slide img{
+  height: 150px;
+  float: left;
+  background-size: cover;
+  width: 300px;
+}
+
+@media (min-width: 992px) {
+  .clip-ser-portfolio .swiper-wrapper {
+    padding: 40px 0;
+  }
+
+  .clip-ser-portfolio .swiper-slide-active {
+    border: 6px solid var(--color-primary);
+    padding: 4px;
+    background: orange;
+    z-index: 1;
+    transform: scale(1.2);
+  }
 }
 
 /*--------------------------------------------------------------
 # Dynamic Price Cliping Path Service Page
 --------------------------------------------------------------*/
-.sms-mar-hero {
+.clip-ser-price-dy {
   background-color: #000000;
-  padding-top: 10%;
+}
+
+.clip-ser-price-dy h4 {
+  padding-top: 7%; 
+  color: orange; 
+  text-align: center; 
+  font-weight: bold; 
+  font-size: 23px; 
+  text-transform: upercase;
+}
+
+.clip-ser-price-dy p {
+  text-align: center;
+  color: white;
+}
+
+.clip-ser-price-dy a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.clip-ser-price-dy a:hover {
+  background: orange;
+  color: #000000;
+}
+
+.clip-ser-price-dy {
+  
+}
+
+.clip-ser-price-dy {
+  
 }
 
 
