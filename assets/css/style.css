@@ -4449,54 +4449,54 @@ css
   background: #000000ef;
   border-top: 1px solid orange;
   border-bottom: 1px solid orange;
- }
- 
- .ytb-mar-provide h1 {
-   font-size: 30px; 
-   text-align: center;
-   font-weight: 900;
-   color: white;
- }
- 
- .ytb-mar-provide .service-item {
-   position: relative;
-   padding-top: 40px;
- }
- 
- .ytb-mar-provide .service-item .icon {
-   width: 48px;
-   height: 48px;
-   position: relative;
-   margin-right: 50px;
-   line-height: 0;
- }
- 
- .ytb-mar-provide .service-item .icon i {
-   color: orange;
-   font-size: 56px;
-   transition: ease-in-out 0.3s;
-   z-index: 2;
-   position: relative;
- }
- 
- .ytb-mar-provide .service-item .icon i:hover {
-   color: white;
- }
- 
- .ytb-mar-provide .service-item h4 {
-   font-weight: 900;
-   margin-bottom: 15px;
-   font-size: 20px;
-   color: orange;
- 
- }
- 
- .ytb-mar-provide .service-item p {
-   line-height: 24px;
-   font-size: 14px;
-   color: white;
- }
- 
+}
+
+.ytb-mar-provide h1 {
+  font-size: 30px; 
+  text-align: center;
+  font-weight: 900;
+  color: white;
+}
+
+.ytb-mar-provide .service-item {
+  position: relative;
+  padding-top: 40px;
+}
+
+.ytb-mar-provide .service-item .icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  margin-right: 50px;
+  line-height: 0;
+}
+
+.ytb-mar-provide .service-item .icon i {
+  color: orange;
+  font-size: 56px;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+  position: relative;
+}
+
+.ytb-mar-provide .service-item .icon i:hover {
+  color: white;
+}
+
+.ytb-mar-provide .service-item h4 {
+  font-weight: 900;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: orange;
+
+}
+
+.ytb-mar-provide .service-item p {
+  line-height: 24px;
+  font-size: 14px;
+  color: white;
+}
+
 /*--------------------------------------------------------------
 # Campaign Youtube Marketing Page
 --------------------------------------------------------------*/
@@ -4735,53 +4735,53 @@ css
   background: #000000ef;
   border-top: 1px solid orange;
   border-bottom: 1px solid orange;
- }
- 
- .sms-mar-provide h1 {
-   font-size: 30px; 
-   text-align: center;
-   font-weight: 900;
-   color: white;
- }
- 
- .sms-mar-provide .service-item {
-   position: relative;
-   padding-top: 40px;
- }
- 
- .sms-mar-provide .service-item .icon {
-   width: 48px;
-   height: 48px;
-   position: relative;
-   margin-right: 50px;
-   line-height: 0;
- }
- 
- .sms-mar-provide .service-item .icon i {
-   color: orange;
-   font-size: 56px;
-   transition: ease-in-out 0.3s;
-   z-index: 2;
-   position: relative;
- }
- 
- .sms-mar-provide .service-item .icon i:hover {
-   color: white;
- }
- 
- .sms-mar-provide .service-item h4 {
-   font-weight: 900;
-   margin-bottom: 15px;
-   font-size: 20px;
-   color: orange;
- 
- }
- 
- .sms-mar-provide .service-item p {
-   line-height: 24px;
-   font-size: 14px;
-   color: white;
- }
+}
+
+.sms-mar-provide h1 {
+  font-size: 30px; 
+  text-align: center;
+  font-weight: 900;
+  color: white;
+}
+
+.sms-mar-provide .service-item {
+  position: relative;
+  padding-top: 40px;
+}
+
+.sms-mar-provide .service-item .icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  margin-right: 50px;
+  line-height: 0;
+}
+
+.sms-mar-provide .service-item .icon i {
+  color: orange;
+  font-size: 56px;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+  position: relative;
+}
+
+.sms-mar-provide .service-item .icon i:hover {
+  color: white;
+}
+
+.sms-mar-provide .service-item h4 {
+  font-weight: 900;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: orange;
+
+}
+
+.sms-mar-provide .service-item p {
+  line-height: 24px;
+  font-size: 14px;
+  color: white;
+}
  
 
 /*--------------------------------------------------------------
@@ -4889,16 +4889,16 @@ css
 /*--------------------------------------------------------------
 # Hero Cliping Path Service Page
 --------------------------------------------------------------*/
-.sms-mar-hero {
+.clip-ser-hero {
   background-color: #000000;
   padding-top: 10%;
 }
 
-.sms-mar-hero .content span {
+.clip-ser-hero .content span {
   color: orange;
 }
 
-.sms-mar-hero .content h2 {
+.clip-ser-hero .content h2 {
   font-weight: 700;
   font-size: 42px;
   line-height: 60px;
@@ -4907,38 +4907,99 @@ css
   color: white;
 }
 
-.sms-mar-hero .content h5 {
+.clip-ser-hero .content h5 {
   color: orange;
-  padding-top: 20%;
 }
 
-.sms-mar-hero .content p {
+.clip-ser-hero .content p {
   color: white;
 }
 
+.clip-ser-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.clip-ser-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
 
 /*--------------------------------------------------------------
 # Process Cliping Path Service Page
 --------------------------------------------------------------*/
-.sms-mar-hero {
-  background-color: #000000;
-  padding-top: 10%;
+.clip-ser-pro {
+  background: #FBFBFB;
+}
+
+.clip-ser-pro .section-title p {
+  text-align: center;
+}
+
+.clip-ser-pro  .icon-box {
+  display: flex;
+}
+
+.clip-ser-pro  .icon-box i {
+  padding-right: 18px;
+  font-size: 30px;
+  color: orange;
+}
+
+.clip-ser-pro  .icon-box h4 {
+  font-size: 20px;
+  font-weight: 800;
+  color: orange;
+}
+
+.clip-ser-pro  .icon-box p {
+  font-size: 15px;
+  color: black;
 }
 
 /*--------------------------------------------------------------
 # Info Cliping Path Service Page
 --------------------------------------------------------------*/
-.sms-mar-hero {
-  background-color: #000000;
-  padding-top: 10%;
+.clip-ser-info {
+  background: #000000;
+}
+
+.clip-ser-info h4 {
+  color: orange; 
+  text-align: center; 
+  font-weight: bold; 
+  font-size: 21px;
 }
 
 /*--------------------------------------------------------------
 # Price 1 Cliping Path Service Page
 --------------------------------------------------------------*/
-.sms-mar-hero {
-  background-color: #000000;
-  padding-top: 10%;
+.clip-ser-price-1 {
+  background-color: white;
+}
+
+.clip-ser-price-1 .content h4 {
+  color: #f1b738; 
+  font-weight: bold; 
+  font-size: 23px; 
+  text-transform: upercase;
+}
+
+.clip-ser-price-1 .content p {
+  color: black;
+}
+
+.clip-ser-price-1 .content a {
+  
+}
+
+.clip-ser-price-1 .content a:hover {
+  
 }
 
 /*--------------------------------------------------------------
@@ -4981,16 +5042,20 @@ css
 /*--------------------------------------------------------------
 # Hero Logo Design Page
 --------------------------------------------------------------*/
-.sms-mar-hero {
+.logo-des-hero {
   background-color: #000000;
   padding-top: 10%;
 }
 
-.sms-mar-hero .content span {
+.logo-des-hero .content img {
+  padding-top: 10%;
+}
+
+.logo-des-hero .content span {
   color: orange;
 }
 
-.sms-mar-hero .content h2 {
+.logo-des-hero .content h2 {
   font-weight: 700;
   font-size: 42px;
   line-height: 60px;
@@ -4999,53 +5064,309 @@ css
   color: white;
 }
 
-.sms-mar-hero .content h5 {
+.logo-des-hero .content h5 {
   color: orange;
-  padding-top: 20%;
 }
 
-.sms-mar-hero .content p {
+.logo-des-hero .content p {
   color: white;
 }
 
+.logo-des-hero .content p i {
+  color: orange;
+}
+
+.logo-des-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.logo-des-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
 /*--------------------------------------------------------------
 # Design Service Logo Design Page
 --------------------------------------------------------------*/
-.sms-mar-hero {
-  background-color: #000000;
-  padding-top: 10%;
+.logo-des-serv {
+  background-color: white;
+}
+
+.logo-des-serv h3 {
+  text-align:center; 
+  font-weight:800; color: black; 
+  text-transform: uppercase; 
+  font-family: Open Sans; 
+  font-size: 40px;
+}
+
+.logo-des-serv .content i {
+  color: orange; 
+  font-size: 70px;
+}
+
+.logo-des-serv .content a {
+  border: 1px solid orange;
+  background: white;
+  padding: 10px 24px;
+  color: black;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.logo-des-serv .content a:hover {
+  background: orange;
+  color: white; 
 }
 
 /*--------------------------------------------------------------
 # Provide Logo Design Page
 --------------------------------------------------------------*/
-.sms-mar-hero {
-  background-color: #000000;
-  padding-top: 10%;
+.logo-des-provide {
+  background: #000000ef;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+
+.logo-des-provide .service-item {
+  position: relative;
+  padding-top: 40px;
+}
+
+.logo-des-provide .service-item .icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  margin-right: 50px;
+  line-height: 0;
+}
+
+.logo-des-provide .service-item .icon i {
+  color: orange;
+  font-size: 56px;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+  position: relative;
+}
+
+.logo-des-provide .service-item .icon i:hover {
+  color: white;
+}
+
+.logo-des-provide .service-item h4 {
+  font-weight: 900;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: orange;
+
+}
+
+.logo-des-provide .service-item p {
+  line-height: 24px;
+  font-size: 14px;
+  color: white;
 }
 
 /*--------------------------------------------------------------
 # Ad Logo Design Page
 --------------------------------------------------------------*/
-.sms-mar-hero {
+.logo-des-ad {
   background-color: #000000;
-  padding-top: 10%;
+}
+
+.logo-des-ad h3 {
+  font-weight:800; 
+  color:orange; 
+  font-style: italic; 
+  font-size: 35px; 
+  text-transform: uppercase;
+}
+
+.logo-des-ad h5 {
+  font-weight:800; 
+  font-style: italic; 
+  color: white; 
+  text-transform: uppercase;
+}
+
+.logo-des-ad p {
+  color: #e0e0e0;
 }
 
 /*--------------------------------------------------------------
 # Pricing Logo Design Page
 --------------------------------------------------------------*/
-.sms-mar-hero {
-  background-color: #000000;
-  padding-top: 10%;
+.logo-des-pricing {
+  background-color: white;
+}
+
+.logo-des-pricing .box {
+  padding: 40px 20px;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.logo-des-pricing .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.logo-des-pricing h3 {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: orange;
+}
+
+.logo-des-pricing p {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: black;
+  background: orange;
+  border-radius: 2px;
+}
+
+.logo-des-pricing .price {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-des-pricing .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.logo-des-pricing ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.logo-des-pricing ul li {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.logo-des-pricing ul li i {
+  color: orange;
+}
+
+.logo-des-pricing a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.logo-des-pricing a:hover {
+  background: orange;
+  color: #fff;
+}
+
+.logo-des-pricing .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: orange;
+  color: #ffffff;
 }
 
 /*--------------------------------------------------------------
 # Custom Boosting Logo Design Page
 --------------------------------------------------------------*/
-.sms-mar-hero {
+.logo-des-custom {
   background-color: #000000;
-  padding-top: 10%;
+}
+
+.logo-des-custom .content .section-title {
+  margin-bottom: -5%;
+}
+
+.logo-des-custom .content .section-title p {
+  color: white;
+}
+
+.logo-des-custom .content p {
+  color: #c7c7c7;
+}
+
+.logo-des-custom .content h4 {
+  text-align: center; 
+  color: black; 
+  background: orange; 
+  border-radius: 10px; 
+  font-weight: 900; 
+  padding: 5px 0px;
+  font-size: 16px;
+}
+
+.logo-des-custom .content a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 5px;
+  color: white;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+  background: #000000;
+}
+
+.logo-des-custom .content a:hover {
+  background: orange;
+  color: #fff;
+}
+
+.logo-des-custom .content ul {
+  padding: 0;
+  list-style: none;
+}
+
+.logo-des-custom .content ul li {
+  padding: 10px 0 0 28px;
+  color: #ffffff;
+  position: relative;
+}
+
+.logo-des-custom .content ul li i {
+  color: orange;
+  left: 0;
+  top: 11px;
+  position: absolute;
+  font-size: 20px;
 }
 
 /*-------------------------------------------------------------------------------///////////////////
@@ -5066,6 +5387,11 @@ css
 .bann-des-hero {
   background-color: #000000;
 }
+
+.bann-des-hero .content img {
+  padding-top: 14%;
+}
+
 
 .bann-des-hero .content span {
   color: orange;
@@ -5359,6 +5685,7 @@ css
   font-weight: 600;
   transition: 0.3s;
   border: 1px solid orange;
+  background: #000000;
 }
 
 .bann-des-custom .content a:hover {
@@ -5419,11 +5746,25 @@ css
 
 .busi-card-hero .content h5 {
   color: orange;
-  padding-top: 20%;
 }
 
 .busi-card-hero .content p {
   color: white;
+}
+
+.busi-card-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.busi-card-hero .content a:hover {
+  background: orange;
+  color: #000000; 
 }
 
 

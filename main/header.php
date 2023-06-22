@@ -67,7 +67,7 @@
                 <ul>
                     <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
 
-                    <li class="dropdown"><a href="#"><span>Website</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="about.php"><span>Website</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="dynamic-website.php">Dynamic Website</a></li>
                             <li><a href="psd-to-static-website.php">PSD to Static Website</a></li>
