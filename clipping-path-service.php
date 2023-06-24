@@ -107,30 +107,32 @@
             </div>
             <div data-aos-delay=" 100" data-aos="fade-up" class="col-lg-2">
                 <h4>CLIPPING PATHS</h4>
-            </div>            
+            </div>
         </div>
     </div>
 </section><!-- End Info Section -->
 
 <!-- ======= Price 1 Section ======= -->
 <section id=" clip-ser-price-1" class="clip-ser-price-1">
-        <div class="container" data-aos="fade-up">
-            <div class="row content">
-                <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
-                    <h4>Basic Clipping Paths</h4>
-                    <p>Clipping path allows you to manipulate the background of the subject of your image. You can create white backgrounds for selling products online, or display your subjects in any setting.</p>
-                    <p>At Path, we outline each image by hand. Automatons and AI can lead to Photoshop fails and unhappy customers. Trained (human) graphic designers have the common sense and keen eye to make sure edited photos look just right.</p>
-                    <br>
-                    <a href="#">0.25$ per image | ORDER NOW</a>
-                </div>
-                <div class="col-lg-3" data-aos="fade-right">
-                    <img src="assets/img/clip-4.png" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-1" data-aos="fade-right">
-                    <!-- Empty Space Here For Design -->
-                </div>
+    <div class="container" data-aos="fade-up">
+        <div class="row content">
+            <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
+                <h4>Basic Clipping Paths</h4>
+                <p>Clipping path allows you to manipulate the background of the subject of your image. You can create white backgrounds for selling products
+                    online, or display your subjects in any setting.</p>
+                <p>At Path, we outline each image by hand. Automatons and AI can lead to Photoshop fails and unhappy customers. Trained (human) graphic
+                    designers have the common sense and keen eye to make sure edited photos look just right.</p>
+                <br>
+                <a href="#">0.25$ per image | ORDER NOW</a>
+            </div>
+            <div class="col-lg-3" data-aos="fade-right">
+                <img src="assets/img/clip-4.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-1" data-aos="fade-right">
+                <!-- Empty Space Here For Design -->
             </div>
         </div>
+    </div>
 </section><!-- End Price 1 Section -->
 
 <!-- ======= Price 2 Section ======= -->
@@ -142,7 +144,9 @@
             </div>
             <div class="col-lg-8 pt-8 pt-lg-0" data-aos="fade-left">
                 <h4>Simple Clipping Paths</h4>
-                <p>A simple clipping path is slightly more complex, so it takes a bit more time. Simple clipping paths remove objects that have more edges and curves, like a wine bottle or a car. They also work for objects that have a “hole” in them (like the interior of a mug handle or the inside of a ring or necklace).</p>
+                <p>A simple clipping path is slightly more complex, so it takes a bit more time. Simple clipping paths remove objects that have more edges and
+                    curves, like a wine bottle or a car. They also work for objects that have a “hole” in them (like the interior of a mug handle or the inside
+                    of a ring or necklace).</p>
                 <p>
                     <i class="bi bi-caret-right-fill"></i> Simple jewelry &nbsp;
                     <i class="bi bi-caret-right-fill"></i> Vehicles &nbsp;
@@ -166,7 +170,8 @@
         <div class="row content">
             <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
                 <h4>Medium Clipping Paths</h4>
-                <p>A medium clipping path is used for objects with complicated edges. These are typically complex enough that several paths are created and then merged together to get the final result.</p>
+                <p>A medium clipping path is used for objects with complicated edges. These are typically complex enough that several paths are created and then
+                    merged together to get the final result.</p>
                 <p>
                     <i class="bi bi-caret-right-fill" style="color: orange;"></i> A grouping of simple items &nbsp;
                     <i class="bi bi-caret-right-fill" style="color: orange;"></i> Shoes &nbsp;
@@ -194,7 +199,8 @@
             </div>
             <div class="col-lg-8 pt-8 pt-lg-0" data-aos="fade-left">
                 <h4>Complex Clipping Paths</h4>
-                <p>A complex clipping path is applied to objects with very complicated edges, multiple holes, and possibly multiple objects or varied levels of transparency. These types of clipping paths are incredibly time-consuming and call for more advanced skills.</p>
+                <p>A complex clipping path is applied to objects with very complicated edges, multiple holes, and possibly multiple objects or varied levels of
+                    transparency. These types of clipping paths are incredibly time-consuming and call for more advanced skills.</p>
                 <p>
                     <i class="bi bi-caret-right-fill"></i> Groupings of multiple items of clothing &nbsp;
                     <i class="bi bi-caret-right-fill"></i> Furniture sets &nbsp;
@@ -233,7 +239,6 @@
                 <!-- Empty Space Here For Design -->
             </div>
         </div>
-
     </div>
 </section><!-- End Price 5 Section -->
 
@@ -246,13 +251,14 @@
             </div>
             <div class="col-lg-8 pt-8 pt-lg-0" data-aos="fade-left">
                 <h4>Super complex clipping paths</h4>
-                <p>Sometimes, an object requires so many individual clipping paths that a complex or multiple clipping path just isn’t enough. Super complex clipping paths involve three to four different techniques.</p>
-                <p>This level of detail is necessary for tough product images where nothing else will look natural. In some cases, we need to use super complex, complex, and multiple clipping paths in conjunction with image masking to get to the perfect finished product.</p>
+                <p>Sometimes, an object requires so many individual clipping paths that a complex or multiple clipping path just isn’t enough. Super complex
+                    clipping paths involve three to four different techniques.</p>
+                <p>This level of detail is necessary for tough product images where nothing else will look natural. In some cases, we need to use super complex,
+                    complex, and multiple clipping paths in conjunction with image masking to get to the perfect finished product.</p>
                 <p>
                     <i class="bi bi-caret-right-fill"></i> Furniture with multiple cut-outs &nbsp;
                     <i class="bi bi-caret-right-fill"></i> Objects with netting or mesh &nbsp;
-                    <i class="bi bi-caret-right-fill"></i> Jewelry with complex interlinking
-                    pieces or chains &nbsp;
+                    <i class="bi bi-caret-right-fill"></i> Jewelry with complex interlinking pieces or chains &nbsp;
                     <i class="bi bi-caret-right-fill"></i> Crates &nbsp;
                     <i class="bi bi-caret-right-fill"></i> Complex machinery &nbsp;
                 </p>
@@ -268,7 +274,7 @@
 
 <!-- ======= Portfolio Section ======= -->
 <section id="clip-ser-portfolio" class="clip-ser-portfolio">
-<div class="container" data-aos="fade-up">
+    <div class="container" data-aos="fade-up">
         <div class="section-title">
             <h2>PORTFOLIO</h2>
             <p>Check our Clipping Path Work</p>
@@ -344,7 +350,8 @@
         <div class="row gy-4">
             <div data-aos-delay="100" data-aos="fade-up" class="col-lg-4">
                 <h4>Complex Clipping Path</h4>
-                <p>Type is highly used for e-commerce sites and online retailers. Have fur or hair, lots of thin lines and such complex object & required in very narrow areas.</p>
+                <p>Type is highly used for e-commerce sites and online retailers. Have fur or hair, lots of thin lines and such complex object & required in
+                    very narrow areas.</p>
                 <br>
                 <div class="text-center">
                     <a href="#">0.25$ /image|Order Now &nbsp; <i class="bi bi-cart4"></i></a>

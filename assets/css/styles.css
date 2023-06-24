@@ -4287,8 +4287,8 @@ Later
 .fb-mar-custom .content a {
   display: inline-block;
   padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  color: orange;
+  border-radius: 5px;
+  color: white;
   transition: none;
   font-size: 16px;
   font-weight: 400;
@@ -4449,54 +4449,54 @@ css
   background: #000000ef;
   border-top: 1px solid orange;
   border-bottom: 1px solid orange;
- }
- 
- .ytb-mar-provide h1 {
-   font-size: 30px; 
-   text-align: center;
-   font-weight: 900;
-   color: white;
- }
- 
- .ytb-mar-provide .service-item {
-   position: relative;
-   padding-top: 40px;
- }
- 
- .ytb-mar-provide .service-item .icon {
-   width: 48px;
-   height: 48px;
-   position: relative;
-   margin-right: 50px;
-   line-height: 0;
- }
- 
- .ytb-mar-provide .service-item .icon i {
-   color: orange;
-   font-size: 56px;
-   transition: ease-in-out 0.3s;
-   z-index: 2;
-   position: relative;
- }
- 
- .ytb-mar-provide .service-item .icon i:hover {
-   color: white;
- }
- 
- .ytb-mar-provide .service-item h4 {
-   font-weight: 900;
-   margin-bottom: 15px;
-   font-size: 20px;
-   color: orange;
- 
- }
- 
- .ytb-mar-provide .service-item p {
-   line-height: 24px;
-   font-size: 14px;
-   color: white;
- }
- 
+}
+
+.ytb-mar-provide h1 {
+  font-size: 30px; 
+  text-align: center;
+  font-weight: 900;
+  color: white;
+}
+
+.ytb-mar-provide .service-item {
+  position: relative;
+  padding-top: 40px;
+}
+
+.ytb-mar-provide .service-item .icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  margin-right: 50px;
+  line-height: 0;
+}
+
+.ytb-mar-provide .service-item .icon i {
+  color: orange;
+  font-size: 56px;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+  position: relative;
+}
+
+.ytb-mar-provide .service-item .icon i:hover {
+  color: white;
+}
+
+.ytb-mar-provide .service-item h4 {
+  font-weight: 900;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: orange;
+
+}
+
+.ytb-mar-provide .service-item p {
+  line-height: 24px;
+  font-size: 14px;
+  color: white;
+}
+
 /*--------------------------------------------------------------
 # Campaign Youtube Marketing Page
 --------------------------------------------------------------*/
@@ -4652,8 +4652,8 @@ css
 .ytb-mar-custom .content a {
   display: inline-block;
   padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  color: orange;
+  border-radius: 5px;
+  color: white;
   transition: none;
   font-size: 16px;
   font-weight: 400;
@@ -4700,13 +4700,1857 @@ css
 /*--------------------------------------------------------------
 # Hero SMS Marketing & Data Page
 --------------------------------------------------------------*/
+.sms-mar-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.sms-mar-hero .content span {
+  color: orange;
+}
+
+.sms-mar-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.sms-mar-hero .content h5 {
+  color: orange;
+  padding-top: 20%;
+}
+
+.sms-mar-hero .content p {
+  color: white;
+}
+
 
 /*--------------------------------------------------------------
-# Hero SMS Marketing & Data Page
+# Provide SMS Marketing & Data Page
 --------------------------------------------------------------*/
+.sms-mar-provide {
+  background: #000000ef;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+
+.sms-mar-provide h1 {
+  font-size: 30px; 
+  text-align: center;
+  font-weight: 900;
+  color: white;
+}
+
+.sms-mar-provide .service-item {
+  position: relative;
+  padding-top: 40px;
+}
+
+.sms-mar-provide .service-item .icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  margin-right: 50px;
+  line-height: 0;
+}
+
+.sms-mar-provide .service-item .icon i {
+  color: orange;
+  font-size: 56px;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+  position: relative;
+}
+
+.sms-mar-provide .service-item .icon i:hover {
+  color: white;
+}
+
+.sms-mar-provide .service-item h4 {
+  font-weight: 900;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: orange;
+
+}
+
+.sms-mar-provide .service-item p {
+  line-height: 24px;
+  font-size: 14px;
+  color: white;
+}
+ 
+
+/*--------------------------------------------------------------
+# Campaign SMS Marketing & Data Page
+--------------------------------------------------------------*/
+.sms-mar-camp {
+  background: white;
+}
+
+.sms-mar-camp h3 {
+  font-weight:800; 
+  color:orange; 
+  font-style: italic; 
+  font-size: 35px; 
+  text-transform: uppercase;
+}
+
+.sms-mar-camp h5 {
+  font-weight:800; 
+  font-style: italic; 
+  color: black; 
+  text-transform: uppercase;
+}
+
+.sms-mar-camp p {
+  color: black;
+}
+/*--------------------------------------------------------------
+# Custom Boosting SMS Marketing & Data Page
+--------------------------------------------------------------*/
+.sms-mar-custom {
+  background: #000000;
+}
+
+.sms-mar-custom .content .section-title {
+  margin-bottom: -5%;
+}
+
+.sms-mar-custom .content .section-title p {
+  color: white;
+}
+
+.sms-mar-custom .content p {
+  color: #c7c7c7;
+}
+
+.sms-mar-custom .content h4 {
+  text-align: center; 
+  color: black; 
+  background: orange; 
+  border-radius: 10px; 
+  font-weight: 900; 
+  padding: 5px 0px;
+  font-size: 16px;
+}
+
+.sms-mar-custom .content a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 5px;
+  color: white;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.sms-mar-custom .content a:hover {
+  background: orange;
+  color: #fff;
+}
+
+.sms-mar-custom .content ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.sms-mar-custom .content ul li {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.sms-mar-custom .content ul li i {
+  color: orange;
+}
 /*-------------------------------------------------------------------------------///////////////////
 # End SMS Marketing & Data Part
 ---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Cliping Path Service Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Cliping Path Service Page
+--------------------------------------------------------------*/
+.clip-ser-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.clip-ser-hero .content span {
+  color: orange;
+}
+
+.clip-ser-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.clip-ser-hero .content h5 {
+  color: orange;
+}
+
+.clip-ser-hero .content p {
+  color: white;
+}
+
+.clip-ser-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.clip-ser-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Process Cliping Path Service Page
+--------------------------------------------------------------*/
+.clip-ser-pro {
+  background: #FBFBFB;
+}
+
+.clip-ser-pro .section-title p {
+  text-align: center;
+}
+
+.clip-ser-pro  .icon-box {
+  display: flex;
+}
+
+.clip-ser-pro  .icon-box i {
+  padding-right: 18px;
+  font-size: 30px;
+  color: orange;
+}
+
+.clip-ser-pro  .icon-box h4 {
+  font-size: 20px;
+  font-weight: 800;
+  color: orange;
+}
+
+.clip-ser-pro  .icon-box p {
+  font-size: 15px;
+  color: black;
+}
+
+/*--------------------------------------------------------------
+# Info Cliping Path Service Page
+--------------------------------------------------------------*/
+.clip-ser-info {
+  background: #000000;
+}
+
+.clip-ser-info h4 {
+  color: orange; 
+  text-align: center; 
+  font-weight: bold; 
+  font-size: 21px;
+}
+
+/*--------------------------------------------------------------
+# Price 1 Cliping Path Service Page
+--------------------------------------------------------------*/
+.clip-ser-price-1 {
+  background-color: white;
+}
+
+.clip-ser-price-1 .content h4 {
+  color: orange; 
+  font-weight: bold; 
+  font-size: 23px; 
+  text-transform: upercase;
+}
+
+.clip-ser-price-1 .content p {
+  color: black;
+}
+
+.clip-ser-price-1 .content i {
+  color: orange;
+}
+
+.clip-ser-price-1 .content a {
+  border: 1px solid orange;
+  background: white;
+  padding: 10px 24px;
+  color: black;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.clip-ser-price-1 .content a:hover {
+  background: orange;
+  color: white; 
+}
+
+
+/*--------------------------------------------------------------
+# Price 2 Cliping Path Service Page
+--------------------------------------------------------------*/
+.clip-ser-price-2 {
+  background-color: black;
+}
+
+.clip-ser-price-2 .content h4 {
+  color: orange; 
+  font-weight: bold; 
+  font-size: 23px; 
+  text-transform: upercase;
+}
+
+.clip-ser-price-2 .content p {
+  color: white;
+}
+
+.clip-ser-price-2 .content i {
+  color: orange;
+}
+
+.clip-ser-price-2 .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.clip-ser-price-2 .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Portfolio Cliping Path Service Page
+--------------------------------------------------------------*/
+.clip-ser-portfolio {
+  overflow: hidden;
+  background: white;
+}
+
+.clip-ser-portfolio .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.clip-ser-portfolio .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #d1d1d7;
+  opacity: 1;
+}
+
+.clip-ser-portfolio .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: orange;
+}
+
+.clip-ser-portfolio .swiper-slide-active {
+  text-align: center;
+}
+
+.clip-ser-portfolio .swiper-slide img{
+  height: 150px;
+  float: left;
+  background-size: cover;
+  width: 300px;
+}
+
+@media (min-width: 992px) {
+  .clip-ser-portfolio .swiper-wrapper {
+    padding: 40px 0;
+  }
+
+  .clip-ser-portfolio .swiper-slide-active {
+    border: 6px solid var(--color-primary);
+    padding: 4px;
+    background: orange;
+    z-index: 1;
+    transform: scale(1.2);
+  }
+}
+
+/*--------------------------------------------------------------
+# Dynamic Price Cliping Path Service Page
+--------------------------------------------------------------*/
+.clip-ser-price-dy {
+  background-color: #000000;
+}
+
+.clip-ser-price-dy h4 {
+  padding-top: 7%; 
+  color: orange; 
+  text-align: center; 
+  font-weight: bold; 
+  font-size: 23px; 
+  text-transform: upercase;
+}
+
+.clip-ser-price-dy p {
+  text-align: center;
+  color: white;
+}
+
+.clip-ser-price-dy a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.clip-ser-price-dy a:hover {
+  background: orange;
+  color: #000000;
+}
+
+/*-------------------------------------------------------------------------------///////////////////
+# End Cliping Path Service Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Logo Design Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Logo Design Page
+--------------------------------------------------------------*/
+.logo-des-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.logo-des-hero .content img {
+  padding-top: 10%;
+}
+
+.logo-des-hero .content span {
+  color: orange;
+}
+
+.logo-des-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.logo-des-hero .content h5 {
+  color: orange;
+}
+
+.logo-des-hero .content p {
+  color: white;
+}
+
+.logo-des-hero .content p i {
+  color: orange;
+}
+
+.logo-des-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.logo-des-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+/*--------------------------------------------------------------
+# Design Service Logo Design Page
+--------------------------------------------------------------*/
+.logo-des-serv {
+  background-color: white;
+}
+
+.logo-des-serv h3 {
+  text-align:center; 
+  font-weight:800; color: black; 
+  text-transform: uppercase; 
+  font-family: Open Sans; 
+  font-size: 40px;
+}
+
+.logo-des-serv .content i {
+  color: orange; 
+  font-size: 70px;
+}
+
+.logo-des-serv .content a {
+  border: 1px solid orange;
+  background: white;
+  padding: 10px 24px;
+  color: black;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.logo-des-serv .content a:hover {
+  background: orange;
+  color: white; 
+}
+
+/*--------------------------------------------------------------
+# Provide Logo Design Page
+--------------------------------------------------------------*/
+.logo-des-provide {
+  background: #000000ef;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+
+.logo-des-provide .service-item {
+  position: relative;
+  padding-top: 40px;
+}
+
+.logo-des-provide .service-item .icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  margin-right: 50px;
+  line-height: 0;
+}
+
+.logo-des-provide .service-item .icon i {
+  color: orange;
+  font-size: 56px;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+  position: relative;
+}
+
+.logo-des-provide .service-item .icon i:hover {
+  color: white;
+}
+
+.logo-des-provide .service-item h4 {
+  font-weight: 900;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: orange;
+
+}
+
+.logo-des-provide .service-item p {
+  line-height: 24px;
+  font-size: 14px;
+  color: white;
+}
+
+/*--------------------------------------------------------------
+# Ad Logo Design Page
+--------------------------------------------------------------*/
+.logo-des-ad {
+  background-color: #000000;
+}
+
+.logo-des-ad h3 {
+  font-weight:800; 
+  color:orange; 
+  font-style: italic; 
+  font-size: 35px; 
+  text-transform: uppercase;
+}
+
+.logo-des-ad h5 {
+  font-weight:800; 
+  font-style: italic; 
+  color: white; 
+  text-transform: uppercase;
+}
+
+.logo-des-ad p {
+  color: #e0e0e0;
+}
+
+/*--------------------------------------------------------------
+# Pricing Logo Design Page
+--------------------------------------------------------------*/
+.logo-des-pricing {
+  background-color: white;
+}
+
+.logo-des-pricing .box {
+  padding: 40px 20px;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.logo-des-pricing .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.logo-des-pricing h3 {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: orange;
+}
+
+.logo-des-pricing p {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: black;
+  background: orange;
+  border-radius: 2px;
+}
+
+.logo-des-pricing .price {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-des-pricing .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.logo-des-pricing ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.logo-des-pricing ul li {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.logo-des-pricing ul li i {
+  color: orange;
+}
+
+.logo-des-pricing a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.logo-des-pricing a:hover {
+  background: orange;
+  color: #fff;
+}
+
+.logo-des-pricing .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: orange;
+  color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+# Custom Boosting Logo Design Page
+--------------------------------------------------------------*/
+.logo-des-custom {
+  background-color: #000000;
+}
+
+.logo-des-custom .content .section-title {
+  margin-bottom: -5%;
+}
+
+.logo-des-custom .content .section-title p {
+  color: white;
+}
+
+.logo-des-custom .content p {
+  color: #c7c7c7;
+}
+
+.logo-des-custom .content h4 {
+  text-align: center; 
+  color: black; 
+  background: orange; 
+  border-radius: 10px; 
+  font-weight: 900; 
+  padding: 5px 0px;
+  font-size: 16px;
+}
+
+.logo-des-custom .content a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 5px;
+  color: white;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+  background: #000000;
+}
+
+.logo-des-custom .content a:hover {
+  background: orange;
+  color: #fff;
+}
+
+.logo-des-custom .content ul {
+  padding: 0;
+  list-style: none;
+}
+
+.logo-des-custom .content ul li {
+  padding: 10px 0 0 28px;
+  color: #ffffff;
+  position: relative;
+}
+
+.logo-des-custom .content ul li i {
+  color: orange;
+  left: 0;
+  top: 11px;
+  position: absolute;
+  font-size: 20px;
+}
+
+/*-------------------------------------------------------------------------------///////////////////
+# End Logo Design Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Banner Design Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Banner Design Page
+--------------------------------------------------------------*/
+.bann-des-hero {
+  background-color: #000000;
+}
+
+.bann-des-hero .content img {
+  padding-top: 14%;
+}
+
+.bann-des-hero .content span {
+  color: orange;
+}
+
+.bann-des-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.bann-des-hero .content h5 {
+  color: orange;
+  padding-top: 20%;
+}
+
+.bann-des-hero .content p {
+  color: white;
+}
+
+.bann-des-hero .content p i {
+  color: orange;
+}
+
+.bann-des-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.bann-des-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Design Service Banner Design Page
+--------------------------------------------------------------*/
+.bann-des-serv {
+  background-color: white;
+}
+
+.bann-des-serv h3 {
+  text-align:center; 
+  font-weight:800; color: black; 
+  text-transform: uppercase; 
+  font-family: Open Sans; 
+  font-size: 40px;
+}
+
+.bann-des-serv .content i {
+  color: orange; 
+  font-size: 70px;
+}
+
+.bann-des-serv .content a {
+  border: 1px solid orange;
+  background: white;
+  padding: 10px 24px;
+  color: black;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.bann-des-serv .content a:hover {
+  background: orange;
+  color: white; 
+}
+
+/*--------------------------------------------------------------
+# Provide Banner Design Page
+--------------------------------------------------------------*/
+.bann-des-provide {
+  background: #000000ef;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+
+.bann-des-provide .service-item {
+  position: relative;
+  padding-top: 40px;
+}
+
+.bann-des-provide .service-item .icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  margin-right: 50px;
+  line-height: 0;
+}
+
+.bann-des-provide .service-item .icon i {
+  color: orange;
+  font-size: 56px;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+  position: relative;
+}
+
+.bann-des-provide .service-item .icon i:hover {
+  color: white;
+}
+
+.bann-des-provide .service-item h4 {
+  font-weight: 900;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: orange;
+}
+
+.bann-des-provide .service-item p {
+  line-height: 24px;
+  font-size: 14px;
+  color: white;
+}
+
+/*--------------------------------------------------------------
+# Ad Banner Design Page
+--------------------------------------------------------------*/
+.bann-des-ad {
+  background-color: #000000;
+}
+
+.bann-des-ad h3 {
+  font-weight:800; 
+  color:orange; 
+  font-style: italic; 
+  font-size: 35px; 
+  text-transform: uppercase;
+}
+
+.bann-des-ad h5 {
+  font-weight:800; 
+  font-style: italic; 
+  color: white; 
+  text-transform: uppercase;
+}
+
+.bann-des-ad p {
+  color: #e0e0e0;
+}
+
+/*--------------------------------------------------------------
+# Pricing Banner Design Page
+--------------------------------------------------------------*/
+.bann-des-pricing {
+  background-color: white;
+}
+
+.bann-des-pricing .box {
+  padding: 40px 20px;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.bann-des-pricing .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.bann-des-pricing h3 {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: orange;
+}
+
+.bann-des-pricing p {
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: black;
+  background: orange;
+  border-radius: 2px;
+}
+
+.bann-des-pricing .price {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.bann-des-pricing .price sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.bann-des-pricing ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.bann-des-pricing ul li {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.bann-des-pricing ul li i {
+  color: orange;
+}
+
+.bann-des-pricing a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.bann-des-pricing a:hover {
+  background: orange;
+  color: #fff;
+}
+
+.bann-des-pricing .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: orange;
+  color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+# Custom Boosting Banner Design Page
+--------------------------------------------------------------*/
+.bann-des-custom {
+  background-color: #000000;
+}
+
+.bann-des-custom .content .section-title {
+  margin-bottom: -5%;
+}
+
+.bann-des-custom .content .section-title p {
+  color: white;
+}
+
+.bann-des-custom .content p {
+  color: #c7c7c7;
+}
+
+.bann-des-custom .content h4 {
+  text-align: center; 
+  color: black; 
+  background: orange; 
+  border-radius: 10px; 
+  font-weight: 900; 
+  padding: 5px 0px;
+  font-size: 16px;
+}
+
+.bann-des-custom .content a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 5px;
+  color: white;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+  background: #000000;
+}
+
+.bann-des-custom .content a:hover {
+  background: orange;
+  color: #fff;
+}
+
+.bann-des-custom .content ul {
+  padding: 0;
+  list-style: none;
+}
+
+.bann-des-custom .content ul li {
+  padding: 10px 0 0 28px;
+  color: #ffffff;
+  position: relative;
+}
+
+.bann-des-custom .content ul li i {
+  color: orange;
+  left: 0;
+  top: 11px;
+  position: absolute;
+  font-size: 20px;
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Banner Design Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Business Card Design Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Business Card Design Page
+--------------------------------------------------------------*/
+.busi-card-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.busi-card-hero .content span {
+  color: orange;
+}
+
+.busi-card-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.busi-card-hero .content h5 {
+  color: orange;
+}
+
+.busi-card-hero .content p {
+  color: white;
+}
+
+.busi-card-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.busi-card-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Design Service Business Card Design Page
+--------------------------------------------------------------*/
+.busi-card-service {
+  background-color: white;
+}
+
+.busi-card-service h3 {
+  text-align:center; 
+  font-weight:800; color: black; 
+  text-transform: uppercase; 
+  font-family: Open Sans; 
+  font-size: 40px;
+}
+
+.busi-card-service .content i {
+  color: orange; 
+  font-size: 70px;
+}
+
+.busi-card-service .content a {
+  border: 1px solid orange;
+  background: white;
+  padding: 10px 24px;
+  color: black;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.busi-card-service .content a:hover {
+  background: orange;
+  color: white; 
+}
+
+/*--------------------------------------------------------------
+# Provide Business Card Design Page
+--------------------------------------------------------------*/
+.busi-card-provide {
+  background: #000000ef;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+
+.busi-card-provide .service-item {
+  position: relative;
+  padding-top: 40px;
+}
+
+.busi-card-provide .service-item .icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  margin-right: 50px;
+  line-height: 0;
+}
+
+.busi-card-provide .service-item .icon i {
+  color: orange;
+  font-size: 56px;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+  position: relative;
+}
+
+.busi-card-provide .service-item .icon i:hover {
+  color: white;
+}
+
+.busi-card-provide .service-item h4 {
+  font-weight: 900;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: orange;
+}
+
+.busi-card-provide .service-item p {
+  line-height: 24px;
+  font-size: 14px;
+  color: white;
+}
+
+/*--------------------------------------------------------------
+# Ad Business Card Design Page
+--------------------------------------------------------------*/
+.busi-card-ad {
+  background-color: #000000;
+}
+
+.busi-card-ad h3 {
+  font-weight:800; 
+  color:orange; 
+  font-style: italic; 
+  font-size: 35px; 
+  text-transform: uppercase;
+}
+
+.busi-card-ad h5 {
+  font-weight:800; 
+  font-style: italic; 
+  color: white; 
+  text-transform: uppercase;
+}
+
+.busi-card-ad p {
+  color: #e0e0e0;
+}
+
+/*--------------------------------------------------------------
+# Pricing Business Card Design Page
+--------------------------------------------------------------*/
+.busi-card-pricing {
+  background-color: white;
+}
+
+.busi-card-pricing .card {
+  width: 16rem; 
+  background: black;
+}
+
+.busi-card-pricing .card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.busi-card-pricing .card .title {
+  color: orange; 
+  border-radius:10px; 
+  font-weight: bold;
+}
+
+.busi-card-pricing .card ul {
+  padding: 0;
+  list-style: none;
+}
+
+.busi-card-pricing .card ul li {
+  padding: 10px 0 0 28px;
+  color: #ffffff;
+  position: relative;
+  background: #000000;
+}
+
+.busi-card-pricing .card ul li i {
+  color: orange;
+  left: 40px;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+}
+
+.busi-card-pricing .card a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: orange;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.busi-card-pricing a:hover {
+  background: orange;
+  color: #fff;
+}
+
+.busi-card-pricing .featured {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: orange;
+  color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+# Custom Boosting Business Card Design Page
+--------------------------------------------------------------*/
+.busi-card-custom {
+  background-color: #000000;
+}
+
+.busi-card-custom .content .section-title {
+  margin-bottom: -5%;
+}
+
+.busi-card-custom .content .section-title p {
+  color: white;
+}
+
+.busi-card-custom .content p {
+  color: #c7c7c7;
+}
+
+.busi-card-custom .content h4 {
+  text-align: center; 
+  color: black; 
+  background: orange; 
+  border-radius: 10px; 
+  font-weight: 900; 
+  padding: 5px 0px;
+  font-size: 16px;
+}
+
+.busi-card-custom .content a {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 5px;
+  color: white;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+.busi-card-custom .content a:hover {
+  background: orange;
+  color: #fff;
+}
+
+.busi-card-custom .content ul {
+  padding: 0;
+  list-style: none;
+}
+
+.busi-card-custom .content ul li {
+  padding: 10px 0 0 28px;
+  color: #ffffff;
+  position: relative;
+}
+
+.busi-card-custom .content ul li i {
+  color: orange;
+  left: 0;
+  top: 11px;
+  position: absolute;
+  font-size: 20px;
+}
+
+/*-------------------------------------------------------------------------------///////////////////
+# End Business Card Design Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start About Us Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero About Us Page
+--------------------------------------------------------------*/
+.about-us-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.about-us-hero .content span {
+  color: orange;
+}
+
+.about-us-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 20%;
+}
+
+.about-us-hero .content h5 {
+  color: orange;
+}
+
+.about-us-hero .content p {
+  color: white;
+}
+
+.about-us-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.about-us-hero .content a:hover {
+  background: orange;
+  color: #000000; 
+}
+
+/*--------------------------------------------------------------
+# Who & Why Info About Us Page
+--------------------------------------------------------------*/
+.about-us-info {
+  background: white;
+}
+
+.about-us-info .content {
+  margin-top: -30px;
+}
+
+.about-us-info .content h4 {
+  color: black; 
+  font-weight: bold; 
+  font-size: 23px; 
+  text-transform: uppercase;
+}
+
+.about-us-info .content p {
+  color: black; 
+  font-style: italic;
+}
+
+/*--------------------------------------------------------------
+# Skills About Us Page
+--------------------------------------------------------------*/
+.about-us-skills {
+  background: black;
+}
+
+.about-us-skills .content .section-title p {
+  color: white;
+}
+
+.about-us-skills .content .section-title p:last-child {
+  color: white; 
+  font-weight: 400;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.about-us-skills .content h5 {
+  font-size: 15px; 
+  font-weight: 400; 
+  margin-bottom: 5px; 
+  color: white;
+  font-style: italic;
+}
+
+.about-us-skills .content .progress-bar {
+  font-weight: bold; 
+  color: black;
+}
+
+/*--------------------------------------------------------------
+# Mission About Us Page
+--------------------------------------------------------------*/
+.about-us-missoin {
+  background: white;
+}
+
+.about-us-missoin .section-title {
+  margin-bottom: -3%;
+}
+
+/*--------------------------------------------------------------
+# Vission About Us Page
+--------------------------------------------------------------*/
+.about-us-vissoin {
+  background: #000000;
+}
+
+.about-us-vissoin .section-title {
+  margin-bottom: -3%;
+}
+
+.about-us-vissoin p {
+  color: white;
+}
+
+/*--------------------------------------------------------------
+# F.A.Q About Us Page
+--------------------------------------------------------------*/
+.about-us-faq {
+  background: white;
+}
+
+.about-us-faq .section-title {
+  margin-bottom: -7%;
+}
+
+.about-us-faq button {
+  background: orange;
+}
+
+.about-us-faq #faq-content-1 {
+  background: black;
+  color: white;
+}
+
+.about-us-faq #faq-content-2 {
+  background: black;
+  color: white;
+}
+
+.about-us-faq #faq-content-3 {
+  background: black;
+  color: white;
+}
+
+/*--------------------------------------------------------------
+# Team About Us Page
+--------------------------------------------------------------*/
+.about-us-team {
+  background: #000000;
+  padding: 60px 0;
+}
+
+.about-us-team .section-title p {
+  color: white;
+}
+
+.about-us-team .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-team .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.about-us-team .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+}
+
+.about-us-team .member .social a {
+  transition: color 0.3s;
+  color: #151515;
+  margin: 0 3px;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  background: orange;
+  transition: ease-in-out 0.3s;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-team .member .social a:hover {
+  color: #151515;
+  background: white;
+}
+
+.about-us-team .member .social i {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.about-us-team .member .member-info {
+  padding: 25px 15px;
+  background: #0f0f0f;
+}
+
+.about-us-team .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.about-us-team .member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: orange;
+  text-align: center;
+}
+
+.about-us-team .member:hover .social {
+  opacity: 1;
+  bottom: 15px;
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End About Us Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Portfolio Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Portfolio Page
+--------------------------------------------------------------*/
+/* ////////////////////////////////////
+////////////////////////////////////
+////////////////////////////////////
+////////////////////////////////////
+////////////////////////////////////
+info add
+////////////////////////////////////
+////////////////////////////////////
+////////////////////////////////////
+////////////////////////////////////
+//////////////////////////////////// */
+/*-------------------------------------------------------------------------------///////////////////
+# End Portfolio Part
+---------------------------------------------------------------------------------*/
+  
+.fb-mar-custom .modal-content {
+  background:orange;
+}
+  
+  .fb-mar-custom .modal-header h5 {
+    color: white;
+  }
+
+  .fb-mar-custom .modal-body {
+    background:black;
+  }
+
+  .fb-mar-custom .formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+  }
+
+  .fb-mar-custom .formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 750px;
+    width: 100%;
+
+  }
+
+  .fb-mar-custom .formbold-input-flex {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 22px;
+  }
+  .fb-mar-custom .formbold-input-flex div {
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .fb-mar-custom .formbold-textarea {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .fb-mar-custom .formbold-form-input {
+    width: 100%;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: black;
+    font-weight: 500;
+    font-size: 16px;
+    color: orange;
+    outline: none;
+    resize: none;
+  }
+  .fb-mar-custom .formbold-form-input::placeholder {
+    color: #575757;
+  }
+  .fb-mar-custom .formbold-form-input:focus {
+    border-color: orange;
+  }
+  .fb-mar-custom .formbold-form-label {
+    color: orange;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 18px;
+  }
+  .fb-mar-custom .formbold-form-input:focus + .fb-mar-custom .formbold-form-label {
+    color: white;
+  }
+
+  .fb-mar-custom .formbold-input-file {
+    margin-top: 30px;
+  }
+
+  .fb-mar-custom .formbold-input-file div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+
+  .fb-mar-custom .formbold-btn {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 12px 25px;
+    border: none;
+    font-weight: 500;
+    background-color: black;
+    border: 1px solid orange;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+  }
+  .fb-mar-custom .formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+    background-color: orange;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

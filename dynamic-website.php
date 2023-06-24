@@ -8,7 +8,7 @@
                 <h2>Dynamic website Development</h2>
                 <h3>Why You Should Develop A Dynamic Website For Your Company?</h3>
                 <br>
-                <a href="#pricing-1" class="get-started-btn scrollto">See Package & Price</a>
+                <a href="#dy-web-pricing" class="get-started-btn scrollto">See Package & Price</a>
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
                 <ul>

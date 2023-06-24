@@ -20,7 +20,7 @@
                     <li><i class="ri-check-double-line"></i> Always Profrssional SEO Friendly Code</li>
                 </ul>
                 <br>
-                <a href="#about">See Package & Price</a>
+                <a href="#psd-pricing">See Package & Price</a>
             </div>
         </div>
     </div>

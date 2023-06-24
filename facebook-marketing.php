@@ -146,7 +146,108 @@
                     you set for your budget.</p>
                 <h4>FOR YOUR WEBSITE CLICKS, PAGE LIKES, POST BOOSTING</h4>
                 <br>
-                <a href="#">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
+                <!-- Modal -->
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalToggleLabel">CUSTOM BOOSTING PACKAGES</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="formbold-main-wrapper">
+                                        <div class="formbold-form-wrapper">
+                                            <form action="#" method="POST">
+                                                <div class="formbold-input-flex">
+                                                    <div>
+                                                        <input type="text" name="firstname" id="firstname" placeholder="Jane" class="formbold-form-input"/>
+                                                        <label for="firstname" class="formbold-form-label"> First name </label>
+                                                    </div>
+                                                    <div>
+                                                        <input type="text" name="lastname" id="lastname" placeholder="Cooper" class="formbold-form-input"/>
+                                                        <label for="lastname" class="formbold-form-label"> Last name </label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="formbold-input-flex">
+                                                    <div>
+                                                        <input type="email" name="email" id="email" placeholder="jhon@mail.com" class="formbold-form-input" />
+                                                        <label for="email" class="formbold-form-label"> Mail </label>
+                                                    </div>
+                                                    <div>
+                                                        <input type="text" name="phone" id="phone" placeholder="(319) 555-0115" class="formbold-form-input" />
+                                                        <label for="phone" class="formbold-form-label"> Phone </label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="formbold-input-flex">
+                                                    <div>
+                                                        <input type="text" name="link" id="link" placeholder="https://www.facebook.com/..." class="formbold-form-input" />
+                                                        <label for="link" class="formbold-form-label"> Facebook Page URL/Link: * </label>
+                                                    </div>
+                                                    <div class="form-outline">
+                                                        <input type="number" name="typeNumber" id="typeNumber" placeholder="10 $" class="formbold-form-input" />
+                                                        <label class="formbold-form-label" for="number">Select Your Budget</label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="formbold-textarea">
+                                                    <textarea rows="3" name="message" id="message" placeholder="Write your message..." class="formbold-form-input"></textarea>
+                                                    <label for="message" class="formbold-form-label"> Message </label>
+                                                </div>
+
+                                                <div class="formbold-input-file">
+                                                    <div class="mb-3">
+                                                        <input class="formbold-form-input" type="file" name="file" id="file" multiple />
+                                                        <label for="file" class="formbold-form-label">Submit your document ( if it's important )</label>
+                                                    </div>
+                                                </div>
+
+                                                <button class="formbold-btn">
+                                                    Request For Order
+                                                </button>
+                                            </form>
+                                        </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Hide this modal and show the first with the button below.
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Modal -->
+                    <!-- Modal Link -->
+                    <a class="btn" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
+                    <!-- End Modal Link -->
             </div>
             <div class="col-lg-5 pt-4 pt-lg-0" data-aos="fade-left">
                 <ul>
