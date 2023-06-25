@@ -1,4 +1,38 @@
-<?php require_once('./main/header.php'); ?>
+<?php 
+
+require_once('./main/header.php'); 
+
+// getting all values from the HTML form
+    if(isset($_POST['submit']))
+    {
+        $firstname  = $_POST['firstname'];
+        $lastname   = $_POST['lastname'];
+        $email      = $_POST['email'];
+        $phone      = $_POST['phone'];
+        $link       = $_POST['link'];
+        $typeNumber = $_POST['typeNumber'];
+        $message    = $_POST['message'];
+        $file       = $_POST['file'];
+
+
+        // database details
+        $host = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "shahebisoft";
+
+        // creating a connection
+        $conn = mysqli_connect($host, $username, $password, $dbname);
+
+        // using sql to create a data entry query
+        $sql = "INSERT INTO facebook_marketing(firstname, lastname, email, phone, link, typeNumber, message, file) values ('$firstname', '$lastname', '$email', '$phone', '$link', '$typeNumber', '$message', '$file')";
+        mysqli_query($conn,$sql);
+
+    }
+
+?>
+
+
 
 
 <!-- ======= Hero Section ======= -->
@@ -195,17 +229,16 @@
                                                     <textarea rows="3" name="message" id="message" placeholder="Write your message..." class="formbold-form-input"></textarea>
                                                     <label for="message" class="formbold-form-label"> Message </label>
                                                 </div>
-
                                                 <div class="formbold-input-file">
                                                     <div class="mb-3">
                                                         <input class="formbold-form-input" type="file" name="file" id="file" multiple />
                                                         <label for="file" class="formbold-form-label">Submit your document ( if it's important )</label>
                                                     </div>
                                                 </div>
-
-                                                <button class="formbold-btn">
+                                                <input type="submit" name="submit" value="Send Data">
+                                                <!-- <button class="formbold-btn">
                                                     Request For Order
-                                                </button>
+                                                </button> -->
                                             </form>
                                         </div>
                                         </div>
