@@ -1,36 +1,4 @@
-<?php 
-
-require_once('./main/header.php'); 
-
-// getting all values from the HTML form
-    if(isset($_POST['submit']))
-    {
-        $firstname  = $_POST['firstname'];
-        $lastname   = $_POST['lastname'];
-        $email      = $_POST['email'];
-        $phone      = $_POST['phone'];
-        $link       = $_POST['link'];
-        $typeNumber = $_POST['typeNumber'];
-        $message    = $_POST['message'];
-        $file       = $_POST['file'];
-
-
-        // database details
-        $host = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "shahebisoft";
-
-        // creating a connection
-        $conn = mysqli_connect($host, $username, $password, $dbname);
-
-        // using sql to create a data entry query
-        $sql = "INSERT INTO facebook_marketing(firstname, lastname, email, phone, link, typeNumber, message, file) values ('$firstname', '$lastname', '$email', '$phone', '$link', '$typeNumber', '$message', '$file')";
-        mysqli_query($conn,$sql);
-
-    }
-
-?>
+<?php require_once('./main/header.php'); ?>
 
 
 
@@ -191,36 +159,36 @@ require_once('./main/header.php');
                                 <div class="modal-body">
                                     <div class="formbold-main-wrapper">
                                         <div class="formbold-form-wrapper">
-                                            <form action="#" method="POST">
+                                            <form action="#" method="POST" enctype="multipart/form-data">
                                                 <div class="formbold-input-flex">
                                                     <div>
-                                                        <input type="text" name="firstname" id="firstname" placeholder="Jane" class="formbold-form-input"/>
+                                                        <input type="text" name="firstname" id="firstname" placeholder="Jane" class="formbold-form-input" required/>
                                                         <label for="firstname" class="formbold-form-label"> First name </label>
                                                     </div>
                                                     <div>
-                                                        <input type="text" name="lastname" id="lastname" placeholder="Cooper" class="formbold-form-input"/>
+                                                        <input type="text" name="lastname" id="lastname" placeholder="Cooper" class="formbold-form-input" required/>
                                                         <label for="lastname" class="formbold-form-label"> Last name </label>
                                                     </div>
                                                 </div>
 
                                                 <div class="formbold-input-flex">
                                                     <div>
-                                                        <input type="email" name="email" id="email" placeholder="jhon@mail.com" class="formbold-form-input" />
+                                                        <input type="email" name="email" id="email" placeholder="jhon@mail.com" class="formbold-form-input" required/>
                                                         <label for="email" class="formbold-form-label"> Mail </label>
                                                     </div>
                                                     <div>
-                                                        <input type="text" name="phone" id="phone" placeholder="(319) 555-0115" class="formbold-form-input" />
+                                                        <input type="number" name="phone" id="phone" placeholder="(+880) 1700-0000-00" class="formbold-form-input" required/>
                                                         <label for="phone" class="formbold-form-label"> Phone </label>
                                                     </div>
                                                 </div>
 
                                                 <div class="formbold-input-flex">
                                                     <div>
-                                                        <input type="text" name="link" id="link" placeholder="https://www.facebook.com/..." class="formbold-form-input" />
+                                                        <input type="text" name="link" id="link" placeholder="www.facebook.com/..." class="formbold-form-input" required/>
                                                         <label for="link" class="formbold-form-label"> Facebook Page URL/Link: * </label>
                                                     </div>
                                                     <div class="form-outline">
-                                                        <input type="number" name="typeNumber" id="typeNumber" placeholder="10 $" class="formbold-form-input" />
+                                                        <input type="number" name="typeNumber" id="typeNumber" placeholder="10 $" class="formbold-form-input" required/>
                                                         <label class="formbold-form-label" for="number">Select Your Budget</label>
                                                     </div>
                                                 </div>
@@ -235,16 +203,16 @@ require_once('./main/header.php');
                                                         <label for="file" class="formbold-form-label">Submit your document ( if it's important )</label>
                                                     </div>
                                                 </div>
-                                                <input type="submit" name="submit" value="Send Data">
-                                                <!-- <button class="formbold-btn">
-                                                    Request For Order
-                                                </button> -->
+                                                <br>
+                                                <div class="text-center">
+                                                    <button type="button" data-bs-dismiss="modal">Close</button>
+                                                    <button type="submit" name="submit">Submit</button>
+                                                </div>
                                             </form>
                                         </div>
                                         </div>
                                     </div>
-
-
+                                    
 
 
 
@@ -298,4 +266,51 @@ require_once('./main/header.php');
 </section><!-- End Custom Boosting Section -->
 
 
-<?php require_once('main/footer.php'); ?>
+<?php 
+
+    require_once('main/footer.php'); 
+
+    include 'connection.php';
+
+    // getting all values from the HTML form
+    if(isset($_POST['submit']))
+    {
+        $firstname  = $_POST['firstname'];
+        $lastname   = $_POST['lastname'];
+        $email      = $_POST['email'];
+        $phone      = $_POST['phone'];
+        $link       = $_POST['link'];
+        $typeNumber = $_POST['typeNumber'];
+        $message    = $_POST['message'];
+        $folder     = 'uploads/';
+        $doc_file   = $_FILES['file']['name'];
+        $file       = $_FILES['file']['tmp_name'];
+        $path       = $folder.$$doc_file;
+        $target_file= $folder.basename($doc_file);
+
+        // using sql to create a data entry query
+        $sql = "INSERT INTO facebook_marketing(firstname, lastname, email, phone, link, typeNumber, message, file) values ('$firstname', '$lastname', '$email', '$phone', '$link', '$typeNumber', '$message', '$doc_file')";
+        
+        $query = mysqli_query($conn,$sql);
+
+        if($query){
+            ?>
+            <script>
+                swal({
+                    title: "You Order Completed",
+                    text: "Please wait for reply on Your Mail",
+                    icon: "success",
+                });
+            </script>
+            <?php
+        }
+
+        move_uploaded_file($file,$target_file);
+
+
+
+    }
+
+
+
+?>

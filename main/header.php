@@ -28,12 +28,14 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/dynamic-web-styles.css" rel="stylesheet">
 
 
     <link rel="stylesheet" href="fonts/icomoon/style.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 
     <!-- =======================================================
