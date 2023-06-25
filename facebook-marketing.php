@@ -125,10 +125,86 @@
                         <li><i class="bi bi-check2-circle"></i>&nbsp;One Time Payment</li>
                         <li><i class="bi bi-check2-circle"></i>&nbsp;24/7 Support</li>
                     </ul>
-                    <a href="#">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
+                    <a data-bs-toggle="modal" href="#advace-price-modal" role="button">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
+                    
                 </div>
             </div>
         </div>
+        <!-- Advace Price Modal -->
+        <div class="modal fade" id="advace-price-modal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalToggleLabel">Advace Price</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="formbold-main-wrapper">
+                                        <div class="formbold-form-wrapper">
+                                            <form action="#" method="POST" enctype="multipart/form-data">
+                                                <div class="formbold-input-flex">
+                                                    <div>
+                                                        <input type="text" name="firstname" id="firstname" placeholder="Jane" class="formbold-form-input"
+                                                            required />
+                                                        <label for="firstname" class="formbold-form-label"> First name </label>
+                                                    </div>
+                                                    <div>
+                                                        <input type="text" name="lastname" id="lastname" placeholder="Cooper" class="formbold-form-input"
+                                                            required />
+                                                        <label for="lastname" class="formbold-form-label"> Last name </label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="formbold-input-flex">
+                                                    <div>
+                                                        <input type="email" name="email" id="email" placeholder="jhon@mail.com" class="formbold-form-input"
+                                                            required />
+                                                        <label for="email" class="formbold-form-label"> Mail </label>
+                                                    </div>
+                                                    <div>
+                                                        <input type="number" name="phone" id="phone" placeholder="(+880) 1700-0000-00" class="formbold-form-input"
+                                                            required />
+                                                        <label for="phone" class="formbold-form-label"> Phone </label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="formbold-input-flex">
+                                                    <div>
+                                                        <input type="text" name="link" id="link" placeholder="www.facebook.com/..." class="formbold-form-input"
+                                                            required />
+                                                        <label for="link" class="formbold-form-label"> Facebook Page URL/Link: * </label>
+                                                    </div>
+                                                    <div class="form-outline">
+                                                        <input type="number" name="typeNumber" id="typeNumber" placeholder="10 $" class="formbold-form-input"
+                                                            required />
+                                                        <label class="formbold-form-label" for="number">Select Your Budget</label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="formbold-textarea">
+                                                    <textarea rows="3" name="message" id="message" placeholder="Write your message..."
+                                                        class="formbold-form-input"></textarea>
+                                                    <label for="message" class="formbold-form-label"> Message </label>
+                                                </div>
+                                                <div class="formbold-input-file">
+                                                    <div class="mb-3">
+                                                        <input class="formbold-form-input" type="file" name="file" id="file" multiple />
+                                                        <label for="file" class="formbold-form-label">Submit your document ( if it's important )</label>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div class="text-center">
+                                                    <button type="button" data-bs-dismiss="modal">Close</button>
+                                                    <button type="submit" name="submit-advance-price">Submit</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Modal -->
     </div>
 </section><!-- End Pricing Section -->
 
@@ -146,8 +222,9 @@
                     you set for your budget.</p>
                 <h4>FOR YOUR WEBSITE CLICKS, PAGE LIKES, POST BOOSTING</h4>
                 <br>
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <a data-bs-toggle="modal" href="#custom-boost-modal" role="button">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
+                <!-- Custom Boost Modal -->
+                <div class="modal fade" id="custom-boost-modal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -211,7 +288,7 @@
                                             <br>
                                             <div class="text-center">
                                                 <button type="button" data-bs-dismiss="modal">Close</button>
-                                                <button type="submit" name="submit">Submit</button>
+                                                <button type="submit" name="submit-custom">Submit</button>
                                             </div>
                                         </form>
                                     </div>
@@ -220,10 +297,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- End Modal -->
-                <!-- Modal Link -->
-                <a class="btn" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
-                <!-- End Modal Link -->
+                <!-- End Custom Boost Modal -->
             </div>
             <div class="col-lg-5 pt-4 pt-lg-0" data-aos="fade-left">
                 <ul>
@@ -249,8 +323,49 @@
     // Conect With Database
     include 'connection.php';
 
+    // Start Advance Pricing Modal Section-------------------------------------------------------
     // getting all values from the HTML form
-    if(isset($_POST['submit']))
+    if(isset($_POST['submit-advance-price']))
+    {
+        $firstname    = $_POST['firstname'];
+        $lastname     = $_POST['lastname'];
+        $email        = $_POST['email'];
+        $phone        = $_POST['phone'];
+        $link         = $_POST['link'];
+        $typeNumber   = $_POST['typeNumber'];
+        $message      = $_POST['message'];
+        $folder       = 'uploads/';
+        $doc_file     = $_FILES['file']['name'];
+        $file         = $_FILES['file']['tmp_name'];
+        $path         = $folder.$$doc_file;
+        $target_file  = $folder.basename($doc_file);
+
+        // using sql to create a data entry query
+        $sql = "INSERT INTO advance_pricing(firstname, lastname, email, phone, link, typeNumber, message, file) values ('$firstname', '$lastname', '$email', '$phone', '$link', '$typeNumber', '$message', '$doc_file')";
+        
+        // Show message
+        $query = mysqli_query($conn,$sql);
+        if($query){
+        ?>
+        <script>
+            swal({
+                title: "You Order Completed",
+                text: "Please wait for reply on Your Mail",
+                icon: "success",
+            });
+        </script>
+        <?php
+        }
+        
+        // Upload File to Upload Folder
+        move_uploaded_file($file,$target_file);
+    }
+     // End Custom Boosting Modal Section-------------------------------------------------------
+
+
+    // Start Custom Boosting Modal Section-------------------------------------------------------
+    // getting all values from the HTML form
+    if(isset($_POST['submit-custom']))
     {
         $firstname    = $_POST['firstname'];
         $lastname     = $_POST['lastname'];
@@ -284,7 +399,7 @@
         
         // Upload File to Upload Folder
         move_uploaded_file($file,$target_file);
-
     }
+     // End Custom Boosting Modal Section-------------------------------------------------------
 
 ?>

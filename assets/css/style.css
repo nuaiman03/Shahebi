@@ -4256,6 +4256,104 @@ Later
 }
 
 /*--------------------------------------------------------------
+# Modal Custom Boosting Facebook Marketing Page
+--------------------------------------------------------------*/
+.fb-mar-pricing .modal-content {
+  background:orange;
+}
+  
+  .fb-mar-pricing .modal-header h5 {
+    color: white;
+  }
+
+  .fb-mar-pricing .modal-body button {
+    border: 1px solid orange;
+    background: #000000;
+    padding: 10px 24px;
+    color: #ffffff;
+    font-weight: 800;
+    transition: 0.4s;
+    border-radius: 4px;
+  }
+
+  .fb-mar-pricing .modal-body button:hover {
+    background: orange;
+    color: black;
+    border: 1px solid black;
+  }
+
+  .fb-mar-pricing .modal-body {
+    background:black;
+  }
+
+  .fb-mar-pricing .formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+  }
+
+  .fb-mar-pricing .formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 750px;
+    width: 100%;
+  }
+
+  .fb-mar-pricing .formbold-input-flex {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 22px;
+  }
+  .fb-mar-pricing .formbold-input-flex div {
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .fb-mar-pricing .formbold-textarea {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .fb-mar-pricing .formbold-form-input {
+    width: 100%;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: black;
+    font-weight: 500;
+    font-size: 16px;
+    color: orange;
+    outline: none;
+    resize: none;
+  }
+  .fb-mar-pricing .formbold-form-input::placeholder {
+    color: #575757;
+  }
+  .fb-mar-pricing .formbold-form-input:focus {
+    border-color: orange;
+  }
+  .fb-mar-pricing .formbold-form-label {
+    color: orange;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 18px;
+  }
+  .fb-mar-pricing .formbold-form-input:focus + .fb-mar-pricing .formbold-form-label {
+    color: white;
+  }
+
+  .fb-mar-pricing .formbold-input-file {
+    margin-top: 30px;
+  }
+
+  .fb-mar-pricing .formbold-input-file div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+/*--------------------------------------------------------------
 # Custom Boosting Facebook Marketing Page
 --------------------------------------------------------------*/
 .fb-mar-custom {
