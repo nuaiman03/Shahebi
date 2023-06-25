@@ -4320,6 +4320,104 @@ Later
 .fb-mar-custom .content ul li i {
   color: orange;
 }
+
+/*--------------------------------------------------------------
+# Modal Custom Boosting Facebook Marketing Page
+--------------------------------------------------------------*/
+.fb-mar-custom .modal-content {
+  background:orange;
+}
+  
+  .fb-mar-custom .modal-header h5 {
+    color: white;
+  }
+
+  .fb-mar-custom .modal-body button {
+    border: 1px solid orange;
+    background: #000000;
+    padding: 10px 24px;
+    color: #ffffff;
+    font-weight: 800;
+    transition: 0.4s;
+    border-radius: 4px;
+  }
+
+  .fb-mar-custom .modal-body button:hover {
+    background: orange;
+    color: black;
+    border: 1px solid black;
+  }
+
+  .fb-mar-custom .modal-body {
+    background:black;
+  }
+
+  .fb-mar-custom .formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+  }
+
+  .fb-mar-custom .formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 750px;
+    width: 100%;
+  }
+
+  .fb-mar-custom .formbold-input-flex {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 22px;
+  }
+  .fb-mar-custom .formbold-input-flex div {
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .fb-mar-custom .formbold-textarea {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .fb-mar-custom .formbold-form-input {
+    width: 100%;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: black;
+    font-weight: 500;
+    font-size: 16px;
+    color: orange;
+    outline: none;
+    resize: none;
+  }
+  .fb-mar-custom .formbold-form-input::placeholder {
+    color: #575757;
+  }
+  .fb-mar-custom .formbold-form-input:focus {
+    border-color: orange;
+  }
+  .fb-mar-custom .formbold-form-label {
+    color: orange;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 18px;
+  }
+  .fb-mar-custom .formbold-form-input:focus + .fb-mar-custom .formbold-form-label {
+    color: white;
+  }
+
+  .fb-mar-custom .formbold-input-file {
+    margin-top: 30px;
+  }
+
+  .fb-mar-custom .formbold-input-file div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 /*-------------------------------------------------------------------------------///////////////////
 # End Facebook Marketing Part
 ---------------------------------------------------------------------------------*/
@@ -6406,118 +6504,6 @@ info add
 # End Portfolio Part
 ---------------------------------------------------------------------------------*/
   
-.fb-mar-custom .modal-content {
-  background:orange;
-}
-  
-  .fb-mar-custom .modal-header h5 {
-    color: white;
-  }
-
-  .fb-mar-custom .modal-body button {
-    border: 1px solid orange;
-    background: #000000;
-    padding: 10px 24px;
-    color: #ffffff;
-    font-weight: 800;
-    transition: 0.4s;
-    border-radius: 4px;
-  }
-
-  .fb-mar-custom .modal-body button:hover {
-    background: orange;
-    color: black;
-    border: 1px solid black;
-  }
-
-  .fb-mar-custom .modal-body {
-    background:black;
-  }
-
-  .fb-mar-custom .formbold-main-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 28px;
-  }
-
-  .fb-mar-custom .formbold-form-wrapper {
-    margin: 0 auto;
-    max-width: 750px;
-    width: 100%;
-
-  }
-
-  .fb-mar-custom .formbold-input-flex {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 22px;
-  }
-  .fb-mar-custom .formbold-input-flex div {
-    width: 50%;
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .fb-mar-custom .formbold-textarea {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  .fb-mar-custom .formbold-form-input {
-    width: 100%;
-    padding-bottom: 10px;
-    border: none;
-    border-bottom: 1px solid white;
-    background: black;
-    font-weight: 500;
-    font-size: 16px;
-    color: orange;
-    outline: none;
-    resize: none;
-  }
-  .fb-mar-custom .formbold-form-input::placeholder {
-    color: #575757;
-  }
-  .fb-mar-custom .formbold-form-input:focus {
-    border-color: orange;
-  }
-  .fb-mar-custom .formbold-form-label {
-    color: orange;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    display: block;
-    margin-bottom: 18px;
-  }
-  .fb-mar-custom .formbold-form-input:focus + .fb-mar-custom .formbold-form-label {
-    color: white;
-  }
-
-  .fb-mar-custom .formbold-input-file {
-    margin-top: 30px;
-  }
-
-  .fb-mar-custom .formbold-input-file div {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  .fb-mar-custom .formbold-btn {
-    font-size: 16px;
-    border-radius: 5px;
-    padding: 12px 25px;
-    border: none;
-    font-weight: 500;
-    background-color: black;
-    border: 1px solid orange;
-    color: white;
-    cursor: pointer;
-    margin-top: 25px;
-  }
-  .fb-mar-custom .formbold-btn:hover {
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
-    background-color: orange;
-  }
 
 
 
