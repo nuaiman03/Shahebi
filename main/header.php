@@ -28,7 +28,7 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/styl.css" rel="stylesheet">
     <link href="assets/css/dynamic-web-styles.css" rel="stylesheet">
 
 
@@ -69,7 +69,7 @@
                 <ul>
                     <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
 
-                    <li class="dropdown"><a href="about.php"><span>Website</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="website.php"><span>Website</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="dynamic-website.php">Dynamic Website</a></li>
                             <li><a href="psd-to-static-website.php">PSD to Static Website</a></li>
@@ -79,7 +79,7 @@
                             <li><a href="domain-&-web-hosting.php">Domain & Web Hosting</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>Mobile Apps</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="mobile-apps.php"><span>Mobile Apps</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="apps-development.php">Apps Development</a></li>
                             <li><a href="apps-promotion.php">App Promotion</a></li>
@@ -87,14 +87,14 @@
                             <li><a href="convert-website.php">Convert Website</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>Software</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="software.php"><span>Software</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="inventory-system.php">Inventory System</a></li>
                             <li><a href="school-management.php">School Management</a></li>
                             <li><a href="custom-build-software.php">Custom Build Software</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>Digital Marketing</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="digital-marketing.php"><span>Digital Marketing</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="seo-service.php">SEO Services</a></li>
                             <li><a href="facebook-marketing.php">Facebook Marketing</a></li>
@@ -103,7 +103,7 @@
                             <li><a href="sms-marketing-data.php">SMS Marketing & Data</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>Graphics Design</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="graphics-design.php"><span>Graphics Design</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="clipping-path-service.php">Clipping Path Service</a></li>
                             <li><a href="logo-design.php">Logo Design</a></li>
