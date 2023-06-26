@@ -2688,6 +2688,110 @@ h2 {
 
 
 /*-------------------------------------------------------------------------------///////////////////
+# Start Mobile Apps Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Mobile Apps Page
+--------------------------------------------------------------*/
+.mb-app-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.mb-app-hero .content span {
+  color: orange;
+}
+
+.mb-app-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.mb-app-hero .content h5 {
+  color: orange;
+  padding-top: 6%;
+}
+
+.mb-app-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.mb-app-hero .content a:hover {
+  background: orange;
+  color: black;
+}
+
+/*--------------------------------------------------------------
+# Services Mobile Apps Page
+--------------------------------------------------------------*/
+.mb-app-services .icon-box {
+  text-align: center;
+  border: 3px solid orange;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+}
+
+.mb-app-services .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: orange;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.mb-app-services .icon-box .icon i {
+  color: #ffffff;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+}
+
+.mb-app-services .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.mb-app-services .icon-box h4 a {
+  color: #151515;
+  transition: ease-in-out 0.3s;
+}
+
+.mb-app-services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.mb-app-services .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Mobile Apps Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
 # Start Apps Development Part
 ---------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------
@@ -3544,6 +3648,110 @@ h2 {
 
 
 /*-------------------------------------------------------------------------------///////////////////
+# Start Software Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Software Page
+--------------------------------------------------------------*/
+.soft-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.soft-hero .content span {
+  color: orange;
+}
+
+.soft-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.soft-hero .content h5 {
+  color: orange;
+  padding-top: 6%;
+}
+
+.soft-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.soft-hero .content a:hover {
+  background: orange;
+  color: black;
+}
+
+/*--------------------------------------------------------------
+# Services Software Page
+--------------------------------------------------------------*/
+.soft-services .icon-box {
+  text-align: center;
+  border: 3px solid orange;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+}
+
+.soft-services .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: orange;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.soft-services .icon-box .icon i {
+  color: #ffffff;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+}
+
+.soft-services .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.soft-services .icon-box h4 a {
+  color: #151515;
+  transition: ease-in-out 0.3s;
+}
+
+.soft-services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.soft-services .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Software Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
 # Start Inventory System Part
 ---------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------
@@ -3903,6 +4111,110 @@ Later
 
 /*-------------------------------------------------------------------------------///////////////////
 # End Custom Build Software Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Digital Marketing Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Digital Marketing Page
+--------------------------------------------------------------*/
+.digi-mar-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.digi-mar-hero .content span {
+  color: orange;
+}
+
+.digi-mar-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.digi-mar-hero .content h5 {
+  color: orange;
+  padding-top: 6%;
+}
+
+.digi-mar-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.digi-mar-hero .content a:hover {
+  background: orange;
+  color: black;
+}
+
+/*--------------------------------------------------------------
+# Services Digital Marketing Page
+--------------------------------------------------------------*/
+.digi-mar-services .icon-box {
+  text-align: center;
+  border: 3px solid orange;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+}
+
+.digi-mar-services .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: orange;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.digi-mar-services .icon-box .icon i {
+  color: #ffffff;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+}
+
+.digi-mar-services .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.digi-mar-services .icon-box h4 a {
+  color: #151515;
+  transition: ease-in-out 0.3s;
+}
+
+.digi-mar-services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.digi-mar-services .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Digital Marketing Part
 ---------------------------------------------------------------------------------*/
 
 
@@ -5178,6 +5490,110 @@ css
 }
 /*-------------------------------------------------------------------------------///////////////////
 # End SMS Marketing & Data Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Graphics Design Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Graphics Design Page
+--------------------------------------------------------------*/
+.grap-des-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.grap-des-hero .content span {
+  color: orange;
+}
+
+.grap-des-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.grap-des-hero .content h5 {
+  color: orange;
+  padding-top: 6%;
+}
+
+.grap-des-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.grap-des-hero .content a:hover {
+  background: orange;
+  color: black;
+}
+
+/*--------------------------------------------------------------
+# Services Graphics Design Page
+--------------------------------------------------------------*/
+.grap-des-services .icon-box {
+  text-align: center;
+  border: 3px solid orange;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+}
+
+.grap-des-services .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: orange;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.grap-des-services .icon-box .icon i {
+  color: #ffffff;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+}
+
+.grap-des-services .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.grap-des-services .icon-box h4 a {
+  color: #151515;
+  transition: ease-in-out 0.3s;
+}
+
+.grap-des-services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.grap-des-services .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Graphics Design Part
 ---------------------------------------------------------------------------------*/
 
 
