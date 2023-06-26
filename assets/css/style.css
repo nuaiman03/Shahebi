@@ -1388,6 +1388,111 @@ h2 {
 
 
 
+
+/*-------------------------------------------------------------------------------///////////////////
+# Start Website Part
+---------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Website Page
+--------------------------------------------------------------*/
+.web-hero {
+  background-color: #000000;
+  padding-top: 10%;
+}
+
+.web-hero .content span {
+  color: orange;
+}
+
+.web-hero .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.web-hero .content h5 {
+  color: orange;
+  padding-top: 6%;
+}
+
+.web-hero .content a {
+  border: 1px solid orange;
+  background: #000000;
+  padding: 10px 24px;
+  color: #ffffff;
+  font-weight: 800;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.web-hero .content a:hover {
+  background: orange;
+  color: black;
+}
+
+/*--------------------------------------------------------------
+# Services Website Page
+--------------------------------------------------------------*/
+.web-services .icon-box {
+  text-align: center;
+  border: 3px solid orange;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+}
+
+.web-services .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: orange;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.web-services .icon-box .icon i {
+  color: #ffffff;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+}
+
+.web-services .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.web-services .icon-box h4 a {
+  color: #151515;
+  transition: ease-in-out 0.3s;
+}
+
+.web-services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.web-services .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}
+/*-------------------------------------------------------------------------------///////////////////
+# End Website Part
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
 /*-------------------------------------------------------------------------------///////////////////
 # Start Dynamic Website Part
 ---------------------------------------------------------------------------------*/
@@ -4263,7 +4368,8 @@ Later
 }
   
   .fb-mar-pricing .modal-header h5 {
-    color: white;
+    color: black;
+    font-weight: 900;
   }
 
   .fb-mar-pricing .modal-body button {
@@ -4486,7 +4592,7 @@ Later
     background: black;
     font-weight: 500;
     font-size: 16px;
-    color: orange;
+    color: white;
     outline: none;
     resize: none;
   }
