@@ -1,159 +1,225 @@
 <?php require_once('./main/header.php'); ?>
 
-
-<!-- ======= Hero Section ======= -->
-<section id="bann-des-hero" class="bann-des-hero">
+<!-- ======= Heading Section ======= -->
+<section id="about-us" class="about-us-1" style="padding-top: 10%;">
     <div class="container" data-aos="fade-up">
         <div class="row content">
             <div class="col-lg-6" data-aos="fade-right">
                 <img src="assets/img/banner-designer.png" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-                <h5>Banner Design Services in Cheap Rate</h5>
+                <h5 style="color: #ffcd6b;">Banner Design Services in Cheap Rate</h5>
                 <h2>100% <span>Professional</span> and <span>Unique</span> Banner Design <span>Services</span></h2>
-                <p>When you needs to have a unique and clear outstanding Banner that will launch your brand and gives it a good impression to the potential customers. We’re an online graphic design agency that specializes in banner design, brochure design, and business card design.</p>
-                <p>
-                    <i class="bi bi-caret-right-fill"></i> Facebook Cover &nbsp;
-                    <i class="bi bi-caret-right-fill"></i> Website Slider Banner &nbsp;
-                    <i class="bi bi-caret-right-fill"></i> Social Marking Banner &nbsp;
-                    <i class="bi bi-caret-right-fill"></i> Promotional Banner &nbsp;
+                <p style="color: white;">When you needs to have a unique and clear outstanding Banner that will launch
+                    your brand and gives it a good impression to the potential customers. We’re an online graphic design
+                    agency that specializes in banner design, brochure design, and business card design.</p>
+                <p style="color: white;">
+                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Facebook Cover &nbsp;
+                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Website Slider Banner &nbsp;
+                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Social Marking Banner &nbsp;
+                    <i class="bi bi-caret-right-fill" style="color: orange;"></i> Promotional Banner &nbsp;<br>
                 </p>
                 <br>
-                <a href="#">GET YOUR DESIGN</a>
+                <a href="#about" class="get-started-btn scrollto">GET YOUR DESIGN</a>
             </div>
         </div>
     </div>
-</section><!-- End Hero Section -->
+</section><!-- End Heading Section -->
 
-<!-- ======= Design Service Section ======= -->
-<section id="bann-des-serv" class="bann-des-serv">
+
+<!-- Updating Website Software Section -->
+<section id="app-build" style="background: white">
     <div class="container" data-aos="fade-up">
-        <h3>Popular Design Services</h3>
+        <div class="section-header">
+            <h3
+                style="text-align:center; font-weight:800; color: black; text-transform: uppercase; font-family: Open Sans; font-size: 40px;">
+                Popular Design Services</h3>
+        </div>
         <br>
-        <div class="row content justify-content-center">
+        <div class="row justify-content-center">
+            <!-- Start Content 1 -->
             <div class="col-lg-3 col-md-4 text-center" data-aos="zoom-out" data-aos-delay="100">
-                <i class="bi bi-paperclip"></i>
+                <i class="bi bi-paperclip" style="color: orange; font-size: 70px;"></i>
                 <br>
-                <a href="clipping-path-service.php">Clipping Path Services</a>
+                <a href="#about" class="get-started-btn scrollto" style="color: black; font-weight: bold;">Clipping Path
+                    Services</a>
             </div>
+            <!-- End Content 1 -->
+
+            <!-- Start Content 2 -->
+            <div class="col-lg-3 col-md-4" style="text-align: center;" data-aos="zoom-out" data-aos-delay="100">
+                <i class="bi bi-fan" style="color: orange; font-size: 70px;"></i>
+                <br>
+                <a href="#about" class="get-started-btn scrollto" style="color: black; font-weight: bold;">Logo Design
+                    Service</a>
+            </div>
+            <!-- End Content 2 -->
+
+            <!-- Start Content 3 -->
             <div class="col-lg-3 col-md-4 text-center" data-aos="zoom-out" data-aos-delay="100">
-                <i class="bi bi-fan"></i>
+                <i class="bi bi-person-vcard" style="color: orange; font-size: 70px;"></i>
                 <br>
-                <a href="logo-design.php">Logo Design Service</a>
+                <a href="#about" class="get-started-btn scrollto" style="color: black; font-weight: bold;">1 Click
+                    Business Card</a>
             </div>
+            <!-- End Content 3 -->
+
+            <!-- Start Content 4 -->
             <div class="col-lg-3 col-md-4 text-center" data-aos="zoom-out" data-aos-delay="100">
-                <i class="bi bi-person-vcard"></i>
+                <i class="bi bi-droplet-half" style="color: orange; font-size: 70px;"></i>
                 <br>
-                <a href="business-card.php">1 Click Business Card</a>
+                <a href="#about" class="get-started-btn scrollto" style="color: black; font-weight: bold;">Quality UX/UI
+                    Design</a>
             </div>
-            <div class="col-lg-3 col-md-4 text-center" data-aos="zoom-out" data-aos-delay="100">
-                <i class="bi bi-droplet-half"></i>
-                <br>
-                <a href="#">Quality UX/UI Design</a>
-            </div>
+            <!-- End Content 4 -->
         </div>
     </div>
-</section><!-- End Design Service Section -->
+</section><!-- End Team Section -->
 
-<!-- ======= Provide Section ======= -->
-<section id="bann-des-provide" class="bann-des-provide">
+
+<!-- Services Section - Home Page -->
+<section id="services" class="services-1">
     <div class="container">
         <div class="row gy-4">
             <div data-aos-delay="100" data-aos="fade-up" class="col-lg-6">
                 <div class="service-item d-flex">
-                    <div class="icon flex-shrink-0">
-                        <i class="bi bi-trophy-fill"></i>
-                    </div>
+                    <div class="icon flex-shrink-0"><i class="bi bi-trophy-fill" style="color: orange;"></i></div>
                     <div>
-                        <h4>100% Money Back Guarantee</h4>
-                        <p>WE offers a money back guarantee on your project budget. This excludes any posting or upgrade fees you've paid to Large iT when you launch your project. Please Request a refund within 30 days of posting your project</p>
+                        <h4 class="title"><a class="stretched-link" href="services-details.html">100% Money Back
+                                Guarantee</a>
+                        </h4>
+                        <p class="description">WE offers a money back guarantee on your project budget. This excludes
+                            any posting or upgrade fees you've paid to Large iT when you launch your project. Please
+                            Request a refund within 30 days of posting your project</p>
                     </div>
                 </div>
             </div>
             <div data-aos-delay="200" data-aos="fade-up" class="col-lg-6">
                 <div class="service-item d-flex">
-                    <div class="icon flex-shrink-0">
-                        <i class="bi bi-award-fill"></i>
-                    </div>
+                    <div class="icon flex-shrink-0"><i class="bi bi-award-fill" style="color: orange;"></i></div>
                     <div>
-                        <h4>Unlimited Design revisions</h4>
-                        <p>WE offers you to Unlimited Design revisions on your project. This excludes any posting or upgrade fees you've paid to Large iT when you launch your project. Please Request revisions within 7 days of posting your project.</p>
+                        <h4 class="title"><a class="stretched-link" href="services-details.html">Unlimited Design
+                                revisions</a>
+                        </h4>
+                        <p class="description">WE offers you to Unlimited Design revisions on your project. This
+                            excludes any posting or upgrade fees you've paid to Large iT when you launch your project.
+                            Please Request revisions within 7 days of posting your project.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section><!-- End Provide Section -->
+</section><!-- End Services Section -->
 
-<!-- ======= Ad Section ======= -->
-<section id="bann-des-ad" class="bann-des-ad">
+
+<!-- start information section -->
+<section id="info-2" class="info-2" style="background: black;">
     <div class="container text-center" data-aos="fade-up">
-        <h3>The Custom Banner Design Service with Best Designers​</h3>
-        <h5>We have experienced and dedicated team who are highly capable to reach you on your desired Target. I know you ill bit worried about the Charge?</h5>
-        <p>Don’t Worry! Our Charge is lower then other service providers. We always assure you a grunted Success. Let Our Service Experts To design Your company Banner we will assuredly do the honor of working for you at the shortest time possible.</p>
+        <h3 style="font-weight:800; color: #ffc451; font-style: italic; font-size: 35px; text-transform: uppercase;">The
+            Custom Banner Design Service with Best Designers​</h3>
+        <h5 style="font-weight:800; font-style: italic; color: white; text-transform: uppercase;">We have experienced
+            and dedicated team who are highly capable to reach you on your desired Target. I know you ill bit worried
+            about the Charge?</h5>
+        <p style=" color: white; text-transform: uppercase;">Don’t Worry! Our Charge is lower then other service
+            providers. We always assure you a grunted Success. Let Our Service Experts To design Your company Banner we
+            will assuredly do the honor of working for you at the shortest time possible.</p>
     </div>
-</section><!-- End Ad section -->
+</section><!-- End Information section -->
+
 
 <!-- ======= Pricing Section ======= -->
-<section id="bann-des-pricing" class="bann-des-pricing">
+<section id="pricing" class="pricing">
     <div class="container" data-aos="fade-up">
         <div class="row gy-4 justify-content-center" data-aos="fade-left">
             <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-                <div class="box">
-                    <h3>BEGINNER</h3>
-                    <div class="price"><sup>$</sup>30</div>
-                    <p>QUANTITY: 1-4 ITEMS</p>
+                <div class="box" style="background: black;">
+                    <h3 style="color: #ffc451; font-weight: 800;">BEGINNER</h3>
+                    <div class="price" style="color: white;"><sup>$</sup>30</div>
+                    <p
+                        style="text-align:center; color:black; background:#ffc451; border-radius: 10px; font-weight:1000;">
+                        QUANTITY: 1-4 ITEMS</p>
                     <ul>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;One Time Payment</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Custom Size: Height * Weight</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Design concepts: 2</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Delivery in 2-3 Business Days</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Vector image & 6 file formats: Yes</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Black and White vector format: No</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Begins Within 2-4 Hours</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Lifetime File Storage: No</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;24/7 Support</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;One
+                            Time Payment</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Custom Size: Height * Weight</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Design concepts: 2</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Delivery in 2-3 Business Days</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Vector image & 6 file formats: Yes</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;Black
+                            and White vector format: No</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Begins Within 2-4 Hours</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Lifetime File Storage: No</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;24/7
+                            Support</li>
                     </ul>
-                    <a href="#">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
+                    <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-                <div class="box">
+                <div class="box" style="background: black;">
                     <span class="featured">Featured</span>
-                    <h3>BUSINESS</h3>
-                    <div class="price"><sup>$</sup>80</div>
-                    <p>QUANTITY: 5-10 ITEMS</p>
+                    <h3 style="color: #ffc451; font-weight: 800;">BUSINESS</h3>
+                    <div class="price" style="color: white;"><sup>$</sup>80</div>
+                    <p
+                        style="text-align:center; color:black; background:#ffc451; border-radius: 10px; font-weight:1000;">
+                        QUANTITY: 5-10 ITEMS</p>
                     <ul>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;One Time Payment</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Custom Size: Height * Weight</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Design concepts: 3</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Delivery in 2-3 Business Days</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Vector image & 8 file formats: Yes</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Black and White vector format: Yes</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Begins Within 2-4 Hours</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Lifetime File Storage: No</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;24/7 Support</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;One
+                            Time Payment</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Custom Size: Height * Weight</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Design concepts: 3</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Delivery in 2-3 Business Days</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Vector image & 8 file formats: Yes</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;Black
+                            and White vector format: Yes</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Begins Within 2-4 Hours</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Lifetime File Storage: No</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;24/7
+                            Support</li>
                     </ul>
-                    <a href="#">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
+                    <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-                <div class="box">
-                    <h3>ADVANCE</h3>
-                    <div class="price"><sup>$</sup>150</div>
-                    <p>QUANTITY: 11+ ITEMS</p>
+                <div class="box" style="background: black;">
+                    <h3 style="color: #ffc451; font-weight: 800;">ADVANCE</h3>
+                    <div class="price" style="color: white;"><sup>$</sup>150</div>
+                    <p
+                        style="text-align:center; color:black; background:#ffc451; border-radius: 10px; font-weight:1000;">
+                        QUANTITY: 11+ ITEMS</p>
                     <ul>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;One Time Payment</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Custom Size: Height * Weight</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Design concepts: 4</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Delivery in 2-5 Business Days</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Vector image & 10 file formats: Yes</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Black and White vector format: Yes</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Begins Within 2-4 Hours</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;Lifetime File Storage: No</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp;24/7 Support</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;One
+                            Time Payment</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Custom Size: Height * Weight</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Design concepts: 4</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Delivery in 2-5 Business Days</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Vector image & 10 file formats: Yes</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;Black
+                            and White vector format: Yes</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Begins Within 2-4 Hours</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle"
+                                style="color: #ffc451;"></i>&nbsp;Lifetime File Storage: No</li>
+                        <li style="color: white;"><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp;24/7
+                            Support</li>
                     </ul>
-                    <a href="#">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
+                    <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
                 </div>
             </div>
         </div>
@@ -161,33 +227,43 @@
 </section><!-- End Pricing Section -->
 
 <!-- ======= Custom Boosting Section ======= -->
-<section id="bann-des-custom" class="bann-des-custom">
+<section id="about-us" class="about-us-1">
     <div class="container" data-aos="fade-up">
         <div class="row content">
             <div class="col-lg-7" data-aos="fade-right">
-                <div class="section-title">
-                    <h2>Request</h2>
-                    <p>to Banner Design Service</p>
-                </div>
-                <p>Let Us Design A Custom Banner Design For Your Business. We offer a variety of competitively-priced, high-quality services, including: We believe our satisfied and happy customers are the best advertisement for us. If you have decided to choose us, we will assist you until you are fully satisfied with your Banner design like:</p>
-                <h4>We Specialize in Custom Logo Design</h4>
+                <h3 style="color: #ffc451;">Request to Banner Design Service</h3>
+                <p style="color: #c7c7c7;">Let Us Design A Custom Banner Design For Your Business. We offer a variety of
+                    competitively-priced, high-quality services, including: We believe our satisfied and happy customers
+                    are the best advertisement for us. If you have decided to choose us, we will assist you until you
+                    are fully satisfied with your Banner design like:</p>
+                <p
+                    style="text-align:center; color:black; background:#ffc451; border-radius: 10px; font-weight:1000; padding: 5px 0px;">
+                    We Specialize in Custom Logo Design</p>
                 <br>
-                <a href="#">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
+                <a href="#about" class="get-started-btn scrollto">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
             </div>
             <div class="col-lg-5 pt-4 pt-lg-0" data-aos="fade-left">
                 <ul>
-                    <li><i class="bi bi-check2-circle"></i> FREE Banner File Formats for Web and Print use</li>
-                    <li><i class="bi bi-check2-circle"></i> 100% Money Back Guarantee</li>
-                    <li><i class="bi bi-check2-circle"></i> Unlimited Revision for 100% Satisfaction</li>
-                    <li><i class="bi bi-check2-circle"></i> Complete access to creative concepts</li>
-                    <li><i class="bi bi-check2-circle"></i> Quick Response Times</li>
-                    <li><i class="bi bi-check2-circle"></i> Obtain your Banner in multiple file formats for print and web products</li>
-                    <li><i class="bi bi-check2-circle"></i> Free Consultation & 24/7 Support</li>
+                    <li><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp; FREE Banner File Formats for
+                        Web
+                        and Print use</li>
+                    <li><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp; 100% Money Back Guarantee</li>
+                    <li><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp; Unlimited Revision for 100%
+                        Satisfaction</li>
+                    <li><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp; Complete access to creative
+                        concepts</li>
+                    <li><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp; Quick Response Times</li>
+                    <li><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp; Obtain your Banner in multiple
+                        file formats for print and web products</li>
+                    <li><i class="bi bi-check2-circle" style="color: #ffc451;"></i>&nbsp; Free Consultation & 24/7
+                        Support</li>
                 </ul>
             </div>
         </div>
     </div>
 </section><!-- End Custom Boosting Section -->
+
+
 
 
 <?php require_once('main/footer.php'); ?>

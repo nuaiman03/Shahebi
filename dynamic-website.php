@@ -1,14 +1,15 @@
 <?php require_once('./main/header.php'); ?>
 
-<!-- ======= Dy Website Hero Section ======= -->
-<section id="dy-web-hero" class="dy-web-hero" style="padding-top: 10%;">
+<!-- ======= Heading Section ======= -->
+<section id="about-us" class="about-us-1" style="padding-top: 10%;">
     <div class="container" data-aos="fade-up">
+
         <div class="row content">
             <div class="col-lg-6" data-aos="fade-right">
                 <h2>Dynamic website Development</h2>
                 <h3>Why You Should Develop A Dynamic Website For Your Company?</h3>
                 <br>
-                <a href="#dy-web-pricing" class="get-started-btn scrollto">See Package & Price</a>
+                <a href="#about" class="get-started-btn scrollto">See Package & Price</a>
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
                 <ul>
@@ -29,18 +30,23 @@
                 </ul>
             </div>
         </div>
-    </div>
-</section><!-- End Dy Website Hero Section -->
 
-<!-- Dy Website Provide Section -->
-<section id="dy-web-provide" class="dy-web-provide">
+    </div>
+</section><!-- End About Us Section -->
+
+<!-- Services Section - Home Page -->
+<section id="services" class="services-1">
+
     <div class="container">
+
         <div class="row gy-4">
+
             <div data-aos-delay="100" data-aos="fade-up" class="col-lg-6">
                 <div class="service-item d-flex">
                     <div class="icon flex-shrink-0"><i class="bi bi-wordpress"></i></div>
                     <div>
-                        <h4 class="title">WordPress Website Development</h4>
+                        <h4 class="title"><a class="stretched-link" href="services-details.html">WordPress Website
+                                Development</a></h4>
                         <p class="description">We offer a complete WordPress website design and development that
                             includes branding, SEO friendly, and a focus on visitor conversions. WordPress is the best
                             web software which you can use to create a highly functional website with your requirements.
@@ -48,29 +54,36 @@
                     </div>
                 </div>
             </div>
+
             <div data-aos-delay="200" data-aos="fade-up" class="col-lg-6">
                 <div class="service-item d-flex">
                     <div class="icon flex-shrink-0"><i class="bi bi-braces"></i></div>
                     <div>
-                        <h4 class="title">Custom Website Development</h4>
+                        <h4 class="title"><a class="stretched-link" href="services-details.html">Custom Website
+                                Development</a></h4>
                         <p class="description">If you need to take your website to the next level so that We could take
                             each client through a creative process to build a website that reflects their brand and
                             generates sales. It will be an easy process by doing it together.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section><!-- End Dy Website Services Section -->
 
-<!-- ======= Dy Website Problem Section ======= -->
-<section id="dy-web-problem" class="dy-web-problem">
+        </div>
+
+    </div>
+
+</section><!-- End Services Section -->
+
+<!-- ======= Features Section ======= -->
+<section id="features" class="features">
+
     <div class="container" data-aos="fade-up">
+        <!-- Feature Tabs -->
         <div class="col">
-            <div class="section-title">
-                <h2>Why</h2>
-                <p>Most Websites Fail</p>
+            <div class="heading-h text-center">
+                <h3>Why Most Websites Fail</h3>
             </div>
+
             <!-- Tabs -->
             <ul class="nav nav-pills mb-5">
                 <li>
@@ -86,8 +99,10 @@
                     <a class="nav-link" data-bs-toggle="pill" href="#tab4">Most Web ignore mobile acceptance</a>
                 </li>
             </ul><!-- End Tabs -->
+
             <!-- Tab Content -->
             <div class="tab-content">
+
                 <!-- Start Tab 1 Content -->
                 <div class="tab-pane fade show active" id="tab1">
                     <div class="row justify-content-center">
@@ -103,6 +118,7 @@
                     </div>
                 </div>
                 <!-- End Tab 1 Content -->
+
                 <!-- Start Tab 2 Content -->
                 <div class="tab-pane fade show" id="tab2">
                     <div class="row justify-content-center">
@@ -120,6 +136,7 @@
                     </div>
                 </div>
                 <!-- End Tab 2 Content -->
+
                 <!-- Start Tab 3 Content -->
                 <div class="tab-pane fade show" id="tab3">
                     <div class="row justify-content-center">
@@ -136,6 +153,7 @@
                     </div>
                 </div>
                 <!-- End Tab 3 Content -->
+
                 <!-- Start Tab 4 Content -->
                 <div class="tab-pane fade show" id="tab4">
                     <div class="row justify-content-center">
@@ -152,137 +170,165 @@
                     </div>
                 </div>
                 <!-- End Tab 4 Content -->
-            </div>
-        </div>
-    </div>
-</section><!-- End Dy Website Problem Section -->
 
-<!-- ======= Dy Website Srvices Section ======= -->
-<section id="dy-web-srvices" class="dy-web-services">
-    <div class="container" data-aos="fade-up">
-        <div class="row justify-content-center feature-icons" data-aos="fade-up">
-            <div class="section-title">
-                <h2>Service</h2>
-                <p>You Should Know</p>
-            </div>
-            <div class="col-xl-8 content">
-                <div class="row align-self-center gy-4">
-                    <div class="col-md-6 icon-box" data-aos="fade-up">
-                        <i class="bi bi-wordpress"></i>
-                        <div>
-                            <h4>Intact Foundation</h4>
-                            <p>We always try to build our sites on search-friendly and flexible WordPress or others CMS,
-                                incorporating HTML5 markup to prepare you for future web standards and microdata that
-                                increases your visibility for search engines.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                        <i class="bi bi-tools"></i>
-                        <div>
-                            <h4>Easy to Maintain</h4>
-                            <p>We always try to build your site using best CMS WordPress or custom which changing and
-                                updating your site is in all point-and-click. You don’t need to be a developer to make
-                                changes and get the amazing experience with your website.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                        <i class="bi bi-phone-flip"></i>
-                        <div>
-                            <h4>Mobile Responsive</h4>
-                            <p>Your site will look amazing and user-friendly no matter what type of device your customers
-                                are viewing it on. Our designers always trying to build such designs which are dynamically
-                                adjustable for any tablet and smartphone users which should be profitable for your site.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                        <i class="bi bi-graph-up"></i>
-                        <div>
-                            <h4>Built-in Optimization</h4>
-                            <p>We have effective search optimization experts and we make sure that your site will not only
-                                be found but also stay competitive in search engines as well.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                        <i class="bi bi-person-gear"></i>
-                        <div>
-                            <h4>Life Time Web Support</h4>
-                            <p>arge iT offers full support for your websites with our great managing team. Those who will
-                                constantly monitor and maintain your website on 24/7/365 in under terms and conditions.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-                        <i class="bi bi-gear"></i>
-                        <div>
-                            <h4>Complete Free Tools</h4>
-                            <p>We include thousands of dollar plugins with each customer site. Unbelievably powerful
-                                software tools and website features will be added to you for free.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section><!-- End Dy Website Srvices Section -->
 
-<!-- ======= Dy Website Pricing Section ======= -->
-<section id="dy-web-pricing" class="dy-web-pricing">
-    <div class="container" data-aos="fade-up">
-        <div class="row gy-4 justify-content-center" data-aos="fade-left">
-            <div class="section-title">
-                <h2>Pricing</h2>
-                <p>Our best price</p>
+
             </div>
-            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-                <div class="box">
-                    <h3>BEGINNER</h3>
-                    <div class="price"><sup>$</sup>29</div><br>
-                    <ul>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Stores App Submission</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Ad Network Integration</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; Push Notification Integration</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Splash Screen</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Logo, 1 Banner, 100% Professional</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Description ASO Friendly</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; Content Rating Add</li>
-                    </ul>
-                    <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
+
+        </div>
+    </div><!-- End Feature Tabs -->
+
+    <!-- Feature Icons -->
+    <div class="row justify-content-center feature-icons" style="margin-top:120px;" data-aos="fade-up">
+        <h3>Ratione mollitia eos ab laudantium rerum beatae quo</h3>
+
+        <div class="col-xl-8 content">
+            <div class="row align-self-center gy-4">
+
+                <div class="col-md-6 icon-box" data-aos="fade-up">
+                    <i class="bi bi-wordpress"></i>
+                    <div>
+                        <h4>Intact Foundation</h4>
+                        <p>We always try to build our sites on search-friendly and flexible WordPress or others CMS,
+                            incorporating HTML5 markup to prepare you for future web standards and microdata that
+                            increases your visibility for search engines.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-                <div class="box">
-                    <span class="featured">Featured</span>
-                    <h3>BUSINESS</h3>
-                    <div class="price"><sup>$</sup>49</div><br>
-                    <ul>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; 3 Stores App Submission</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; 2 Ad Network Integration</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; Push Notification Integration</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; 2 Splash Screen</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Logo, 2 Banner, 100% Professional</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; 2 Description ASO Friendly</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; Content Rating Add</li>
-                    </ul>
-                    <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                    <i class="bi bi-tools"></i>
+                    <div>
+                        <h4>Easy to Maintain</h4>
+                        <p>We always try to build your site using best CMS WordPress or custom which changing and
+                            updating your site is in all point-and-click. You don’t need to be a developer to make
+                            changes and get the amazing experience with your website.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-                <div class="box">
-                    <h3>ADVANCE</h3>
-                    <div class="price"><sup>$</sup>99</div><br>
-                    <ul>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; 3 Stores App Submission</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; 3 Ad Network Integration</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; Push Notification Integration</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; 3 Splash Screen</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; 1 Logo, 3 Banner, 100% Professional</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; 3 Description ASO Friendly</li>
-                        <li><i class="bi bi-check2-circle"></i>&nbsp; Content Rating Add</li>
-                    </ul>
-                    <a href="#" class="btn-buy">Order Now &nbsp; <i class="bi bi-cart4"></i></a>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <i class="bi bi-phone-flip"></i>
+                    <div>
+                        <h4>Mobile Responsive</h4>
+                        <p>Your site will look amazing and user-friendly no matter what type of device your customers
+                            are viewing it on. Our designers always trying to build such designs which are dynamically
+                            adjustable for any tablet and smartphone users which should be profitable for your site.</p>
+                    </div>
                 </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                    <i class="bi bi-graph-up"></i>
+                    <div>
+                        <h4>Built-in Optimization</h4>
+                        <p>We have effective search optimization experts and we make sure that your site will not only
+                            be found but also stay competitive in search engines as well.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                    <i class="bi bi-person-gear"></i>
+                    <div>
+                        <h4>Life Time Web Support</h4>
+                        <p>arge iT offers full support for your websites with our great managing team. Those who will
+                            constantly monitor and maintain your website on 24/7/365 in under terms and conditions.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                    <i class="bi bi-gear"></i>
+                    <div>
+                        <h4>Complete Free Tools</h4>
+                        <p>We include thousands of dollar plugins with each customer site. Unbelievably powerful
+                            software tools and website features will be added to you for free.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
+
+    </div><!-- End Feature Icons -->
+
     </div>
-</section><!-- End Dy Website Pricing Section -->
+
+</section><!-- End Features Section -->
+
+<!-- ======= Pricing Section ======= -->
+<section id="pricing" class="pricing-1">
+    <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+            <div class="col-lg-3 col-md-6">
+                <div class="box">
+                    <h3>Free</h3>
+                    <h4><sup>$</sup>0<span> / month</span></h4>
+                    <ul>
+                        <li>Aida dere</li>
+                        <li>Nec feugiat nisl</li>
+                        <li>Nulla at volutpat dola</li>
+                        <li class="na">Pharetra massa</li>
+                        <li class="na">Massa ultricies mi</li>
+                    </ul>
+                    <div class="btn-wrap">
+                        <a href="#" class="btn-buy">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+                <div class="box featured">
+                    <h3>Business</h3>
+                    <h4><sup>$</sup>19<span> / month</span></h4>
+                    <ul>
+                        <li>Aida dere</li>
+                        <li>Nec feugiat nisl</li>
+                        <li>Nulla at volutpat dola</li>
+                        <li>Pharetra massa</li>
+                        <li class="na">Massa ultricies mi</li>
+                    </ul>
+                    <div class="btn-wrap">
+                        <a href="#" class="btn-buy">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                <div class="box">
+                    <h3>Developer</h3>
+                    <h4><sup>$</sup>29<span> / month</span></h4>
+                    <ul>
+                        <li>Aida dere</li>
+                        <li>Nec feugiat nisl</li>
+                        <li>Nulla at volutpat dola</li>
+                        <li>Pharetra massa</li>
+                        <li>Massa ultricies mi</li>
+                    </ul>
+                    <div class="btn-wrap">
+                        <a href="#" class="btn-buy">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                <div class="box">
+                    <span class="advanced">Advanced</span>
+                    <h3>Ultimate</h3>
+                    <h4><sup>$</sup>49<span> / month</span></h4>
+                    <ul>
+                        <li>Aida dere</li>
+                        <li>Nec feugiat nisl</li>
+                        <li>Nulla at volutpat dola</li>
+                        <li>Pharetra massa</li>
+                        <li>Massa ultricies mi</li>
+                    </ul>
+                    <div class="btn-wrap">
+                        <a href="#" class="btn-buy">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End Pricing Section -->
 
 <?php require_once('main/footer.php'); ?>

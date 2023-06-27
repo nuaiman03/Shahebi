@@ -1,6 +1,11 @@
-/*-------------------------------------------------------------------------------///////////////////
-# Start All Body Part
----------------------------------------------------------------------------------*/
+/**
+* Template Name: Gp
+* Updated: May 30 2023 with Bootstrap v5.3.0
+* Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -10,10 +15,12 @@ body {
 }
 
 a {
+  color: #ffc451;
   text-decoration: none;
 }
 
 a:hover {
+  color: #ffd584;
   text-decoration: none;
 }
 
@@ -36,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: orange;
+  background: #ffc451;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -51,11 +58,10 @@ h6 {
 
 .back-to-top:hover {
   background: #151515;
-  border: 1px solid orange;
 }
 
 .back-to-top:hover i {
-  color: orange;
+  color: #ffc451;
 }
 
 .back-to-top.active {
@@ -82,7 +88,7 @@ h6 {
   position: fixed;
   top: calc(50% - 0px);
   left: calc(50% - 30px);
-  border: 6px solid orange;
+  border: 6px solid #ffc451;
   border-top-color: #151515;
   border-bottom-color: #151515;
   border-radius: 50%;
@@ -121,7 +127,55 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(0, 0, 0, 0.897);
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#header .logo {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#header .logo a {
+  color: #fff;
+}
+
+#header .logo a span {
+  color: #ffc451;
+}
+
+#header .logo img {
+  max-height: 40px;
+}
+
+/*--------------------------------------------------------------
+#  Get Startet Button
+--------------------------------------------------------------*/
+.get-started-btn {
+  color: #fff;
+  border-radius: 4px;
+  padding: 7px 25px 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid #ffc451;
+}
+
+.get-started-btn:hover {
+  background: #ffbb38;
+  color: #343a40;
+}
+
+@media (max-width: 992px) {
+  .get-started-btn {
+    padding: 7px 20px 8px 20px;
+    margin-right: 15px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -169,8 +223,8 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover > a {
-  color: orange;
+.navbar li:hover>a {
+  color: #ffc451;
 }
 
 .navbar .dropdown ul {
@@ -206,11 +260,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
-  background-color: orange;
+.navbar .dropdown ul li:hover>a {
+  background-color: #ffc451;
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -222,7 +276,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -234,7 +288,7 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover > ul {
+  .navbar .dropdown .dropdown:hover>ul {
     left: -85%;
   }
 }
@@ -301,9 +355,9 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile li:hover>a {
   color: #151515;
-  background-color: orange;
+  background-color: #ffc451;
 }
 
 .navbar-mobile .getstarted,
@@ -338,83 +392,28 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
-  background-color: orange;
+.navbar-mobile .dropdown ul li:hover>a {
+  background-color: #ffc451;
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
 
 /*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
-section {
-  padding: 60px 0;
-  overflow: hidden;
-}
-
-.section-title {
-  padding-bottom: 40px;
-}
-
-.section-title h2 {
-  font-size: 14px;
-  font-weight: 500;
-  padding: 0;
-  line-height: 1px;
-  margin: 0 0 5px 0;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: orange;
-  font-family: "Poppins", sans-serif;
-}
-
-.section-title h2::after {
-  content: "";
-  width: 120px;
-  height: 1px;
-  display: inline-block;
-  background: orange;
-  margin: 4px 10px;
-}
-
-.section-title p {
-  margin: 0;
-  margin: 0;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #151515;
-}
-
-/*-------------------------------------------------------------------------------///////////////////
-# End All Body Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start INDEX Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero-Index-Section
+# Hero Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-1-bg.jpg") top center;
+  background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.712);
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -438,7 +437,7 @@ section {
 }
 
 #hero h1 span {
-  color: orange;
+  color: #ffc451;
 }
 
 #hero h2 {
@@ -458,7 +457,7 @@ section {
 #hero .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color: orange;
+  color: #ffc451;
 }
 
 #hero .icon-box h3 {
@@ -476,11 +475,11 @@ section {
 }
 
 #hero .icon-box h3 a:hover {
-  color: orange;
+  color: #ffc451;
 }
 
 #hero .icon-box:hover {
-  border-color: orange;
+  border-color: #ffc451;
 }
 
 @media (min-width: 1024px) {
@@ -506,6092 +505,50 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About-Index-Page
+# Sections General
 --------------------------------------------------------------*/
-.about-index {
-  background-color: #000000;
-}
-
-.about-index .content p {
-  color: white;
-}
-
-.about-index .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.about-index .content a:hover {
-  background: orange;
-  color: black;
-}
-
-/*--------------------------------------------------------------
-# Services-Index-Page
---------------------------------------------------------------*/
-.services-index .icon-box {
-  text-align: center;
-  border: 3px solid orange;
-  padding: 80px 20px;
-  transition: all ease-in-out 0.3s;
-}
-
-.services-index .icon-box .icon {
-  margin: 0 auto;
-  width: 64px;
-  height: 64px;
-  background: orange;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  transition: 0.3s;
-}
-
-.services-index .icon-box .icon i {
-  color: #ffffff;
-  font-size: 28px;
-  transition: ease-in-out 0.3s;
-}
-
-.services-index .icon-box h4 {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 24px;
-}
-
-.services-index .icon-box h4 a {
-  color: #151515;
-  transition: ease-in-out 0.3s;
-}
-
-.services-index .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.services-index .icon-box:hover {
-  border-color: #fff;
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  transform: translateY(-10px);
-}
-
-/*--------------------------------------------------------------
-# Pricing-Index-Section
---------------------------------------------------------------*/
-.pricing-index {
-  background: #000000;
-}
-
-.pricing-index .pricing-item {
-  padding: 60px 40px;
-  box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
-  background: rgba(255, 255, 255, 0.082);
-  height: 100%;
-  position: relative;
-  border-radius: 15px;
-}
-
-.pricing-index h3 {
-  font-weight: 600;
-  margin-bottom: 15px;
-  font-size: 20px;
-  color: orange;
-  text-align: center;
-}
-
-.pricing-index .icon {
-  margin: 30px auto 30px auto;
-  width: 70px;
-  height: 70px;
-  background: orange;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: 0.3s;
-  transform-style: preserve-3d;
-}
-
-.pricing-index .icon i {
-  color: #fff;
-  font-size: 28px;
-  transition: ease-in-out 0.3s;
-  line-height: 0;
-}
-
-.pricing-index .icon::before {
-  position: absolute;
-  content: "";
-  height: 86px;
-  width: 86px;
-  border-radius: 50%;
-  background: rgb(255, 189, 66);
-  transition: all 0.3s ease-out 0s;
-  transform: translateZ(-1px);
-}
-
-.pricing-index .icon::after {
-  position: absolute;
-  content: "";
-  height: 102px;
-  width: 102px;
-  border-radius: 50%;
-  background: rgb(250, 206, 124);
-  transition: all 0.3s ease-out 0s;
-  transform: translateZ(-2px);
-}
-
-.pricing-index h4 {
-  font-size: 48px;
-  color: orange;
-  font-weight: 700;
-  font-family: var(--font-secondary);
-  margin-bottom: 0;
-  text-align: center;
-}
-
-.pricing-index h4 sup {
-  font-size: 28px;
-}
-
-.pricing-index h4 span {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.pricing-index .section-title p,
-h2 {
-  color: rgb(255, 255, 255);
-}
-
-.pricing-index ul {
-  padding: 20px 0;
-  list-style: none;
-  color: white;
-  text-align: left;
-  line-height: 20px;
-}
-
-.pricing-index ul li {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-
-.pricing-index ul i {
-  color: orange;
-  font-size: 24px;
-  padding-right: 3px;
-}
-
-.pricing-index ul .na {
-  color: orange;
-}
-
-.pricing-index ul .na i {
-  color: orange;
-}
-
-.pricing-index ul .na span {
-  text-decoration: line-through;
-}
-
-.pricing-index .buy-btn {
-  display: inline-block;
-  padding: 10px 40px;
-  border-radius: 50px;
-  color: rgb(209, 209, 209);
-  border: 1px solid orange;
-  transition: none;
-  font-size: 16px;
-  font-weight: 600;
-  font-family: var(--font-primary);
-  transition: 0.3s;
-}
-
-.pricing-index .buy-btn:hover {
-  background: orange;
-  color: #fff;
-}
-
-.pricing-index .featured {
-  z-index: 10;
-  border: 3px solid var(--color-primary);
-}
-
-@media (min-width: 992px) {
-  .pricing-index .featured {
-    transform: scale(1.15);
-    border: 5px solid orange;
-  }
-}
-
-/*--------------------------------------------------------------
-# Portfolio-Index-Page
---------------------------------------------------------------*/
-.portfolio-index #portfolio-flters {
-  padding: 0;
-  margin: 0 auto 20px auto;
-  list-style: none;
-  text-align: center;
-  border-radius: 50px;
-  padding: 2px 15px;
-}
-
-.portfolio-index #portfolio-flters li {
-  cursor: pointer;
-  display: inline-block;
-  padding: 8px 20px 10px 20px;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 1;
-  color: orange;
-  margin: 8px 4px 8px 4px;
-  transition: 0.3s;
-  border-radius: 50px;
-  border: 1px solid orange;
-}
-
-.portfolio-index #portfolio-flters li:hover,
-.portfolio-index #portfolio-flters li.filter-active {
-  color: #ffffff;
-
-  background: #f1b341;
-}
-
-.portfolio-index #portfolio-flters li:last-child {
-  margin-right: 0;
-}
-
-.portfolio-index .portfolio-wrap {
-  transition: 0.3s;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  width: 380px;
-  padding: 10px;
-  background: rgba(255, 255, 255, 0);
-}
-
-.portfolio-index .portfolio-wrap::before {
-  content: "";
-  background: rgba(0, 0, 0, 0.75);
-  position: absolute;
-  left: 30px;
-  right: 30px;
-  top: 30px;
-  bottom: 30px;
-  transition: all ease-in-out 0.3s;
-  z-index: 2;
-  opacity: 0;
-}
-
-.portfolio-index .portfolio-wrap img {
-  transition: 1s;
-  height: 250px;
-  width: 380px;
-  background-size: cover;
-}
-
-.portfolio-index .portfolio-wrap .portfolio-info {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  z-index: 3;
-  transition: all ease-in-out 0.3s;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.portfolio-index .portfolio-wrap .portfolio-info::before {
-  display: block;
-  content: "";
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  top: 35px;
-  left: 35px;
-  border-top: 3px solid orange;
-  border-left: 3px solid orange;
-  transition: all 0.5s ease 0s;
-  z-index: 9994;
-}
-
-.portfolio-index .portfolio-wrap .portfolio-info::after {
-  display: block;
-  content: "";
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  bottom: 35px;
-  right: 35px;
-  border-bottom: 3px solid orange;
-  border-right: 3px solid orange;
-  transition: all 0.5s ease 0s;
-  z-index: 9994;
-}
-
-.portfolio-index .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
-  color: orange;
-  font-weight: 700;
-}
-
-.portfolio-index .portfolio-wrap .portfolio-info p {
-  color: orange;
-  font-weight: 600;
-  font-size: 14px;
-  text-transform: uppercase;
-  padding: 0;
-  margin: 0;
-}
-
-.portfolio-index .portfolio-wrap .portfolio-links {
-  text-align: center;
-  z-index: 4;
-}
-
-.portfolio-index .portfolio-wrap .portfolio-links a {
-  color: #fff;
-  background: orange;
-  margin: 10px 2px;
-  width: 36px;
-  height: 36px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  transition: 0.3s;
-}
-
-.portfolio-index .portfolio-wrap .portfolio-links a i {
-  font-size: 24px;
-  line-height: 0;
-}
-
-.portfolio-index .portfolio-wrap .portfolio-links a:hover {
-  color: orange;
-  border: 1px solid orange;
-  background: white;
-}
-
-.portfolio-index .portfolio-wrap:hover img {
-  transform: scale(1.1);
-}
-
-.portfolio-index .portfolio-wrap:hover::before {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 1;
-}
-
-.portfolio-index .portfolio-wrap:hover .portfolio-info {
-  opacity: 1;
-}
-
-.portfolio-index .portfolio-wrap:hover .portfolio-info::before {
-  top: 15px;
-  left: 15px;
-}
-
-.portfolio-index .portfolio-wrap:hover .portfolio-info::after {
-  bottom: 15px;
-  right: 15px;
-}
-
-/*--------------------------------------------------------------
-# Why-Chose-Us-Index-Page
---------------------------------------------------------------*/
-.why-us-index {
+section {
   padding: 60px 0;
-  background: #000000;
-}
-
-.why-us-index .card {
-  background: #000000;
-  border-color: orange;
-  border-radius: 10px;
-  margin: 0 15px;
-  padding: 15px 0;
-  text-align: center;
-  color: #fff;
-  transition: 0.3s ease-in-out;
-  height: 100%;
-}
-
-@media (max-width: 991px) {
-  .why-us-index .card {
-    margin: 0;
-  }
-}
-
-.why-us-index .card:hover {
-  background: #3d3d3d;
-  border-color: #ffffff;
-}
-
-.why-us-index .card i {
-  font-size: 48px;
-  padding-top: 15px;
-  color: orange;
-}
-
-.why-us-index .card h5 {
-  font-size: 22px;
-  font-weight: 600;
-}
-
-.why-us-index .card p {
-  font-size: 15px;
-  color: white;
-}
-
-.why-us-index .card .readmore {
-  color: #fff;
-  font-weight: 600;
-  display: inline-block;
-  transition: 0.3s ease-in-out;
-  border-bottom: orange solid 2px;
-}
-
-.why-us-index .card .readmore:hover {
-  border-bottom: #fff solid 2px;
-}
-
-/*--------------------------------------------------------------
-# Counter Index Page
---------------------------------------------------------------*/
-.counter-index {
-  background: #000000ef;
-  border-top: 1px solid orange;
-}
-
-.counter-index .counters {
-  padding-top: 40px;
-}
-
-.counter-index .counters span {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 48px;
-  display: block;
-  color: orange;
-}
-
-.counter-index .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-/*--------------------------------------------------------------
-# Testimonials Index Page
---------------------------------------------------------------*/
-.testimonials-index {
-  padding: 60px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-  background: #ffffff;
-}
-
-.testimonials-index .testimonials-carousel,
-.testimonials-index .testimonials-slider {
   overflow: hidden;
 }
 
-@media (max-width: 767px) {
-  .testimonials-index .testimonial-item {
-    text-align: center;
-  }
+.section-title {
+  padding-bottom: 40px;
 }
 
-.testimonials-index .testimonial-item .testimonial-img {
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+  content: "";
   width: 120px;
-  border-radius: 50%;
-  border: 2px solid orange;
-  float: left;
-}
-
-@media (max-width: 767px) {
-  .testimonials-index .testimonial-item .testimonial-img {
-    float: none;
-    margin: auto;
-  }
-}
-
-.testimonials-index .testimonial-item h3 {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #000000;
-  margin-left: 140px;
-}
-
-.testimonials-index .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0 0 15px 0;
-  margin-left: 140px;
-}
-
-.testimonials-index .testimonial-item p {
-  font-style: italic;
-  margin: 0 0 15px 140px;
-}
-
-@media (min-width: 992px) {
-  .testimonials-index .testimonial-item p {
-    width: 80%;
-  }
-}
-
-@media (max-width: 767px) {
-  .testimonials-index .testimonial-item h3,
-  .testimonials-index .testimonial-item h4,
-  .testimonials-index .testimonial-item p {
-    margin-left: 0;
-  }
-}
-
-.testimonials-index .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.testimonials-index .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid orange;
-}
-
-.testimonials-index .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: orange;
-}
-
-/*--------------------------------------------------------------
-# F.A.Q Index Page
---------------------------------------------------------------*/
-.faq-index {
-  background: #000000;
-}
-
-.faq-index .accordion-collapse {
-  border: 0;
-}
-
-.faq-index .accordion-button {
-  font-weight: 600;
-  border: 0;
-  font-size: 18px;
-  color: #ffffff;
-  text-align: left;
-  background: black;
-}
-
-.faq-index .accordion-button:focus {
-  box-shadow: none;
-}
-
-.faq-index .accordion-button:not(.collapsed) {
-  background: black;
-  color: orange;
-  border-bottom: 0;
-}
-
-.faq-index .accordion-body {
-  border: 0;
-  background: black;
-  color: #ffffff;
-}
-
-/*--------------------------------------------------------------
-# Clients Index Page
---------------------------------------------------------------*/
-.clients-index {
-  background: #000000ef;
-  border-top: 1px solid orange;
-}
-
-.clients-index .swiper-slide img {
-  opacity: 0.5;
-  transition: 0.3s;
-  filter: grayscale(100);
-}
-
-.clients-index .swiper-slide img:hover {
-  filter: none;
-  opacity: 1;
-}
-
-.clients-index .swiper-pagination {
-  padding-top: 4%;
-  position: relative;
-}
-
-.clients-index .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  opacity: 1;
-  background-color: #ffffff;
-}
-
-.clients-index .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: orange;
-}
-
-/*--------------------------------------------------------------
-# Team Index Page
---------------------------------------------------------------*/
-.team-index {
-  background: #000000;
-  padding: 60px 0;
-}
-
-.team-index .member {
-  margin-bottom: 20px;
-  overflow: hidden;
-  border-radius: 5px;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.team-index .member .member-img {
-  position: relative;
-  overflow: hidden;
-}
-
-.team-index .member .social {
-  position: absolute;
-  left: 0;
-  bottom: 30px;
-  right: 0;
-  opacity: 0;
-  transition: ease-in-out 0.3s;
-  text-align: center;
-}
-
-.team-index .member .social a {
-  transition: color 0.3s;
-  color: #151515;
-  margin: 0 3px;
-  border-radius: 4px;
-  width: 36px;
-  height: 36px;
-  background: orange;
-  transition: ease-in-out 0.3s;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.team-index .member .social a:hover {
-  color: #151515;
-  background: white;
-}
-
-.team-index .member .social i {
-  font-size: 18px;
-  line-height: 0;
-}
-
-.team-index .member .member-info {
-  padding: 25px 15px;
-  background: #0f0f0f;
-}
-
-.team-index .member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
-  color: #ffffff;
-  text-align: center;
-}
-
-.team-index .member .member-info span {
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  color: orange;
-  text-align: center;
-}
-
-.team-index .member:hover .social {
-  opacity: 1;
-  bottom: 15px;
-}
-
-/*--------------------------------------------------------------
-# Contact Index Page
---------------------------------------------------------------*/
-.contact-index {
-  background: #ffffff;
-}
-
-.contact-index .info {
-  width: 100%;
-}
-
-.contact-index .info i {
-  font-size: 20px;
-  background: orange;
-  color: #ffffff;
-  float: left;
-  width: 44px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact-index .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: orange;
-}
-
-.contact-index .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #000000;
-}
-
-.contact-index .info .email,
-.contact-index .info .phone {
-  margin-top: 40px;
-}
-
-.contact-index .php-email-form {
-  width: 100%;
-}
-
-.contact-index .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-
-.contact-index .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ff0000;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact-index .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-
-.contact-index .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact-index .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact-index .php-email-form .loading:before {
-  content: "";
+  height: 1px;
   display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
+  background: #ffde9e;
+  margin: 4px 10px;
 }
 
-.contact-index .php-email-form input,
-.contact-index .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  border-radius: 4px;
-}
-
-.contact-index .php-email-form input:focus,
-.contact-index .php-email-form textarea:focus {
-  border-color: #ffc451;
-}
-
-.contact-index .php-email-form input {
-  height: 44px;
-}
-
-.contact-index .php-email-form textarea {
-  padding: 10px 12px;
-}
-
-.contact-index .php-email-form button[type="submit"] {
-  background: rgb(255, 255, 255);
-  border: 1px solid orange;
-  padding: 10px 24px;
-  color: #000000;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.contact-index .php-email-form button[type="submit"]:hover {
-  background: orange;
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/*-------------------------------------------------------------------------------///////////////////
-# End INDEX Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Dynamic Website Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Dynamic Website Page
---------------------------------------------------------------*/
-.dy-web-hero {
-  background-color: #000000;
-}
-
-.dy-web-hero .content span {
-  color: orange;
-}
-
-.dy-web-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.dy-web-hero .content h3 {
-  font-weight: 500;
-  line-height: 32px;
-  font-size: 24px;
-  color: white;
-}
-
-.dy-web-hero .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.dy-web-hero .content ul li {
-  padding: 10px 0 0 28px;
-  position: relative;
-  color: white;
-}
-
-.dy-web-hero .content ul i {
-  left: 0;
-  top: 7px;
-  position: absolute;
-  font-size: 20px;
-  color: orange;
-}
-
-.dy-web-hero .content p:last-child {
-  margin-bottom: 0;
-}
-
-.dy-web-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.dy-web-hero .content a:hover {
-  background: orange;
-  color: black;
-}
-
-/*--------------------------------------------------------------
-# Dy Website Provide Page
---------------------------------------------------------------*/
-.dy-web-provide .service-item {
-  position: relative;
-  padding-top: 40px;
-}
-
-.dy-web-provide .service-item .icon {
-  width: 48px;
-  height: 48px;
-  position: relative;
-  margin-right: 50px;
-  line-height: 0;
-}
-
-.dy-web-provide .service-item .icon i {
-  color: black;
-  font-size: 56px;
-  transition: ease-in-out 0.3s;
-  z-index: 2;
-  position: relative;
-}
-
-.dy-web-provide .service-item .icon i:hover {
-  color: orange;
-}
-
-.dy-web-provide .service-item .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
-.dy-web-provide .service-item .description {
-  line-height: 24px;
-  font-size: 14px;
-}
-
-/*--------------------------------------------------------------
-# Dy Website Problem Page
---------------------------------------------------------------*/
-.dy-web-problem {
-  background: #000000;
-}
-
-.dy-web-problem .section-title p {
-  color: #ffffff;
-}
-
-.dy-web-problem .tab-content p {
-  color: rgb(255, 255, 255);
-  padding-top: 10%;
-}
-
-.dy-web-problem .col ul li {
-  padding: 10px;
-}
-
-.dy-web-problem .col ul li a:hover {
-  background: orange;
-  color: #ffffff;
-}
-
-.dy-web-problem .col ul a {
-  color: orange;
-}
-
-/*--------------------------------------------------------------
-# Dy Website Services Page
---------------------------------------------------------------*/
-.dy-web-services {
-  background: rgb(17, 17, 17);
-  border-top: 1px solid orange;
-}
-
-.dy-web-services .section-title p {
-  color: #ffffff;
-}
-
-.dy-web-services .feature-icons h3 {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 7%;
-  text-align: center;
-}
-
-@media (max-width: 768px) {
-  .dy-web-services .feature-icons h3 {
-    font-size: 28px;
-  }
-}
-
-.dy-web-services .feature-icons .content .icon-box {
-  display: flex;
-}
-
-.dy-web-services .feature-icons .content .icon-box h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 0 0 10px 0;
-  color: orange;
-}
-
-.dy-web-services .feature-icons .content .icon-box i {
-  font-size: 44px;
-  line-height: 44px;
-  color: orange;
-  margin-right: 15px;
-}
-
-.dy-web-services .feature-icons .content .icon-box p {
-  font-size: 15px;
-  color: #dadada;
-}
-
-/*--------------------------------------------------------------
-# Dy Website Pricing Page
---------------------------------------------------------------*/
-.dy-web-pricing .box {
-  padding: 40px 20px;
-  background: #000000;
-  text-align: center;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.dy-web-pricing .box:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-}
-
-.dy-web-pricing h3 {
-  font-weight: 800;
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: orange;
-}
-
-.dy-web-pricing .price {
-  font-size: 36px;
-  color: #ffffff;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-
-.dy-web-pricing .price sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.dy-web-pricing ul {
-  padding: 0;
-  list-style: none;
-  text-align: left;
-  line-height: 26px;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-.dy-web-pricing ul li {
-  padding-bottom: 10px;
-  color: #ffffff;
-}
-
-.dy-web-pricing ul li i {
-  color: orange;
-}
-
-.dy-web-pricing .btn-buy {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  color: orange;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-}
-
-.dy-web-pricing .btn-buy:hover {
-  background: orange;
-  color: #fff;
-}
-
-.dy-web-pricing .featured {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: orange;
-  color: #ffffff;
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End Dynamic Website Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start PSD to Static Website Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero PSD to Static Website Page
---------------------------------------------------------------*/
-.psd-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.psd-hero .content span {
-  color: orange;
-}
-
-.psd-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.psd-hero .content h5 {
-  color: orange;
-}
-
-.psd-hero .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.psd-hero .content ul li {
-  padding: 10px 0 0 28px;
-  position: relative;
-  color: white;
-}
-
-.psd-hero .content ul i {
-  left: 0;
-  top: 7px;
-  position: absolute;
-  font-size: 20px;
-  color: orange;
-}
-
-.psd-hero .content p:last-child {
-  margin-bottom: 0;
-}
-
-.psd-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.psd-hero .content a:hover {
-  background: orange;
-  color: black;
-}
-
-/*--------------------------------------------------------------
-# Counter PSD to Static Website Page
---------------------------------------------------------------*/
-.counter-psd {
-  background: #000000ef;
-  border-top: 1px solid orange;
-}
-
-.counter-psd .counters {
-  padding-top: 40px;
-}
-
-.counter-psd .counters span {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 48px;
-  display: block;
-  color: orange;
-}
-
-.counter-psd .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-/*--------------------------------------------------------------
-# Pricing PSD to Static Website Page
---------------------------------------------------------------*/
-.psd-pricing .box {
-  padding: 40px 20px;
-  background: #000000;
-  text-align: center;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.psd-pricing .box:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-}
-
-.psd-pricing h3 {
-  font-weight: 800;
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: orange;
-}
-
-.psd-pricing .price {
-  font-size: 36px;
-  color: #ffffff;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-
-.psd-pricing .price sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.psd-pricing ul {
-  padding: 0;
-  list-style: none;
-  text-align: left;
-  line-height: 26px;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-.psd-pricing ul li {
-  padding-bottom: 10px;
-  color: #ffffff;
-}
-
-.psd-pricing ul li i {
-  color: orange;
-}
-
-.psd-pricing .btn-buy {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  color: orange;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-}
-
-.psd-pricing .btn-buy:hover {
-  background: orange;
-  color: #fff;
-}
-
-.psd-pricing .featured {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: orange;
-  color: #ffffff;
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End PSD to Static Website Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Ecommerce Website Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Ecommerce Website Page
---------------------------------------------------------------*/
-.eco-web-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.eco-web-hero .content span {
-  color: orange;
-}
-
-.eco-web-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.eco-web-hero .content h5 {
-  color: orange;
-}
-
-.eco-web-hero .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.eco-web-hero .content ul li {
-  padding: 10px 0 0 28px;
-  position: relative;
-  color: white;
-}
-
-.eco-web-hero .content ul i {
-  left: 0;
-  top: 7px;
-  position: absolute;
-  font-size: 20px;
-  color: orange;
-}
-
-.eco-web-hero .content p:last-child {
-  margin-bottom: 0;
-}
-
-.eco-web-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.eco-web-hero .content a:hover {
-  background: orange;
-  color: black;
-}
-
-/*--------------------------------------------------------------
-  # Features Ecommerce Website Page
-  --------------------------------------------------------------*/
-.eco-web-features {
-  background: #000000ef;
-  border-top: 1px solid orange;
-}
-
-.eco-web-features .tab-content p {
-  color: rgb(255, 255, 255);
-}
-
-.eco-web-features .tab-content i {
-  color: orange;
-}
-
-.eco-web-features .heading-h p {
-  color: #ffffff;
-}
-
-.eco-web-features .col h3 {
-  color: orange;
-  font-weight: 700;
-  font-size: 32px;
-}
-
-.eco-web-features .col ul {
-  background: #000000;
-  border-radius: 10px;
-}
-
-.eco-web-features .col ul li {
-  padding: 15px;
-}
-
-.eco-web-features .col ul li a:hover {
-  background: orange;
-  color: #343a40;
-}
-
-.eco-web-features .col ul a {
-  color: rgb(255, 255, 255);
-}
-
-.eco-web-features .feature-icons {
-  margin-top: 120px;
-}
-
-.eco-web-features .feature-icons h3 {
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 7%;
-  text-align: center;
-}
-
-@media (max-width: 768px) {
-  .eco-web-features .feature-icons h3 {
-    font-size: 28px;
-  }
-}
-
-.eco-web-features .feature-icons .content .icon-box {
-  display: flex;
-}
-
-.eco-web-features .feature-icons .content .icon-box h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 0 0 10px 0;
-  color: orange;
-}
-
-.eco-web-features .feature-icons .content .icon-box i {
-  font-size: 44px;
-  line-height: 44px;
-  color: orange;
-  margin-right: 15px;
-}
-
-.eco-web-features .feature-icons .content .icon-box p {
-  font-size: 15px;
-  color: #dadada;
-}
-
-/*--------------------------------------------------------------
-  # Price Dark Ecomaerce Price Page
-  --------------------------------------------------------------*/
-.eco-web-price-dark {
-  background: #000000;
-}
-
-.eco-web-price-dark h1 {
-  text-align: center;
-  padding-bottom: 5%;
-}
-
-.eco-web-price-dark p {
-  margin-top: -0.5%;
-  color: white;
-}
-
-.eco-web-price-dark i {
-  color: orange;
-}
-
-.eco-web-price-dark .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.eco-web-price-dark .content a:hover {
-  background: orange;
-  color: black;
-}
-
-.eco-web-price-dark .content {
-  padding-top: 2%;
-}
-
-.eco-web-price-dark .heading-h h3 {
-  color: orange;
-  font-weight: 700;
-  font-size: 32px;
-  padding-bottom: 3%;
-}
-
-.eco-web-price-dark .btn-h {
-  background: orange;
-  border: 0;
-  padding: 10px 24px;
-  color: #151515;
-  transition: 0.4s;
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-.eco-web-price-dark .btn-h:hover {
-  background: orange;
-}
-
-/*--------------------------------------------------------------
-  # Price Light Ecomaerce Price Page
-  --------------------------------------------------------------*/
-.eco-web-price-light {
-  background: #000000ef;
-}
-
-.eco-web-price-light h1 {
-  text-align: center;
-  padding-bottom: 5%;
-}
-
-.eco-web-price-light p {
-  margin-top: -0.5%;
-  color: white;
-}
-
-.eco-web-price-light i {
-  color: orange;
-}
-
-.eco-web-price-light .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.eco-web-price-light .content a:hover {
-  background: orange;
-  color: black;
-}
-
-.eco-web-price-light .content {
-  padding-top: 2%;
-}
-
-.eco-web-price-light .heading-h h3 {
-  color: orange;
-  font-weight: 700;
-  font-size: 32px;
-  padding-bottom: 3%;
-}
-
-.eco-web-price-light .btn-h {
-  background: orange;
-  border: 0;
-  padding: 10px 24px;
-  color: #151515;
-  transition: 0.4s;
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-.eco-web-price-light .btn-h:hover {
-  background: orange;
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End Ecommerce Website Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Website Support Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Website Support Page
---------------------------------------------------------------*/
-.web-sup-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.web-sup-hero .content span {
-  color: orange;
-}
-
-.web-sup-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.web-sup-hero .content h5 {
-  color: orange;
-}
-
-.web-sup-hero .content p {
-  color: rgb(255, 255, 255);
-}
-
-.web-sup-hero .content h4 {
-  color: orange;
-}
-
-.web-sup-hero .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.web-sup-hero .content ul li {
-  padding: 10px 0 0 28px;
-  position: relative;
-  color: white;
-}
-
-.web-sup-hero .content ul i {
-  left: 0;
-  top: 7px;
-  position: absolute;
-  font-size: 20px;
-  color: orange;
-}
-
-.web-sup-hero .content p:last-child {
-  margin-bottom: 0;
-}
-
-.web-sup-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.web-sup-hero .content a:hover {
-  background: orange;
-  color: black;
-}
-
-/*--------------------------------------------------------------
-# Updating Website Software Price Website Support Page
---------------------------------------------------------------*/
-.web-sup-update {
-  background: rgb(255, 255, 255);
-}
-
-.web-sup-update .section-title p:last-child{
-  color: #313131; 
-  font-size: 14px; 
-  font-weight: 500;
-}
-
-.web-sup-update .card{
-  background: black;
-}
-
-.web-sup-update .icon i{
-  color: orange; 
-  font-size: 100px;
-}
-
-.web-sup-update .icon p{
-  color: orange; 
-  font-size: 17px; 
-  font-weight: 700;
-}
-
-.web-sup-update .info-1 p{
-  color: white;
-}
-
-.web-sup-update .info-1 p i{
-  color: orange;
-}
-
-.web-sup-update .info-2{
-  padding-top:50px;
-}
-
-.web-sup-update .info-2 h4{
-  color: orange; 
-  font-weight: 500;
-}
-
-.web-sup-update .info-2 h6{
-  color: orange; 
-}
-
-.web-sup-update .info-2 a{
-  font-weight: 800; 
-  font-size: 13px; 
-  border: 1px solid orange; 
-  background: #000000;
-  padding: 6px 20px; 
-  color: #ffffff; 
-  border-radius: 4px; 
-}
-
-.web-sup-update .info-2 a:hover {
-  background: orange;
-  color: #000000; 
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End Website Support Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start SSL & Cyber Security Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero SSL & Cyber Security Page
---------------------------------------------------------------*/
-.ssl-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.ssl-hero .content span {
-  color: orange;
-}
-
-.ssl-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.ssl-hero .content h5 {
-  color: orange;
-}
-
-.ssl-hero .content p {
-  color: rgb(255, 255, 255);
-}
-
-.ssl-hero .content p:last-child {
-  margin-bottom: 0;
-}
-
-/*--------------------------------------------------------------
-# Compay Info Card SSL & Cyber Security Page
---------------------------------------------------------------*/
-.ssl-card {
-  background: #dfdfdfef;
-}
-
-.ssl-card .box{
-  background: #000000ef; 
-  border-radius: 5px;
-}
-
-.ssl-card .box h5{
-  color: orange; 
-  font-size: 17px; 
-  font-weight: 700; 
-}
-
-.ssl-card .box p{
-  color: white; 
-  font-size: 14px;
-}
-
-.ssl-card .box a{
-  font-weight: 800; 
-  font-size: 13px; 
-  border: 1px solid orange; 
-  background: #000000;
-  padding: 6px 20px; 
-  color: #ffffff; 
-  border-radius: 4px; 
-}
-
-.ssl-card .box a:hover {
-  background: orange;
-  color: #ffffff; 
-}
-/*--------------------------------------------------------------
-# Updating Website Software Price SSL & Cyber Security Page
---------------------------------------------------------------*/
-.ssl-update {
-  background: rgb(255, 255, 255);
-}
-
-.ssl-update .section-title p:last-child{
-  color: #313131; 
-  font-size: 14px; 
-  font-weight: 500;
-}
-
-.ssl-update .card{
-  background: black;
-}
-
-.ssl-update .icon i{
-  color: orange; 
-  font-size: 100px;
-}
-
-.ssl-update .icon p{
-  color: orange; 
-  font-size: 17px; 
-  font-weight: 700;
-}
-
-.ssl-update .info-1 p{
-  color: white;
-}
-
-.ssl-update .info-1 p i{
-  color: orange;
-}
-
-.ssl-update .info-2{
-  padding-top:50px;
-}
-
-.ssl-update .info-2 h4{
-  color: orange; 
-  font-weight: 500;
-}
-
-.ssl-update .info-2 h6{
-  color: orange; 
-}
-
-.ssl-update .info-2 a{
-  font-weight: 800; 
-  font-size: 13px; 
-  border: 1px solid orange; 
-  background: #000000;
-  padding: 6px 20px; 
-  color: #ffffff; 
-  border-radius: 4px; 
-}
-
-.ssl-update .info-2 a:hover {
-  background: orange;
-  color: #000000; 
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End SSL & Cyber Security Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Domain & Hosting Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Domain & Hosting Page
---------------------------------------------------------------*/
-.dom-host-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.dom-host-hero .content span {
-  color: orange;
-}
-
-.dom-host-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.dom-host-hero .content h5 {
-  color: orange;
-}
-
-.dom-host-hero .content p {
-  color: rgb(255, 255, 255);
-}
-
-.dom-host-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.dom-host-hero .content a:hover {
-  background: orange;
-  color: #000000; 
-}
-
-/*--------------------------------------------------------------
-# Pricing Domain & Hosting Page
---------------------------------------------------------------*/
-.dom-host-price .box {
-  padding: 40px 20px;
-  background: #000000;
-  text-align: center;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.dom-host-price .box:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-}
-
-.dom-host-price h3 {
-  font-weight: 800;
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: orange;
-}
-
-.dom-host-price .price {
-  font-size: 36px;
-  color: #ffffff;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-
-.dom-host-price .price sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.dom-host-price ul {
-  padding: 0;
-  list-style: none;
-  text-align: left;
-  line-height: 26px;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-.dom-host-price ul li {
-  padding-bottom: 10px;
-  color: #ffffff;
-}
-
-.dom-host-price ul li i {
-  color: orange;
-}
-
-.dom-host-price .btn-buy {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  color: orange;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-}
-
-.dom-host-price .btn-buy:hover {
-  background: orange;
-  color: #fff;
-}
-
-.dom-host-price .featured {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: orange;
-  color: #ffffff;
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End Domain & Hosting Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Apps Development Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Apps Development Page
---------------------------------------------------------------*/
-.app-dev-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.app-dev-hero .content span {
-  color: orange;
-}
-
-.app-dev-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.app-dev-hero .content h5 {
-  color: orange;
-}
-
-.app-dev-hero .content p {
-  color: rgb(255, 255, 255);
-}
-
-.app-dev-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.app-dev-hero .content a:hover {
-  background: orange;
-  color: #000000; 
-}
-
-/*--------------------------------------------------------------
-# Custom Apps Development Page
---------------------------------------------------------------*/
-.app-dev-custom {
-  background: #ffffff;
-}
-
-.app-dev-custom .section-title p:last-child {
-  color: #313131; 
-  font-size: 14px; 
-  font-weight: 500;
-}
-
-.app-dev-custom .content img{
-  width: 150px;
-}
-
-/*--------------------------------------------------------------
-# Apps Build Apps Development Page
---------------------------------------------------------------*/
-.app-dev-build {
-  background: #000000;
-}
-
-.app-dev-build .section-title p {
-  color: white;
-}
-
-.app-dev-build .section-title p:last-child {
-  color: #ffffff; 
-  font-size: 14px; 
-  font-weight: 500;
-}
-
-.app-dev-build .content img{
-  width: 130px;
-}
-
-.app-dev-build .content p{
-  text-align: center; 
-  font-weight:800; 
-  font-style: italic; 
-  color: rgb(255, 255, 255); 
-  text-transform: uppercase;
-}
-
-.app-dev-build a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.app-dev-build a:hover {
-  background: orange;
-  color: #000000; 
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End Apps Development Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Apps Promotion Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Apps Promotion Page
---------------------------------------------------------------*/
-.app-pro-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.app-pro-hero .content span {
-  color: orange;
-}
-
-.app-pro-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.app-pro-hero .content h5 {
-  color: orange;
-}
-
-.app-pro-hero .content p {
-  color: rgb(255, 255, 255);
-}
-
-.app-pro-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.app-pro-hero .content a:hover {
-  background: orange;
-  color: #000000; 
-}
-
-/*--------------------------------------------------------------
-# Campaign Apps Promotion Page
---------------------------------------------------------------*/
-.app-pro-campaign {
-  background-color: #ffffff;
-}
-
-.app-pro-campaign .content h3 {
-  font-weight:800; 
-  font-style: italic; 
-  font-size: 35px; 
-  text-transform: uppercase;
-  color: orange;
-  padding-top: 6%
-}
-
-.app-pro-campaign .content h5 {
-  font-weight:800; 
-  font-style: italic; 
-  color: #292929; 
-  text-transform: uppercase;
-}
-
-.app-pro-campaign .content a {
-  border: 2px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.app-pro-campaign .content a:hover {
-  background: orange;
-  color: #000000; 
-}
-
-/*--------------------------------------------------------------
-# Features Apps Promotion Page
---------------------------------------------------------------*/
-.app-pro-feature {
-  background: #000000;
-}
-
-.app-pro-feature .section-title p{
-  color: #ffffff;
-}
-
-.app-pro-feature .section-title p:last-child {
-  color: #ffffff; 
-  font-size: 17px; 
-  font-weight: 500;
-}
-
-.app-pro-feature .section-title p:nth-last-child(3) {
-  color: #ffffff; 
-  font-size: 17px; 
-  font-weight: 500;
-}
-
-.app-pro-feature .nav-tabs {
-  border: 0;
-}
-
-.app-pro-feature .nav-link {
-  padding: 15px 0;
-  transition: 0.3s;
-  color: orange;
-  border-radius: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  height: 100%;
-  border: 0;
-  border-bottom: 4px solid orange;
-}
-
-.app-pro-feature .nav-link i {
-  padding-right: 15px;
-  font-size: 48px;
-}
-
-.app-pro-feature .nav-link h4 {
-  font-size: 18px;
-  font-weight: 600;
+.section-title p {
   margin: 0;
-}
-
-@media (max-width: 575px) {
-  .app-pro-feature .nav-link h4 {
-    font-size: 16px;
-  }
-}
-
-.app-pro-feature .nav-link:hover {
-  color: white;
-}
-
-.app-pro-feature .nav-link.active {
-  color: white;
-  background-color: transparent;
-  border-color: var(--color-primary);
-}
-
-.app-pro-feature .tab-content {
-  margin-top: 30px;
-}
-
-.app-pro-feature .tab-pane h3 {
-  font-weight: 700;
-  font-size: 32px;
-  position: relative;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  color: rgb(255, 255, 255);
-}
-
-.app-pro-feature .tab-pane p {
-  color: rgb(218, 218, 218);
-}
-
-.app-pro-feature .tab-pane h3:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 60px;
-  height: 3px;
-  background: orange;
-  left: 0;
-  bottom: 0;
-}
-
-.app-pro-feature .tab-pane a {
-  border: 2px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.app-pro-feature .tab-pane a:hover {
-  background: orange;
-  color: #000000; 
-}
-
-.app-pro-feature .tab-pane ul {
-  list-style: none;
-  padding: 0;
-}
-
-.app-pro-feature .tab-pane ul li {
-  padding-top: 10px;
-  color: white;
-}
-
-.app-pro-feature .tab-pane ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: orange;
-}
-
-.app-pro-feature .tab-pane p:last-child {
-  margin-bottom: 0;
-}
-
-.app-pro-feature .heading-h p {
-  color: #ffffff;
-}
-
-.app-pro-feature .heading-h h3 {
-  color: orange;
-  font-weight: 700;
-  font-size: 32px;
-}
-
-/*--------------------------------------------------------------
-# Pricing Domain & Hosting Page
---------------------------------------------------------------*/
-.app-pro-pricing .box {
-  padding: 40px 20px;
-  background: #000000;
-  text-align: center;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.app-pro-pricing .box:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-}
-
-.app-pro-pricing h3 {
-  font-weight: 800;
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: orange;
-}
-
-.app-pro-pricing .price {
+  margin: 0;
   font-size: 36px;
-  color: #ffffff;
-  font-weight: 600;
+  font-weight: 700;
+  text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-}
-
-.app-pro-pricing .price sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.app-pro-pricing ul {
-  padding: 0;
-  list-style: none;
-  text-align: left;
-  line-height: 26px;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-.app-pro-pricing ul li {
-  padding-bottom: 10px;
-  color: #ffffff;
-}
-
-.app-pro-pricing ul li i {
-  color: orange;
-}
-
-.app-pro-pricing a {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  color: orange;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-}
-
-.app-pro-pricing a:hover {
-  background: orange;
-  color: #fff;
-}
-
-.app-pro-pricing .featured {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: orange;
-  color: #ffffff;
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End Apps Promotion Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Apps Support Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Apps Support Page
---------------------------------------------------------------*/
-.app-sup-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.app-sup-hero .content span {
-  color: orange;
-}
-
-.app-sup-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.app-sup-hero .content h5 {
-  color: orange;
-}
-
-.app-sup-hero .content p {
-  color: rgb(255, 255, 255);
-}
-
-.app-sup-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.app-sup-hero .content a:hover {
-  background: orange;
-  color: #000000; 
-}
-
-/*--------------------------------------------------------------
-# Debugging Apps Support Page
---------------------------------------------------------------*/
-.app-sup-debugging {
-  background-color: #ffffff;
-}
-
-.app-sup-debugging .content h2 {
-  color: orange; 
-  font-weight: 900; 
-  text-transform: upercase; 
-  font-size: 30px;
-}
-
-.app-sup-debugging .content p {
-  color: black;
-}
-
-.app-sup-debugging .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.app-sup-debugging .content ul li{
-  color: rgb(0, 0, 0);
-  padding: 10px 0 0 28px;
-  position: relative;
-}
-
-.app-sup-debugging .content ul li i{
-  color: orange;
-  left: 0;
-  top: 7px;
-  position: absolute;
-  font-size: 20px;
-}
-
-.app-sup-debugging .content a {
-  border: 2px solid orange;
-  background: #ffffff;
-  padding: 10px 24px;
-  color: #000000;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-  text-align: center; 
-}
-
-.app-sup-debugging .content a:hover {
-  background: orange;
-  color: #ffffff; 
-}
-
-/*--------------------------------------------------------------
-# information Apps Support Page
---------------------------------------------------------------*/
-.app-sup-info {
-  background: black;
-}
-
-.app-sup-info h3{
-  font-weight:800; 
-  color: orange; 
-  font-style: italic; 
-  font-size: 35px; 
-  text-transform: uppercase;
-}
-
-.app-sup-info h5{
-  font-weight:800; 
-  font-style: italic; 
-  color: white; 
-  text-transform: uppercase;
-}
-
-/*--------------------------------------------------------------
-# Pricing Apps Support Page
---------------------------------------------------------------*/
-.app-sup-pricing .box {
-  padding: 40px 20px;
-  background: #000000;
-  text-align: center;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.app-sup-pricing .box:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-}
-
-.app-sup-pricing h3 {
-  font-weight: 800;
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: orange;
-}
-
-.app-sup-pricing .price {
-  font-size: 36px;
-  color: #ffffff;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-
-.app-sup-pricing .price sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.app-sup-pricing ul {
-  padding: 0;
-  list-style: none;
-  text-align: left;
-  line-height: 26px;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-.app-sup-pricing ul li {
-  padding-bottom: 10px;
-  color: #ffffff;
-}
-
-.app-sup-pricing ul li i {
-  color: orange;
-}
-
-.app-sup-pricing a {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  color: orange;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-}
-
-.app-sup-pricing a:hover {
-  background: orange;
-  color: #fff;
-}
-
-.app-sup-pricing .featured {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: orange;
-  color: #ffffff;
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End Apps Support Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Convert Website Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Convert Website Page
---------------------------------------------------------------*/
-.con-web-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.con-web-hero .content span {
-  color: orange;
-}
-
-.con-web-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.con-web-hero .content h5 {
-  color: orange;
-}
-
-.con-web-hero .content p {
-  color: rgb(255, 255, 255);
-}
-
-.con-web-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.con-web-hero .content a:hover {
-  background: orange;
-  color: #000000; 
-}
-
-/*--------------------------------------------------------------
-# Importance Convert Website Page
---------------------------------------------------------------*/
-.con-web-imp {
-  background: white;
-}
-
-.con-web-imp .content h2 {
-  color: black; 
-  text-align: center; 
-  padding-top: 60px;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.con-web-imp .content ul {
-  padding: 0;
-  list-style: none;
-
-}
-
-.con-web-imp .content ul li {
-  color: black; 
-  padding: 10px 0 0 28px;
-  position: relative;
-  font-weight: 800;
-}
-
-.con-web-imp .content ul li i {
-  color: orange;
-  left: 0;
-  top: 7px;
-  position: absolute;
-  font-size: 20px;
-}
-
-/*--------------------------------------------------------------
-# Pricing 1 Convert Website Page
---------------------------------------------------------------*/
-.con-web-pricing-1 {
-  background: #000000;
-}
-
-.con-web-pricing-1 .content h2 {
-  color: orange;
-  padding-top: 10%;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.con-web-pricing-1 .content p {
-  color: #ffffff;
-}
-
-.con-web-pricing-1  .content ul {
-  padding: 0;
-  list-style: none;
-}
-
-.con-web-pricing-1  .content ul li {
-  color: rgb(255, 255, 255); 
-  padding: 10px 0 0 28px;
-  position: relative;
-  font-weight: 800;
-}
-
-.con-web-pricing-1  .content ul li i{
-  color: orange;
-  left: 0;
-  top: 7px;
-  position: absolute;
-  font-size: 20px;
-}
-
-.con-web-pricing-1  .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.con-web-pricing-1  .content a:hover {
-  background: orange;
-  color: #000000; 
-}
-
-/*--------------------------------------------------------------
-# Pricing 2 Convert Website Page
---------------------------------------------------------------*/
-.con-web-pricing-2 {
-  background: #ffffff;
-}
-
-.con-web-pricing-2 .content h2 {
-  color: orange;
-  padding-top: 7%;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.con-web-pricing-2 .content p {
-  color: #000000;
-}
-
-.con-web-pricing-2  .content ul {
-  padding: 0;
-  list-style: none;
-}
-
-.con-web-pricing-2  .content ul li {
-  color: rgb(0, 0, 0); 
-  padding: 10px 0 0 28px;
-  position: relative;
-  font-weight: 800;
-}
-
-.con-web-pricing-2  .content ul li i{
-  color: orange;
-  left: 0;
-  top: 7px;
-  position: absolute;
-  font-size: 20px;
-}
-
-.con-web-pricing-2  .content a {
-  border: 1px solid orange;
-  background: #ffffff;
-  padding: 10px 24px;
-  color: #000000;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.con-web-pricing-2  .content a:hover {
-  background: orange;
-  color: #ffffff; 
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End Convert Website Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Inventory System Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Inventory System Page
---------------------------------------------------------------*/
-.inv-sys-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.inv-sys-hero .content span {
-  color: orange;
-}
-
-.inv-sys-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.inv-sys-hero .content h5 {
-  color: orange;
-}
-
-.inv-sys-hero  .content ul {
-  padding: 0;
-  list-style: none;
-}
-
-.inv-sys-hero  .content ul li {
-  color: rgb(255, 255, 255); 
-  padding: 10px 0 0 28px;
-  position: relative;
-}
-
-.inv-sys-hero  .content ul li i{
-  color: orange;
-  left: 0;
-  top: 7px;
-  position: absolute;
-  font-size: 20px;
-}
-
-.inv-sys-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.inv-sys-hero .content a:hover {
-  background: orange;
-  color: #000000; 
-}
-
-/*--------------------------------------------------------------
-# Info 1 Inventory System Page
---------------------------------------------------------------*/
-.inv-sys-info-1 {
-  background: white;
-}
-
-.inv-sys-info-1 .content h2 {
-  color: orange;
-  font-weight:800;
-  text-transform: uppercase;
-}
-
-.inv-sys-info-1 .content h5 {
-  color: #1a1a1a; 
-  font-weight:800;
-}
-
-/*--------------------------------------------------------------
-# Info 2 Inventory System Page
---------------------------------------------------------------*/
-.inv-sys-info-2 {
-  background: #000000;
-}
-
-.inv-sys-info-2 .content h2 {
-  color: orange;
-  font-weight:800;
-  text-transform: uppercase;
-  padding-top:6%
-}
-
-.inv-sys-info-2 .content h5 {
-  color: white; 
-  font-weight:800;
-}
-
-.inv-sys-info-2 .content p {
-  color: white; 
-}
-
-/*--------------------------------------------------------------
-# Pricing Inventory System Page
---------------------------------------------------------------*/
-.inv-sys-pricing {
-  background: white;
-}
-
-.inv-sys-pricing .box {
-  padding: 40px 20px;
-  background: black;
-  text-align: center;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.inv-sys-pricing h2 {
-  font-weight: 700;
-  color: orange;
-}
-
-.inv-sys-pricing h5 {
-  font-weight: 700;
-  color: white;
-}
-
-.inv-sys-pricing p {
-  color: white;
-}
-
-.inv-sys-pricing .price {
-  font-size: 36px;
-  color: white;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-
-.inv-sys-pricing .price sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-  color: orange;
-}
-
-.inv-sys-pricing a {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  color: orange;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-}
-
-.inv-sys-pricing a:hover {
-  background: orange;
-  color: #fff;
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End Inventory System Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start School Management Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero School Management Page
---------------------------------------------------------------*/
-.sch-man-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.sch-man-hero .content span {
-  color: orange;
-}
-
-.sch-man-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.sch-man-hero .content h5 {
-  color: orange;
-}
-
-.sch-man-hero .content p {
-  color: white;
-}
-
-.sch-man-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.sch-man-hero .content a:hover {
-  background: orange;
-  color: #000000; 
-}
-/*--------------------------------------------------------------
-# Count Down School Management Page
---------------------------------------------------------------*/
-.sch-man-counter {
-  background: white;
-}
-
-.sch-man-counter .content .counters {
-  text-align: center;
-  display: flex;
-}
-
-.sch-man-counter .content .counters i {
-  font-size: 44px; 
-  line-height: 44px; 
-  color: orange; 
-  margin-right: 15px; 
-  padding-top: 12px;
-}
-
-.sch-man-counter .content .counters span {
-  color: black;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  display: block;
-}
-
-.sch-man-counter .content .counters p {
-  color: black; 
-  font-weight: 800;
-  text-transform: uppercase;
-}
-/*--------------------------------------------------------------
-# Software Work Process School Management Page
---------------------------------------------------------------*/
-.sch-man-pro {
-  background: #000000;
-}
-
-.sch-man-pro .section-title p{
-  color: white;
-}
-
-.sch-man-pro .feature-icons .content .icon-box {
-  display: flex;
-}
-
-.sch-man-pro .feature-icons .content .icon-box h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 0 0 10px 0;
-  color: orange;
-}
-
-.sch-man-pro .feature-icons .content .icon-box i {
-  font-size: 44px;
-  line-height: 44px;
-  color: orange;
-  margin-right: 15px;
-}
-
-.sch-man-pro .feature-icons .content .icon-box p {
-  font-size: 15px;
-  color: #dadada;
-}
-
-.sch-man-pro .feature-icons .content .image {
-  padding-top: 6%;
-}
-
-/*--------------------------------------------------------------
-# Mobile Version Info School Management Page
---------------------------------------------------------------*/
-.sch-man-mob-info {
-  background: white;
-}
-
-.sch-man-mob-info .content h2 {
-  color: black; 
-  font-size: 35px; 
-  font-weight: 800;
-  padding-top: 60px;
-}
-
-.sch-man-mob-info .content a {
-  border: 1px solid orange;
-  background: white;
-  padding: 10px 24px;
-  color: black;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.sch-man-mob-info .content a:hover {
-  background: orange;
-  color: white; 
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End School Management Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Custom Build Software Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Custom Build Software Page
---------------------------------------------------------------*/
-
-/* 
-//////////////////////////////////////
-//////////////////////////////////////
-//////////////////////////////////////
-//////////////////////////////////////
-//////////////////////////////////////
-//////////////////////////////////////
-Here will have 
-Custom Build Software 
-css
-Need to Update 
-Later 
-/////////////////////////////////////
-/////////////////////////////////////
-/////////////////////////////////////
-/////////////////////////////////////
-/////////////////////////////////////
-/////////////////////////////////////
-*/
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# End Custom Build Software Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start SEO Service Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero SEO Service Page
---------------------------------------------------------------*/
-.seo-ser-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.seo-ser-hero .content span {
-  color: orange;
-}
-
-.seo-ser-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.seo-ser-hero .content h5 {
-  color: orange;
-}
-
-.seo-ser-hero .content p {
-  color: white;
-}
-
-.seo-ser-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.seo-ser-hero .content a:hover {
-  background: orange;
-  color: #000000; 
-}
-
-/*--------------------------------------------------------------
-# CAMPAIGN SEO Service Page
---------------------------------------------------------------*/
-.seo-ser-camp {
-  background: white;
-}
-
-.seo-ser-camp .content p1{
-  color: black; 
-  font-size: 20px; 
-  font-style: italic;
-}
-
-.seo-ser-camp .content p2 {
-  color: orange; 
-  font-weight: bold;
-  font-size: 20px; 
-}
-
-.seo-ser-camp .content h4 {
-  background: orange; 
-  text-align: center; 
-  padding: 10px; 
-  border-radius: 10px; 
-  font-weight: bold; 
-  color: white;
-}
-
-.seo-ser-camp .content ul {
-  padding: 0;
-  list-style: none;
-}
-
-.seo-ser-camp .content ul li {
-  color: black; 
-  padding: 10px 0 0 28px;
-  position: relative;
-}
-
-.seo-ser-camp .content ul li i {
-  color: orange;
-  left: 0;
-  top: 7px;
-  position: absolute;
-  font-size: 20px;
-}
-
-.seo-ser-camp .content a {
-  border: 1px solid orange;
-  background: white;
-  padding: 10px 24px;
-  color: black;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.seo-ser-camp .content a:hover {
-  background: orange;
-  color: white; 
-}
-
-
-/*--------------------------------------------------------------
-# Ad SEO Service Page
---------------------------------------------------------------*/
-.seo-ser-ad {
-  background: black;
-}
-
-.seo-ser-ad h3 {
-  font-weight:800; 
-  color: orange; 
-  font-style: italic; 
-  font-size: 35px; 
-  text-transform: uppercase;
-}
-
-.seo-ser-ad h5 {
-  font-weight:800; 
-  font-style: italic; 
-  color: white; 
-  text-transform: uppercase;
-}
-
-/*--------------------------------------------------------------
-# Pricing SEO Service Page
---------------------------------------------------------------*/
-.seo-ser-pricing .content .box {
-  padding: 40px 20px;
-  background: black;
-  text-align: center;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.seo-ser-pricing .content h3 {
-  font-weight: 800;
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: orange;
-}
-
-.seo-ser-pricing .content .price {
-  font-size: 36px;
-  color: white;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-
-.seo-ser-pricing .content .price sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.seo-ser-pricing .content .price span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.seo-ser-pricing .content p {
-  text-align:center; 
-  color:white; 
-  border: 2px solid orange; 
-  border-radius: 5px; 
-  font-weight:1000; 
-  font-size: 14px; 
-  padding: 13px;
-}
-
-.seo-ser-pricing .content ul {
-  padding: 0;
-  list-style: none;
-  color: #fdfdfd;
-  text-align: left;
-  line-height: 26px;
-  font-size: 14px;
-  margin-bottom: 25px;
-}
-
-.seo-ser-pricing .content ul li {
-  padding-bottom: 10px;
-}
-
-.seo-ser-pricing .content ul .na {
-  color: orange;
-  text-decoration: line-through;
-}
-
-.seo-ser-pricing .content a {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  color: orange;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-}
-
-.seo-ser-pricing .content a:hover {
-  background: orange;
-  color: #fff;
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End SEO Service Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Facebook Marketing Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Facebook Marketing Page
---------------------------------------------------------------*/
-.fb-mar-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.fb-mar-hero .content span {
-  color: orange;
-}
-
-.fb-mar-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.fb-mar-hero .content h5 {
-  color: orange;
-}
-
-.fb-mar-hero .content p {
-  color: white;
-}
-
-.fb-mar-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.fb-mar-hero .content a:hover {
-  background: orange;
-  color: #000000; 
-}
-
-/*--------------------------------------------------------------
-# Provide Facebook Marketing Page
---------------------------------------------------------------*/
-.fb-mar-provide {
- background: #000000ef;
- border-top: 1px solid orange;
- border-bottom: 1px solid orange;
-}
-
-.fb-mar-provide h1 {
-  font-size: 30px; 
-  text-align: center;
-  font-weight: 900;
-  color: white;
-}
-
-.fb-mar-provide .service-item {
-  position: relative;
-  padding-top: 40px;
-}
-
-.fb-mar-provide .service-item .icon {
-  width: 48px;
-  height: 48px;
-  position: relative;
-  margin-right: 50px;
-  line-height: 0;
-}
-
-.fb-mar-provide .service-item .icon i {
-  color: orange;
-  font-size: 56px;
-  transition: ease-in-out 0.3s;
-  z-index: 2;
-  position: relative;
-}
-
-.fb-mar-provide .service-item .icon i:hover {
-  color: white;
-}
-
-.fb-mar-provide .service-item h4 {
-  font-weight: 900;
-  margin-bottom: 15px;
-  font-size: 20px;
-  color: orange;
-
-}
-
-.fb-mar-provide .service-item p {
-  line-height: 24px;
-  font-size: 14px;
-  color: white;
-}
-
-/*--------------------------------------------------------------
-# Campaign Facebook Marketing Page
---------------------------------------------------------------*/
-.fb-mar-camp {
-  background: #000000;
-}
-
-.fb-mar-camp .section-title p {
-  color: white;
-}
-
-.fb-mar-camp .content .info h4 {
-  color: orange;
-  font-weight:800;
-  font-size: 19px;
-}
-
-.fb-mar-camp .content .info p {
-  color: white;
-  font-size: 15px;
-}
-/*--------------------------------------------------------------
-# Pricing Facebook Marketing Page
---------------------------------------------------------------*/
-.fb-mar-pricing .box {
-  padding: 40px 20px;
-  background: #000000;
-  text-align: center;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.fb-mar-pricing .box:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-}
-
-.fb-mar-pricing h3 {
-  font-weight: 800;
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: orange;
-}
-
-.fb-mar-pricing p {
-  font-weight: 800;
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: white;
-  background: orange;
-  border-radius: 2px;
-}
-
-.fb-mar-pricing .price {
-  font-size: 36px;
-  color: #ffffff;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-
-.fb-mar-pricing .price sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.fb-mar-pricing ul {
-  padding: 0;
-  list-style: none;
-  text-align: left;
-  line-height: 26px;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-.fb-mar-pricing ul li {
-  padding-bottom: 10px;
-  color: #ffffff;
-}
-
-.fb-mar-pricing ul li i {
-  color: orange;
-}
-
-.fb-mar-pricing a {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  color: orange;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-}
-
-.fb-mar-pricing a:hover {
-  background: orange;
-  color: #fff;
-}
-
-.fb-mar-pricing .featured {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: orange;
-  color: #ffffff;
-}
-
-/*--------------------------------------------------------------
-# Custom Boosting Facebook Marketing Page
---------------------------------------------------------------*/
-.fb-mar-custom {
-  background: #000000;
-}
-
-.fb-mar-custom .content .section-title {
-  margin-bottom: -5%;
-}
-
-.fb-mar-custom .content .section-title p {
-  color: white;
-}
-
-.fb-mar-custom .content p {
-  color: #c7c7c7;
-}
-
-.fb-mar-custom .content h4 {
-  text-align: center; 
-  color: black; 
-  background: orange; 
-  border-radius: 10px; 
-  font-weight: 900; 
-  padding: 5px 0px;
-  font-size: 16px;
-}
-
-.fb-mar-custom .content a {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 5px;
-  color: white;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-}
-
-.fb-mar-custom .content a:hover {
-  background: orange;
-  color: #fff;
-}
-
-.fb-mar-custom .content ul {
-  padding: 0;
-  list-style: none;
-  text-align: left;
-  line-height: 26px;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-.fb-mar-custom .content ul li {
-  padding-bottom: 10px;
-  color: #ffffff;
-}
-
-.fb-mar-custom .content ul li i {
-  color: orange;
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End Facebook Marketing Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Google AdWords Marketing Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Google AdWords Marketing Page
---------------------------------------------------------------*/
-/* 
-//////////////////////////////////////
-//////////////////////////////////////
-//////////////////////////////////////
-//////////////////////////////////////
-//////////////////////////////////////
-//////////////////////////////////////
-css
-/////////////////////////////////////
-/////////////////////////////////////
-/////////////////////////////////////
-/////////////////////////////////////
-/////////////////////////////////////
-/////////////////////////////////////
-*/
-/*-------------------------------------------------------------------------------///////////////////
-# End Google AdWords Marketing Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Youtube Marketing Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Youtube Marketing Page
---------------------------------------------------------------*/
-.ytb-mar-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.ytb-mar-hero .content span {
-  color: orange;
-}
-
-.ytb-mar-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.ytb-mar-hero .content h5 {
-  color: orange;
-  padding-top: 20%;
-}
-
-.ytb-mar-hero .content p {
-  color: white;
-}
-
-/*--------------------------------------------------------------
-# Count Down Youtube Marketing Page
---------------------------------------------------------------*/
-.ytb-mar-counter {
-  background: white;
-}
-
-.ytb-mar-counter .content .counters {
-  text-align: center;
-  display: flex;
-}
-
-.ytb-mar-counter .content .counters i {
-  font-size: 44px; 
-  line-height: 44px; 
-  color: orange; 
-  margin-right: 15px; 
-  padding-top: 12px;
-}
-
-.ytb-mar-counter .content .counters span {
-  color: black;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  display: block;
-}
-
-.ytb-mar-counter .content .counters p {
-  color: black;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.ytb-mar-counter .content .counters a {
-  border: 1px solid orange;
-  background: white;
-  padding: 6px 10px;
-  color: black;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-  font-size: 13px;
-  text-transform: uppercase;
-}
-
-.ytb-mar-counter .content .counters a:hover {
-  background: orange;
-  color: white; 
-}
-/*--------------------------------------------------------------
-# Provide Youtube Marketing Page
---------------------------------------------------------------*/
-.ytb-mar-provide {
-  background: #000000ef;
-  border-top: 1px solid orange;
-  border-bottom: 1px solid orange;
-}
-
-.ytb-mar-provide h1 {
-  font-size: 30px; 
-  text-align: center;
-  font-weight: 900;
-  color: white;
-}
-
-.ytb-mar-provide .service-item {
-  position: relative;
-  padding-top: 40px;
-}
-
-.ytb-mar-provide .service-item .icon {
-  width: 48px;
-  height: 48px;
-  position: relative;
-  margin-right: 50px;
-  line-height: 0;
-}
-
-.ytb-mar-provide .service-item .icon i {
-  color: orange;
-  font-size: 56px;
-  transition: ease-in-out 0.3s;
-  z-index: 2;
-  position: relative;
-}
-
-.ytb-mar-provide .service-item .icon i:hover {
-  color: white;
-}
-
-.ytb-mar-provide .service-item h4 {
-  font-weight: 900;
-  margin-bottom: 15px;
-  font-size: 20px;
-  color: orange;
-
-}
-
-.ytb-mar-provide .service-item p {
-  line-height: 24px;
-  font-size: 14px;
-  color: white;
-}
-
-/*--------------------------------------------------------------
-# Campaign Youtube Marketing Page
---------------------------------------------------------------*/
-.ytb-mar-camp {
-  background: #000000;
-}
-
-.ytb-mar-camp h3 {
-  font-weight:800; 
-  color:orange; 
-  font-style: italic; 
-  font-size: 35px; 
-  text-transform: uppercase;
-}
-
-.ytb-mar-camp h5 {
-  font-weight:800; 
-  font-style: italic; 
-  color: white; 
-  text-transform: uppercase;
-}
-
-.ytb-mar-camp p {
-  color: #e0e0e0;
-}
-/*--------------------------------------------------------------
-# Pricing Youtube Marketing Page
---------------------------------------------------------------*/
-.ytb-mar-pricing .box {
-  padding: 40px 20px;
-  background: #000000;
-  text-align: center;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.ytb-mar-pricing .box:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-}
-
-.ytb-mar-pricing h3 {
-  font-weight: 800;
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: orange;
-}
-
-.ytb-mar-pricing p {
-  font-weight: 800;
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: white;
-  background: orange;
-  border-radius: 2px;
-}
-
-.ytb-mar-pricing .price {
-  font-size: 36px;
-  color: #ffffff;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-
-.ytb-mar-pricing .price sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.ytb-mar-pricing ul {
-  padding: 0;
-  list-style: none;
-  text-align: left;
-  line-height: 26px;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-.ytb-mar-pricing ul li {
-  padding-bottom: 10px;
-  color: #ffffff;
-}
-
-.ytb-mar-pricing ul li i {
-  color: orange;
-}
-
-.ytb-mar-pricing a {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  color: orange;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-}
-
-.ytb-mar-pricing a:hover {
-  background: orange;
-  color: #fff;
-}
-
-.ytb-mar-pricing .featured {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: orange;
-  color: #ffffff;
-}
-
-/*--------------------------------------------------------------
-# Custom Boosting Youtube Marketing Page
---------------------------------------------------------------*/
-.ytb-mar-custom {
-  background: #000000;
-}
-
-.ytb-mar-custom .content .section-title {
-  margin-bottom: -5%;
-}
-
-.ytb-mar-custom .content .section-title p {
-  color: white;
-}
-
-.ytb-mar-custom .content p {
-  color: #c7c7c7;
-}
-
-.ytb-mar-custom .content h4 {
-  text-align: center; 
-  color: black; 
-  background: orange; 
-  border-radius: 10px; 
-  font-weight: 900; 
-  padding: 5px 0px;
-  font-size: 16px;
-}
-
-.ytb-mar-custom .content a {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 5px;
-  color: white;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-}
-
-.ytb-mar-custom .content a:hover {
-  background: orange;
-  color: #fff;
-}
-
-.ytb-mar-custom .content ul {
-  padding: 0;
-  list-style: none;
-  text-align: left;
-  line-height: 26px;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-.ytb-mar-custom .content ul li {
-  padding-bottom: 10px;
-  color: #ffffff;
-}
-
-.ytb-mar-custom .content ul li i {
-  color: orange;
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End Youtube Marketing Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start SMS Marketing & Data Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero SMS Marketing & Data Page
---------------------------------------------------------------*/
-.sms-mar-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.sms-mar-hero .content span {
-  color: orange;
-}
-
-.sms-mar-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.sms-mar-hero .content h5 {
-  color: orange;
-  padding-top: 20%;
-}
-
-.sms-mar-hero .content p {
-  color: white;
-}
-
-
-/*--------------------------------------------------------------
-# Provide SMS Marketing & Data Page
---------------------------------------------------------------*/
-.sms-mar-provide {
-  background: #000000ef;
-  border-top: 1px solid orange;
-  border-bottom: 1px solid orange;
-}
-
-.sms-mar-provide h1 {
-  font-size: 30px; 
-  text-align: center;
-  font-weight: 900;
-  color: white;
-}
-
-.sms-mar-provide .service-item {
-  position: relative;
-  padding-top: 40px;
-}
-
-.sms-mar-provide .service-item .icon {
-  width: 48px;
-  height: 48px;
-  position: relative;
-  margin-right: 50px;
-  line-height: 0;
-}
-
-.sms-mar-provide .service-item .icon i {
-  color: orange;
-  font-size: 56px;
-  transition: ease-in-out 0.3s;
-  z-index: 2;
-  position: relative;
-}
-
-.sms-mar-provide .service-item .icon i:hover {
-  color: white;
-}
-
-.sms-mar-provide .service-item h4 {
-  font-weight: 900;
-  margin-bottom: 15px;
-  font-size: 20px;
-  color: orange;
-
-}
-
-.sms-mar-provide .service-item p {
-  line-height: 24px;
-  font-size: 14px;
-  color: white;
-}
- 
-
-/*--------------------------------------------------------------
-# Campaign SMS Marketing & Data Page
---------------------------------------------------------------*/
-.sms-mar-camp {
-  background: white;
-}
-
-.sms-mar-camp h3 {
-  font-weight:800; 
-  color:orange; 
-  font-style: italic; 
-  font-size: 35px; 
-  text-transform: uppercase;
-}
-
-.sms-mar-camp h5 {
-  font-weight:800; 
-  font-style: italic; 
-  color: black; 
-  text-transform: uppercase;
-}
-
-.sms-mar-camp p {
-  color: black;
-}
-/*--------------------------------------------------------------
-# Custom Boosting SMS Marketing & Data Page
---------------------------------------------------------------*/
-.sms-mar-custom {
-  background: #000000;
-}
-
-.sms-mar-custom .content .section-title {
-  margin-bottom: -5%;
-}
-
-.sms-mar-custom .content .section-title p {
-  color: white;
-}
-
-.sms-mar-custom .content p {
-  color: #c7c7c7;
-}
-
-.sms-mar-custom .content h4 {
-  text-align: center; 
-  color: black; 
-  background: orange; 
-  border-radius: 10px; 
-  font-weight: 900; 
-  padding: 5px 0px;
-  font-size: 16px;
-}
-
-.sms-mar-custom .content a {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 5px;
-  color: white;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-}
-
-.sms-mar-custom .content a:hover {
-  background: orange;
-  color: #fff;
-}
-
-.sms-mar-custom .content ul {
-  padding: 0;
-  list-style: none;
-  text-align: left;
-  line-height: 26px;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-.sms-mar-custom .content ul li {
-  padding-bottom: 10px;
-  color: #ffffff;
-}
-
-.sms-mar-custom .content ul li i {
-  color: orange;
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End SMS Marketing & Data Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Cliping Path Service Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Cliping Path Service Page
---------------------------------------------------------------*/
-.clip-ser-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.clip-ser-hero .content span {
-  color: orange;
-}
-
-.clip-ser-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.clip-ser-hero .content h5 {
-  color: orange;
-}
-
-.clip-ser-hero .content p {
-  color: white;
-}
-
-.clip-ser-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.clip-ser-hero .content a:hover {
-  background: orange;
-  color: #000000; 
-}
-
-/*--------------------------------------------------------------
-# Process Cliping Path Service Page
---------------------------------------------------------------*/
-.clip-ser-pro {
-  background: #FBFBFB;
-}
-
-.clip-ser-pro .section-title p {
-  text-align: center;
-}
-
-.clip-ser-pro  .icon-box {
-  display: flex;
-}
-
-.clip-ser-pro  .icon-box i {
-  padding-right: 18px;
-  font-size: 30px;
-  color: orange;
-}
-
-.clip-ser-pro  .icon-box h4 {
-  font-size: 20px;
-  font-weight: 800;
-  color: orange;
-}
-
-.clip-ser-pro  .icon-box p {
-  font-size: 15px;
-  color: black;
-}
-
-/*--------------------------------------------------------------
-# Info Cliping Path Service Page
---------------------------------------------------------------*/
-.clip-ser-info {
-  background: #000000;
-}
-
-.clip-ser-info h4 {
-  color: orange; 
-  text-align: center; 
-  font-weight: bold; 
-  font-size: 21px;
-}
-
-/*--------------------------------------------------------------
-# Price 1 Cliping Path Service Page
---------------------------------------------------------------*/
-.clip-ser-price-1 {
-  background-color: white;
-}
-
-.clip-ser-price-1 .content h4 {
-  color: orange; 
-  font-weight: bold; 
-  font-size: 23px; 
-  text-transform: upercase;
-}
-
-.clip-ser-price-1 .content p {
-  color: black;
-}
-
-.clip-ser-price-1 .content i {
-  color: orange;
-}
-
-.clip-ser-price-1 .content a {
-  border: 1px solid orange;
-  background: white;
-  padding: 10px 24px;
-  color: black;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.clip-ser-price-1 .content a:hover {
-  background: orange;
-  color: white; 
-}
-
-
-/*--------------------------------------------------------------
-# Price 2 Cliping Path Service Page
---------------------------------------------------------------*/
-.clip-ser-price-2 {
-  background-color: black;
-}
-
-.clip-ser-price-2 .content h4 {
-  color: orange; 
-  font-weight: bold; 
-  font-size: 23px; 
-  text-transform: upercase;
-}
-
-.clip-ser-price-2 .content p {
-  color: white;
-}
-
-.clip-ser-price-2 .content i {
-  color: orange;
-}
-
-.clip-ser-price-2 .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.clip-ser-price-2 .content a:hover {
-  background: orange;
-  color: #000000; 
-}
-
-/*--------------------------------------------------------------
-# Portfolio Cliping Path Service Page
---------------------------------------------------------------*/
-.clip-ser-portfolio {
-  overflow: hidden;
-  background: white;
-}
-
-.clip-ser-portfolio .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.clip-ser-portfolio .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #d1d1d7;
-  opacity: 1;
-}
-
-.clip-ser-portfolio .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: orange;
-}
-
-.clip-ser-portfolio .swiper-slide-active {
-  text-align: center;
-}
-
-.clip-ser-portfolio .swiper-slide img{
-  height: 150px;
-  float: left;
-  background-size: cover;
-  width: 300px;
-}
-
-@media (min-width: 992px) {
-  .clip-ser-portfolio .swiper-wrapper {
-    padding: 40px 0;
-  }
-
-  .clip-ser-portfolio .swiper-slide-active {
-    border: 6px solid var(--color-primary);
-    padding: 4px;
-    background: orange;
-    z-index: 1;
-    transform: scale(1.2);
-  }
-}
-
-/*--------------------------------------------------------------
-# Dynamic Price Cliping Path Service Page
---------------------------------------------------------------*/
-.clip-ser-price-dy {
-  background-color: #000000;
-}
-
-.clip-ser-price-dy h4 {
-  padding-top: 7%; 
-  color: orange; 
-  text-align: center; 
-  font-weight: bold; 
-  font-size: 23px; 
-  text-transform: upercase;
-}
-
-.clip-ser-price-dy p {
-  text-align: center;
-  color: white;
-}
-
-.clip-ser-price-dy a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.clip-ser-price-dy a:hover {
-  background: orange;
-  color: #000000;
-}
-
-/*-------------------------------------------------------------------------------///////////////////
-# End Cliping Path Service Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Logo Design Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Logo Design Page
---------------------------------------------------------------*/
-.logo-des-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.logo-des-hero .content img {
-  padding-top: 10%;
-}
-
-.logo-des-hero .content span {
-  color: orange;
-}
-
-.logo-des-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.logo-des-hero .content h5 {
-  color: orange;
-}
-
-.logo-des-hero .content p {
-  color: white;
-}
-
-.logo-des-hero .content p i {
-  color: orange;
-}
-
-.logo-des-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.logo-des-hero .content a:hover {
-  background: orange;
-  color: #000000; 
-}
-/*--------------------------------------------------------------
-# Design Service Logo Design Page
---------------------------------------------------------------*/
-.logo-des-serv {
-  background-color: white;
-}
-
-.logo-des-serv h3 {
-  text-align:center; 
-  font-weight:800; color: black; 
-  text-transform: uppercase; 
-  font-family: Open Sans; 
-  font-size: 40px;
-}
-
-.logo-des-serv .content i {
-  color: orange; 
-  font-size: 70px;
-}
-
-.logo-des-serv .content a {
-  border: 1px solid orange;
-  background: white;
-  padding: 10px 24px;
-  color: black;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.logo-des-serv .content a:hover {
-  background: orange;
-  color: white; 
-}
-
-/*--------------------------------------------------------------
-# Provide Logo Design Page
---------------------------------------------------------------*/
-.logo-des-provide {
-  background: #000000ef;
-  border-top: 1px solid orange;
-  border-bottom: 1px solid orange;
-}
-
-.logo-des-provide .service-item {
-  position: relative;
-  padding-top: 40px;
-}
-
-.logo-des-provide .service-item .icon {
-  width: 48px;
-  height: 48px;
-  position: relative;
-  margin-right: 50px;
-  line-height: 0;
-}
-
-.logo-des-provide .service-item .icon i {
-  color: orange;
-  font-size: 56px;
-  transition: ease-in-out 0.3s;
-  z-index: 2;
-  position: relative;
-}
-
-.logo-des-provide .service-item .icon i:hover {
-  color: white;
-}
-
-.logo-des-provide .service-item h4 {
-  font-weight: 900;
-  margin-bottom: 15px;
-  font-size: 20px;
-  color: orange;
-
-}
-
-.logo-des-provide .service-item p {
-  line-height: 24px;
-  font-size: 14px;
-  color: white;
-}
-
-/*--------------------------------------------------------------
-# Ad Logo Design Page
---------------------------------------------------------------*/
-.logo-des-ad {
-  background-color: #000000;
-}
-
-.logo-des-ad h3 {
-  font-weight:800; 
-  color:orange; 
-  font-style: italic; 
-  font-size: 35px; 
-  text-transform: uppercase;
-}
-
-.logo-des-ad h5 {
-  font-weight:800; 
-  font-style: italic; 
-  color: white; 
-  text-transform: uppercase;
-}
-
-.logo-des-ad p {
-  color: #e0e0e0;
-}
-
-/*--------------------------------------------------------------
-# Pricing Logo Design Page
---------------------------------------------------------------*/
-.logo-des-pricing {
-  background-color: white;
-}
-
-.logo-des-pricing .box {
-  padding: 40px 20px;
-  background: #000000;
-  text-align: center;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.logo-des-pricing .box:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-}
-
-.logo-des-pricing h3 {
-  font-weight: 800;
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: orange;
-}
-
-.logo-des-pricing p {
-  font-weight: 800;
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: black;
-  background: orange;
-  border-radius: 2px;
-}
-
-.logo-des-pricing .price {
-  font-size: 36px;
-  color: #ffffff;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-
-.logo-des-pricing .price sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.logo-des-pricing ul {
-  padding: 0;
-  list-style: none;
-  text-align: left;
-  line-height: 26px;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-.logo-des-pricing ul li {
-  padding-bottom: 10px;
-  color: #ffffff;
-}
-
-.logo-des-pricing ul li i {
-  color: orange;
-}
-
-.logo-des-pricing a {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  color: orange;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-}
-
-.logo-des-pricing a:hover {
-  background: orange;
-  color: #fff;
-}
-
-.logo-des-pricing .featured {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: orange;
-  color: #ffffff;
-}
-
-/*--------------------------------------------------------------
-# Custom Boosting Logo Design Page
---------------------------------------------------------------*/
-.logo-des-custom {
-  background-color: #000000;
-}
-
-.logo-des-custom .content .section-title {
-  margin-bottom: -5%;
-}
-
-.logo-des-custom .content .section-title p {
-  color: white;
-}
-
-.logo-des-custom .content p {
-  color: #c7c7c7;
-}
-
-.logo-des-custom .content h4 {
-  text-align: center; 
-  color: black; 
-  background: orange; 
-  border-radius: 10px; 
-  font-weight: 900; 
-  padding: 5px 0px;
-  font-size: 16px;
-}
-
-.logo-des-custom .content a {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 5px;
-  color: white;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-  background: #000000;
-}
-
-.logo-des-custom .content a:hover {
-  background: orange;
-  color: #fff;
-}
-
-.logo-des-custom .content ul {
-  padding: 0;
-  list-style: none;
-}
-
-.logo-des-custom .content ul li {
-  padding: 10px 0 0 28px;
-  color: #ffffff;
-  position: relative;
-}
-
-.logo-des-custom .content ul li i {
-  color: orange;
-  left: 0;
-  top: 11px;
-  position: absolute;
-  font-size: 20px;
-}
-
-/*-------------------------------------------------------------------------------///////////////////
-# End Logo Design Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Banner Design Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Banner Design Page
---------------------------------------------------------------*/
-.bann-des-hero {
-  background-color: #000000;
-}
-
-.bann-des-hero .content img {
-  padding-top: 14%;
-}
-
-.bann-des-hero .content span {
-  color: orange;
-}
-
-.bann-des-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.bann-des-hero .content h5 {
-  color: orange;
-  padding-top: 20%;
-}
-
-.bann-des-hero .content p {
-  color: white;
-}
-
-.bann-des-hero .content p i {
-  color: orange;
-}
-
-.bann-des-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.bann-des-hero .content a:hover {
-  background: orange;
-  color: #000000; 
-}
-
-/*--------------------------------------------------------------
-# Design Service Banner Design Page
---------------------------------------------------------------*/
-.bann-des-serv {
-  background-color: white;
-}
-
-.bann-des-serv h3 {
-  text-align:center; 
-  font-weight:800; color: black; 
-  text-transform: uppercase; 
-  font-family: Open Sans; 
-  font-size: 40px;
-}
-
-.bann-des-serv .content i {
-  color: orange; 
-  font-size: 70px;
-}
-
-.bann-des-serv .content a {
-  border: 1px solid orange;
-  background: white;
-  padding: 10px 24px;
-  color: black;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.bann-des-serv .content a:hover {
-  background: orange;
-  color: white; 
-}
-
-/*--------------------------------------------------------------
-# Provide Banner Design Page
---------------------------------------------------------------*/
-.bann-des-provide {
-  background: #000000ef;
-  border-top: 1px solid orange;
-  border-bottom: 1px solid orange;
-}
-
-.bann-des-provide .service-item {
-  position: relative;
-  padding-top: 40px;
-}
-
-.bann-des-provide .service-item .icon {
-  width: 48px;
-  height: 48px;
-  position: relative;
-  margin-right: 50px;
-  line-height: 0;
-}
-
-.bann-des-provide .service-item .icon i {
-  color: orange;
-  font-size: 56px;
-  transition: ease-in-out 0.3s;
-  z-index: 2;
-  position: relative;
-}
-
-.bann-des-provide .service-item .icon i:hover {
-  color: white;
-}
-
-.bann-des-provide .service-item h4 {
-  font-weight: 900;
-  margin-bottom: 15px;
-  font-size: 20px;
-  color: orange;
-}
-
-.bann-des-provide .service-item p {
-  line-height: 24px;
-  font-size: 14px;
-  color: white;
-}
-
-/*--------------------------------------------------------------
-# Ad Banner Design Page
---------------------------------------------------------------*/
-.bann-des-ad {
-  background-color: #000000;
-}
-
-.bann-des-ad h3 {
-  font-weight:800; 
-  color:orange; 
-  font-style: italic; 
-  font-size: 35px; 
-  text-transform: uppercase;
-}
-
-.bann-des-ad h5 {
-  font-weight:800; 
-  font-style: italic; 
-  color: white; 
-  text-transform: uppercase;
-}
-
-.bann-des-ad p {
-  color: #e0e0e0;
-}
-
-/*--------------------------------------------------------------
-# Pricing Banner Design Page
---------------------------------------------------------------*/
-.bann-des-pricing {
-  background-color: white;
-}
-
-.bann-des-pricing .box {
-  padding: 40px 20px;
-  background: #000000;
-  text-align: center;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.bann-des-pricing .box:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-}
-
-.bann-des-pricing h3 {
-  font-weight: 800;
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: orange;
-}
-
-.bann-des-pricing p {
-  font-weight: 800;
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: black;
-  background: orange;
-  border-radius: 2px;
-}
-
-.bann-des-pricing .price {
-  font-size: 36px;
-  color: #ffffff;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-
-.bann-des-pricing .price sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.bann-des-pricing ul {
-  padding: 0;
-  list-style: none;
-  text-align: left;
-  line-height: 26px;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-.bann-des-pricing ul li {
-  padding-bottom: 10px;
-  color: #ffffff;
-}
-
-.bann-des-pricing ul li i {
-  color: orange;
-}
-
-.bann-des-pricing a {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  color: orange;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-}
-
-.bann-des-pricing a:hover {
-  background: orange;
-  color: #fff;
-}
-
-.bann-des-pricing .featured {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: orange;
-  color: #ffffff;
-}
-
-/*--------------------------------------------------------------
-# Custom Boosting Banner Design Page
---------------------------------------------------------------*/
-.bann-des-custom {
-  background-color: #000000;
-}
-
-.bann-des-custom .content .section-title {
-  margin-bottom: -5%;
-}
-
-.bann-des-custom .content .section-title p {
-  color: white;
-}
-
-.bann-des-custom .content p {
-  color: #c7c7c7;
-}
-
-.bann-des-custom .content h4 {
-  text-align: center; 
-  color: black; 
-  background: orange; 
-  border-radius: 10px; 
-  font-weight: 900; 
-  padding: 5px 0px;
-  font-size: 16px;
-}
-
-.bann-des-custom .content a {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 5px;
-  color: white;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-  background: #000000;
-}
-
-.bann-des-custom .content a:hover {
-  background: orange;
-  color: #fff;
-}
-
-.bann-des-custom .content ul {
-  padding: 0;
-  list-style: none;
-}
-
-.bann-des-custom .content ul li {
-  padding: 10px 0 0 28px;
-  color: #ffffff;
-  position: relative;
-}
-
-.bann-des-custom .content ul li i {
-  color: orange;
-  left: 0;
-  top: 11px;
-  position: absolute;
-  font-size: 20px;
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End Banner Design Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Business Card Design Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Business Card Design Page
---------------------------------------------------------------*/
-.busi-card-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.busi-card-hero .content span {
-  color: orange;
-}
-
-.busi-card-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.busi-card-hero .content h5 {
-  color: orange;
-}
-
-.busi-card-hero .content p {
-  color: white;
-}
-
-.busi-card-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.busi-card-hero .content a:hover {
-  background: orange;
-  color: #000000; 
-}
-
-/*--------------------------------------------------------------
-# Design Service Business Card Design Page
---------------------------------------------------------------*/
-.busi-card-service {
-  background-color: white;
-}
-
-.busi-card-service h3 {
-  text-align:center; 
-  font-weight:800; color: black; 
-  text-transform: uppercase; 
-  font-family: Open Sans; 
-  font-size: 40px;
-}
-
-.busi-card-service .content i {
-  color: orange; 
-  font-size: 70px;
-}
-
-.busi-card-service .content a {
-  border: 1px solid orange;
-  background: white;
-  padding: 10px 24px;
-  color: black;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.busi-card-service .content a:hover {
-  background: orange;
-  color: white; 
-}
-
-/*--------------------------------------------------------------
-# Provide Business Card Design Page
---------------------------------------------------------------*/
-.busi-card-provide {
-  background: #000000ef;
-  border-top: 1px solid orange;
-  border-bottom: 1px solid orange;
-}
-
-.busi-card-provide .service-item {
-  position: relative;
-  padding-top: 40px;
-}
-
-.busi-card-provide .service-item .icon {
-  width: 48px;
-  height: 48px;
-  position: relative;
-  margin-right: 50px;
-  line-height: 0;
-}
-
-.busi-card-provide .service-item .icon i {
-  color: orange;
-  font-size: 56px;
-  transition: ease-in-out 0.3s;
-  z-index: 2;
-  position: relative;
-}
-
-.busi-card-provide .service-item .icon i:hover {
-  color: white;
-}
-
-.busi-card-provide .service-item h4 {
-  font-weight: 900;
-  margin-bottom: 15px;
-  font-size: 20px;
-  color: orange;
-}
-
-.busi-card-provide .service-item p {
-  line-height: 24px;
-  font-size: 14px;
-  color: white;
-}
-
-/*--------------------------------------------------------------
-# Ad Business Card Design Page
---------------------------------------------------------------*/
-.busi-card-ad {
-  background-color: #000000;
-}
-
-.busi-card-ad h3 {
-  font-weight:800; 
-  color:orange; 
-  font-style: italic; 
-  font-size: 35px; 
-  text-transform: uppercase;
-}
-
-.busi-card-ad h5 {
-  font-weight:800; 
-  font-style: italic; 
-  color: white; 
-  text-transform: uppercase;
-}
-
-.busi-card-ad p {
-  color: #e0e0e0;
-}
-
-/*--------------------------------------------------------------
-# Pricing Business Card Design Page
---------------------------------------------------------------*/
-.busi-card-pricing {
-  background-color: white;
-}
-
-.busi-card-pricing .card {
-  width: 16rem; 
-  background: black;
-}
-
-.busi-card-pricing .card:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-}
-
-.busi-card-pricing .card .title {
-  color: orange; 
-  border-radius:10px; 
-  font-weight: bold;
-}
-
-.busi-card-pricing .card ul {
-  padding: 0;
-  list-style: none;
-}
-
-.busi-card-pricing .card ul li {
-  padding: 10px 0 0 28px;
-  color: #ffffff;
-  position: relative;
-  background: #000000;
-}
-
-.busi-card-pricing .card ul li i {
-  color: orange;
-  left: 40px;
-  top: 7px;
-  position: absolute;
-  font-size: 20px;
-}
-
-.busi-card-pricing .card a {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  color: orange;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-}
-
-.busi-card-pricing a:hover {
-  background: orange;
-  color: #fff;
-}
-
-.busi-card-pricing .featured {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: orange;
-  color: #ffffff;
-}
-
-/*--------------------------------------------------------------
-# Custom Boosting Business Card Design Page
---------------------------------------------------------------*/
-.busi-card-custom {
-  background-color: #000000;
-}
-
-.busi-card-custom .content .section-title {
-  margin-bottom: -5%;
-}
-
-.busi-card-custom .content .section-title p {
-  color: white;
-}
-
-.busi-card-custom .content p {
-  color: #c7c7c7;
-}
-
-.busi-card-custom .content h4 {
-  text-align: center; 
-  color: black; 
-  background: orange; 
-  border-radius: 10px; 
-  font-weight: 900; 
-  padding: 5px 0px;
-  font-size: 16px;
-}
-
-.busi-card-custom .content a {
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 5px;
-  color: white;
-  transition: none;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid orange;
-}
-
-.busi-card-custom .content a:hover {
-  background: orange;
-  color: #fff;
-}
-
-.busi-card-custom .content ul {
-  padding: 0;
-  list-style: none;
-}
-
-.busi-card-custom .content ul li {
-  padding: 10px 0 0 28px;
-  color: #ffffff;
-  position: relative;
-}
-
-.busi-card-custom .content ul li i {
-  color: orange;
-  left: 0;
-  top: 11px;
-  position: absolute;
-  font-size: 20px;
-}
-
-/*-------------------------------------------------------------------------------///////////////////
-# End Business Card Design Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start About Us Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero About Us Page
---------------------------------------------------------------*/
-.about-us-hero {
-  background-color: #000000;
-  padding-top: 10%;
-}
-
-.about-us-hero .content span {
-  color: orange;
-}
-
-.about-us-hero .content h2 {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color: white;
-  padding-top: 20%;
-}
-
-.about-us-hero .content h5 {
-  color: orange;
-}
-
-.about-us-hero .content p {
-  color: white;
-}
-
-.about-us-hero .content a {
-  border: 1px solid orange;
-  background: #000000;
-  padding: 10px 24px;
-  color: #ffffff;
-  font-weight: 800;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.about-us-hero .content a:hover {
-  background: orange;
-  color: #000000; 
-}
-
-/*--------------------------------------------------------------
-# Who & Why Info About Us Page
---------------------------------------------------------------*/
-.about-us-info {
-  background: white;
-}
-
-.about-us-info .content {
-  margin-top: -30px;
-}
-
-.about-us-info .content h4 {
-  color: black; 
-  font-weight: bold; 
-  font-size: 23px; 
-  text-transform: uppercase;
-}
-
-.about-us-info .content p {
-  color: black; 
-  font-style: italic;
-}
-
-/*--------------------------------------------------------------
-# Skills About Us Page
---------------------------------------------------------------*/
-.about-us-skills {
-  background: black;
-}
-
-.about-us-skills .content .section-title p {
-  color: white;
-}
-
-.about-us-skills .content .section-title p:last-child {
-  color: white; 
-  font-weight: 400;
-  font-size: 16px;
-  font-style: italic;
-}
-
-.about-us-skills .content h5 {
-  font-size: 15px; 
-  font-weight: 400; 
-  margin-bottom: 5px; 
-  color: white;
-  font-style: italic;
-}
-
-.about-us-skills .content .progress-bar {
-  font-weight: bold; 
-  color: black;
-}
-
-/*--------------------------------------------------------------
-# Mission About Us Page
---------------------------------------------------------------*/
-.about-us-missoin {
-  background: white;
-}
-
-.about-us-missoin .section-title {
-  margin-bottom: -3%;
-}
-
-/*--------------------------------------------------------------
-# Vission About Us Page
---------------------------------------------------------------*/
-.about-us-vissoin {
-  background: #000000;
-}
-
-.about-us-vissoin .section-title {
-  margin-bottom: -3%;
-}
-
-.about-us-vissoin p {
-  color: white;
-}
-
-/*--------------------------------------------------------------
-# F.A.Q About Us Page
---------------------------------------------------------------*/
-.about-us-faq {
-  background: white;
-}
-
-.about-us-faq .section-title {
-  margin-bottom: -7%;
-}
-
-.about-us-faq button {
-  background: orange;
-}
-
-.about-us-faq #faq-content-1 {
-  background: black;
-  color: white;
-}
-
-.about-us-faq #faq-content-2 {
-  background: black;
-  color: white;
-}
-
-.about-us-faq #faq-content-3 {
-  background: black;
-  color: white;
-}
-
-/*--------------------------------------------------------------
-# Team About Us Page
---------------------------------------------------------------*/
-.about-us-team {
-  background: #000000;
-  padding: 60px 0;
-}
-
-.about-us-team .section-title p {
-  color: white;
-}
-
-.about-us-team .member {
-  margin-bottom: 20px;
-  overflow: hidden;
-  border-radius: 5px;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.about-us-team .member .member-img {
-  position: relative;
-  overflow: hidden;
-}
-
-.about-us-team .member .social {
-  position: absolute;
-  left: 0;
-  bottom: 30px;
-  right: 0;
-  opacity: 0;
-  transition: ease-in-out 0.3s;
-  text-align: center;
-}
-
-.about-us-team .member .social a {
-  transition: color 0.3s;
   color: #151515;
-  margin: 0 3px;
-  border-radius: 4px;
-  width: 36px;
-  height: 36px;
-  background: orange;
-  transition: ease-in-out 0.3s;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
 }
-
-.about-us-team .member .social a:hover {
-  color: #151515;
-  background: white;
-}
-
-.about-us-team .member .social i {
-  font-size: 18px;
-  line-height: 0;
-}
-
-.about-us-team .member .member-info {
-  padding: 25px 15px;
-  background: #0f0f0f;
-}
-
-.about-us-team .member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
-  color: #ffffff;
-  text-align: center;
-}
-
-.about-us-team .member .member-info span {
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  color: orange;
-  text-align: center;
-}
-
-.about-us-team .member:hover .social {
-  opacity: 1;
-  bottom: 15px;
-}
-/*-------------------------------------------------------------------------------///////////////////
-# End About Us Part
----------------------------------------------------------------------------------*/
-
-
-
-
-
-
-/*-------------------------------------------------------------------------------///////////////////
-# Start Portfolio Part
----------------------------------------------------------------------------------*/
-/*--------------------------------------------------------------
-# Hero Portfolio Page
---------------------------------------------------------------*/
-/* ////////////////////////////////////
-////////////////////////////////////
-////////////////////////////////////
-////////////////////////////////////
-////////////////////////////////////
-info add
-////////////////////////////////////
-////////////////////////////////////
-////////////////////////////////////
-////////////////////////////////////
-//////////////////////////////////// */
-/*-------------------------------------------------------------------------------///////////////////
-# End Portfolio Part
----------------------------------------------------------------------------------*/
-  
-.fb-mar-custom .modal-content {
-  background:orange;
-}
-  
-  .fb-mar-custom .modal-header h5 {
-    color: white;
-  }
-
-  .fb-mar-custom .modal-body {
-    background:black;
-  }
-
-  .fb-mar-custom .formbold-main-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 28px;
-  }
-
-  .fb-mar-custom .formbold-form-wrapper {
-    margin: 0 auto;
-    max-width: 750px;
-    width: 100%;
-
-  }
-
-  .fb-mar-custom .formbold-input-flex {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 22px;
-  }
-  .fb-mar-custom .formbold-input-flex div {
-    width: 50%;
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .fb-mar-custom .formbold-textarea {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  .fb-mar-custom .formbold-form-input {
-    width: 100%;
-    padding-bottom: 10px;
-    border: none;
-    border-bottom: 1px solid white;
-    background: black;
-    font-weight: 500;
-    font-size: 16px;
-    color: orange;
-    outline: none;
-    resize: none;
-  }
-  .fb-mar-custom .formbold-form-input::placeholder {
-    color: #575757;
-  }
-  .fb-mar-custom .formbold-form-input:focus {
-    border-color: orange;
-  }
-  .fb-mar-custom .formbold-form-label {
-    color: orange;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    display: block;
-    margin-bottom: 18px;
-  }
-  .fb-mar-custom .formbold-form-input:focus + .fb-mar-custom .formbold-form-label {
-    color: white;
-  }
-
-  .fb-mar-custom .formbold-input-file {
-    margin-top: 30px;
-  }
-
-  .fb-mar-custom .formbold-input-file div {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  
-
-  .fb-mar-custom .formbold-btn {
-    font-size: 16px;
-    border-radius: 5px;
-    padding: 12px 25px;
-    border: none;
-    font-weight: 500;
-    background-color: black;
-    border: 1px solid orange;
-    color: white;
-    cursor: pointer;
-    margin-top: 25px;
-  }
-  .fb-mar-custom .formbold-btn:hover {
-    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
-    background-color: orange;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*--------------------------------------------------------------
-# About Page
+# About
 --------------------------------------------------------------*/
 .about {
   background-color: #000000;
@@ -6603,6 +560,7 @@ info add
   font-family: "Poppins", sans-serif;
   color: #ffc451;
 }
+
 
 .about .content p:last-child {
   margin-bottom: 0;
@@ -6624,21 +582,24 @@ info add
 .about .content button:hover {
   background: #ffcd6b;
 }
+
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  border: 3px solid orange;
+  border: 1px solid #ebebeb;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
+  background: #fff;
 }
 
 .services .icon-box .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: orange;
+  background: #ffc451;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -6648,13 +609,9 @@ info add
 }
 
 .services .icon-box .icon i {
-  color: #ffffff;
+  color: #151515;
   font-size: 28px;
   transition: ease-in-out 0.3s;
-}
-
-.services .icon-box .icon i:hover {
-  color: #000000;
 }
 
 .services .icon-box h4 {
@@ -6685,8 +642,318 @@ info add
 }
 
 /*--------------------------------------------------------------
+# Why Chose Us
+--------------------------------------------------------------*/
+#why-us .section-title {
+  padding-bottom: 40px;
+}
+
+#why-us .section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+#why-us .section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #ffde9e;
+  margin: 4px 10px;
+}
+
+#why-us .section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+#why-us {
+  padding: 60px 0;
+  background: #000000;
+}
+
+#why-us .section-header h3,
+#why-us .section-header p {
+  color: #fff;
+}
+
+#why-us .card {
+  background: #000000;
+  border-color: #ffc451;
+  border-radius: 10px;
+  margin: 0 15px;
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+@media (max-width: 991px) {
+  #why-us .card {
+    margin: 0;
+  }
+}
+
+#why-us .card:hover {
+  background: #3d3d3d;
+  border-color: #ffffff;
+}
+
+#why-us .card i {
+  font-size: 48px;
+  padding-top: 15px;
+  color: #bfddfe;
+}
+
+#why-us .card h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#why-us .card p {
+  font-size: 15px;
+  color: #d8eafe;
+}
+
+#why-us .card .readmore {
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  border-bottom: #ffc451 solid 2px;
+}
+
+#why-us .card .readmore:hover {
+  border-bottom: #fff solid 2px;
+}
+
+#why-us .counters {
+  padding-top: 40px;
+}
+
+#why-us .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: #fff;
+}
+
+#why-us .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #cce5ff;
+}
+
+
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio #portfolio-flters {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: center;
+}
+
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 15px 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #444444;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+}
+
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+  color: #151515;
+  background: #ffc451;
+}
+
+.portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
+.portfolio .portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: rgba(21, 21, 21, 0.6);
+}
+
+.portfolio .portfolio-wrap::before {
+  content: "";
+  background: rgba(21, 21, 21, 0.6);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+
+.portfolio .portfolio-wrap img {
+  transition: all ease-in-out 0.3s;
+}
+
+.portfolio .portfolio-wrap .portfolio-info {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.portfolio .portfolio-wrap .portfolio-info h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.portfolio .portfolio-wrap .portfolio-info p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
+.portfolio .portfolio-wrap .portfolio-links {
+  text-align: center;
+  z-index: 4;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a {
+  color: #fff;
+  margin: 0 5px 0 0;
+  font-size: 28px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+  color: #ffc451;
+}
+
+.portfolio .portfolio-wrap:hover::before {
+  opacity: 1;
+}
+
+.portfolio .portfolio-wrap:hover img {
+  transform: scale(1.2);
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.portfolio-details {
+  padding-top: 40px;
+}
+
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #ffc451;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ffc451;
+}
+
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(21, 21, 21, 0.08);
+}
+
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li+li {
+  margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description {
+  padding-top: 30px;
+}
+
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0;
+}
+
+
+/*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+
 
 .pricing .section-title {
   padding-bottom: 40px;
@@ -6817,6 +1084,247 @@ info add
   padding: 1px 0 3px 0;
   background: #ffc451;
   color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts .content {
+  padding: 30px 0;
+}
+
+.counts .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  color: #151515;
+}
+
+.counts .content p {
+  margin-bottom: 0;
+}
+
+.counts .content .count-box {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.counts .content .count-box i {
+  display: block;
+  font-size: 36px;
+  color: #ffc451;
+  float: left;
+}
+
+.counts .content .count-box span {
+  font-size: 36px;
+  line-height: 30px;
+  display: block;
+  font-weight: 700;
+  color: #151515;
+  margin-left: 50px;
+}
+
+.counts .content .count-box p {
+  padding: 15px 0 0 0;
+  margin: 0 0 0 50px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #3b3b3b;
+}
+
+.counts .content .count-box a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #3b3b3b;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: ease-in-out 0.3s;
+}
+
+.counts .content .count-box a:hover {
+  color: #626262;
+}
+
+.counts .image {
+  background: url("../img/counts-img.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+@media (max-width: 991px) {
+  .counts .image {
+    text-align: center;
+  }
+
+  .counts .image img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 667px) {
+  .counts .image img {
+    max-width: 100%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  padding-top: 20px;
+}
+
+.clients .swiper-slide img {
+  opacity: 0.5;
+  transition: 0.3s;
+  filter: grayscale(100);
+}
+
+.clients .swiper-slide img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+.clients .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  background-color: #ddd;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #f3cb7a;
+}
+
+
+/* Testimonials Section
+--------------------------------*/
+#testimonials {
+  padding: 60px 0;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+#testimonials .section-title {
+  padding-bottom: 40px;
+}
+
+#testimonials .section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+}
+
+#testimonials .section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #ffc451;
+  margin: 4px 10px;
+}
+
+#testimonials .section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+
+#testimonials .section-header {
+  margin-bottom: 40px;
+}
+
+#testimonials .testimonials-carousel,
+#testimonials .testimonials-slider {
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  #testimonials .testimonial-item {
+    text-align: center;
+  }
+}
+
+#testimonials .testimonial-item .testimonial-img {
+  width: 120px;
+  border-radius: 50%;
+  border: 4px solid #ffc451;
+  float: left;
+}
+
+@media (max-width: 767px) {
+  #testimonials .testimonial-item .testimonial-img {
+    float: none;
+    margin: auto;
+  }
+}
+
+#testimonials .testimonial-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+  margin-left: 140px;
+}
+
+#testimonials .testimonial-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 15px 0;
+  margin-left: 140px;
+}
+
+#testimonials .testimonial-item p {
+  font-style: italic;
+  margin: 0 0 15px 140px;
+}
+
+@media (min-width: 992px) {
+  #testimonials .testimonial-item p {
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+
+  #testimonials .testimonial-item h3,
+  #testimonials .testimonial-item h4,
+  #testimonials .testimonial-item p {
+    margin-left: 0;
+  }
+}
+
+#testimonials .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+#testimonials .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #ffc451;
+}
+
+#testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ffc451;
 }
 
 /*--------------------------------------------------------------
@@ -7001,7 +1509,7 @@ info add
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -7054,7 +1562,7 @@ info add
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .php-email-form button[type=submit] {
   background: #ffc451;
   border: 0;
   padding: 10px 24px;
@@ -7063,7 +1571,7 @@ info add
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact .php-email-form button[type=submit]:hover {
   background: #ffcd6b;
 }
 
@@ -7100,11 +1608,11 @@ info add
   margin: 0;
 }
 
-.breadcrumbs ol li + li {
+.breadcrumbs ol li+li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li + li::before {
+.breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: #2f2f2f;
@@ -7129,7 +1637,7 @@ info add
   }
 }
 
-/*--------------------------------------------------------------///////////////////////////
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
@@ -7159,7 +1667,7 @@ info add
 }
 
 #footer .footer-top .footer-info h3 span {
-  color: orange;
+  color: #ffc451;
 }
 
 #footer .footer-top .footer-info p {
@@ -7186,7 +1694,7 @@ info add
 }
 
 #footer .footer-top .social-links a:hover {
-  background: orange;
+  background: #ffc451;
   color: #151515;
   text-decoration: none;
 }
@@ -7211,7 +1719,7 @@ info add
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: orange;
+  color: #ffc451;
   font-size: 18px;
   line-height: 1;
 }
@@ -7234,7 +1742,7 @@ info add
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: orange;
+  color: #ffc451;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -7245,13 +1753,13 @@ info add
   border-radius: 4px;
 }
 
-#footer .footer-top .footer-newsletter form input[type="email"] {
+#footer .footer-top .footer-newsletter form input[type=email] {
   border: 0;
   padding: 4px;
   width: calc(100% - 110px);
 }
 
-#footer .footer-top .footer-newsletter form input[type="submit"] {
+#footer .footer-top .footer-newsletter form input[type=submit] {
   position: absolute;
   top: 0;
   right: -2px;
@@ -7260,14 +1768,14 @@ info add
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: orange;
+  background: #ffc451;
   color: #151515;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
 
-#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: orange;
+#footer .footer-top .footer-newsletter form input[type=submit]:hover {
+  background: #ffcd6b;
 }
 
 #footer .copyright {
@@ -7281,3 +1789,5 @@ info add
   font-size: 13px;
   color: #fff;
 }
+
+
