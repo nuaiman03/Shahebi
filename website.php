@@ -10,7 +10,7 @@
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
                 <h5>Website Services in Cheap Rate</h5>
-                <h2><span>Get</span> Your Best <span>Web</span> Service From <span>Us</span> Services</h2>
+                <h2><span>Get</span> Your Best <span>Web</span> Service From <span>Us</span></h2>
                 <a href="#web-services">Check Our Services</a>
             </div>
         </div>
