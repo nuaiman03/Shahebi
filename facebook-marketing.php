@@ -263,7 +263,7 @@
                                                 </div>
                                                 <div class="form-outline">
                                                     <input type="number" name="typeNumber" id="typeNumber" placeholder="10 $" class="formbold-form-input"
-                                                        required /><span class="money">${{amount}}USD</span>
+                                                        required />
                                                     <label class="formbold-form-label" for="number">Select Your Budget</label>
                                                 </div>
                                             </div>
