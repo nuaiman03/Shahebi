@@ -28,8 +28,9 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
     <link href="assets/css/dynamic-web-styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/internationa-telephone-input.css" />
 
 
     <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -38,13 +39,13 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 
-    <!-- =======================================================
+<!-- =======================================================
   * Template Name: Gp
   * Updated: May 30 2023 with Bootstrap v5.3.0
   * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+======================================================== -->
 </head>
 
 <body>
